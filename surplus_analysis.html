@@ -135,8 +135,9 @@
       min-width: 160px;
     }
 
-    .stat-value { font-family: 'DM Mono', monospace; font-size: 1.3rem; font-weight: 600; }
-    .stat-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; margin-top: 4px;}
+    .stat-value { font-family: 'DM Mono', monospace; font-size: 1.5rem; font-weight: 600; line-height: 1.2; }
+    .stat-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; margin-bottom: 2px;}
+    .stat-sub { font-size: 0.75rem; color: var(--muted); margin-top: 4px; font-family: 'DM Mono', monospace; }
 
     .party-section {
       margin-bottom: 30px;
@@ -164,7 +165,7 @@
     .row-label { width: 150px; font-size: 0.8rem; padding-right: 12px; text-align: right; color: var(--muted); }
     
     .bar-container {
-      flex: 2; /* Larger share */
+      flex: 2;
       height: 22px;
       display: flex;
       background: var(--faint);
@@ -172,17 +173,16 @@
       overflow: hidden;
     }
 
-    /* Diverging Surplus Bar Styling */
     .surplus-visualizer {
-      flex: 1; /* Smaller share */
+      flex: 1;
       height: 22px;
       margin-left: 15px;
       display: flex;
       align-items: center;
       position: relative;
+      background: var(--faint);
       border-left: 1px solid var(--border);
       border-right: 1px solid var(--border);
-      background: var(--faint);
     }
 
     .surplus-center-line {
@@ -214,11 +214,13 @@
     }
 
     .surplus-value-text { width: 65px; text-align: right; font-family: 'DM Mono', monospace; font-size: 0.85rem; font-weight: 700; margin-left: 10px;}
+    .surplus-positive { color: var(--red); }
+    .surplus-negative { color: var(--purple); }
 
     .tooltip {
       position: fixed; display: none; background: var(--surface); border: 1px solid var(--border);
       border-radius: 8px; padding: 12px; font-size: 12px; z-index: 2000; pointer-events: none;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.2); width: 260px; color: var(--text);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2); width: 280px; color: var(--text);
     }
   </style>
 </head>
@@ -229,8 +231,8 @@
   <div id="left-sidebar">
     <h2 style="font-size: 1.1rem; margin-bottom: 10px;">Surplus Analysis</h2>
     
-    <button class="btn-sort" onclick="captureImage()" style="width: 100%; text-align: center; background: var(--teal); color: white; border: none;">📷 Save as Image</button>
-    <button onclick="toggleTheme()" style="width: 100%; text-align: center; margin-top: 5px;">☀️ / 🌙 Theme</button>
+    <button onclick="captureImage()" style="width: 100%; text-align: center; background: var(--teal); color: white; border: none; font-weight: 600;">📷 Save as Image</button>
+    <button onclick="toggleTheme()" style="width: 100%; text-align: center; margin-top: 5px;">☀️ / 🌙 Switch Theme</button>
 
     <div class="sidebar-divider"></div>
 
@@ -253,21 +255,17 @@
       <button id="flt-all" onclick="setFilter('all')">ทั้งหมด</button>
     </div>
 
-    <div class="sidebar-spacer" style="flex-grow: 1; min-height: 50px;"></div>
-    <div class="sidebar-disclaimer"
-        style="font-size: 0.75rem; line-height: 1.4; color: var(--muted); padding-top: 15px; border-top: 1px solid var(--border); margin-top: auto;">
-        <p style="color: var(--red)"><strong>ข้อสงวนสิทธิ์ (Disclaimers):</strong></p>
-
-        <p><strong>ข้อมูลปี 2566</strong> อ้างอิงจากเว็บไซต์กกต. (https://ectreport66.ect.go.th/) </p>
-        <p><strong>ข้อมูลปี 2569</strong> มาจากรายงานคะแนนกกต. แบบ ส.ส.6/1 โดย Chanon Ngernthongdee </p><br>
-        <p>สกัดจาก PDF ด้วย OCR; Source: <a
-            href="https://github.com/killernay/election-69-OCR-result">killernay/election-69-OCR-result</a></p><br>
-        <p>ไม่ยืนยันความถูกต้องของคะแนน</p>
-        <p>สุ่มตรวจกับไฟล์ PDF เฉพาะ 42 เขตที่ผลต่างคะแนนสองอันดับน้อยกว่าบัตรเสีย</p><br><br>
-
-        <p>Data visualization by</p>
-        <p>© 2026 Ronnakrit Rattanasriampaipong</p>
-        <p>ข้อมูลอัพเดทวันที: 22 กุมภาพันธ์ 2569</p>
+    <div class="sidebar-spacer" style="flex-grow: 1;"></div>
+    
+    <div class="sidebar-disclaimer">
+      <p style="color: var(--red); font-size: 0.8rem; margin-bottom: 5px;"><strong>ข้อสงวนสิทธิ์ (Disclaimers):</strong></p>
+      <p style="font-size: 0.7rem; color: var(--muted); line-height: 1.5;">
+        ข้อมูลปี 2566 อ้างอิงจาก กกต.<br>
+        ข้อมูลปี 2569 สกัดจาก PDF ด้วย OCR โดย Chanon N.<br>
+        ไม่ยืนยันความถูกต้องของคะแนน 100%
+      </p>
+      <div class="sidebar-divider"></div>
+      <p style="font-size: 0.7rem; color: var(--muted);">© 2026 Ronnakrit Rattanasriampaipong</p>
     </div>
   </div>
 
@@ -279,29 +277,26 @@
         </p>
 
         <div class="stats-row">
-            <div class="stat-box">
-                <div class="stat-label">เขตที่พบส่วนต่าง</div>
-                <div class="stat-value" id="stat-total">—</div>
-                <div id="stat-total-ballots" style="font-size: 0.75rem; color: var(--muted); margin-top: 4px; font-family: 'DM Mono';">0 ใบ</div>
-            </div>
-            
-            <div class="stat-box">
-                <div class="stat-label">เขียว > ชมพู (+)</div>
-                <div class="stat-value" style="color: var(--red);" id="stat-positive">—</div>
-                <div id="stat-positive-ballots" style="font-size: 0.75rem; color: var(--red); opacity: 0.8; margin-top: 4px; font-family: 'DM Mono';">+0 ใบ</div>
-            </div>
-            
-            <div class="stat-box">
-                <div class="stat-label">ชมพู > เขียว (-)</div>
-                <div class="stat-value" style="color: var(--purple);" id="stat-negative">—</div>
-                <div id="stat-negative-ballots" style="font-size: 0.75rem; color: var(--purple); opacity: 0.8; margin-top: 4px; font-family: 'DM Mono';">-0 ใบ</div>
-            </div>
-            
-            <div class="stat-box">
-                <div class="stat-label">Net Surplus (สุทธิ)</div>
-                <div class="stat-value" id="stat-sum-surplus">—</div>
-                <div id="stat-sum-count" style="font-size: 0.75rem; color: var(--muted); margin-top: 4px;">0 เขตที่แสดงอยู่</div>
-            </div>
+          <div class="stat-box">
+            <div class="stat-label">เขตที่พบส่วนต่าง</div>
+            <div class="stat-value" id="stat-total">—</div>
+            <div class="stat-sub" id="stat-total-ballots">0 ใบ (จำนวนบัตรเขย่งรวม)</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">เขียว > ชมพู (+)</div>
+            <div class="stat-value surplus-positive" id="stat-positive">—</div>
+            <div class="stat-sub surplus-positive" id="stat-positive-ballots">+0 ใบ</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">ชมพู > เขียว (-)</div>
+            <div class="stat-value surplus-negative" id="stat-negative">—</div>
+            <div class="stat-sub surplus-negative" id="stat-negative-ballots">-0 ใบ</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Net Surplus (สุทธิ)</div>
+            <div class="stat-value" id="stat-sum-surplus">—</div>
+            <div class="stat-sub" id="stat-sum-count">จาก 0 เขตที่แสดง</div>
+          </div>
         </div>
 
         <div id="chart-area"></div>
@@ -366,34 +361,35 @@
       return s !== 0;
     });
 
-    // Calculate Global Max Surplus for Bar Scaling
-    const maxSurplus = Math.max(...sourceData.map(d => Math.abs(getSurplus(d))), 1);
-
+    // 1. Calculate Summary Stats
+    const totalDistricts = sourceData.filter(d => getSurplus(d) !== 0);
     const posDistricts = sourceData.filter(d => getSurplus(d) > 0);
     const negDistricts = sourceData.filter(d => getSurplus(d) < 0);
-    const totalWithDiff = sourceData.filter(d => getSurplus(d) !== 0);
 
-    const sumPosBallots = posDistricts.reduce((s, d) => s + getSurplus(d), 0);
-    const sumNegBallots = negDistricts.reduce((s, d) => s + getSurplus(d), 0);
-    const absTotalError = totalWithDiff.reduce((s, d) => s + Math.abs(getSurplus(d)), 0);
+    const totalErrorSum = totalDistricts.reduce((s, d) => s + Math.abs(getSurplus(d)), 0);
+    const posBallotSum = posDistricts.reduce((s, d) => s + getSurplus(d), 0);
+    const negBallotSum = negDistricts.reduce((s, d) => s + getSurplus(d), 0);
     const netSurplus = filtered.reduce((s, d) => s + getSurplus(d), 0);
 
-    // Update Global Stats
-    document.getElementById('stat-total').textContent = totalWithDiff.length.toLocaleString();
+    // 2. Update Summary UI
+    document.getElementById('stat-total').textContent = totalDistricts.length.toLocaleString();
+    document.getElementById('stat-total-ballots').textContent = totalErrorSum.toLocaleString() + " ใบ (Error รวม)";
+    
     document.getElementById('stat-positive').textContent = posDistricts.length.toLocaleString();
+    document.getElementById('stat-positive-ballots').textContent = "+" + posBallotSum.toLocaleString() + " ใบ";
+    
     document.getElementById('stat-negative').textContent = negDistricts.length.toLocaleString();
-
-    document.getElementById('stat-total-ballots').textContent = absTotalError.toLocaleString() + " ใบ (Error รวม)";
-    document.getElementById('stat-positive-ballots').textContent = "+" + sumPosBallots.toLocaleString() + " ใบ";
-    document.getElementById('stat-negative-ballots').textContent = sumNegBallots.toLocaleString() + " ใบ";
-
-    const sum = filtered.reduce((s, d) => s + getSurplus(d), 0);
+    document.getElementById('stat-negative-ballots').textContent = negBallotSum.toLocaleString() + " ใบ";
+    
     const statSum = document.getElementById('stat-sum-surplus');
     statSum.textContent = (netSurplus > 0 ? '+' : '') + netSurplus.toLocaleString();
     statSum.style.color = netSurplus > 0 ? 'var(--red)' : 'var(--purple)';
-    document.getElementById('stat-sum-count').textContent = "จาก " + filtered.length + " เขตที่แสดงอยู่";
+    document.getElementById('stat-sum-count').textContent = "จาก " + filtered.length + " เขตที่แสดง";
 
-    // Grouping
+    // 3. Max Surplus for bar scaling
+    const maxSurplus = Math.max(...sourceData.map(d => Math.abs(getSurplus(d))), 1);
+
+    // 4. Grouping logic
     const groups = {};
     filtered.forEach(d => {
       const key = currentGrouping === 'region' ? (d.region || 'ไม่ระบุ') : (d.winner_party_2569 || 'Unknown');
@@ -420,7 +416,7 @@
         <div class="chart-container">
           <div class="row" style="height: 20px; margin-bottom: 10px; font-size: 0.65rem; font-weight: bold; color: var(--muted);">
              <div class="row-label"></div>
-             <div style="flex:2; text-align: center;">สัดส่วนคะแนน (Winner/Runner-up/Inv)</div>
+             <div style="flex:2; text-align: center;">สัดส่วนคะแนน 2569</div>
              <div style="flex:1; text-align: center;">Surplus Visualizer</div>
              <div class="surplus-value-text">ใบ</div>
           </div>
@@ -431,36 +427,31 @@
             const runP = (d.runnerup_votes_2569 / total * 100);
             const invP = (d.invalid_2569 / total * 100);
             const restP = 100 - winP - runP - invP;
-            
             const surplusBarWidth = (Math.abs(s) / maxSurplus) * 50; 
 
             return `
-                <div class="row" onmousemove="showTip(event, ${JSON.stringify(d).replace(/"/g, '&quot;')})" onmouseleave="hideTip()">
+              <div class="row" onmousemove="showTip(event, ${JSON.stringify(d).replace(/"/g, '&quot;')})" onmouseleave="hideTip()">
                 <div class="row-label">${d.province_thai} เขต ${d.cons_no}</div>
                 <div class="bar-container">
-                    <div class="bar-segment" style="width:${winP}%; background:${pc(d.winner_party_2569)}">
-                    ${winP > 12 ? d.winner_votes_2569.toLocaleString() : ''}
-                    </div>
-                    <div class="bar-segment" style="width:${runP}%; background:${pc(d.runnerup_party_2569)}; opacity:0.7">
-                    ${runP > 12 ? d.runnerup_votes_2569.toLocaleString() : ''}
-                    </div>
-                    <div class="bar-segment" style="width:${restP}%; background:#64748b; opacity:0.3"></div>
-                    <div class="bar-segment" style="width:${invP}%; background:#1e293b"></div>
+                  <div class="bar-segment" style="width:${winP}%; background:${pc(d.winner_party_2569)}">${winP > 12 ? d.winner_votes_2569.toLocaleString() : ''}</div>
+                  <div class="bar-segment" style="width:${runP}%; background:${pc(d.runnerup_party_2569)}; opacity:0.7">${runP > 12 ? d.runnerup_votes_2569.toLocaleString() : ''}</div>
+                  <div class="bar-segment" style="width:${restP}%; background:#64748b; opacity:0.3"></div>
+                  <div class="bar-segment" style="width:${invP}%; background:#1e293b"></div>
                 </div>
                 <div class="surplus-visualizer">
-                    <div class="surplus-center-line"></div>
-                    <div class="surplus-bar" style="
+                  <div class="surplus-center-line"></div>
+                  <div class="surplus-bar" style="
                     width: ${surplusBarWidth}%; 
                     left: ${s > 0 ? '50%' : `calc(50% - ${surplusBarWidth}%)`};
                     background: ${s > 0 ? 'var(--red)' : 'var(--purple)'};
-                    "></div>
+                  "></div>
                 </div>
                 <div class="surplus-value-text ${s > 0 ? 'surplus-positive' : 'surplus-negative'}">
-                    ${s > 0 ? '+' : ''}${s.toLocaleString()}
+                  ${s > 0 ? '+' : ''}${s.toLocaleString()}
                 </div>
-                </div>
+              </div>
             `;
-            }).join('')}
+          }).join('')}
         </div>
       </div>
     `).join('');
@@ -469,50 +460,33 @@
   function showTip(e, d) {
     const tip = document.getElementById('tooltip');
     const s = getSurplus(d);
-    
-    // Use correct keys based on your data structure
-    const winnerVotes = d.winner_votes_2569 || 0;
-    const runnerupVotes = d.runnerup_votes_2569 || 0;
-    const winnerParty = d.winner_party_2569 || 'ไม่ระบุ';
-    const runnerupParty = d.runnerup_party_2569 || 'ไม่ระบุ';
+    const winnerParty = d.winner_party_2569 || 'Unknown';
+    const runnerupParty = d.runnerup_party_2569 || 'Unknown';
 
     tip.innerHTML = `
-        <div style="font-weight:700; margin-bottom:5px; border-bottom:1px solid var(--border); padding-bottom:4px;">
+      <div style="font-weight:700; margin-bottom:5px; border-bottom:1px solid var(--border); padding-bottom:4px;">
         ${d.province_thai} เขต ${d.cons_no}
-        </div>
-        <div style="color:var(--muted); font-size:10px; margin-bottom:10px;">${d.region || ''}</div>
-        
-        <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
-        <span style="font-size:11px;">ผู้ชนะ (<span style="color:${pc(winnerParty)}">${winnerParty}</span>):</span>
-        <span style="font-family:'DM Mono'; font-weight:600;">${winnerVotes.toLocaleString()}</span>
-        </div>
-        <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
-        <span style="font-size:11px;">อันดับ 2 (<span style="color:${pc(runnerupParty)}">${runnerupParty}</span>):</span>
-        <span style="font-family:'DM Mono'; font-weight:600;">${runnerupVotes.toLocaleString()}</span>
-        </div>
-        
-        <div style="border-top:1px solid var(--border); margin-top:8px; padding-top:8px;">
-        <div style="display:flex; justify-content:space-between; font-weight:700;">
-            <span>ส่วนต่างบัตร:</span>
-            <span style="color:${s > 0 ? 'var(--red)' : 'var(--purple)'}">${s > 0 ? '+' : ''}${s.toLocaleString()} ใบ</span>
-        </div>
-        <div style="font-size: 10px; color: var(--muted); margin-top: 4px; text-align:center;">
-            ${s > 0 ? '⚠ บัตรเขต > บัญชีรายชื่อ' : s < 0 ? '⚠ บัญชีรายชื่อ > บัตรเขต' : '✓ เท่ากัน'}
-        </div>
-        </div>
+      </div>
+      <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
+        <span>ผู้ชนะ (<span style="color:${pc(winnerParty)}">${winnerParty}</span>):</span>
+        <span style="font-family:'DM Mono'; font-weight:600;">${(d.winner_votes_2569 || 0).toLocaleString()}</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
+        <span>อันดับ 2 (<span style="color:${pc(runnerupParty)}">${runnerupParty}</span>):</span>
+        <span style="font-family:'DM Mono'; font-weight:600;">${(d.runnerup_votes_2569 || 0).toLocaleString()}</span>
+      </div>
+      <div style="border-top:1px solid var(--border); margin:8px 0; padding-top:8px; display:flex; justify-content:space-between; font-weight:700;">
+        <span>ส่วนต่างบัตร:</span>
+        <span style="color:${s > 0 ? 'var(--red)' : 'var(--purple)'}">${s > 0 ? '+' : ''}${s.toLocaleString()} ใบ</span>
+      </div>
+      <div style="font-size:10px; color:var(--muted); text-align:center;">
+        ${s > 0 ? '⚠ บัตรเขต > บัญชีรายชื่อ' : s < 0 ? '⚠ บัญชีรายชื่อ > บัตรเขต' : '✓ เท่ากัน'}
+      </div>
     `;
-    
     tip.style.display = 'block';
-    
-    // Position logic with boundary detection
-    let x = e.clientX + 15;
-    let y = e.clientY + 15;
-    if (x + 280 > window.innerWidth) x = e.clientX - 280;
-    if (y + 180 > window.innerHeight) y = e.clientY - 180;
-    
-    tip.style.left = x + 'px';
-    tip.style.top = y + 'px';
-    }
+    tip.style.left = Math.min(e.clientX + 15, window.innerWidth - 300) + 'px';
+    tip.style.top = Math.min(e.clientY + 15, window.innerHeight - 180) + 'px';
+  }
 
   function hideTip() { document.getElementById('tooltip').style.display = 'none'; }
 
@@ -523,7 +497,7 @@
     try {
       const dataUrl = await htmlToImage.toPng(document.getElementById('capture-container'), {
         backgroundColor: getComputedStyle(document.documentElement).getPropertyValue('--bg'),
-        pixelRatio: data.length > 50 ? 1 : 2,
+        pixelRatio: filtered.length > 50 ? 1 : 2,
       });
       const link = document.createElement('a');
       link.download = `surplus-analysis-${new Date().getTime()}.png`;
