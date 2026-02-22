@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thailand Ballot Surplus Analysis 2569</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --muted: #64748b;
+      --faint: #f1f5f9;
+      --red: #ef4444;
+      --amber: #f59e0b;
+      --teal: #14b8a6;
+    }
+
+    [data-theme="dark"] {
+      --bg: #080e1a;
+      --surface: #0f1827;
+      --border: #1a2740;
+      --text: #cbd5e1;
+      --muted: #475569;
+      --faint: #1e2d42;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Sarabun', sans-serif;
+      font-size: 16px;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .controls {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .control-label {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    select, button {
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: var(--surface);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+
+    select:hover, button:hover {
+      border-color: #38bdf8;
+    }
+
+    button.active {
+      background: rgba(56, 189, 248, 0.1);
+      border-color: #38bdf8;
+      color: #38bdf8;
+    }
+
+    .stats-row {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 20px;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-family: 'DM Mono', monospace;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    .party-section {
+      margin-bottom: 30px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .party-header {
+      padding: 12px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .party-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+    }
+
+    .party-name {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .party-count {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .party-total-surplus {
+      margin-left: auto;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.9rem;
+      color: var(--red);
+      font-weight: 600;
+    }
+
+    .chart-container {
+      padding: 15px 20px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      height: 26px;
+      margin-bottom: 3px;
+    }
+
+    .row-label {
+      width: 160px;
+      font-size: 0.8rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-right: 8px;
+      text-align: right;
+    }
+
+    .bar-container {
+      flex: 1;
+      height: 22px;
+      display: flex;
+      background: var(--faint);
+      border-radius: 0;
+      overflow: visible;
+      position: relative;
+    }
+
+    .bar-segment {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      font-family: 'DM Mono', monospace;
+      color: white;
+      overflow: hidden;
+      white-space: nowrap;
+      text-shadow: 0 0 2px rgba(0,0,0,0.5);
+    }
+
+    .bar-segment.winner { }
+    .bar-segment.runnerup { }
+    .bar-segment.others { background: #6b7280; }
+    .bar-segment.blank { background: #fbbf24; }
+    .bar-segment.invalid { background: #1f2937; }
+
+    .surplus-value {
+      width: 60px;
+      text-align: right;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding-left: 8px;
+    }
+
+    .surplus-positive { color: var(--red); }
+    .surplus-negative { color: #8b5cf6; }
+    .surplus-zero { color: var(--muted); }
+
+    .legend {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 15px 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .legend-swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 2px;
+    }
+
+    .axis-labels {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 20px 10px;
+      padding-left: 200px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-family: 'DM Mono', monospace;
+    }
+
+    .axis-labels span {
+      width: 40px;
+      text-align: center;
+    }
+
+    .no-data {
+      padding: 40px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .tooltip {
+      position: fixed;
+      display: none;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 12px;
+      z-index: 1000;
+      pointer-events: none;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      max-width: 300px;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 4px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>[2569] ส่วนต่างบัตรเขียว – บัตรชมพู (Ballot Surplus)</h1>
+  <p class="subtitle">เปรียบเทียบจำนวนบัตรที่ใช้ทั้งหมด (บัตรดี + บัตรเสีย + ไม่ประสงค์ฯ) ระหว่างบัตรเขียว (ส.ส. เขต) และบัตรชมพู (บัญชีรายชื่อ) · จัดกลุ่มตามพรรคผู้ชนะ</p>
+
+  <div class="controls">
+    <div class="control-group">
+      <span class="control-label">ชุดข้อมูล</span>
+      <div class="btn-group">
+        <button class="active" onclick="setDataset('constituency')">ส.ส. (เขต)</button>
+        <button onclick="setDataset('partylist')">บส. (บัญชี)</button>
+      </div>
+    </div>
+    <div class="control-group">
+      <span class="control-label">แสดง</span>
+      <div class="btn-group">
+        <button class="active" onclick="setFilter('positive')">บัตรเขียว > ชมพู (+)</button>
+        <button onclick="setFilter('negative')">บัตรชมพู > เขียว (−)</button>
+        <button onclick="setFilter('all')">ทั้งหมด</button>
+      </div>
+    </div>
+    <div class="control-group">
+      <span class="control-label">เรียงลำดับ</span>
+      <select onchange="setSort(this.value)">
+        <option value="surplus_desc">ส่วนต่างมาก → น้อย</option>
+        <option value="surplus_asc">ส่วนต่างน้อย → มาก</option>
+        <option value="province">จังหวัด</option>
+        <option value="invalid_desc">บัตรเสียมาก → น้อย</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <span class="control-label">ธีม</span>
+      <button onclick="toggleTheme()">☀️ / 🌙</button>
+    </div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box">
+      <div class="stat-value" id="stat-total">—</div>
+      <div class="stat-label">เขตที่มีส่วนต่าง</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-value surplus-positive" id="stat-positive">—</div>
+      <div class="stat-label">บัตรเขียว > ชมพู (+)</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-value surplus-negative" id="stat-negative">—</div>
+      <div class="stat-label">บัตรชมพู > เขียว (−)</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-value" id="stat-sum-surplus" style="color: var(--red);">—</div>
+      <div class="stat-label">ผลรวมส่วนต่าง (บัตร)</div>
+    </div>
+  </div>
+
+  <div id="chart-area"></div>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script src="election_data_generated.js"></script>
+<script>
+  // ═══════════════════════════════════════════════════════════════════════
+  // DATA NORMALIZATION
+  // Normalize field names from notebook export to what the visualization expects
+  // ═══════════════════════════════════════════════════════════════════════
+  
+  function normalizeRecord(d) {
+    // Helper to safely get numeric value
+    const num = (val, fallback = 0) => {
+      if (val === null || val === undefined || isNaN(val)) return fallback;
+      return Number(val);
+    };
+    
+    // Helper to safely get string value
+    const str = (val, fallback = "Unknown") => {
+      if (val === null || val === undefined || val === "") return fallback;
+      return String(val);
+    };
+
+    return {
+      // Location fields (pass through)
+      province_thai: str(d.province_thai),
+      province_eng: str(d.province_eng, d.province_thai),
+      cons_no: num(d.cons_no),
+      region: str(d.region),
+      
+      // 2566 data - normalize field names
+      percent_invalid: num(d.percent_invalid_2566 ?? d.percent_invalid),
+      turn_out: num(d.turn_out_2566 ?? d.turn_out),
+      winner_party: str(d.winner_party_2566 ?? d.winner_party),
+      
+      // 2569 data - normalize field names
+      invalid_2569: num(d.invalid_2569),
+      percent_invalid_2569: num(d.percent_invalid_2569),
+      winner_party_2569: str(d.winner_party_2569),
+      winner_votes_2569: num(d.winner_votes_2569),
+      runnerup_party_2569: str(d.runnerup_party_2569),
+      runnerup_votes_2569: num(d.runnerup_votes_2569),
+      margin_2569: num(d.margin_2569),
+      
+      // Changes
+      invalid_pct_change: num(d.invalid_pct_change),
+      invalid_change: num(d.invalid_change),
+      turnout_change: num(d.turnout_change),
+    };
+  }
+
+  // Normalize both datasets
+  const RAW = (typeof CONST_RAW !== 'undefined' ? CONST_RAW : []).map(normalizeRecord);
+  const PARTYLIST_NORMALIZED = (typeof PARTYLIST_RAW !== 'undefined' ? PARTYLIST_RAW : []).map(normalizeRecord);
+
+  console.log("✓ Loaded", RAW.length, "constituency records");
+  console.log("✓ Loaded", PARTYLIST_NORMALIZED.length, "party list records");
+  
+  // Debug: check first record
+  if (RAW.length > 0) {
+    console.log("Sample RAW record:", RAW[0]);
+  }
+  
+  // ─── PARTY COLORS ────────────────────────────────────────────────
+  const PARTY_COLOR = {
+    'ภูมิใจไทย': '#312682',
+    'ประชาชน': '#FF6413',
+    'เพื่อไทย': '#E30613',
+    'กล้าธรรม': '#4EC86F',
+    'ประชาธิปัตย์': '#15A5F5',
+    'ประชาชาติ': '#BA810D',
+    'ไทยสร้างไทย': '#6841D0',
+    'พลังประชารัฐ': '#006536',
+    'ไทรวมพลัง': '#5266AD',
+    'รวมไทยสร้างชาติ': '#2b2c80',
+    'ก้าวไกล': '#f97316',
+  };
+  function pc(name) { return PARTY_COLOR[name] || '#94a3b8'; }
+
+  // ─── BAR SEGMENT COLORS ──────────────────────────────────────────
+  const COLORS = {
+    winner: '#3b82f6',      // Blue - winner votes
+    runnerup: '#f97316',    // Orange - runner-up votes  
+    others: '#64748b',      // Gray - other candidates
+    blank: '#fbbf24',       // Yellow/Amber - blank votes
+    invalid: '#1e293b',     // Dark - invalid ballots
+    surplus: '#ef4444',     // Red - surplus
+  };
+
+  // ─── STATE ───────────────────────────────────────────────────────
+  let currentDataset = 'constituency';
+  let currentFilter = 'positive';
+  let currentSort = 'surplus_desc';
+
+  // ─── DATA HELPERS ────────────────────────────────────────────────
+  function getSourceData() {
+    const raw = currentDataset === 'partylist' 
+      ? (typeof PARTYLIST_RAW !== 'undefined' ? PARTYLIST_RAW : [])
+      : (typeof CONST_RAW !== 'undefined' ? CONST_RAW : []);
+    return raw;
+  }
+
+  function getSurplus(d) {
+    // ballot_surplus = (const total used) - (party list total used)
+    // Positive = more green ballots, Negative = more pink ballots
+    return d.ballot_surplus ?? 0;
+  }
+
+  function filterData(data) {
+    if (currentFilter === 'positive') {
+      return data.filter(d => getSurplus(d) > 0);
+    } else if (currentFilter === 'negative') {
+      return data.filter(d => getSurplus(d) < 0);
+    } else {
+      return data.filter(d => getSurplus(d) !== 0);
+    }
+  }
+
+  function sortData(data) {
+    const sorted = [...data];
+    switch (currentSort) {
+      case 'surplus_desc':
+        sorted.sort((a, b) => Math.abs(getSurplus(b)) - Math.abs(getSurplus(a)));
+        break;
+      case 'surplus_asc':
+        sorted.sort((a, b) => Math.abs(getSurplus(a)) - Math.abs(getSurplus(b)));
+        break;
+      case 'province':
+        sorted.sort((a, b) => (a.province_thai || '').localeCompare(b.province_thai || '', 'th') || a.cons_no - b.cons_no);
+        break;
+      case 'invalid_desc':
+        sorted.sort((a, b) => (b.invalid_2569 || 0) - (a.invalid_2569 || 0));
+        break;
+    }
+    return sorted;
+  }
+
+  function groupByParty(data) {
+    const groups = {};
+    data.forEach(d => {
+      const party = d.winner_party_2569 || 'Unknown';
+      if (!groups[party]) groups[party] = [];
+      groups[party].push(d);
+    });
+    
+    // Sort parties by total surplus
+    const sortedParties = Object.keys(groups).sort((a, b) => {
+      const sumA = groups[a].reduce((s, d) => s + Math.abs(getSurplus(d)), 0);
+      const sumB = groups[b].reduce((s, d) => s + Math.abs(getSurplus(d)), 0);
+      return sumB - sumA;
+    });
+    
+    return sortedParties.map(party => ({
+      party,
+      data: groups[party],
+      totalSurplus: groups[party].reduce((s, d) => s + getSurplus(d), 0),
+      count: groups[party].length
+    }));
+  }
+
+  // ─── RENDER ──────────────────────────────────────────────────────
+  function render() {
+    const sourceData = getSourceData();
+    const filtered = filterData(sourceData);
+    const sorted = sortData(filtered);
+    const grouped = groupByParty(sorted);
+
+    // Update stats
+    const allWithSurplus = sourceData.filter(d => getSurplus(d) !== 0);
+    const positive = sourceData.filter(d => getSurplus(d) > 0);
+    const negative = sourceData.filter(d => getSurplus(d) < 0);
+    const totalSurplus = filtered.reduce((s, d) => s + getSurplus(d), 0);
+
+    document.getElementById('stat-total').textContent = allWithSurplus.length;
+    document.getElementById('stat-positive').textContent = positive.length;
+    document.getElementById('stat-negative').textContent = negative.length;
+    document.getElementById('stat-sum-surplus').textContent = 
+      (totalSurplus > 0 ? '+' : '') + totalSurplus.toLocaleString();
+
+    // Render chart
+    const chartArea = document.getElementById('chart-area');
+    
+    if (filtered.length === 0) {
+      chartArea.innerHTML = '<div class="no-data">ไม่มีข้อมูลที่ตรงกับเงื่อนไข</div>';
+      return;
+    }
+
+    let html = '';
+    const dataTypeLabel = currentDataset === 'partylist' ? 'บัตรชมพู (บัญชีรายชื่อ)' : 'บัตรเขียว (ส.ส. เขต)';
+
+    grouped.forEach(group => {
+      const partyColor = pc(group.party);
+      const surplusSign = group.totalSurplus > 0 ? '+' : '';
+      
+      html += `
+        <div class="party-section">
+          <div class="party-header">
+            <div class="party-dot" style="background: ${partyColor}"></div>
+            <span class="party-name">${group.party}</span>
+            <span class="party-count">(n=${group.count})</span>
+            <span class="party-total-surplus">${surplusSign}${group.totalSurplus.toLocaleString()} บัตร</span>
+          </div>
+          
+          <div class="chart-container">
+      `;
+
+      group.data.forEach(d => {
+        const surplus = getSurplus(d);
+        const surplusClass = surplus > 0 ? 'surplus-positive' : surplus < 0 ? 'surplus-negative' : 'surplus-zero';
+        const surplusText = (surplus > 0 ? '+' : '') + surplus.toLocaleString();
+
+        // Calculate bar segments as percentage of total ballots used
+        const total = (d.valid_2569 || 0) + (d.invalid_2569 || 0) + (d.blank_2569 || 0);
+        if (total === 0) return;
+
+        // Calculate others (candidates other than winner and runner-up)
+        const othersVotes = d.others_2569 ?? Math.max(0, (d.valid_2569 || 0) - (d.winner_votes_2569 || 0) - (d.runnerup_votes_2569 || 0));
+
+        const winnerPct = ((d.winner_votes_2569 || 0) / total * 100);
+        const runnerupPct = ((d.runnerup_votes_2569 || 0) / total * 100);
+        const othersPct = (othersVotes / total * 100);
+        const blankPct = ((d.blank_2569 || 0) / total * 100);
+        const invalidPct = ((d.invalid_2569 || 0) / total * 100);
+
+        // Get party colors
+        const winnerColor = pc(d.winner_party_2569);
+        const runnerupColor = pc(d.runnerup_party_2569);
+
+        // Create data attribute for tooltip
+        const dataAttr = `data-d='${JSON.stringify({
+          province: d.province_thai,
+          cons: d.cons_no,
+          winner: d.winner_party_2569,
+          winnerVotes: d.winner_votes_2569,
+          runnerup: d.runnerup_party_2569,
+          runnerupVotes: d.runnerup_votes_2569,
+          others: othersVotes,
+          blank: d.blank_2569,
+          invalid: d.invalid_2569,
+          surplus: surplus,
+          total: total
+        }).replace(/'/g, "&apos;")}'`;
+
+        // Show vote counts inside bars if segment is wide enough (> 12%)
+        const winnerLabel = winnerPct > 12 ? (d.winner_votes_2569 || 0).toLocaleString() : '';
+        const runnerupLabel = runnerupPct > 12 ? (d.runnerup_votes_2569 || 0).toLocaleString() : '';
+
+        html += `
+          <div class="row" ${dataAttr} onmousemove="showTip(event, this)" onmouseleave="hideTip()">
+            <div class="row-label">${d.province_thai} เขต ${d.cons_no}</div>
+            <div class="bar-container">
+              <div class="bar-segment winner" style="width: ${winnerPct}%; background: ${winnerColor};">${winnerLabel}</div>
+              <div class="bar-segment runnerup" style="width: ${runnerupPct}%; background: ${runnerupColor};">${runnerupLabel}</div>
+              <div class="bar-segment others" style="width: ${othersPct}%;"></div>
+              <div class="bar-segment blank" style="width: ${blankPct}%;"></div>
+              <div class="bar-segment invalid" style="width: ${invalidPct}%;"></div>
+            </div>
+            <div class="surplus-value ${surplusClass}">${surplusText}</div>
+          </div>
+        `;
+      });
+
+      html += `
+          </div>
+          <div class="legend">
+            <div class="legend-item">
+              <div class="legend-swatch" style="background: ${partyColor}"></div>
+              <span>ผู้ชนะ (${group.party})</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-swatch" style="background: #f97316"></div>
+              <span>อันดับ 2 (สีตามพรรค)</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-swatch" style="background: #6b7280"></div>
+              <span>ผู้สมัครอื่นๆ</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-swatch" style="background: #fbbf24"></div>
+              <span>ไม่ประสงค์ลงคะแนน</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-swatch" style="background: #1f2937"></div>
+              <span>บัตรเสีย</span>
+            </div>
+          </div>
+          <div style="padding: 8px 20px; font-size: 0.75rem; color: var(--muted); border-top: 1px solid var(--border);">
+            แสดงข้อมูล: <strong>${dataTypeLabel}</strong> · ร้อยละของบัตรที่ใช้ทั้งหมด (บัตรดี + บัตรเสีย + ไม่ประสงค์ฯ = 100%) · ตัวเลขสีแดง/ม่วง (+N/−N) = ส่วนต่างบัตรเขียว − บัตรชมพู
+          </div>
+        </div>
+      `;
+    });
+
+    chartArea.innerHTML = html;
+  }
+
+  // ─── TOOLTIP ─────────────────────────────────────────────────────
+  function showTip(e, el) {
+    const tip = document.getElementById('tooltip');
+    const data = JSON.parse(el.dataset.d.replace(/&apos;/g, "'"));
+    
+    const surplusColor = data.surplus > 0 ? 'var(--red)' : data.surplus < 0 ? '#8b5cf6' : 'var(--muted)';
+    const surplusSign = data.surplus > 0 ? '+' : '';
+
+    tip.innerHTML = `
+      <div style="font-weight: 600; margin-bottom: 8px; font-size: 14px;">${data.province} เขต ${data.cons}</div>
+      
+      <table style="width: 100%; font-size: 11px; border-collapse: collapse;">
+        <tr>
+          <td style="color: var(--muted); padding: 2px 0;">ผู้ชนะ (${data.winner}):</td>
+          <td style="text-align: right; font-family: 'DM Mono';">${data.winnerVotes?.toLocaleString()}</td>
+        </tr>
+        <tr>
+          <td style="color: var(--muted); padding: 2px 0;">อันดับ 2 (${data.runnerup}):</td>
+          <td style="text-align: right; font-family: 'DM Mono';">${data.runnerupVotes?.toLocaleString()}</td>
+        </tr>
+        <tr>
+          <td style="color: var(--muted); padding: 2px 0;">ผู้สมัครอื่นๆ:</td>
+          <td style="text-align: right; font-family: 'DM Mono';">${data.others?.toLocaleString() || 0}</td>
+        </tr>
+        <tr style="border-top: 1px dashed var(--border);">
+          <td style="color: var(--muted); padding: 2px 0;">ไม่ประสงค์ลงคะแนน:</td>
+          <td style="text-align: right; font-family: 'DM Mono';">${data.blank?.toLocaleString()}</td>
+        </tr>
+        <tr>
+          <td style="color: var(--muted); padding: 2px 0;">บัตรเสีย:</td>
+          <td style="text-align: right; font-family: 'DM Mono';">${data.invalid?.toLocaleString()}</td>
+        </tr>
+        <tr style="border-top: 1px solid var(--border);">
+          <td style="color: var(--muted); padding: 2px 0;"><strong>รวมทั้งหมด:</strong></td>
+          <td style="text-align: right; font-family: 'DM Mono';"><strong>${data.total?.toLocaleString()}</strong></td>
+        </tr>
+      </table>
+      
+      <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); text-align: center;">
+        <span style="color: var(--muted);">ส่วนต่าง (เขียว − ชมพู):</span>
+        <span style="font-family: 'DM Mono'; font-size: 1.1rem; font-weight: bold; color: ${surplusColor};">${surplusSign}${data.surplus?.toLocaleString()}</span>
+        <div style="font-size: 10px; color: var(--muted); margin-top: 4px;">
+          ${data.surplus > 0 ? '⚠ บัตรเขียวมากกว่าบัตรชมพู' : data.surplus < 0 ? '⚠ บัตรชมพูมากกว่าบัตรเขียว' : '✓ เท่ากัน'}
+        </div>
+      </div>
+    `;
+
+    tip.style.display = 'block';
+    
+    let x = e.clientX + 15;
+    let y = e.clientY + 15;
+    
+    if (x + 320 > window.innerWidth) x = e.clientX - 320;
+    if (y + 250 > window.innerHeight) y = e.clientY - 250;
+    
+    tip.style.left = x + 'px';
+    tip.style.top = y + 'px';
+  }
+
+  function hideTip() {
+    document.getElementById('tooltip').style.display = 'none';
+  }
+
+  // ─── CONTROLS ────────────────────────────────────────────────────
+  function setDataset(ds) {
+    currentDataset = ds;
+    document.querySelectorAll('.controls .btn-group')[0].querySelectorAll('button').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    render();
+  }
+
+  function setFilter(f) {
+    currentFilter = f;
+    document.querySelectorAll('.controls .btn-group')[1].querySelectorAll('button').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    render();
+  }
+
+  function setSort(s) {
+    currentSort = s;
+    render();
+  }
+
+  function toggleTheme() {
+    const root = document.documentElement;
+    root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+  }
+
+  // ─── INIT ────────────────────────────────────────────────────────
+  render();
+</script>
+
+</body>
+</html>
