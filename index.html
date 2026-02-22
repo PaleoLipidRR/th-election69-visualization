@@ -269,6 +269,12 @@
       background: rgba(56, 189, 248, 0.06);
     }
 
+    .btn-dataset.active {
+      border-color: #38bdf8;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.06);
+    }
+
     /* ─── SIDEBARS ──────────────────────────────────────── */
     #left-sidebar {
       position: fixed;
@@ -422,7 +428,7 @@
     <div id="header">
       <div>
         <h1>บัตรเสีย : การเลือกตั้ง 2566 → 2569</h1>
-        <p>การเปลี่ยนแปลงอัตราบัตรเสีย · 400 เขตเลือกตั้ง · เรียงตาม % การเปลี่ยนแปลง</p>
+        <p id="header-subtitle">การเปลี่ยนแปลงอัตราบัตรเสีย · 400 เขตเลือกตั้ง · เรียงตาม % การเปลี่ยนแปลง</p>
       </div>
       <div class="header-stats">
         <div class="hstat">
@@ -446,9 +452,16 @@
 
     <div id="left-sidebar">
       <button id="btn-theme" class="btn-sort" onclick="toggleTheme()" title="สลับโหมดสว่าง/มืด"
-        style="font-size:0.75rem;padding:3px 10px;margin-bottom:4px">☀️ Light</button>
+        style="font-size:0.75rem;padding:3px 10px;margin-bottom:4px;margin-top:10px">☀️ Light</button>
       <button class="btn-sort" onclick="captureImage()" title="บันทึกรูปภาพ"
-        style="font-size:0.75rem;padding:3px 10px;margin-bottom:6px">📷 บันทึกรูปภาพ</button>
+        style="font-size:0.75rem;padding:3px 10px;margin-bottom:12px">📷 บันทึกรูปภาพ</button>
+      
+      <div class="sidebar-label">ชุดข้อมูล | dataset</div>
+      <button class="btn-sort btn-dataset active" onclick="switchDataset('constituency')" title="ส.ส. - เขตเลือกตั้ง"
+        style="font-size:0.75rem;padding:3px 10px;margin-bottom:2px">ส.ส. (เขต)</button>
+      <button class="btn-sort btn-dataset" onclick="switchDataset('partylist')" title="บส. - ส.ส. จากบัญชีรายชื่อ"
+        style="font-size:0.75rem;padding:3px 10px;margin-bottom:12px">บส. (รายชื่อ)</button>
+      
       <div class="sidebar-label">กรอง | filter by</div>
       <button class="btn-sort btn-filter active" onclick="setFilter('all')">ทั้งหมด&nbsp;<span id="cnt-all"
           style="font-family:DM Mono,monospace;font-size:0.65rem;opacity:0.6"></span></button>
@@ -468,17 +481,19 @@
 
       <div class="sidebar-spacer" style="flex-grow: 1; min-height: 50px;"></div>
       <div class="sidebar-disclaimer"
-        style="font-size: 0.8rem; line-height: 1.4; color: var(--muted); padding-top: 15px; border-top: 1px solid var(--border); margin-top: auto;">
+        style="font-size: 0.75rem; line-height: 1.4; color: var(--muted); padding-top: 15px; border-top: 1px solid var(--border); margin-top: auto;">
         <p style="color: var(--red)"><strong>ข้อสงวนสิทธิ์ (Disclaimers):</strong></p>
 
         <p><strong>ข้อมูลปี 2566</strong> อ้างอิงจากเว็บไซต์กกต. (https://ectreport66.ect.go.th/) </p>
         <p><strong>ข้อมูลปี 2569</strong> มาจากรายงานคะแนนกกต. แบบ ส.ส.6/1 โดย Chanon Ngernthongdee </p><br>
         <p>สกัดจาก PDF ด้วย OCR; Source: <a
             href="https://github.com/killernay/election-69-OCR-result">killernay/election-69-OCR-result</a></p><br>
-        <p>ไม่ยืนยันความถูดต้องของคะแนน 100%</p><br><br>
+        <p>ไม่ยืนยันความถูกต้องของคะแนน</p>
+        <p>สุ่มตรวจกับไฟล์ PDF เฉพาะ 42 เขตที่ผลต่างคะแนนสองอันดับน้อยกว่าบัตรเสีย</p><br><br>
 
         <p>Data visualization by</p>
         <p>© 2026 Ronnakrit Rattanasriampaipong</p>
+        <p>ข้อมูลอัพเดทวันที: 22 กุมภาพันธ์ 2569 (6:44 น.)</p>
       </div>
     </div>
 
@@ -491,7 +506,7 @@
   </div>
 
   <div id="right-sidebar">
-    <div class="sidebar-label">พรรคผู้ชนะ 2569</div>
+    <div class="sidebar-label" style="margin-top:20px">พรรคผู้ชนะ 2569</div>
     <div id="party-legend"></div>
     <div class="sidebar-divider"></div>
     <div class="sidebar-label">คำอธิบาย</div>
@@ -511,13 +526,13 @@
       </div>
     </div><br>
     <div class="dot-label">
-      <div class="bar-swatch" style="background:#3e3f3f"></div>ช่องว่างผู้ชนะ 2569
+      <div class="bar-swatch" style="background:#3e3f3f"></div>ช่องว่างระหว่างพรรคสองอันดับแรก 2569
     </div>
     <div class="dot-label">
       <div class="bar-swatch" style="background:#d7d1d2"></div>บัตรเสีย
     </div>
     <div class="dot-label">
-      <div class="bar-swatch" style="background:#f05957"></div>บัตรเสีย &gt; ช่องว่าง ⚠
+      <div class="bar-swatch" style="background:#f05957"></div>บัตรเสีย &gt; ช่องว่างระหว่างพรรคสองอันดับแรก ⚠
     </div>
   </div>
 
@@ -568,6 +583,56 @@
     const X_MIN = 0, X_MAX = 11;
     function xScale(pct) {
       return LBL_W + ((pct - X_MIN) / (X_MAX - X_MIN)) * SLOPE_W;
+    }
+
+    // ─── DATASETS ───────────────────────────────────────────────────────
+    // Party List (บส.) dataset - placeholder for future data
+    const PARTYLIST_RAW = [];
+
+    // Current dataset tracking
+    let currentDataset = 'constituency';
+
+    function switchDataset(dataset) {
+      currentDataset = dataset;
+      
+      // Update button active states
+      document.querySelectorAll('.btn-dataset').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+      
+      // Reset to default sort and filter
+      activeFilter = 'all';
+      currentSort = SORTS.pct_change;
+      
+      // Update filter buttons
+      document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.btn-filter')[0].classList.add('active');
+      
+      // Update sort buttons
+      document.querySelectorAll('.btn-sort:not(.btn-filter):not(.btn-dataset)').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.btn-sort:not(.btn-filter):not(.btn-dataset)')[0].classList.add('active');
+      
+      // Switch data source
+      const selectedRaw = dataset === 'partylist' ? PARTYLIST_RAW : RAW;
+      
+      // Update header subtitle
+      const subtitle = document.getElementById('header-subtitle');
+      if (dataset === 'partylist') {
+        if (selectedRaw.length === 0) {
+          subtitle.textContent = 'ข้อมูล บส. (บัญชีรายชื่อ) ยังไม่พร้อม | Party List data coming soon';
+          data = [];
+        } else {
+          subtitle.textContent = 'การเปลี่ยนแปลงอัตราบัตรเสีย · บัญชีรายชื่อ · เรียงตาม % การเปลี่ยนแปลง';
+          data = [...selectedRaw];
+          data.sort(currentSort);
+        }
+      } else {
+        subtitle.textContent = 'การเปลี่ยนแปลงอัตราบัตรเสีย · 400 เขตเลือกตั้ง · เรียงตาม % การเปลี่ยนแปลง';
+        data = [...selectedRaw];
+        data.sort(currentSort);
+      }
+      
+      updateCounts();
+      buildChart();
     }
 
     // ─── STATE ──────────────────────────────────────────────────────────
@@ -694,7 +759,7 @@
       }
 
       // ── LEFT SVG: header ─────────────────────────────────────────────
-      svgText(svgL, xScale(5.5), 25, 'อัตราบัตรเสีย (%) | จุด 2569 มีวงแหวน', {
+      svgText(svgL, xScale(5.5), 25, 'อัตราบัตรเสีย (%) | จุด 2569 มีวงแหวน | สีจุดตามพรรคอันดับ 1', {
         'text-anchor': 'middle', 'font-size': '12',
         'font-family': 'Sarabun, sans-serif', fill: T('#94a3b8', '#334155')
       });
@@ -997,7 +1062,7 @@
       // Collect all parties present in the current visible rows
       const visibleParties = new Set();
       currentData.forEach(d => {
-        visibleParties.add(d.winner_party);
+        // visibleParties.add(d.winner_party);
         visibleParties.add(d.winner_party_2569);
         visibleParties.add(runnerUpParty(d)); // Ensure the runner-up party is included
       });
