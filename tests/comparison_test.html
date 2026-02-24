@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dataset Comparison Test</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .dataset-pane {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1;
+        }
+
+        .result {
+            margin-top: 30px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background: #f4f4f4;
+        }
+
+        .delta-pos {
+            color: red;
+            font-weight: bold;
+        }
+
+        .delta-neg {
+            color: green;
+            font-weight: bold;
+        }
+
+        .loading {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Election Data Comparison Tool</h1>
+    <p>Prototype for comparing any two data snapshots.</p>
+
+    <div class="controls">
+        <div class="dataset-pane">
+            <h3>Source A (Baseline / Left)</h3>
+            <select id="select-a"></select>
+            <div id="status-a" class="loading">Select a source...</div>
+        </div>
+        <div class="dataset-pane">
+            <h3>Source B (Current / Right)</h3>
+            <select id="select-b"></select>
+            <div id="status-b" class="loading">Select a source...</div>
+        </div>
+    </div>
+
+    <div class="result">
+        <h2>Comparison Results (Top 10 Changes)</h2>
+        <div id="comparison-table-container">Select both sources to see comparison.</div>
+    </div>
+
+    <script>
+        const store = {
+            a: null,
+            b: null,
+            manifest: []
+        };
+
+        async function init() {
+            try {
+                const res = await fetch('archives/manifest.json');
+                if (!res.ok) throw new Error("Manifest not found");
+                store.manifest = await res.json();
+                populateDropdowns();
+            } catch (e) {
+                console.error("Manifest load error", e);
+                // Even with error, we might have files if we manually add them or if they are in root
+                populateDropdowns();
+            }
+        }
+
+        function populateDropdowns() {
+            const selects = [document.getElementById('select-a'), document.getElementById('select-b')];
+            selects.forEach(sel => {
+                const side = sel.id.slice(-1);
+                sel.innerHTML = '<option value="">-- Select --</option>';
+                // Always add 'latest' options
+                const latest1 = document.createElement('option');
+                latest1.value = 'election_data_generated.js'; latest1.textContent = 'Latest (Generated)';
+                sel.appendChild(latest1);
+
+                const latest2 = document.createElement('option');
+                latest2.value = 'election_data.js'; latest2.textContent = 'Latest (Alternative)';
+                sel.appendChild(latest2);
+
+                store.manifest.forEach(item => {
+                    if (item.id === 'latest') return;
+                    const opt = document.createElement('option');
+                    opt.value = item.file;
+                    opt.textContent = item.name;
+                    sel.appendChild(opt);
+                });
+                sel.addEventListener('change', () => handleSelect(side));
+            });
+        }
+
+        async function handleSelect(side) {
+            const select = document.getElementById(`select-${side}`);
+            const status = document.getElementById(`status-${side}`);
+            const url = select.value;
+
+            if (!url) {
+                store[side] = null;
+                status.textContent = "None selected";
+                return;
+            }
+
+            status.textContent = "Loading...";
+            try {
+                const data = await fetchDataset(url);
+                store[side] = data;
+                status.textContent = `Loaded: ${data.constituency.length} const, ${data.partylist.length} PL`;
+                compare();
+            } catch (e) {
+                status.textContent = "Error loading data";
+                console.error(e);
+            }
+        }
+
+        async function fetchDataset(url) {
+            const res = await fetch(url);
+            const text = await res.text();
+
+            // Extract CONST_RAW and PARTYLIST_RAW using a more lenient regex
+            const constMatch = text.match(/(?:const|var|let)\s+CONST_RAW\s*=\s*(\[[\s\S]*?\])\s*;?/);
+            const plMatch = text.match(/(?:const|var|let)\s+PARTYLIST_RAW\s*=\s*(\[[\s\S]*?\])\s*;?/);
+
+            return {
+                constituency: constMatch ? JSON.parse(constMatch[1]) : [],
+                partylist: plMatch ? JSON.parse(plMatch[1]) : []
+            };
+        }
+
+        function compare() {
+            if (!store.a || !store.b) return;
+
+            const container = document.getElementById('comparison-table-container');
+
+            // Match by Province + Cons No
+            const mapA = new Map();
+            store.a.constituency.forEach(d => mapA.set(`${d.province_thai}_${d.cons_no}`, d));
+
+            const table = document.createElement('table');
+            table.innerHTML = `
+                <thead>
+                    <tr>
+                        <th>Province</th>
+                        <th>Cons</th>
+                        <th>Source A (%)</th>
+                        <th>Source B (%)</th>
+                        <th>Change (pts)</th>
+                    </tr>
+                </thead>
+                <tbody id="comparison-body"></tbody>
+            `;
+
+            const results = [];
+            store.b.constituency.forEach(dB => {
+                const key = `${dB.province_thai}_${dB.cons_no}`;
+                const dA = mapA.get(key);
+                if (dA) {
+                    const pctA = dA.percent_invalid_2569 || dA.percent_invalid || 0;
+                    const pctB = dB.percent_invalid_2569 || dB.percent_invalid || 0;
+                    results.push({
+                        province: dB.province_thai,
+                        cons: dB.cons_no,
+                        pctA,
+                        pctB,
+                        delta: pctB - pctA
+                    });
+                }
+            });
+
+            // Sort by absolute delta
+            results.sort((x, y) => Math.abs(y.delta) - Math.abs(x.delta));
+
+            const body = table.querySelector('#comparison-body');
+            results.slice(0, 10).forEach(r => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${r.province}</td>
+                    <td>${r.cons}</td>
+                    <td>${r.pctA.toFixed(2)}%</td>
+                    <td>${r.pctB.toFixed(2)}%</td>
+                    <td class="${r.delta > 0 ? 'delta-pos' : 'delta-neg'}">${r.delta > 0 ? '+' : ''}${r.delta.toFixed(2)}</td>
+                `;
+                body.appendChild(tr);
+            });
+
+            container.innerHTML = '';
+            container.appendChild(table);
+        }
+
+        init();
+    </script>
+</body>
+
+</html>

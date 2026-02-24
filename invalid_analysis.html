@@ -1,0 +1,2018 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thailand Invalid Ballot Analysis 2566–2569</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.min.js"></script>
+  <style>
+    /* ─── RESET & BASE ─────────────────────────────────── */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #080e1a;
+      --surface: #0f1827;
+      --border: #1a2740;
+      --text: #cbd5e1;
+      --muted: #475569;
+      --faint: #1e2d42;
+      --red: #ef4444;
+      --amber: #f59e0b;
+      --teal: #14b8a6;
+      --ring: #ffffff;
+    }
+
+    [data-theme="light"] {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --muted: #64748b;
+      --faint: #f1f5f9;
+      --ring: #1e293b;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Sarabun', sans-serif;
+      font-size: 18px;
+      min-height: 100vh;
+    }
+
+    /* ─── HEADER ───────────────────────────────────────── */
+    #header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 28px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: nowrap;
+    }
+
+    .header-main-group {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      gap: 24px;
+      flex: 1;
+      min-width: 0;
+    }
+
+    #header h1 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    #header p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-family: 'DM Mono', monospace;
+      margin-top: 3px;
+    }
+
+    .header-stats {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .hstat {
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .hstat .v {
+      font-family: 'DM Mono', monospace;
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .hstat .l {
+      font-size: 0.78rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .archive-container {
+      margin-right: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .archive-label {
+      font-size: 0.7rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .archive-select {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-family: 'DM Mono', monospace;
+      cursor: pointer;
+      outline: none;
+      min-width: 180px;
+    }
+
+    .archive-select:hover {
+      border-color: #38bdf8;
+    }
+
+    /* ─── LEGEND ───────────────────────────────────────── */
+    #legend {
+      padding: 8px 28px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.82rem;
+      color: var(--muted);
+      background: var(--bg);
+      position: sticky;
+      top: 80px;
+      z-index: 99;
+      margin-left: 190px;
+      margin-right: 190px;
+    }
+
+    .legend-group {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .legend-group span {
+      font-family: 'DM Mono', monospace;
+      color: var(--muted);
+      margin-right: 4px;
+    }
+
+    .dot-label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.8rem;
+    }
+
+    .dot-swatch {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .bar-swatch {
+      width: 14px;
+      height: 8px;
+      border-radius: 1px;
+      flex-shrink: 0;
+    }
+
+    /* Lock the main wrapper to the screen height */
+    #wrapper {
+      display: flex;
+      padding: 0;
+      height: calc(100vh - var(--header-h, 68px));
+      width: 100%;
+      overflow: hidden;
+    }
+
+    /* Constrain the chart area and enable internal scrolling */
+    #chart-area {
+      display: flex;
+      padding: 0 28px;
+      margin-left: 250px;
+      margin-right: 190px;
+      flex: 1;
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: auto;
+      align-items: flex-start;
+      background: var(--bg);
+    }
+
+    /* Ensure sidebars stay pinned to the sides */
+    #left-sidebar,
+    #right-sidebar {
+      position: fixed;
+      top: var(--header-h, 68px);
+      height: calc(100vh - var(--header-h, 68px));
+      z-index: 97;
+      overflow-y: auto;
+    }
+
+    /* ─── TOOLTIP ───────────────────────────────────────── */
+    #tooltip {
+      position: fixed;
+      display: none;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 13px;
+      z-index: 10001;
+      pointer-events: none;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+      width: 320px;
+      /* Fixed width so safe and danger zone tooltips are exactly the same size */
+      color: var(--text);
+    }
+
+    #tooltip b {
+      color: var(--text);
+    }
+
+    #tooltip .tip-change {
+      font-family: 'DM Mono', monospace;
+      font-weight: 500;
+    }
+
+    .ctrl-label {
+      color: var(--muted);
+      margin-right: 4px;
+    }
+
+    .btn-sort {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 3px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 0.82rem;
+      font-family: 'DM Mono', monospace;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .btn-sort:hover {
+      border-color: #38bdf8;
+      color: #38bdf8;
+    }
+
+    .btn-sort.active {
+      border-color: #38bdf8;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.06);
+    }
+
+    .btn-dataset.active {
+      border-color: #38bdf8;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.06);
+    }
+
+    /* ─── SIDEBARS ──────────────────────────────────────── */
+    #left-sidebar {
+      position: fixed;
+      top: var(--header-h, 68px);
+      left: 0;
+      width: 250px;
+      height: calc(100vh - var(--header-h, 68px));
+      overflow-y: auto;
+      border-right: 1px solid var(--border);
+      background: var(--bg);
+      padding: 16px 12px;
+      z-index: 97;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    #right-sidebar {
+      position: fixed;
+      top: var(--header-h, 68px);
+      right: 0;
+      width: 190px;
+      height: calc(100vh - var(--header-h, 68px));
+      overflow-y: auto;
+      border-left: 1px solid var(--border);
+      background: var(--bg);
+      padding: 16px 12px;
+      z-index: 97;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .sidebar-label {
+      font-size: 0.7rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 6px;
+    }
+
+    #left-sidebar .btn-filter {
+      display: block;
+      width: 100%;
+      text-align: left;
+      white-space: normal;
+      line-height: 1.4;
+      padding: 5px 10px;
+    }
+
+    #right-sidebar #party-legend {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    #left-sidebar .btn-sort:not(.btn-filter) {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+
+    .sidebar-divider {
+      height: 1px;
+      background: var(--border);
+      margin: 10px 0 14px;
+    }
+
+    /* ─── SVG PANELS ────────────────────────────────────── */
+    #chart-area {
+      display: flex;
+      padding: 0 28px;
+      gap: 0;
+      min-width: max-content;
+      margin-left: 190px;
+      margin-right: 190px;
+    }
+
+    svg {
+      display: block;
+      overflow: visible;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      margin-right: 12px;
+    }
+
+    @media (max-width: 1100px) {
+
+      /* Show toggle button on medium/small screens */
+      .mobile-menu-btn {
+        display: block;
+      }
+
+      /* Make sidebars hidden by default, sliding in when active */
+      #left-sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+      }
+
+      #left-sidebar.show {
+        transform: translateX(0);
+        box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5);
+      }
+
+      #right-sidebar {
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+      }
+
+      #right-sidebar.show {
+        transform: translateX(0);
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+      }
+
+      /* Let chart expand to fill screen */
+      #chart-area {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
+
+      /* Overlay to click-off the sidebars */
+      #sidebar-overlay {
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 96;
+        /* just behind sidebars (97) */
+      }
+
+      #sidebar-overlay.show {
+        display: block;
+      }
+
+      /* Stack header stats */
+      .header-stats {
+        margin-left: 0;
+        width: 100%;
+        gap: 12px;
+        justify-content: space-between;
+      }
+
+      .hstat {
+        text-align: left;
+      }
+
+      .hstat:last-child {
+        border-left: none !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+      }
+
+      /* Allow datasets dropdowns to grow */
+      .archive-container {
+        width: 100%;
+        margin-right: 0;
+      }
+    }
+
+    @media print {
+
+      #left-sidebar,
+      #right-sidebar {
+        display: none !important;
+      }
+
+      #header {
+        position: static !important;
+      }
+
+      #chart-area {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        overflow: visible !important;
+      }
+
+      body {
+        background: white !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="capture-container" style="background: var(--bg); padding: 20px 0;">
+    <div id="header">
+      <button class="mobile-menu-btn" onclick="toggleSidebar('left')">☰ เมนู</button>
+
+      <div class="header-main-group">
+        <!-- Title block -->
+        <div style="flex:1; min-width:0;">
+          <h1 id="header-title">บัตรเสีย : การเลือกตั้ง 2566 → 2569</h1>
+          <p id="header-subtitle">การเปลี่ยนแปลงอัตราบัตรเสีย · เรียงตาม % การเปลี่ยนแปลง</p>
+        </div>
+
+        <!-- Summary Stats -->
+        <div class="header-stats">
+          <div class="hstat">
+            <div class="v" id="hs-danger">—</div>
+            <div class="l">⚠ บัตรเสีย > ช่องว่าง</div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;margin-top:2px;color:var(--muted);">
+              <span style="opacity:0.65">L</span>&nbsp;<span id="hs-danger-sum-l" style="color:var(--text)">—</span>
+            </div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);">
+              <span style="opacity:0.65">R</span>&nbsp;<span id="hs-danger-sum-r" style="color:var(--red)">—</span>
+            </div>
+          </div>
+          <div class="hstat">
+            <div class="v" id="hs-improved">—</div>
+            <div class="l">↓ บัตรเสียลดลง (Δ%)</div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;margin-top:1px;color:var(--muted);">
+              <span style="opacity:0.65">L</span>&nbsp;<span id="hs-improved-sum-l" style="color:var(--text)">—</span>
+            </div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);">
+              <span style="opacity:0.65">R</span>&nbsp;<span id="hs-improved-sum-r" style="color:var(--teal)">—</span>
+            </div>
+            <div style="border-top:1px solid var(--border);margin:5px 0 3px;"></div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.95rem;color:var(--teal);" id="hs-improved-raw">—</div>
+            <div class="l">↓ บัตรเสียลดลง (Δ#)</div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;margin-top:1px;color:var(--muted);">
+              <span style="opacity:0.65">L</span>&nbsp;<span id="hs-improved-raw-sum-l" style="color:var(--text)">—</span>
+            </div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);">
+              <span style="opacity:0.65">R</span>&nbsp;<span id="hs-improved-raw-sum-r" style="color:var(--teal)">—</span>
+            </div>
+          </div>
+          <div class="hstat">
+            <div class="v" id="hs-worse">—</div>
+            <div class="l">↑ บัตรเสียเพิ่มขึ้น (Δ%)</div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;margin-top:1px;color:var(--muted);">
+              <span style="opacity:0.65">L</span>&nbsp;<span id="hs-worse-sum-l" style="color:var(--text)">—</span>
+            </div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);">
+              <span style="opacity:0.65">R</span>&nbsp;<span id="hs-worse-sum-r" style="color:var(--red)">—</span>
+            </div>
+            <div style="border-top:1px solid var(--border);margin:5px 0 3px;"></div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.95rem;color:var(--red);" id="hs-worse-raw">—</div>
+            <div class="l">↑ บัตรเสียเพิ่มขึ้น (Δ#)</div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;margin-top:1px;color:var(--muted);">
+              <span style="opacity:0.65">L</span>&nbsp;<span id="hs-worse-raw-sum-l" style="color:var(--text)">—</span>
+            </div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);">
+              <span style="opacity:0.65">R</span>&nbsp;<span id="hs-worse-raw-sum-r" style="color:var(--red)">—</span>
+            </div>
+          </div>
+          <div class="hstat" style="border-left:1px solid var(--border);padding-left:20px;margin-left:4px">
+            <div class="v" id="hs-all-summary">—</div>
+            <div class="l">↑↓ ทั้งหมด (Δ%)</div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;margin-top:1px;color:var(--muted);">
+              <span id="hs-all-summary-raw" style="color:var(--text)">—</span>&thinsp;<span style="opacity:0.65">(Δ#)</span>
+            </div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;margin-top:2px;color:var(--muted);">
+              <span style="opacity:0.65">L</span>&nbsp;<span id="hs-all-sum-l" style="color:var(--text)">—</span>
+            </div>
+            <div style="font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);">
+              <span style="opacity:0.65">R</span>&nbsp;<span id="hs-all-sum-r" style="color:var(--text)">—</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="mobile-menu-btn" onclick="toggleSidebar('right')" style="margin-left:auto;">★ พรรค</button>
+    </div>
+
+    <!-- ── MISSING DATA WARNING ───────────────────────── -->
+    <div id="missing-data-warning" style="
+      display: none;
+      background: rgba(245,158,11,0.1);
+      border-bottom: 1px solid rgba(245,158,11,0.35);
+      padding: 4px 28px;
+      font-size: 0.72rem;
+      font-family: 'DM Mono', monospace;
+      color: #d97706;
+      margin-left: 250px;
+      margin-right: 190px;
+    "></div>
+
+    <!-- ── AGGREGATE VOTE BAR ─────────────────────────── -->
+    <div id="vote-bar-wrap" style="
+      position: sticky;
+      top: var(--header-h, 68px);
+      z-index: 98;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 6px 28px 7px;
+      margin-left: 250px;
+      margin-right: 190px;
+    ">
+      <!-- Row L -->
+      <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
+        <div id="vb-l-label" style="font-size:0.65rem;font-family:'DM Mono',monospace;color:var(--muted);min-width:45px;text-align:right;">L</div>
+        <div id="vote-bar" style="
+          display: flex;
+          height: 10px;
+          border-radius: 5px;
+          overflow: hidden;
+          flex: 1;
+          background: var(--border);
+        ">
+          <div id="vb-winner" style="height:100%; transition:width 0.4s;"></div>
+          <div id="vb-runner" style="height:100%; transition:width 0.4s;"></div>
+          <div id="vb-rest" style="height:100%; background:#64748b; opacity:0.4; transition:width 0.4s;"></div>
+          <div id="vb-invalid" style="height:100%; background:#ef4444; transition:width 0.4s;"></div>
+        </div>
+      </div>
+      <!-- Row R -->
+      <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
+        <div id="vb-r-label" style="font-size:0.65rem;font-family:'DM Mono',monospace;color:var(--muted);min-width:45px;text-align:right;">R</div>
+        <div id="vote-bar-right" style="
+          display: flex;
+          height: 10px;
+          border-radius: 5px;
+          overflow: hidden;
+          flex: 1;
+          background: var(--border);
+        ">
+          <div id="vbr-winner" style="height:100%; transition:width 0.4s;"></div>
+          <div id="vbr-runner" style="height:100%; background:#94a3b8; transition:width 0.4s;"></div>
+          <div id="vbr-rest" style="height:100%; background:#64748b; opacity:0.4; transition:width 0.4s;"></div>
+          <div id="vbr-invalid" style="height:100%; background:#ef4444; transition:width 0.4s;"></div>
+        </div>
+      </div>
+      <!-- Legend row -->
+      <div id="vote-bar-legend" style="
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 0.72rem;
+        color: var(--muted);
+        font-family: 'DM Mono', monospace;
+      "></div>
+    </div>
+
+    <div id="sidebar-overlay" onclick="closeSidebars()"></div>
+
+    <div id="wrapper">
+      <div id="left-sidebar">
+        <button class="btn-sort" onclick="window.location.href='index.html'"
+          style="font-size:0.75rem;padding:3px 10px;margin-bottom:4px;margin-top:10px; width:100%;">🏠 หน้าหลัก</button>
+        <button id="btn-theme" class="btn-sort" onclick="toggleTheme()" title="สลับโหมดสว่าง/มืด"
+          style="font-size:0.75rem;padding:3px 10px;margin-bottom:4px">🌙 Dark</button>
+        <button class="btn-sort" onclick="captureImage()" title="บันทึกรูปภาพ"
+          style="font-size:0.75rem;padding:3px 10px;margin-bottom:12px">📷 บันทึกรูปภาพ</button>
+
+        <div class="sidebar-label">วิเคราะห์อื่นๆ</div>
+        <button class="btn-sort" onclick="window.location.href='surplus_analysis_v2.html'"
+          style="width: 100%; background: var(--teal); color: white; border: none; margin-bottom: 6px;">
+          📊 ดูส่วนต่างบัตร (Surplus)
+        </button>
+        <button class="btn-sort" onclick="window.location.href='blank_analysis.html'"
+          style="width: 100%; background: #8b5cf6; color: white; border: none; margin-bottom: 6px;">
+          🔲 ดูบัตรไม่เลือกผู้ใด (No-Vote)
+        </button>
+
+        <div style="
+          margin-top: 8px;
+          padding: 10px;
+          border: 1.5px solid var(--teal);
+          border-radius: 8px;
+          background: rgba(20, 184, 166, 0.05);
+          margin-bottom: 14px;
+        ">
+          <div style="
+            font-size: 0.68rem;
+            font-weight: 700;
+            color: var(--teal);
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            margin-bottom: 8px;
+          ">⚖ เปรียบเทียบ | Compare Datasets</div>
+
+          <div style="display:flex; flex-direction:column; gap:4px; margin-bottom:6px;">
+            <div class="archive-label" style="font-size:0.75rem;">ข้อมูลฐาน </div>
+            <div class="archive-label" style="font-size:0.65rem;">Base (Left) </div>
+            <select id="archive-select-left" class="archive-select" style="width:100%; font-size:0.75rem;">
+              <option value="data/election66_data.js" selected>เลือกตั้ง 2566</option>
+              <option value="data/election69_ocr.js">เลือกตั้ง 2569 (OCR)</option>
+              <option value="data/election69_94pct.js">เลือกตั้ง 2569 (94%)</option>
+            </select>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:4px; margin-bottom:8px;">
+            <div class="archive-label" style="font-size:0.75rem;">ข้อมูลเปรียบเทียบ </div>
+            <div class="archive-label" style="font-size:0.65rem;">Comparison (Right) </div>
+            <select id="archive-select-right" class="archive-select" style="width:100%; font-size:0.75rem;">
+              <option value="data/election66_data.js">เลือกตั้ง 2566</option>
+              <option value="data/election69_ocr.js" selected>เลือกตั้ง 2569 (OCR)</option>
+              <option value="data/election69_94pct.js">เลือกตั้ง 2569 (94%)</option>
+            </select>
+          </div>
+          <button id="btn-load-comparison" class="btn-sort" style="
+            width:100%;
+            background: var(--teal);
+            color: white;
+            border: none;
+            font-weight: bold;
+            font-size: 0.8rem;
+            padding: 6px 0;
+            border-radius: 5px;
+          ">✔ ยืนยันการเปรียบเทียบ (confirm)</button>
+        </div>
+
+        <div class="sidebar-label">ชุดข้อมูล | dataset</div>
+        <button class="btn-sort btn-dataset active" onclick="switchDataset('constituency')" title="ส.ส. - เขตเลือกตั้ง"
+          style="font-size:0.75rem;padding:3px 10px;margin-bottom:2px">ส.ส. (เขต)</button>
+        <button class="btn-sort btn-dataset" onclick="switchDataset('partylist')" title="บส. - ส.ส. จากบัญชีรายชื่อ"
+          style="font-size:0.75rem;padding:3px 10px;margin-bottom:12px">บส. (รายชื่อ)</button>
+
+        <div class="sidebar-label">กรอง | filter by</div>
+        <select id="filter-select" class="archive-select" style="width:100%; font-size:0.72rem; margin-bottom:4px;" onchange="setFilter(this.value)">
+          <option value="all">ทั้งหมด</option>
+          <option value="danger">⚠ บัตรเสีย > ช่องว่างคะแนน</option>
+          <option value="safe">✓ ช่องว่างคะแนนปลอดภัย</option>
+        </select>
+        <div style="font-size:0.65rem; font-family:'DM Mono',monospace; color:var(--muted); margin-bottom:8px;">
+          ทั้งหมด <span id="cnt-all">—</span> · <span style="color:#ef4444;">⚠</span>&thinsp;<span id="cnt-danger">—</span> · <span style="color:#14b8a6;">✓</span>&thinsp;<span id="cnt-safe">—</span>
+        </div>
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-label">จัดกลุ่มตาม | group by</div>
+        <select id="grp-select" class="archive-select" style="width:100%; font-size:0.72rem; margin-bottom:8px;" onchange="setGrouping(this.value)">
+          <option value="none">ไม่จัดกลุ่ม</option>
+          <option value="region">ภาค</option>
+          <option value="party_l">พรรค (L)</option>
+          <option value="party_r">พรรค (R)</option>
+        </select>
+        <div class="sidebar-label">เรียงโดย | sort by</div>
+        <div style="display:flex; gap:4px; margin-bottom:8px;">
+          <select id="sort-select" class="archive-select" style="flex:1; font-size:0.72rem;" onchange="resort(this.value)">
+            <option value="pct_change" selected>% เปลี่ยนแปลง</option>
+            <option value="pct_2569">% บัตรเสีย (R)</option>
+            <option value="invalid_change">จำนวนบัตรเสีย (เปลี่ยน)</option>
+            <option value="province">จังหวัด</option>
+            <option value="party_2566">พรรคชนะ (L)</option>
+            <option value="party_2569">พรรคชนะ (R)</option>
+            <option value="invalid_l">จำนวนบัตรเสีย (L)</option>
+            <option value="invalid_r">จำนวนบัตรเสีย (R)</option>
+          </select>
+          <button id="sort-dir-btn" class="btn-sort" onclick="toggleSortDir()" title="สลับทิศทาง" style="padding:3px 8px; font-size:0.75rem; min-width:28px;">▼</button>
+        </div>
+
+        <div class="sidebar-spacer" style="flex-grow: 1; min-height: 50px;"></div>
+        <div class="sidebar-disclaimer"
+          style="font-size: 0.75rem; line-height: 1.4; color: var(--muted); padding-top: 15px; border-top: 1px solid var(--border); margin-top: auto;">
+          <p style="color: var(--red)"><strong>ข้อสงวนสิทธิ์ (Disclaimers):</strong></p>
+
+          <p><strong>ข้อมูลปี 2566</strong> อ้างอิงจากเว็บไซต์กกต. (https://ectreport66.ect.go.th/) </p>
+          <p><strong>ข้อมูลปี 2569</strong> มาจากรายงานคะแนนกกต. แบบ ส.ส.6/1 โดย Chanon Ngernthongdee </p><br>
+          <p>สกัดจาก PDF ด้วย OCR; Source: <a
+              href="https://github.com/killernay/election-69-OCR-result">killernay/election-69-OCR-result</a></p><br>
+          <p>ไม่ยืนยันความถูกต้องของคะแนน</p>
+          <p>สุ่มตรวจกับไฟล์ PDF เฉพาะ 42 เขตที่ผลต่างคะแนนสองอันดับน้อยกว่าบัตรเสีย</p><br><br>
+
+          <p>Data visualization by</p>
+          <p>© 2026 Ronnakrit Rattanasriampaipong</p>
+          <div id="data-timestamps"
+            style="margin-top:8px; font-size:0.7rem; line-height:1.6; color:var(--muted); border-top: 1px dashed var(--border); padding-top:6px;">
+            <p style="font-weight:600; margin-bottom:2px;">🕐 ข้อมูลอัพเดทล่าสุด:</p>
+            <p id="ts-left">Base: —</p>
+            <p id="ts-right">Compare: —</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="chart-area" style="display:none;">
+        <svg id="svg-left"></svg>
+        <svg id="svg-mid"></svg>
+        <svg id="svg-right"></svg>
+      </div>
+
+      <div id="prompt-overlay"
+        style="display:flex; flex:1; align-items:center; justify-content:center; flex-direction:column; margin-left:250px; margin-right:190px; text-align:center;">
+        <h2 style="color:var(--text); margin-bottom:8px; font-weight:600;">Select Datasets to Compare</h2>
+        <h3 style="color:var(--text); margin-bottom:8px; font-weight:600;">เลือกชุดข้อมูลเพื่อเปรียบเทียบ</h3><br>
+        <p style="color:var(--muted); font-size:0.9rem;">Please select a Base (Left) and Comparison (Right) dataset from
+          the top menu, then click <b>Load Comparison</b>.</p>
+        <p style="color:var(--muted); font-size:0.7rem;">เลือกชุดข้อมูลตั้งต้น (ซ้าย) และชุดข้อมูลเปรียบเทียบ (ขวา)
+          จากเมนู
+          ด้านบน แล้วคลิก <b>ยืนยันการเปรียบเทียบ</b></p>
+      </div>
+    </div>
+
+    <div id="right-sidebar">
+      <div class="sidebar-label" style="margin-top:20px" id="party-legend-title">พรรคผู้ชนะ (เปรียบเทียบ)</div>
+      <div id="party-legend"></div>
+      <div class="sidebar-divider"></div>
+      <div class="sidebar-label">คำอธิบาย</div>
+      <div
+        style="font-size:0.75rem; color:var(--muted); margin-top:10px; display:flex; flex-direction:column; gap:6px;">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <div
+            style="width:7px; height:7px; border-radius:50%; background:rgba(148,163,184,0.5); border:0.5px solid var(--muted);">
+          </div>
+          <span>จุดธรรมดา = 2566</span>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:8px;">
+          <div
+            style="width:7px; height:7px; border-radius:50%; background:var(--muted); outline:2px solid var(--ring); outline-offset:1px;">
+          </div>
+          <span>มีวงแหวน = 2569</span>
+        </div>
+      </div><br>
+      <div class="dot-label">
+        <div class="bar-swatch" style="background:#3e3f3f"></div>ช่องว่างระหว่างพรรคสองอันดับแรก 2569
+      </div>
+      <div class="dot-label">
+        <div class="bar-swatch" style="background:#d7d1d2"></div>บัตรเสีย
+      </div>
+      <div class="dot-label">
+        <div class="bar-swatch" style="background:#f05957"></div>บัตรเสีย &gt; ช่องว่างระหว่างพรรคสองอันดับแรก ⚠
+      </div>
+    </div>
+
+    <div id="tooltip"></div>
+    <script>
+      // ═══════════════════════════════════════════════════════════════════════
+      // DATA NORMALIZATION
+      // ═══════════════════════════════════════════════════════════════════════
+
+      function normalizeRecord(d) {
+        const num = (v) => Number(v) || 0;
+        // Accept plain name or _2569-suffixed fallback (for extract_94pct_data.py output)
+        const n = (plain, suffixed) => num(d[plain] ?? d[suffixed]);
+        const str = (v) => (v && v !== 'Unknown') ? String(v) : "Unknown";
+        const s = (plain, suffixed) => str(d[plain] ?? d[suffixed]);
+
+        return {
+          province_thai: str(d.province_thai),
+          province_eng: str(d.province_eng),
+          cons_no: num(d.cons_no),
+          region: str(d.region),
+
+          turn_out:        n('turn_out',        'turn_out_2569'),
+          percent_invalid: n('percent_invalid',  'percent_invalid_2569'),
+          winner_party:    s('winner_party',     'winner_party_2569'),
+          valid:           n('valid',            'valid_2569'),
+          invalid:         n('invalid',          'invalid_2569'),
+          blank:           n('blank',            'blank_2569'),
+          winner_votes:    n('winner_votes',     'winner_votes_2569'),
+          runnerup_party:  s('runnerup_party',   'runnerup_party_2569'),
+          runnerup_votes:  n('runnerup_votes',   'runnerup_votes_2569'),
+          margin:          n('margin',           'margin_2569'),
+        };
+      }
+
+      // ─── STATE ──────────────────────────────────────────────────────────
+      let DATA_LEFT = { raw: [], pl: [] };
+      let DATA_RIGHT = { raw: [], pl: [] };
+      let fullProcessedData = [];
+      let data = [];
+      let activeFilter = 'all';
+      let currentSort = 'pct_change';
+      let currentSortDir = 'desc';
+      let currentGrouping = 'none';
+      let missingFromL = [], missingFromR = [];
+
+      // ─── SORTS ───────────────────────────────────────────────────────────
+      const SORTS_BASE = {
+        pct_change:     (a, b) => b.invalid_pct_change - a.invalid_pct_change,
+        pct_2569:       (a, b) => b.percent_invalid_2569 - a.percent_invalid_2569,
+        invalid_change: (a, b) => b.invalid_change - a.invalid_change,
+        invalid_l:      (a, b) => b.invalid - a.invalid,
+        invalid_r:      (a, b) => b.invalid_2569 - a.invalid_2569,
+        province:       (a, b) => (a.province_eng || "").localeCompare(b.province_eng || "") || a.cons_no - b.cons_no,
+        party_2566:     (a, b) => (a.winner_party || "").localeCompare(b.winner_party || "", 'th') || b.invalid_pct_change - a.invalid_pct_change,
+        party_2569:     (a, b) => (a.winner_party_2569 || "").localeCompare(b.winner_party_2569 || "", 'th') || b.invalid_pct_change - a.invalid_pct_change,
+      };
+      function getSortFn() {
+        const base = SORTS_BASE[currentSort] || SORTS_BASE.pct_change;
+        return currentSortDir === 'asc' ? (a, b) => base(b, a) : base;
+      }
+      // Keep SORTS as alias for legacy callers
+      const SORTS = SORTS_BASE;
+
+      function processRawData() {
+        console.log("[RENDER] Processing raw data as comparative set");
+
+        const leftRaw = currentDataset === 'partylist' ? DATA_LEFT.pl : (DATA_LEFT.raw || []);
+        const rightRaw = currentDataset === 'partylist' ? DATA_RIGHT.pl : (DATA_RIGHT.raw || []);
+
+        // Build lookup maps both ways
+        const mapRight = new Map();
+        rightRaw.forEach(d => mapRight.set(`${d.province_thai}_${d.cons_no}`, d));
+        const leftKeySet = new Set(leftRaw.map(d => `${d.province_thai}_${d.cons_no}`));
+
+        // Track unmatched constituencies
+        missingFromR = leftRaw.filter(d => !mapRight.has(`${d.province_thai}_${d.cons_no}`));
+        missingFromL = rightRaw.filter(d => !leftKeySet.has(`${d.province_thai}_${d.cons_no}`));
+
+        // Only include records present in BOTH datasets
+        fullProcessedData = leftRaw
+          .filter(dL => mapRight.has(`${dL.province_thai}_${dL.cons_no}`))
+          .map(dL => {
+            const dR = mapRight.get(`${dL.province_thai}_${dL.cons_no}`);
+            const inv_L = dL.invalid || 0;
+            const pct_inv_L = dL.percent_invalid || 0;
+            const inv_R = dR.invalid || 0;
+            const pct_inv_R = dR.percent_invalid || 0;
+
+            return {
+              ...dL,
+              percent_invalid: pct_inv_L,
+              winner_party: dL.winner_party,
+              invalid_2569: inv_R,
+              percent_invalid_2569: pct_inv_R,
+              winner_party_2569: dR.winner_party,
+              winner_votes_2569: dR.winner_votes || 0,
+              runnerup_party_2569: dR.runnerup_party,
+              runnerup_votes_2569: dR.runnerup_votes || 0,
+              margin_2569: dR.margin || 0,
+              invalid_pct_change: pct_inv_R - pct_inv_L,
+              invalid_change: inv_R - inv_L
+            };
+          });
+        data = [...fullProcessedData];
+
+        console.log(`[RENDER] ✓ ${data.length} paired records. Missing R: ${missingFromR.length}, Missing L: ${missingFromL.length}`);
+        if (data.length > 0) data.sort(getSortFn());
+      }
+
+      // ─── PARTY COLORS ──────────────────────────────────────────────────
+      const PARTY_COLOR = {
+        'ภูมิใจไทย': '#312682',
+        'ประชาชน': '#FF6413',
+        'เพื่อไทย': '#E30613',
+        'กล้าธรรม': '#4EC86F',
+        'ประชาธิปัตย์': '#15A5F5',
+        'ประชาชาติ': '#BA810D',
+        'ไทยสร้างไทย': '#6841D0',
+        'พลังประชารัฐ': '#006536',
+        'ไทรวมพลัง': '#5266AD',
+        'เพื่อไทรวมพลัง': '#5266AD',
+        'โอกาสใหม่': '#c61a12',
+        'รวมไทยสร้างชาติ': '#2b2c80',
+        'ก้าวไกล': '#f97316',
+        'ชาติไทยพัฒนา': '#e40283',
+        'ชาติพัฒนากล้า': '#fea12c'
+      };
+      function pc(name) { return PARTY_COLOR[name] || '#94a3b8'; }
+
+      // ─── RUNNER-UP PARTY LOOKUP ────────────────────────────────────────
+      // Build from data if runnerup_party_2569 field exists
+      function runnerUpParty(d) {
+        // First try the direct field from data
+        if (d.runnerup_party_2569 && d.runnerup_party_2569 !== "Unknown") {
+          return d.runnerup_party_2569;
+        }
+        // Fallback to winner party
+        return d.winner_party_2569 || d.winner_party || "Unknown";
+      }
+
+      // ─── LAYOUT CONSTANTS ──────────────────────────────────────────────
+      const ROW_H = 18;
+      const TOP_PAD = 60;
+      const LBL_W = 208;
+      const SLOPE_W = 320;
+      const BAR_W = 260;
+      const BAR_GAP = 30;
+      const DOT_COL_W = 28;
+      const R = 3.2;
+
+      // X scale: % invalid 0..11 (X_MAX updated dynamically in buildChart)
+      let X_MIN = 0, X_MAX = 11;
+      function xScale(pct) {
+        return LBL_W + ((pct - X_MIN) / (X_MAX - X_MIN)) * SLOPE_W;
+      }
+
+      // ─── DATASETS ───────────────────────────────────────────────────────
+      let currentDataset = 'constituency';
+
+      function getSourceData() {
+        // Return unmapped generic array based on current toggle, which processRawData then uses
+        return currentDataset === 'partylist' ? DATA_LEFT.pl : DATA_LEFT.raw;
+      }
+
+      function switchDataset(dataset) {
+        currentDataset = dataset;
+
+        // Update button active states
+        document.querySelectorAll('.btn-dataset').forEach(b => {
+          b.classList.remove('active');
+          if (b.getAttribute('onclick')?.includes(`'${dataset}'`)) {
+            b.classList.add('active');
+          }
+        });
+
+        // Reset to default sort and filter
+        activeFilter = 'all';
+        currentSort = 'pct_change';
+
+        // Reset filter dropdown
+        const filterSel = document.getElementById('filter-select');
+        if (filterSel) filterSel.value = 'all';
+
+        // Reset sort dropdown + direction
+        const sortSel = document.getElementById('sort-select');
+        if (sortSel) sortSel.value = 'pct_change';
+        currentSort = 'pct_change';
+        currentSortDir = 'desc';
+        const sortDirBtn = document.getElementById('sort-dir-btn');
+        if (sortDirBtn) sortDirBtn.textContent = '▼';
+
+        // Switch data source
+        // Switch data source contextually inside processRawData
+        const selectedRaw = currentDataset === 'partylist' ? DATA_LEFT.pl : (DATA_LEFT.raw || []);
+
+        // Update header subtitle
+        const subtitle = document.getElementById('header-subtitle');
+        if (dataset === 'partylist') {
+          if (selectedRaw.length === 0) {
+            subtitle.textContent = 'ข้อมูล บส. (บัญชีรายชื่อ) ยังไม่พร้อม | Party List data coming soon';
+          } else {
+            subtitle.textContent = `การเปลี่ยนแปลงอัตราบัตรเสีย · บัญชีรายชื่อ ${selectedRaw.length} เขต · เรียงตาม % การเปลี่ยนแปลง`;
+          }
+        } else {
+          subtitle.textContent = `การเปลี่ยนแปลงอัตราบัตรเสีย · ${selectedRaw.length} เขตเลือกตั้ง · เรียงตาม % การเปลี่ยนแปลง`;
+        }
+
+        renderAll();
+      }
+
+
+      // ─── THEME HELPERS ────────────────────────────────────────────────────
+      function T(dark, light) {
+        return document.documentElement.dataset.theme === 'light' ? light : dark;
+      }
+      function toggleTheme() {
+        const root = document.documentElement;
+        const going_light = root.dataset.theme !== 'light';
+        root.dataset.theme = going_light ? 'light' : '';
+        document.getElementById('btn-theme').textContent = going_light ? '☀️ Light' : '🌙 Dark';
+        buildChart();
+      }
+
+
+      function applyFilter() {
+        if (activeFilter === 'danger') return fullProcessedData.filter(d => d.invalid_2569 > d.margin_2569);
+        if (activeFilter === 'safe') return fullProcessedData.filter(d => d.invalid_2569 <= d.margin_2569);
+        return [...fullProcessedData];
+      }
+
+      function setFilter(key) {
+        activeFilter = key;
+        const sel = document.getElementById('filter-select');
+        if (sel) sel.value = key;
+        processRawData();
+        data = applyFilter();
+        data.sort(getSortFn());
+        buildChart();
+      }
+
+
+      function updateCounts() {
+        // Use only paired records for counts
+        const nd = fullProcessedData.filter(d => d.invalid_2569 > d.margin_2569).length;
+        const total = fullProcessedData.length;
+        document.getElementById('cnt-all').textContent = '(' + total + ')';
+        document.getElementById('cnt-danger').textContent = '(' + nd + ')';
+        document.getElementById('cnt-safe').textContent = '(' + (total - nd) + ')';
+      }
+
+      function updateMissingWarning() {
+        const el = document.getElementById('missing-data-warning');
+        if (!el) return;
+        const nL = missingFromL.length, nR = missingFromR.length;
+        if (nL === 0 && nR === 0) { el.style.display = 'none'; return; }
+        const leftSel = document.getElementById('archive-select-left');
+        const rightSel = document.getElementById('archive-select-right');
+        const lName = leftSel ? leftSel.options[leftSel.selectedIndex].text.split(' (')[0] : 'L';
+        const rName = rightSel ? rightSel.options[rightSel.selectedIndex].text.split(' (')[0] : 'R';
+        const parts = [];
+        if (nR > 0) parts.push(`${nR} เขตไม่มีใน ${rName}`);
+        if (nL > 0) parts.push(`${nL} เขตไม่มีใน ${lName}`);
+        el.textContent = `⚠ ข้อมูลไม่ครบ: ${parts.join(' · ')} · แสดงเฉพาะ ${fullProcessedData.length} เขตที่มีทั้งสองชุด`;
+        el.style.display = 'block';
+      }
+
+      function resort(key) {
+        currentSort = key;
+        // Default direction: asc for province/party, desc for everything else
+        currentSortDir = (key === 'province' || key === 'party_2566' || key === 'party_2569') ? 'asc' : 'desc';
+        document.getElementById('sort-dir-btn').textContent = currentSortDir === 'asc' ? '▲' : '▼';
+        processRawData();
+        data = applyFilter();
+        data.sort(getSortFn());
+        buildChart();
+      }
+
+      function toggleSortDir() {
+        currentSortDir = currentSortDir === 'desc' ? 'asc' : 'desc';
+        document.getElementById('sort-dir-btn').textContent = currentSortDir === 'asc' ? '▲' : '▼';
+        data.sort(getSortFn());
+        buildChart();
+      }
+
+      function setGrouping(g) {
+        currentGrouping = g;
+        const sel = document.getElementById('grp-select');
+        if (sel) sel.value = g;
+        buildChart();
+      }
+
+      // ─── HELPERS ────────────────────────────────────────────────────────
+      function svgEl(tag, attrs) {
+        const e = document.createElementNS('http://www.w3.org/2000/svg', tag);
+        for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+        return e;
+      }
+      function svgText(parent, x, y, txt, attrs) {
+        const e = svgEl('text', { x, y, ...attrs });
+        e.textContent = txt;
+        parent.appendChild(e);
+        return e;
+      }
+
+      // ─── MAIN BUILD ─────────────────────────────────────────────────────
+      function buildChart() {
+        // ── Build rows array (data rows + optional group header rows) ────────
+        let rows;
+        if (currentGrouping === 'none') {
+          rows = data.map(d => ({ type: 'data', d }));
+        } else {
+          const groups = {};
+          data.forEach(d => {
+            const key = currentGrouping === 'region'   ? (d.region || 'ไม่ระบุ') :
+                        currentGrouping === 'party_l'  ? (d.winner_party || 'Unknown') :
+                        /* party_r */                    (d.winner_party_2569 || 'Unknown');
+            if (!groups[key]) groups[key] = [];
+            groups[key].push(d);
+          });
+          rows = [];
+          Object.keys(groups).sort((a, b) => a.localeCompare(b, 'th')).forEach(k => {
+            rows.push({ type: 'header', name: k, count: groups[k].length });
+            groups[k].forEach(d => rows.push({ type: 'data', d }));
+          });
+        }
+
+        const n = rows.length;
+        const H = TOP_PAD + (n * ROW_H) + 10;
+        const svgL = document.getElementById('svg-left');
+        const svgM = document.getElementById('svg-mid');
+        const svgR = document.getElementById('svg-right');
+        svgL.innerHTML = '';
+        svgM.innerHTML = '';
+        svgR.innerHTML = '';
+
+        // Dynamic x-axis: fit the widest data point, min 5%
+        const allPcts = data.flatMap(d => [d.percent_invalid || 0, d.percent_invalid_2569 || 0]);
+        const dataMax = allPcts.length ? Math.max(...allPcts) : 11;
+        X_MAX = Math.max(5, Math.ceil(dataMax) + 1);
+
+        const svgLW = LBL_W + SLOPE_W + 90;
+        const svgMW = DOT_COL_W;
+        const svgRW = BAR_GAP + BAR_W + 80;
+        svgL.setAttribute('width', svgLW);
+        svgL.setAttribute('height', H);
+        svgM.setAttribute('width', svgMW);
+        svgM.setAttribute('height', H);
+        svgR.setAttribute('width', svgRW);
+        svgR.setAttribute('height', H);
+
+        // ── LEFT SVG: x-axis ──────────────────────────────────────────────
+        svgL.appendChild(svgEl('line', {
+          x1: LBL_W, y1: TOP_PAD - 2,
+          x2: LBL_W + SLOPE_W, y2: TOP_PAD - 2,
+          stroke: T('#1e3a5f', '#cbd5e1'), 'stroke-width': 1
+        }));
+
+        for (let p = 0; p <= X_MAX; p++) {
+          const x = xScale(p);
+          svgL.appendChild(svgEl('line', {
+            x1: x, y1: TOP_PAD - 2,
+            x2: x, y2: H,
+            stroke: p === 0 ? T('#2563eb', '#6366f1') : T('#0f1e2f', '#e2e8f0'),
+            'stroke-width': p === 0 ? 1 : 0.5,
+            'stroke-dasharray': p === 0 ? '' : '2,4'
+          }));
+          svgText(svgL, x, TOP_PAD - 8, p + '%', {
+            'text-anchor': 'middle',
+            'font-size': '12',
+            'font-family': 'DM Mono, monospace',
+            fill: T('#94a3b8', '#334155')
+          });
+        }
+
+        // ── Headers ─────────────────────────────────────────────────────
+        svgText(svgL, xScale(5.5), 25, 'อัตราบัตรเสีย (%) | จุด 2569 มีวงแหวน | สีจุดตามพรรคอันดับ 1', {
+          'text-anchor': 'middle', 'font-size': '12',
+          'font-family': 'Sarabun, sans-serif', fill: T('#94a3b8', '#334155')
+        });
+
+        svgText(svgM, DOT_COL_W + 10, 25, 'อันดับ 2', {
+          'text-anchor': 'middle', 'font-size': '12',
+          'font-family': 'Sarabun, sans-serif', fill: T('#94a3b8', '#334155')
+        });
+
+        svgText(svgR, BAR_GAP + 10, 25, 'ช่องว่างผู้ชนะ 2569', {
+          'font-size': '11.5', 'font-family': 'Sarabun, sans-serif', fill: T('#94a3b8', '#334155')
+        });
+
+        svgText(svgL, LBL_W + SLOPE_W + 6, 25, 'Δ%', {
+          'font-size': '10', 'font-family': 'DM Mono, monospace', fill: T('#94a3b8', '#334155')
+        });
+        svgText(svgL, LBL_W + SLOPE_W + 50, 25, 'Δ#', {
+          'font-size': '10', 'font-family': 'DM Mono, monospace', fill: T('#94a3b8', '#334155')
+        });
+
+        // ── Arrows ───────────────────────────────────────────────────────
+        const arrowYStart = 35;
+        const arrowYEnd = 50;
+        const arrowStroke = T('#94a3b8', '#334155');
+
+        function drawDownArrow(parent, x, y1, y2, color) {
+          parent.appendChild(svgEl('line', {
+            x1: x, y1: y1, x2: x, y2: y2,
+            stroke: color, 'stroke-width': '1.5'
+          }));
+          parent.appendChild(svgEl('path', {
+            d: `M ${x - 4} ${y2 - 5} L ${x} ${y2} L ${x + 4} ${y2 - 5}`,
+            fill: 'none', stroke: color, 'stroke-width': '1.5'
+          }));
+        }
+
+        drawDownArrow(svgM, DOT_COL_W + 15, arrowYStart, arrowYEnd, arrowStroke);
+        drawDownArrow(svgR, BAR_GAP + 60, arrowYStart, arrowYEnd, arrowStroke);
+        drawDownArrow(svgL, LBL_W + SLOPE_W + 18, arrowYStart, arrowYEnd, arrowStroke);
+        drawDownArrow(svgL, LBL_W + SLOPE_W + 62, arrowYStart, arrowYEnd, arrowStroke);
+
+        // ── ROWS ──────────────────────────────────────────────────────────
+        rows.forEach((row, i) => {
+          const y0 = TOP_PAD + i * ROW_H;
+          const yMid = y0 + ROW_H / 2;
+
+          // ── Group header row ─────────────────────────────────────────────
+          if (row.type === 'header') {
+            const bgColor = T('rgba(30,58,95,0.55)', 'rgba(226,232,240,0.7)');
+            [svgL, svgM, svgR].forEach(svg => {
+              svg.appendChild(svgEl('rect', {
+                x: 0, y: y0,
+                width: svg === svgL ? svgLW : svg === svgM ? svgMW : svgRW,
+                height: ROW_H, fill: bgColor
+              }));
+            });
+            const dotColor = currentGrouping === 'party_l' ? pc(row.name) :
+                             currentGrouping === 'party_r' ? pc(row.name) : 'var(--teal,#14b8a6)';
+            svgText(svgL, LBL_W - 4, yMid + 4, `${row.name}  (${row.count})`, {
+              'font-size': '12', 'font-weight': 'bold',
+              'font-family': 'Sarabun, sans-serif',
+              fill: T('#e2e8f0', '#1e3a5f')
+            });
+            return;
+          }
+
+          const d = row.d;
+          const x2566 = xScale(d.percent_invalid);
+          const x2569 = xScale(d.percent_invalid_2569);
+          const c2566 = pc(d.winner_party);
+          const c2569 = pc(d.winner_party_2569);
+          const isDanger = d.invalid_2569 > d.margin_2569;
+          const pctChange = d.invalid_pct_change;
+          const sign = pctChange > 0 ? '+' : '';
+
+          // ── Row BG ──────────────────────────────────────────────────────
+          const rowBg = [svgL, svgM, svgR].map(svg => {
+            const r = svgEl('rect', {
+              x: 0, y: y0,
+              width: svg === svgL ? svgLW : svg === svgM ? svgMW : svgRW,
+              height: ROW_H,
+              fill: i % 2 === 0 ? T('rgba(255,255,255,0.018)', 'rgba(0,0,0,0.028)') : 'transparent',
+              'data-i': i
+            });
+            svg.appendChild(r);
+            return r;
+          });
+
+          rowBg.forEach(r => {
+            r.style.cursor = 'default';
+            r.addEventListener('mousemove', e => showTip(e, d, isDanger, sign, pctChange));
+            r.addEventListener('mouseleave', hideTip);
+          });
+
+          // ── Y-axis label ──────────────────────────────────────────────
+          svgText(svgL, LBL_W - 28, yMid + 3.5, d.province_thai, {
+            'text-anchor': 'end',
+            'font-size': '14',
+            'font-family': 'Sarabun, sans-serif',
+            fill: T('#64748b', '#64748b')
+          });
+          svgText(svgL, LBL_W - 4, yMid + 3.5, d.cons_no, {
+            'text-anchor': 'end',
+            'font-size': '14',
+            'font-family': 'DM Mono, monospace',
+            fill: T('#94a3b8', '#334155')
+          });
+
+          // ── Connecting line ──────────────────────────────────────────
+          svgL.appendChild(svgEl('line', {
+            x1: x2566, y1: yMid,
+            x2: x2569, y2: yMid,
+            stroke: T('rgba(148,163,184,0.18)', 'rgba(100,116,139,0.25)'),
+            'stroke-width': isDanger ? 1.5 : 0.8
+          }));
+
+          // ── 2566 dot ──────────────────────────────────────────────────
+          svgL.appendChild(svgEl('circle', {
+            cx: x2566, cy: yMid, r: R,
+            fill: T('rgba(255,255,255,0.25)', 'rgba(0,0,0,0.3)'),
+            stroke: T('rgba(255,255,255,0.25)', 'rgba(0,0,0,0.3)'),
+            'stroke-width': 0.5
+          }));
+
+          // ── 2569 dot with ring ──────────────────────────────────────
+          svgL.appendChild(svgEl('circle', {
+            cx: x2569, cy: yMid, r: R + 2.5,
+            fill: 'none',
+            stroke: getComputedStyle(document.documentElement).getPropertyValue('--ring').trim() || '#fff',
+            'stroke-width': 2,
+            opacity: 0.9
+          }));
+          svgL.appendChild(svgEl('circle', {
+            cx: x2569, cy: yMid, r: R,
+            fill: c2569,
+            stroke: T('rgba(255,255,255,0.4)', 'rgba(0,0,0,0.3)'),
+            'stroke-width': isDanger ? 1.5 : 0.8
+          }));
+
+          // ── Change label ─────────────────────────────────────────────
+          const changeColor = pctChange < -0.5 ? '#14b8a6'
+            : pctChange > 0.5 ? '#ef4444'
+              : '#475569';
+          svgText(svgL, LBL_W + SLOPE_W + 6, yMid + 3.5,
+            sign + pctChange.toFixed(2), {
+            'font-size': '9.5',
+            'font-family': 'DM Mono, monospace',
+            fill: changeColor
+          });
+
+          // ── Raw diff label ────────────────────────────────────────
+          const rawDiff = d.invalid_change || 0;
+          const rawSign = rawDiff >= 0 ? '+' : '';
+          svgText(svgL, LBL_W + SLOPE_W + 50, yMid + 3.5,
+            rawSign + rawDiff.toLocaleString(), {
+            'font-size': '9',
+            'font-family': 'DM Mono, monospace',
+            fill: changeColor
+          });
+
+          // ── MID SVG: runner-up party dot ─────────────────────────────
+          svgM.appendChild(svgEl('circle', {
+            cx: DOT_COL_W + 15, cy: yMid, r: R + 0.5,
+            fill: pc(runnerUpParty(d)),
+            stroke: T('rgba(255,255,255,0.3)', 'rgba(0,0,0,0.25)'),
+            'stroke-width': 0.8
+          }));
+
+          // ── RIGHT SVG: 100% bar ──────────────────────────────────────
+          const mVal = d.margin_2569 || 0;
+          const iVal = d.invalid_2569 || 0;
+          const total = mVal + iVal;
+          const marginW = total > 0 ? (mVal / total) * BAR_W : 0;
+          const invalidW = total > 0 ? (iVal / total) * BAR_W : 0;
+          const bx = BAR_GAP;
+          const by = y0 + 2;
+          const bh = ROW_H - 4;
+
+          // Margin segment
+          svgR.appendChild(svgEl('rect', {
+            x: bx, y: by, width: marginW, height: bh,
+            fill: T('rgba(255,255,255,0.3)', 'rgba(0,0,0,0.15)'), opacity: 0.75, rx: 1
+          }));
+
+          // Invalid segment
+          svgR.appendChild(svgEl('rect', {
+            x: bx + marginW, y: by, width: invalidW, height: bh,
+            fill: isDanger ? '#ef4444' : '#ccc4c4',
+            opacity: isDanger ? 0.9 : 0.7, rx: 1
+          }));
+
+          // Danger indicator
+          if (isDanger) {
+            svgText(svgR, bx + BAR_W + 5, yMid + 3.5, '⚠', {
+              'font-size': '9.5', fill: '#ef4444'
+            });
+            // Numbers in bar
+            svgText(svgR, bx + 2, yMid + 3.5,
+              mVal.toLocaleString(), {
+              'text-anchor': 'start', 'font-size': '8.5',
+              'font-family': 'DM Mono, monospace',
+              fill: '#ffffff'
+            });
+            svgText(svgR, bx + marginW + invalidW - 2, yMid + 3.5,
+              iVal.toLocaleString(), {
+              'text-anchor': 'end', 'font-size': '8.5',
+              'font-family': 'DM Mono, monospace',
+              fill: '#ffffff'
+            });
+          }
+        });
+
+        // ── Update header stats (based on current filtered data) ────────────────────
+        const dangerRows      = data.filter(d => d.invalid_2569 > d.margin_2569);
+        const improvedRows    = data.filter(d => d.invalid_pct_change < 0);   // Δ% down
+        const worseRows       = data.filter(d => d.invalid_pct_change > 0);   // Δ% up
+        const improvedRawRows = data.filter(d => d.invalid_change < 0);       // Δ# down
+        const worseRawRows    = data.filter(d => d.invalid_change > 0);       // Δ# up
+
+        // Counts by Δ%
+        document.getElementById('hs-danger').textContent   = dangerRows.length;
+        document.getElementById('hs-improved').textContent = improvedRows.length;
+        document.getElementById('hs-worse').textContent    = worseRows.length;
+
+        // Counts by Δ# (raw)
+        const elImpRaw = document.getElementById('hs-improved-raw');
+        const elWrsRaw = document.getElementById('hs-worse-raw');
+        if (elImpRaw) elImpRaw.textContent = improvedRawRows.length;
+        if (elWrsRaw) elWrsRaw.textContent = worseRawRows.length;
+
+        // L and R ballot sums per category
+        const sumL = rows => rows.reduce((s, d) => s + (d.invalid || 0), 0);
+        const sumR = rows => rows.reduce((s, d) => s + (d.invalid_2569 || 0), 0);
+        const fmt  = n => n.toLocaleString() + ' บัตร';
+
+        document.getElementById('hs-danger-sum-l').textContent   = fmt(sumL(dangerRows));
+        document.getElementById('hs-danger-sum-r').textContent   = fmt(sumR(dangerRows));
+        document.getElementById('hs-improved-sum-l').textContent = fmt(sumL(improvedRows));
+        document.getElementById('hs-improved-sum-r').textContent = fmt(sumR(improvedRows));
+        document.getElementById('hs-worse-sum-l').textContent    = fmt(sumL(worseRows));
+        document.getElementById('hs-worse-sum-r').textContent    = fmt(sumR(worseRows));
+        document.getElementById('hs-improved-raw-sum-l').textContent = fmt(sumL(improvedRawRows));
+        document.getElementById('hs-improved-raw-sum-r').textContent = fmt(sumR(improvedRawRows));
+        document.getElementById('hs-worse-raw-sum-l').textContent    = fmt(sumL(worseRawRows));
+        document.getElementById('hs-worse-raw-sum-r').textContent    = fmt(sumR(worseRawRows));
+
+        const elSumL = document.getElementById('hs-all-sum-l');
+        const elSumR = document.getElementById('hs-all-sum-r');
+        if (elSumL) elSumL.textContent = fmt(sumL(data));
+        if (elSumR) elSumR.textContent = fmt(sumR(data));
+
+        // "All" summary: direction counts by Δ% and Δ#
+        const allInc    = fullProcessedData.filter(d => d.invalid_pct_change > 0).length;
+        const allDec    = fullProcessedData.filter(d => d.invalid_pct_change < 0).length;
+        const allIncRaw = fullProcessedData.filter(d => d.invalid_change > 0).length;
+        const allDecRaw = fullProcessedData.filter(d => d.invalid_change < 0).length;
+        const summaryEl    = document.getElementById('hs-all-summary');
+        const summaryRawEl = document.getElementById('hs-all-summary-raw');
+        if (summaryEl)    summaryEl.textContent    = `↑${allInc} / ↓${allDec}`;
+        if (summaryRawEl) summaryRawEl.textContent = `↑${allIncRaw} / ↓${allDecRaw}`;
+
+        svgR.setAttribute('height', H);
+        buildLegend(data);
+      }
+
+      // ─── TOOLTIP ────────────────────────────────────────────────────────
+      function showTip(e, d, isDanger, sign, pctChange) {
+        const tip = document.getElementById('tooltip');
+        if (!tip) return;
+
+        const runnerUpName = runnerUpParty(d);
+        const runnerUpCol = pc(runnerUpName);
+        const changeColor = pctChange < 0 ? '#14b8a6' : '#ef4444';
+
+        // Surplus value (const_surplus for constituency, pl_surplus for party list)
+        const surplus = currentDataset === 'partylist' ? (d.pl_surplus ?? 0) : (d.const_surplus ?? 0);
+        const surplusLabel = currentDataset === 'partylist' ? 'บัตรส่วนเกิน (บัญชี)' : 'บัตรส่วนเกิน (เขต)';
+        const surplusColor = surplus !== 0 ? '#f59e0b' : 'var(--muted)';
+        const surplusSign = surplus > 0 ? '+' : '';
+
+        // Voters diff for party list only
+        const votersDiff = d.voters_diff_const_PL ?? 0;
+        const votersDiffColor = votersDiff > 0 ? '#f59e0b' : votersDiff < 0 ? '#8b5cf6' : 'var(--muted)';
+        const votersDiffSign = votersDiff > 0 ? '+' : '';
+
+        // Build extra info section based on dataset
+        let extraSection = '';
+        if (currentDataset === 'partylist') {
+          // Party list: show pl_surplus and voters_diff_const_PL
+          extraSection = `
+          <div style="margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--border); font-size: 11px;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+              <span style="color: var(--muted);">${surplusLabel}:</span>
+              <span style="font-family: 'DM Mono'; color: ${surplusColor}; font-weight: ${surplus !== 0 ? 'bold' : 'normal'};">${surplusSign}${surplus.toLocaleString()}</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span style="color: var(--muted);">ผู้มาใช้สิทธิ์ (เขต - บัญชี):</span>
+              <span style="font-family: 'DM Mono'; color: ${votersDiffColor}; font-weight: ${votersDiff !== 0 ? 'bold' : 'normal'};">${votersDiffSign}${votersDiff.toLocaleString()}</span>
+            </div>
+            ${votersDiff !== 0 || surplus !== 0 ? `
+            <div style="font-size: 9px; color: var(--amber); margin-top: 4px; text-align: center;">
+              ${surplus !== 0 ? '⚠ มีบัตรส่วนเกิน' : ''}
+              ${surplus !== 0 && votersDiff !== 0 ? ' · ' : ''}
+              ${votersDiff > 0 ? '⚠ บัตรเขต > บัตรบัญชี' : votersDiff < 0 ? '⚠ บัตรบัญชี > บัตรเขต' : ''}
+            </div>
+            ` : ''}
+          </div>
+        `;
+        } else {
+          // Constituency: show const_surplus only if non-zero
+          if (surplus !== 0) {
+            extraSection = `
+            <div style="margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--border); font-size: 11px;">
+              <div style="display: flex; justify-content: space-between;">
+                <span style="color: var(--muted);">${surplusLabel}:</span>
+                <span style="font-family: 'DM Mono'; color: ${surplusColor}; font-weight: bold;">${surplusSign}${surplus.toLocaleString()}</span>
+              </div>
+              <div style="font-size: 9px; color: var(--amber); margin-top: 4px; text-align: center;">
+                ⚠ มีบัตรส่วนเกิน
+              </div>
+            </div>
+          `;
+          }
+        }
+
+        const leftLabel = document.getElementById('archive-select-left').options[document.getElementById('archive-select-left').selectedIndex].text.split(' | ')[0];
+        const rightLabel = document.getElementById('archive-select-right').options[document.getElementById('archive-select-right').selectedIndex].text.split(' | ')[0];
+
+        const leftMargin = (d.margin || 0);
+        const rightMargin = (d.margin_2569 || 0);
+        const leftInvalid = (d.invalid || 0);
+        const rightInvalid = (d.invalid_2569 || 0);
+        const leftDanger = leftInvalid > leftMargin;
+        const rightDanger = rightInvalid > rightMargin;
+
+        tip.innerHTML = `
+        <div style="font-weight: 600; margin-bottom: 4px;">${d.province_thai} เขต ${d.cons_no}</div>
+        <div style="font-size: 11px; color: var(--muted); margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 6px;">${d.province_eng}</div>
+        
+        <div style="display: flex; gap: 12px; margin-bottom: 8px;">
+          <!-- Left Column -->
+          <div style="flex: 1; border-right: 1px dashed var(--border); padding-right: 8px;">
+            <div style="font-size: 10px; color: var(--muted); margin-bottom: 6px; font-weight: bold;">${leftLabel}</div>
+            
+            <div style="font-size: 11px; margin-bottom: 3px; display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex; align-items: center; gap: 4px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                <span style="display:inline-block; min-width:8px; height:8px; border-radius:50%; background:${pc(d.winner_party)}; margin-top: 1px;"></span>
+                <b title="${d.winner_party}" style="overflow: hidden; text-overflow: ellipsis;">${d.winner_party}</b>
+              </div>
+              <span style="font-family: 'DM Mono'; color: var(--muted);">${(d.winner_votes || 0).toLocaleString()}</span>
+            </div>
+            
+            <div style="font-size: 11px; margin-bottom: 6px; display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex; align-items: center; gap: 4px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                <span style="display:inline-block; min-width:8px; height:8px; border-radius:50%; background:${pc(d.runnerup_party || 'Unknown')}; margin-top: 1px;"></span>
+                <span title="${d.runnerup_party || 'Unknown'}" style="overflow: hidden; text-overflow: ellipsis;">${d.runnerup_party || 'Unknown'}</span>
+              </div>
+              <span style="font-family: 'DM Mono'; color: var(--muted);">${(d.runnerup_votes || 0).toLocaleString()}</span>
+            </div>
+            
+            <div style="font-size: 10px; display: flex; justify-content: space-between; margin-bottom: 3px;">
+              <span style="color: var(--muted);">ช่องว่าง:</span>
+              <span style="font-family: 'DM Mono'; color: var(--teal);">${leftMargin.toLocaleString()}</span>
+            </div>
+            <div style="font-size: 10px; display: flex; justify-content: space-between;">
+              <span style="color: var(--muted);">บัตรเสีย:</span>
+              <span style="font-family: 'DM Mono'; color: ${leftDanger ? 'var(--red)' : 'var(--text)'}; font-weight: ${leftDanger ? 'bold' : 'normal'};">
+                ${leftInvalid.toLocaleString()} <span style="font-size:9px;opacity:0.75;font-weight:normal;">(${(d.percent_invalid || 0).toFixed(2)}%)</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div style="flex: 1;">
+            <div style="font-size: 10px; color: var(--muted); margin-bottom: 6px; font-weight: bold;">${rightLabel}</div>
+            
+            <div style="font-size: 11px; margin-bottom: 3px; display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex; align-items: center; gap: 4px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                <span style="display:inline-block; min-width:8px; height:8px; border-radius:50%; background:${pc(d.winner_party_2569)}; margin-top: 1px;"></span>
+                <b title="${d.winner_party_2569}" style="overflow: hidden; text-overflow: ellipsis;">${d.winner_party_2569}</b>
+              </div>
+              <span style="font-family: 'DM Mono'; color: var(--muted);">${(d.winner_votes_2569 || 0).toLocaleString()}</span>
+            </div>
+            
+            <div style="font-size: 11px; margin-bottom: 6px; display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex; align-items: center; gap: 4px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+                <span style="display:inline-block; min-width:8px; height:8px; border-radius:50%; background:${pc(d.runnerup_party_2569 || 'Unknown')}; margin-top: 1px;"></span>
+                <span title="${d.runnerup_party_2569 || 'Unknown'}" style="overflow: hidden; text-overflow: ellipsis;">${d.runnerup_party_2569 || 'Unknown'}</span>
+              </div>
+              <span style="font-family: 'DM Mono'; color: var(--muted);">${(d.runnerup_votes_2569 || 0).toLocaleString()}</span>
+            </div>
+            
+            <div style="font-size: 10px; display: flex; justify-content: space-between; margin-bottom: 3px;">
+              <span style="color: var(--muted);">ช่องว่าง:</span>
+              <span style="font-family: 'DM Mono'; color: var(--teal);">${rightMargin.toLocaleString()}</span>
+            </div>
+            <div style="font-size: 10px; display: flex; justify-content: space-between;">
+              <span style="color: var(--muted);">บัตรเสีย:</span>
+              <span style="font-family: 'DM Mono'; color: ${rightDanger ? 'var(--red)' : 'var(--text)'}; font-weight: ${rightDanger ? 'bold' : 'normal'};">
+                ${rightInvalid.toLocaleString()} <span style="font-size:9px;opacity:0.75;font-weight:normal;">(${(d.percent_invalid_2569 || 0).toFixed(2)}%)</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div style="font-size: 11px; border-top: 1px solid var(--border); padding-top: 6px; display: flex; justify-content: space-between; align-items: center;">
+          <span style="color: var(--muted);">อัตราส่วนเปลี่ยนแปลง:</span>
+          <span style="font-family: 'DM Mono'; color: ${changeColor}; font-weight: bold;">${sign}${Math.abs(pctChange || 0).toFixed(2)} pp</span>
+        </div>
+
+        ${extraSection}
+        ${rightDanger ? `<div style="margin-top: 8px; color: var(--red); font-weight: bold; font-size: 10px; text-align: center; background: rgba(239, 68, 68, 0.1); padding: 4px; border-radius: 4px;">⚠ บัตรเสียฝั่งขวา > ช่องว่างคะแนน</div>` : ''}
+      `;
+
+        tip.style.display = 'block';
+
+        let posX = e.clientX + 15;
+        let posY = e.clientY + 15;
+
+        if (posX + 250 > window.innerWidth) {
+          posX = e.clientX - 260;
+        }
+        if (posY + 200 > window.innerHeight) {
+          posY = e.clientY - tip.offsetHeight - 20;
+        }
+
+        tip.style.left = posX + 'px';
+        tip.style.top = posY + 'px';
+      }
+
+      function hideTip() {
+        document.getElementById('tooltip').style.display = 'none';
+      }
+
+      // ─── PARTY LEGEND ───────────────────────────────────────────────────
+      function buildLegend(currentData) {
+        const container = document.getElementById('party-legend');
+        container.innerHTML = '';
+
+        const rightSel = document.getElementById('archive-select-right');
+        let rightLabel = rightSel.options[rightSel.selectedIndex].text.split(' | ')[0] || 'ข้อมูลเปรียบเทียบ';
+        rightLabel = rightLabel.replace('Election ', '').split(' (')[0].trim();
+        const titleEl = document.getElementById('party-legend-title');
+        if (titleEl) titleEl.textContent = `พรรคผู้ชนะ (${rightLabel})`;
+
+        const visibleParties = new Set();
+        currentData.forEach(d => {
+          visibleParties.add(d.winner_party_2569);
+          visibleParties.add(runnerUpParty(d));
+        });
+
+        const sortedParties = [...visibleParties].filter(Boolean).sort((a, b) => (a ?? '').localeCompare(b ?? '', 'th'));
+
+        sortedParties.forEach(p => {
+          const div = document.createElement('div');
+          div.className = 'dot-label';
+          div.innerHTML = `<div class="dot-swatch" style="background:${pc(p)}"></div>${p}`;
+          container.appendChild(div);
+        });
+      }
+
+      // ─── CAPTURE IMAGE ──────────────────────────────────────────────────
+      async function captureImage() {
+        const btn = event.target;
+        const originalText = btn.textContent;
+        btn.textContent = '⏳ Processing...';
+        btn.disabled = true;
+
+        const element = document.getElementById('capture-container');
+        const chartScroll = document.getElementById('chart-area');
+        const header = document.getElementById('header');
+
+        const originalContainerStyle = element.style.cssText;
+        const originalHeaderStyle = header.style.cssText;
+        const originalChartStyle = chartScroll.style.cssText;
+
+        try {
+          element.style.height = 'auto';
+          element.style.width = '1200px';
+          element.style.position = 'relative';
+          element.style.padding = '40px';
+
+          header.style.position = 'relative';
+          header.style.width = '100%';
+          header.style.top = '0';
+          header.style.left = '0';
+
+          chartScroll.style.height = 'auto';
+          chartScroll.style.overflow = 'visible';
+          chartScroll.style.position = 'relative';
+          chartScroll.style.marginTop = '20px';
+          chartScroll.style.marginLeft = '0';
+          chartScroll.style.marginRight = '0';
+
+          const dataUrl = await htmlToImage.toPng(element, {
+            backgroundColor: getComputedStyle(document.documentElement).getPropertyValue('--bg'),
+            quality: 0.95,
+            pixelRatio: data.length > 50 ? 1 : 2,
+            cacheBust: true,
+          });
+
+          const link = document.createElement('a');
+          link.download = `election-data-${new Date().getTime()}.png`;
+          link.href = dataUrl;
+          link.click();
+
+          btn.textContent = originalText;
+        } catch (err) {
+          console.error("Capture Error:", err);
+          btn.textContent = '❌ Error';
+          setTimeout(() => {
+            btn.textContent = originalText;
+            btn.disabled = false;
+          }, 3000);
+        } finally {
+          element.style.cssText = originalContainerStyle;
+          header.style.cssText = originalHeaderStyle;
+          chartScroll.style.cssText = originalChartStyle;
+          btn.disabled = false;
+        }
+      }
+
+      // ─── ARCHIVE LOADING ────────────────────────────────────────────────
+      async function loadArchive(url, side) {
+        console.log(`[DATA] Fetching ${side} from ${url}...`);
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+        const text = await res.text();
+
+        const parseVar = (varName) => {
+          const idx = text.indexOf(varName);
+          if (idx === -1) return [];
+          const arrStart = text.indexOf('[', idx);
+          const arrEnd = text.indexOf('];', arrStart);
+          if (arrStart !== -1 && arrEnd !== -1) {
+            return JSON.parse(text.substring(arrStart, arrEnd + 1));
+          }
+          return [];
+        };
+
+        // Use HTTP Last-Modified header (works for all files, no comment needed)
+        // Fall back to // Generated: comment if present, then to Last-Modified
+        const lastModified = res.headers.get('Last-Modified');
+        const tsMatch = text.match(/\/\/ Generated:\s*(.+)/);
+        let tsLabel;
+        if (tsMatch) {
+          tsLabel = tsMatch[1].trim();
+        } else if (lastModified) {
+          // Format: "Mon, 23 Feb 2026 18:33:12 GMT" → nicely readable
+          const d = new Date(lastModified);
+          tsLabel = d.toLocaleString('th-TH', { timeZone: 'Asia/Bangkok', year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }) + ' (ICT)';
+        } else {
+          tsLabel = 'ไม่ทราบวันที่';
+        }
+
+        // Get a short label for the dataset from the select dropdown
+        const selId = side === 'left' ? 'archive-select-left' : 'archive-select-right';
+        const sel = document.getElementById(selId);
+        const datasetName = sel ? sel.options[sel.selectedIndex].text : url;
+
+        // Update the disclaimer timestamp
+        const tsEl = document.getElementById(side === 'left' ? 'ts-left' : 'ts-right');
+        if (tsEl) tsEl.textContent = `${datasetName}: ${tsLabel}`;
+
+        const rawConst = parseVar('CONST_RAW');
+        const rawPL = parseVar('PARTYLIST_RAW');
+
+        if (side === 'left') {
+          DATA_LEFT = { raw: rawConst.map(normalizeRecord), pl: rawPL.map(normalizeRecord) };
+        } else {
+          DATA_RIGHT = { raw: rawConst.map(normalizeRecord), pl: rawPL.map(normalizeRecord) };
+        }
+      }
+
+      // Attach a hover tooltip to a single bar segment
+      function attachBarTip(el, label, count, pct, dsLabel, color) {
+        if (!el) return;
+        el.style.cursor = count > 0 ? 'crosshair' : 'default';
+        if (count > 0) {
+          el.onmousemove = (e) => {
+            const tip = document.getElementById('tooltip');
+            if (!tip) return;
+            tip.innerHTML = `
+              <div style="font-size:0.68rem;color:var(--muted);margin-bottom:6px;font-family:'DM Mono',monospace;">${dsLabel}</div>
+              <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px;">
+                <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${color};flex-shrink:0;"></span>
+                <b>${label}</b>
+              </div>
+              <div style="font-family:'DM Mono',monospace;font-size:0.88rem;">${count.toLocaleString()} คะแนน</div>
+              <div style="font-family:'DM Mono',monospace;font-size:0.72rem;color:var(--muted);margin-top:2px;">${pct}% ของผู้มาใช้สิทธิ์</div>
+            `;
+            tip.style.display = 'block';
+            tip.style.left = Math.min(e.clientX + 14, window.innerWidth - 340) + 'px';
+            tip.style.top = Math.min(e.clientY + 14, window.innerHeight - 130) + 'px';
+          };
+          el.onmouseleave = () => { document.getElementById('tooltip').style.display = 'none'; };
+        } else {
+          el.onmousemove = null;
+          el.onmouseleave = null;
+        }
+      }
+
+      function updateVoteBar() {
+        const leftRaw = currentDataset === 'partylist' ? DATA_LEFT.pl : (DATA_LEFT.raw || []);
+
+        // Resolve dataset label text for tooltips
+        const leftSel = document.getElementById('archive-select-left');
+        const rightSel = document.getElementById('archive-select-right');
+        const leftLabel = leftSel ? leftSel.options[leftSel.selectedIndex].text.split(' | ')[0] : 'L';
+        const rightLabel = rightSel ? rightSel.options[rightSel.selectedIndex].text.split(' | ')[0] : 'R';
+
+        // ── LEFT bar ──────────────────────────────────────────────────────────
+        let lPIn = '0';
+        if (leftRaw.length) {
+          let totW = 0, totRu = 0, totInv = 0, totAll = 0;
+          let winnerParty = '', winnerMax = 0;
+          const partyCounts = {};
+          leftRaw.forEach(d => {
+            totW += (d.winner_votes || 0);
+            totRu += (d.runnerup_votes || 0);
+            totInv += (d.invalid || 0);
+            totAll += (d.turn_out || 0);
+            const p = d.winner_party || 'Unknown';
+            partyCounts[p] = (partyCounts[p] || 0) + (d.winner_votes || 0);
+            if (partyCounts[p] > winnerMax) { winnerMax = partyCounts[p]; winnerParty = p; }
+          });
+          if (totAll > 0) {
+            const totValid = totAll - totInv;
+            const totRest = Math.max(totValid - totW - totRu, 0);
+            const pW = (totW / totAll * 100).toFixed(2);
+            const pRu = (totRu / totAll * 100).toFixed(2);
+            const pRe = (totRest / totAll * 100).toFixed(2);
+            lPIn = (totInv / totAll * 100).toFixed(2);
+            const wColor = pc(winnerParty);
+            const bW = document.getElementById('vb-winner');
+            const bRu = document.getElementById('vb-runner');
+            const bRe = document.getElementById('vb-rest');
+            const bIn = document.getElementById('vb-invalid');
+            if (bW) { bW.style.width = pW + '%'; bW.style.background = wColor; }
+            if (bRu) { bRu.style.width = pRu + '%'; bRu.style.background = '#94a3b8'; }
+            if (bRe) bRe.style.width = pRe + '%';
+            if (bIn) bIn.style.width = lPIn + '%';
+            attachBarTip(bW,  'ผู้ชนะ',      totW,    pW,   leftLabel, wColor);
+            attachBarTip(bRu, 'อันดับ 2',     totRu,   pRu,  leftLabel, '#94a3b8');
+            attachBarTip(bRe, 'ส่วนที่เหลือ', totRest, pRe,  leftLabel, '#64748b');
+            attachBarTip(bIn, 'บัตรเสีย',     totInv,  lPIn, leftLabel, '#ef4444');
+          }
+        } else {
+          ['vb-winner','vb-runner','vb-rest','vb-invalid'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.style.width = '0%';
+          });
+        }
+
+        // ── RIGHT bar ─────────────────────────────────────────────────────────
+        const rightRaw = currentDataset === 'partylist' ? (DATA_RIGHT && DATA_RIGHT.pl) : (DATA_RIGHT && DATA_RIGHT.raw);
+        let rPIn = '0';
+        const hasRight = rightRaw && rightRaw.length > 0;
+        if (hasRight) {
+          let totW = 0, totRu = 0, totInv = 0, totAll = 0;
+          let winnerParty = '', winnerMax = 0;
+          const partyCounts = {};
+          rightRaw.forEach(d => {
+            totW += (d.winner_votes || 0);
+            totRu += (d.runnerup_votes || 0);
+            totInv += (d.invalid || 0);
+            totAll += (d.turn_out || 0);
+            const p = d.winner_party || 'Unknown';
+            partyCounts[p] = (partyCounts[p] || 0) + (d.winner_votes || 0);
+            if (partyCounts[p] > winnerMax) { winnerMax = partyCounts[p]; winnerParty = p; }
+          });
+          if (totAll > 0) {
+            const totValid = totAll - totInv;
+            const totRest = Math.max(totValid - totW - totRu, 0);
+            const pW = (totW / totAll * 100).toFixed(2);
+            const pRu = (totRu / totAll * 100).toFixed(2);
+            const pRe = (totRest / totAll * 100).toFixed(2);
+            rPIn = (totInv / totAll * 100).toFixed(2);
+            const wColor = pc(winnerParty);
+            const bW = document.getElementById('vbr-winner');
+            const bRu = document.getElementById('vbr-runner');
+            const bRe = document.getElementById('vbr-rest');
+            const bIn = document.getElementById('vbr-invalid');
+            if (bW) { bW.style.width = pW + '%'; bW.style.background = wColor; }
+            if (bRu) bRu.style.width = pRu + '%';
+            if (bRe) bRe.style.width = pRe + '%';
+            if (bIn) bIn.style.width = rPIn + '%';
+            attachBarTip(bW,  'ผู้ชนะ',      totW,    pW,   rightLabel, wColor);
+            attachBarTip(bRu, 'อันดับ 2',     totRu,   pRu,  rightLabel, '#94a3b8');
+            attachBarTip(bRe, 'ส่วนที่เหลือ', totRest, pRe,  rightLabel, '#64748b');
+            attachBarTip(bIn, 'บัตรเสีย',     totInv,  rPIn, rightLabel, '#ef4444');
+          }
+        } else {
+          ['vbr-winner','vbr-runner','vbr-rest','vbr-invalid'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.style.width = '0%';
+          });
+        }
+
+        // ── L/R labels ───────────────────────────────────────────────────────
+        const lbl_l = document.getElementById('vb-l-label');
+        const lbl_r = document.getElementById('vb-r-label');
+        if (lbl_l) lbl_l.textContent = leftLabel.replace('เลือกตั้ง ','').replace('เลือกตั้ง','') || 'L';
+        if (lbl_r) lbl_r.textContent = (hasRight ? rightLabel.replace('เลือกตั้ง ','').replace('เลือกตั้ง','') : '—') || 'R';
+
+        // ── Legend ───────────────────────────────────────────────────────────
+        const leg = document.getElementById('vote-bar-legend');
+        if (leg) leg.innerHTML = `
+            <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ef4444;vertical-align:middle;margin-right:3px;"></span>L บัตรเสีย: ${lPIn}%</span>
+            ${hasRight ? `<span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ef4444;opacity:0.5;vertical-align:middle;margin-right:3px;"></span>R บัตรเสีย: ${rPIn}%</span>` : ''}
+            <span style="color:var(--muted);font-size:0.65rem;">● ผู้ชนะ &nbsp;● อันดับ 2 &nbsp;● ส่วนที่เหลือ &nbsp;● บัตรเสีย</span>
+          `;
+      }
+
+      function renderAll() {
+        processRawData();
+        updateCounts();
+        updateMissingWarning();
+        buildChart();
+        if (data.length > 0) buildLegend(data);
+        updateVoteBar();
+      }
+
+      // ─── INIT ────────────────────────────────────────────────────────────
+      function toggleSidebar(side) {
+        if (side === 'left') {
+          document.getElementById('left-sidebar').classList.toggle('show');
+          document.getElementById('right-sidebar').classList.remove('show');
+        } else {
+          document.getElementById('right-sidebar').classList.toggle('show');
+          document.getElementById('left-sidebar').classList.remove('show');
+        }
+
+        if (document.getElementById('left-sidebar').classList.contains('show') || document.getElementById('right-sidebar').classList.contains('show')) {
+          document.getElementById('sidebar-overlay').classList.add('show');
+        } else {
+          document.getElementById('sidebar-overlay').classList.remove('show');
+        }
+      }
+
+      function closeSidebars() {
+        document.getElementById('left-sidebar').classList.remove('show');
+        document.getElementById('right-sidebar').classList.remove('show');
+        document.getElementById('sidebar-overlay').classList.remove('show');
+      }
+
+      // ─── DYNAMIC HEADER HEIGHT ────────────────────────────────────────────
+      // Measures the actual rendered header height and sets --header-h so the
+      // sidebars and wrapper always start exactly where the header ends.
+      function updateHeaderHeight() {
+        const h = document.getElementById('header').getBoundingClientRect().height;
+        document.documentElement.style.setProperty('--header-h', h + 'px');
+      }
+
+      // ─── DYNAMIC TITLE ───────────────────────────────────────────────────
+      function updateHeaderTitle() {
+        const leftSel = document.getElementById('archive-select-left');
+        const rightSel = document.getElementById('archive-select-right');
+        if (!leftSel || !rightSel) return;
+
+        const getShort = (sel) => {
+          const txt = sel.options[sel.selectedIndex].text;
+          if (txt.includes('(OCR)')) return '2569 (OCR)';
+          if (txt.includes('(94%)')) return '2569 (94%)';
+          const m = txt.match(/(\d{4})/);
+          return m ? m[1] : txt.split(' (')[0].trim();
+        };
+
+        const leftYear = getShort(leftSel);
+        const rightYear = getShort(rightSel);
+        const titleEl = document.getElementById('header-title');
+        const subtitleEl = document.getElementById('header-subtitle');
+        if (titleEl) titleEl.textContent = `บัตรเสีย : ${leftYear} → ${rightYear}`;
+        if (subtitleEl) subtitleEl.textContent = `การเปลี่ยนแปลงอัตราบัตรเสีย · ${fullProcessedData.length || 0} เขตที่มีข้อมูลทั้งสองชุด · เรียงตาม % การเปลี่ยนแปลง`;
+      }
+
+      function initApp() {
+        document.getElementById('btn-load-comparison').addEventListener('click', async () => {
+          const btn = document.getElementById('btn-load-comparison');
+          btn.textContent = "Loading...";
+          btn.disabled = true;
+
+          try {
+            const valL = document.getElementById('archive-select-left').value;
+            const valR = document.getElementById('archive-select-right').value;
+
+            await Promise.all([
+              loadArchive(valL, 'left'),
+              loadArchive(valR, 'right')
+            ]);
+
+            document.getElementById('prompt-overlay').style.display = 'none';
+            document.getElementById('chart-area').style.display = 'flex';
+
+            // Re-trigger the label subtitle setting
+            switchDataset(currentDataset);
+            updateHeaderTitle();
+          } catch (e) {
+            alert("Error loading datasets. Ensure you are running a local web server (e.g. python -m http.server)");
+            console.error(e);
+          } finally {
+            btn.textContent = "✔ ยืนยันการเปรียบเทียบ (confirm)";
+            btn.disabled = false;
+          }
+        });
+
+        // Measure real header height and update CSS variable
+        updateHeaderHeight();
+        window.addEventListener('resize', updateHeaderHeight);
+        // Also observe header for size changes (e.g. font loading, theme switch)
+        if (window.ResizeObserver) {
+          new ResizeObserver(updateHeaderHeight).observe(document.getElementById('header'));
+        }
+
+        // Update title on dropdown change without reloading
+        document.getElementById('archive-select-left').addEventListener('change', updateHeaderTitle);
+        document.getElementById('archive-select-right').addEventListener('change', updateHeaderTitle);
+      }
+
+      initApp();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Surplus Analysis Comparison Test</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .dataset-pane {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1;
+        }
+
+        .result {
+            margin-top: 30px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background: #f4f4f4;
+        }
+
+        .alert {
+            color: #f05957;
+            font-weight: bold;
+        }
+
+        .loading {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Surplus Analysis Comparison Tool</h1>
+    <p>Comparing statistical gaps (Invalid > Margin) between different snapshots.</p>
+
+    <div class="controls">
+        <div class="dataset-pane">
+            <h3>Source A</h3>
+            <select id="select-a"></select>
+            <div id="status-a" class="loading">Loading manifest...</div>
+        </div>
+        <div class="dataset-pane">
+            <h3>Source B</h3>
+            <select id="select-b"></select>
+            <div id="status-b" class="loading">None selected</div>
+        </div>
+    </div>
+
+    <div class="result">
+        <h2>Comparison: Statistical Gap Gaps (Invalid > Margin)</h2>
+        <div id="comparison-table-container">Select both sources.</div>
+    </div>
+
+    <script>
+        const store = { a: null, b: null, manifest: [] };
+
+        function num(v) { return v === null || v === undefined || v === "" ? 0 : parseFloat(v); }
+
+        function normalizeRecord(d) {
+            return {
+                province: d.province_thai || d.province || "Unknown",
+                cons_no: d.cons_no || 0,
+                invalid_2569: num(d.invalid_2569),
+                margin_2569: num(d.margin_2569),
+                winner_party: d.winner_party_2569 || "Unknown",
+                has_surplus: num(d.invalid_2569) > num(d.margin_2569)
+            };
+        }
+
+        async function init() {
+            try {
+                const res = await fetch('archives/manifest.json');
+                if (!res.ok) throw new Error("Manifest not found");
+                store.manifest = await res.json();
+                populateDropdowns();
+            } catch (e) {
+                console.error("Manifest load error", e);
+                // Fallback: populate with baseline options at least
+                populateDropdowns();
+            }
+        }
+
+        function populateDropdowns() {
+            const selects = [document.getElementById('select-a'), document.getElementById('select-b')];
+            selects.forEach(sel => {
+                const side = sel.id.slice(-1);
+                sel.innerHTML = '<option value="">-- Select --</option>';
+
+                // Always add 'latest' options
+                const latest1 = document.createElement('option');
+                latest1.value = 'election_data_generated.js'; latest1.textContent = 'Latest (Generated)';
+                sel.appendChild(latest1);
+
+                const latest2 = document.createElement('option');
+                latest2.value = 'election_data.js'; latest2.textContent = 'Latest (Alternative)';
+                sel.appendChild(latest2);
+
+                store.manifest.forEach(item => {
+                    if (item.id === 'latest') return;
+                    const opt = document.createElement('option');
+                    opt.value = item.file;
+                    opt.textContent = item.name;
+                    sel.appendChild(opt);
+                });
+                sel.addEventListener('change', () => handleSelect(side));
+            });
+        }
+
+        async function handleSelect(side) {
+            const select = document.getElementById(`select-${side}`);
+            const status = document.getElementById(`status-${side}`);
+            const url = select.value;
+            if (!url) { store[side] = null; status.textContent = "None selected"; return; }
+            status.textContent = "Loading...";
+            try {
+                const res = await fetch(url);
+                const text = await res.text();
+                // Extract CONST_RAW using more lenient regex
+                const constMatch = text.match(/(?:const|var|let)\s+CONST_RAW\s*=\s*(\[[\s\S]*?\])\s*;?/);
+                const raw = constMatch ? JSON.parse(constMatch[1]) : [];
+                store[side] = raw.map(normalizeRecord);
+                status.textContent = `Loaded: ${store[side].length} records`;
+                compare();
+            } catch (e) {
+                status.textContent = "Error";
+                console.error(e);
+            }
+        }
+
+        function compare() {
+            if (!store.a || !store.b) return;
+            const container = document.getElementById('comparison-table-container');
+            const mapA = new Map();
+            store.a.forEach(d => mapA.set(`${d.province}_${d.cons_no}`, d));
+
+            const table = document.createElement('table');
+            table.innerHTML = `
+                <thead>
+                    <tr>
+                        <th>Province</th>
+                        <th>Cons</th>
+                        <th>Source A: Inv > Mar?</th>
+                        <th>Source B: Inv > Mar?</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="comparison-body"></tbody>
+            `;
+
+            const body = table.querySelector('#comparison-body');
+            store.b.forEach(dB => {
+                const dA = mapA.get(`${dB.province}_${dB.cons_no}`);
+                if (dA) {
+                    const status = dA.has_surplus === dB.has_surplus ? "Same" : (dB.has_surplus ? "New Alert!" : "Fixed?");
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${dB.province}</td>
+                        <td>${dB.cons_no}</td>
+                        <td class="${dA.has_surplus ? 'alert' : ''}">${dA.has_surplus ? '⚠️ ALERT' : 'OK'}</td>
+                        <td class="${dB.has_surplus ? 'alert' : ''}">${dB.has_surplus ? '⚠️ ALERT' : 'OK'}</td>
+                        <td style="font-weight:bold; color: ${status.includes('Alert') ? 'red' : (status === 'Fixed?' ? 'green' : 'black')}">${status}</td>
+                    `;
+                    body.appendChild(tr);
+                }
+            });
+            container.innerHTML = '';
+            container.appendChild(table);
+        }
+
+        init();
+    </script>
+</body>
+
+</html>
