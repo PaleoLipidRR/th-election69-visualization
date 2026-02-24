@@ -111,8 +111,8 @@ No build step or dependencies required. All visualizations run entirely in the b
 
 **Source data:**
 - **2566 data** is sourced from the official ECT website: [ectreport66.ect.go.th](https://ectreport66.ect.go.th/)
-- **2569 OCR data** was extracted from official ส.ส.6/1 report PDFs published by กกต. (ECT), processed by Chanon Ngernthongdee. Source repository: [killernay/election-69-OCR-result](https://github.com/killernay/election-69-OCR-result)
-- **2569 94% data** is from an unofficial Excel dataset compiled during vote counting
+- **2569 OCR data** was extracted from official ส.ส.6/1 report PDFs published by กกต. (ECT), processed by Khun Chanon Ngernthongdee. Source repository: [killernay/election-69-OCR-result](https://github.com/killernay/election-69-OCR-result)
+- **2569 94% data** is from an unofficial Excel dataset compiled during vote counting by Khun Sarinee Achavanuntakul (https://docs.google.com/spreadsheets/d/11EUvq3je2V2tjfFajCCjOCTQmxwfjz44/edit?usp=sharing&ouid=114892602750710632360&rtpof=true&sd=true)
 
 **No endorsement:** This project is an independent, non-partisan data visualization effort. It does not represent the views of any political party, candidate, or government body. The identification of "danger zone" constituencies (where invalid or blank ballots exceed the winner's margin) is a mathematical observation only — it does not constitute an allegation of electoral fraud, irregularity, or wrongdoing.
 
