@@ -97,6 +97,40 @@ def load_election66_constituency_data() -> Dict[str, Any]:
     return cons_info
 
 
+def load_province_mapping() -> Dict[str, str]:
+    """Load mapping from Thai province names to prov_id codes"""
+    prov_mapping = {}
+    
+    prov_file = ELECTION66_JSON_DIR / "th_election66_info_province.json"
+    if prov_file.exists():
+        with open(prov_file, 'r', encoding='utf-8-sig') as f:
+            data = json.load(f)
+            for prov in data.get('province', []):
+                thai_name = prov.get('province')
+                prov_id = prov.get('prov_id')
+                if thai_name and prov_id:
+                    prov_mapping[thai_name] = prov_id
+    
+    return prov_mapping
+
+
+def load_province_eng_mapping() -> Dict[str, str]:
+    """Load mapping from prov_id to province English name"""
+    prov_eng_map = {}
+    
+    prov_file = ELECTION66_JSON_DIR / "th_election66_info_province.json"
+    if prov_file.exists():
+        with open(prov_file, 'r', encoding='utf-8-sig') as f:
+            data = json.load(f)
+            for prov in data.get('province', []):
+                prov_id = prov.get('prov_id')
+                province_eng = prov.get('eng')
+                if prov_id and province_eng:
+                    prov_eng_map[prov_id] = province_eng
+    
+    return prov_eng_map
+
+
 # ══════════════════════════════════════════════════════════════════════════
 # LOAD ELECTION69 DATA
 # ══════════════════════════════════════════════════════════════════════════
@@ -179,7 +213,7 @@ def process_election66_to_const_raw(election66_data: Dict) -> List[Dict[str, Any
     return []
 
 
-def process_election69_to_datasets(const_data: List[Dict], pl_data: List[Dict]) -> tuple:
+def process_election69_to_datasets(const_data: List[Dict], pl_data: List[Dict], prov_mapping: Dict[str, str], prov_eng_mapping: Dict[str, str]) -> tuple:
     """
     Transform election69 data into CONST_RAW and PARTYLIST_RAW
     Calculate differences between election66 and election69
@@ -205,45 +239,67 @@ def process_election69_to_datasets(const_data: List[Dict], pl_data: List[Dict]) 
         if not pl_match:
             continue
         
-        # Calculate metrics
-        const_voters = c_data['voters_came']
-        const_invalid = c_data['invalid_ballots']
-        const_invalid_pct = (const_invalid / const_voters * 100) if const_voters > 0 else 0
+        # Get prov_id and province_eng from mappings
+        prov_id = prov_mapping.get(prov_thai, prov_thai[:3].upper())
+        province_eng = prov_eng_mapping.get(prov_id, "")
+        region = REGION_MAP.get(prov_id, "")
         
+        # Extract vote counts
+        const_valid = c_data['total_valid']
+        const_invalid = c_data['invalid_ballots']
+        const_blank = c_data['no_votes']
+        const_total_used = c_data['voters_came']
+        
+        const_invalid_pct = (const_invalid / const_total_used * 100) if const_total_used > 0 else 0
         const_margin = c_data['winning_score'] - c_data['runnerUp_score']
         
         # Create constituency MP record
         const_record = {
-            "prov_id": prov_thai[:3].upper(),  # Simplified
+            "prov_id": prov_id,
             "province_thai": prov_thai,
+            "province_eng": province_eng,
+            "region": region,
             "cons_no": cons_no,
-            "invalid_votes": const_invalid,
-            "percent_invalid": const_invalid_pct,
-            "turn_out": const_voters,
-            "invalid_2026": const_invalid,
-            "turnout_2026": const_voters,
-            "pct_turnout_2026": (const_voters / (const_voters + c_data['no_votes']) * 100) if (const_voters + c_data['no_votes']) > 0 else 0,
-            "invalid_change": 0,  # Will be calculated with election66 data
-            "invalid_pct_2026": const_invalid_pct,
-            "invalid_pct_change": 0,  # Will be calculated with election66 data
-            "winner_party": c_data['winning_party'],
-            "margin_votes": const_margin,
-            "margin_2569": const_margin,
-            "runnerup_votes": c_data['runnerUp_score'],
-            "winner_votes": c_data['winning_score'],
+            "valid_2569": const_valid,
+            "invalid_2569": const_invalid,
+            "blank_2569": const_blank,
+            "total_used_2569": const_total_used,
+            "turn_out_2569": const_total_used,
+            "percent_invalid_2569": const_invalid_pct,
             "winner_party_2569": c_data['winning_party'],
             "winner_votes_2569": c_data['winning_score'],
+            "runnerup_party_2569": c_data['runnerUp_party'],
+            "runnerup_votes_2569": c_data['runnerUp_score'],
+            "margin_2569": const_margin,
         }
         const_raw.append(const_record)
         
-        # Create party list MP record (same structure)
-        pl_record = const_record.copy()
-        pl_record.update({
-            "invalid_2026": pl_match['invalid_ballots'],
-            "invalid_pct_2026": (pl_match['invalid_ballots'] / pl_match['voters_came'] * 100) if pl_match['voters_came'] > 0 else 0,
-            "margin_2569": pl_match['winning_score'] - pl_match['runnerUp_score'],
+        # Create party list MP record
+        pl_valid = pl_match['total_valid']
+        pl_invalid = pl_match['invalid_ballots']
+        pl_blank = pl_match['no_votes']
+        pl_total_used = pl_match['voters_came']
+        pl_invalid_pct = (pl_invalid / pl_total_used * 100) if pl_total_used > 0 else 0
+        pl_margin = pl_match['winning_score'] - pl_match['runnerUp_score']
+        
+        pl_record = {
+            "prov_id": prov_id,
+            "province_thai": prov_thai,
+            "province_eng": province_eng,
+            "region": region,
+            "cons_no": cons_no,
+            "valid_2569": pl_valid,
+            "invalid_2569": pl_invalid,
+            "blank_2569": pl_blank,
+            "total_used_2569": pl_total_used,
+            "turn_out_2569": pl_total_used,
+            "percent_invalid_2569": pl_invalid_pct,
             "winner_party_2569": pl_match['winning_party'],
-        })
+            "winner_votes_2569": pl_match['winning_score'],
+            "runnerup_party_2569": pl_match['runnerUp_party'],
+            "runnerup_votes_2569": pl_match['runnerUp_score'],
+            "margin_2569": pl_margin,
+        }
         pl_raw.append(pl_record)
     
     print(f"✓ Created {len(const_raw)} constituency records")
@@ -343,6 +399,8 @@ def main():
     
     # Load data
     election66_data = load_election66_constituency_data()
+    prov_mapping = load_province_mapping()
+    prov_eng_mapping = load_province_eng_mapping()
     const_data, pl_data = load_election69_data()
     
     # Process and merge
@@ -350,7 +408,7 @@ def main():
     pl_raw = []
     
     if const_data or pl_data:
-        const_raw, pl_raw = process_election69_to_datasets(const_data, pl_data)
+        const_raw, pl_raw = process_election69_to_datasets(const_data, pl_data, prov_mapping, prov_eng_mapping)
     
     # Export
     export_to_javascript(const_raw, pl_raw, archive=args.archive)

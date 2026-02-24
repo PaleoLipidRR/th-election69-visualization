@@ -4,7 +4,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 1,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 82421,
     "total_used": 82421,
     "valid": 77075,
@@ -15,7 +15,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 14813,
     "margin": 19354,
-    "percent_invalid": 1.39,
+    "percent_invalid": 1.3904223438201428,
     "ballot_surplus": 0
   },
   {
@@ -23,7 +23,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 10,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 99657,
     "total_used": 99657,
     "valid": 91913,
@@ -34,7 +34,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19047,
     "margin": 22757,
-    "percent_invalid": 1.53,
+    "percent_invalid": 1.5262349860019868,
     "ballot_surplus": 1
   },
   {
@@ -42,9 +42,9 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 11,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 100367,
-    "total_used": 100368,
+    "total_used": 100367,
     "valid": 94994,
     "invalid": 1207,
     "blank": 4167,
@@ -53,7 +53,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 24850,
     "margin": 13929,
-    "percent_invalid": 1.2,
+    "percent_invalid": 1.202586507517411,
     "ballot_surplus": -44
   },
   {
@@ -61,7 +61,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 12,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 111029,
     "total_used": 111029,
     "valid": 103439,
@@ -72,7 +72,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16106,
     "margin": 33819,
-    "percent_invalid": 1.44,
+    "percent_invalid": 1.4419656125877023,
     "ballot_surplus": 0
   },
   {
@@ -80,7 +80,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 13,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 97065,
     "total_used": 97065,
     "valid": 90508,
@@ -91,7 +91,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15227,
     "margin": 29284,
-    "percent_invalid": 1.35,
+    "percent_invalid": 1.3547622727038582,
     "ballot_surplus": 0
   },
   {
@@ -99,7 +99,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 14,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 99223,
     "total_used": 99223,
     "valid": 93467,
@@ -110,7 +110,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25491,
     "margin": 16037,
-    "percent_invalid": 1.44,
+    "percent_invalid": 1.4422059401550045,
     "ballot_surplus": 0
   },
   {
@@ -118,7 +118,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 16,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 100557,
     "total_used": 100557,
     "valid": 94218,
@@ -129,7 +129,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15424,
     "margin": 30597,
-    "percent_invalid": 1.43,
+    "percent_invalid": 1.4300347066837713,
     "ballot_surplus": 1
   },
   {
@@ -137,7 +137,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 17,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 79075,
     "total_used": 79075,
     "valid": 71720,
@@ -148,7 +148,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16132,
     "margin": 12455,
-    "percent_invalid": 2.48,
+    "percent_invalid": 2.484982611444831,
     "ballot_surplus": 0
   },
   {
@@ -156,7 +156,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 18,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 87055,
     "total_used": 87055,
     "valid": 80204,
@@ -167,7 +167,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20414,
     "margin": 14324,
-    "percent_invalid": 1.63,
+    "percent_invalid": 1.6323014186433866,
     "ballot_surplus": -2
   },
   {
@@ -175,7 +175,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 19,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 98920,
     "total_used": 98920,
     "valid": 92191,
@@ -186,7 +186,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17802,
     "margin": 25018,
-    "percent_invalid": 1.65,
+    "percent_invalid": 1.6518398706025073,
     "ballot_surplus": 0
   },
   {
@@ -194,7 +194,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 2,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 90181,
     "total_used": 90181,
     "valid": 83874,
@@ -205,7 +205,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15949,
     "margin": 23550,
-    "percent_invalid": 1.53,
+    "percent_invalid": 1.534691342965813,
     "ballot_surplus": 0
   },
   {
@@ -213,7 +213,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 20,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 87486,
     "total_used": 87486,
     "valid": 81935,
@@ -224,7 +224,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27474,
     "margin": 7467,
-    "percent_invalid": 2.02,
+    "percent_invalid": 2.022037811764168,
     "ballot_surplus": 0
   },
   {
@@ -232,9 +232,9 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 21,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 96860,
-    "total_used": 96859,
+    "total_used": 96860,
     "valid": 91346,
     "invalid": 1450,
     "blank": 4063,
@@ -243,7 +243,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 21155,
     "margin": 24796,
-    "percent_invalid": 1.5,
+    "percent_invalid": 1.4970059880239521,
     "ballot_surplus": 0
   },
   {
@@ -251,7 +251,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 22,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 92301,
     "total_used": 92301,
     "valid": 85558,
@@ -262,7 +262,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17486,
     "margin": 24778,
-    "percent_invalid": 1.64,
+    "percent_invalid": 1.6370353517296672,
     "ballot_surplus": 0
   },
   {
@@ -270,7 +270,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 23,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 100477,
     "total_used": 100477,
     "valid": 94233,
@@ -281,7 +281,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17592,
     "margin": 29190,
-    "percent_invalid": 1.07,
+    "percent_invalid": 1.0679060879604287,
     "ballot_surplus": 0
   },
   {
@@ -289,7 +289,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 24,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 96919,
     "total_used": 96919,
     "valid": 89356,
@@ -300,7 +300,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15300,
     "margin": 31115,
-    "percent_invalid": 1.96,
+    "percent_invalid": 1.9624635004488282,
     "ballot_surplus": 0
   },
   {
@@ -308,7 +308,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 25,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 89687,
     "total_used": 89687,
     "valid": 84112,
@@ -319,7 +319,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 21904,
     "margin": 15131,
-    "percent_invalid": 1.61,
+    "percent_invalid": 1.608928830265256,
     "ballot_surplus": 0
   },
   {
@@ -327,7 +327,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 26,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 97121,
     "total_used": 97121,
     "valid": 90037,
@@ -338,7 +338,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 16727,
     "margin": 27544,
-    "percent_invalid": 1.87,
+    "percent_invalid": 1.873951050751125,
     "ballot_surplus": 0
   },
   {
@@ -346,7 +346,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 27,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 96276,
     "total_used": 96276,
     "valid": 90381,
@@ -357,7 +357,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 26986,
     "margin": 16060,
-    "percent_invalid": 1.62,
+    "percent_invalid": 1.6244962399767335,
     "ballot_surplus": 0
   },
   {
@@ -365,7 +365,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 28,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 99509,
     "total_used": 99509,
     "valid": 91560,
@@ -376,15 +376,15 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 13153,
     "margin": 34539,
-    "percent_invalid": 2.01,
-    "ballot_surplus": 0
+    "percent_invalid": 2.0128832567908432,
+    "ballot_surplus": 106
   },
   {
     "province_thai": "กรุงเทพมหานคร",
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 29,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 103966,
     "total_used": 103966,
     "valid": 96248,
@@ -395,7 +395,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 16836,
     "margin": 29566,
-    "percent_invalid": 1.82,
+    "percent_invalid": 1.8236731239058925,
     "ballot_surplus": 0
   },
   {
@@ -403,7 +403,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 3,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 82361,
     "total_used": 82361,
     "valid": 76775,
@@ -414,7 +414,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 19167,
     "margin": 15486,
-    "percent_invalid": 1.73,
+    "percent_invalid": 1.7301878316193346,
     "ballot_surplus": 64
   },
   {
@@ -422,7 +422,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 30,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 99352,
     "total_used": 99352,
     "valid": 92533,
@@ -433,7 +433,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 14293,
     "margin": 31699,
-    "percent_invalid": 1.47,
+    "percent_invalid": 1.4735485948949192,
     "ballot_surplus": 0
   },
   {
@@ -441,8 +441,8 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 31,
-    "region": "05 กรุงเทพมหานคร",
-    "turn_out": 107547,
+    "region": "Central",
+    "turn_out": 107447,
     "total_used": 107447,
     "valid": 98491,
     "invalid": 1993,
@@ -452,7 +452,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15126,
     "margin": 29596,
-    "percent_invalid": 1.85,
+    "percent_invalid": 1.8548679814233995,
     "ballot_surplus": 0
   },
   {
@@ -460,18 +460,18 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 32,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 93917,
-    "total_used": 93517,
+    "total_used": 93917,
     "valid": 85231,
     "invalid": 2233,
     "blank": 6053,
     "winner_party": "ประชาชน",
-    "winner_votes": 39327,
+    "winner_votes": 39727,
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 13302,
-    "margin": 26025,
-    "percent_invalid": 2.39,
+    "margin": 26425,
+    "percent_invalid": 2.3776313127548794,
     "ballot_surplus": -400
   },
   {
@@ -479,9 +479,9 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 33,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 102628,
-    "total_used": 102728,
+    "total_used": 102628,
     "valid": 94516,
     "invalid": 2142,
     "blank": 6070,
@@ -490,7 +490,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 16359,
     "margin": 28501,
-    "percent_invalid": 2.09,
+    "percent_invalid": 2.087149705733328,
     "ballot_surplus": 100
   },
   {
@@ -498,9 +498,9 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 4,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 82948,
-    "total_used": 82947,
+    "total_used": 82948,
     "valid": 77982,
     "invalid": 1472,
     "blank": 3493,
@@ -509,7 +509,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 23594,
     "margin": 10811,
-    "percent_invalid": 1.77,
+    "percent_invalid": 1.774605777113372,
     "ballot_surplus": -1
   },
   {
@@ -517,7 +517,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 5,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 96561,
     "total_used": 96561,
     "valid": 90792,
@@ -528,7 +528,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22252,
     "margin": 23017,
-    "percent_invalid": 1.33,
+    "percent_invalid": 1.3349074678182704,
     "ballot_surplus": 15
   },
   {
@@ -536,7 +536,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 6,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 100871,
     "total_used": 100871,
     "valid": 94391,
@@ -547,7 +547,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 12848,
     "margin": 30391,
-    "percent_invalid": 1.4,
+    "percent_invalid": 1.3998076751494484,
     "ballot_surplus": -1
   },
   {
@@ -555,7 +555,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 7,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 92497,
     "total_used": 92497,
     "valid": 85181,
@@ -566,7 +566,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 12037,
     "margin": 28925,
-    "percent_invalid": 1.78,
+    "percent_invalid": 1.7827605219628746,
     "ballot_surplus": 0
   },
   {
@@ -574,7 +574,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 8,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 104633,
     "total_used": 104633,
     "valid": 96755,
@@ -585,7 +585,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 15868,
     "margin": 29224,
-    "percent_invalid": 1.55,
+    "percent_invalid": 1.550180153488861,
     "ballot_surplus": 0
   },
   {
@@ -593,7 +593,7 @@ const CONST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 9,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 102720,
     "total_used": 102720,
     "valid": 95111,
@@ -604,7 +604,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17059,
     "margin": 32307,
-    "percent_invalid": 1.56,
+    "percent_invalid": 1.5566588785046729,
     "ballot_surplus": 0
   },
   {
@@ -612,7 +612,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 97099,
     "total_used": 97099,
     "valid": 87879,
@@ -623,7 +623,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 24150,
     "margin": 19313,
-    "percent_invalid": 4.39,
+    "percent_invalid": 4.3872748432012685,
     "ballot_surplus": -1
   },
   {
@@ -631,7 +631,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 96319,
     "total_used": 96319,
     "valid": 89135,
@@ -642,7 +642,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 29448,
     "margin": 11531,
-    "percent_invalid": 2.63,
+    "percent_invalid": 2.625650183245258,
     "ballot_surplus": 0
   },
   {
@@ -650,7 +650,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 96436,
     "total_used": 96436,
     "valid": 88488,
@@ -661,7 +661,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 13276,
     "margin": 32059,
-    "percent_invalid": 2.47,
+    "percent_invalid": 2.4710688954332407,
     "ballot_surplus": 0
   },
   {
@@ -669,7 +669,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 100463,
     "total_used": 100463,
     "valid": 92620,
@@ -680,7 +680,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 15476,
     "margin": 33400,
-    "percent_invalid": 1.77,
+    "percent_invalid": 1.7678150164737265,
     "ballot_surplus": 0
   },
   {
@@ -688,7 +688,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 111240,
     "total_used": 111240,
     "valid": 100245,
@@ -699,7 +699,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15146,
     "margin": 42052,
-    "percent_invalid": 2.58,
+    "percent_invalid": 2.5791082344480403,
     "ballot_surplus": 0
   },
   {
@@ -707,7 +707,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 91647,
     "total_used": 91647,
     "valid": 84514,
@@ -718,7 +718,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 33018,
     "margin": 2553,
-    "percent_invalid": 2.96,
+    "percent_invalid": 2.961362619616572,
     "ballot_surplus": 0
   },
   {
@@ -726,7 +726,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 7,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 105577,
     "total_used": 105577,
     "valid": 97691,
@@ -737,7 +737,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 28922,
     "margin": 17472,
-    "percent_invalid": 2.61,
+    "percent_invalid": 2.6066283376114114,
     "ballot_surplus": 0
   },
   {
@@ -745,7 +745,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 8,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 111859,
     "total_used": 111859,
     "valid": 103041,
@@ -756,7 +756,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27991,
     "margin": 12239,
-    "percent_invalid": 3.07,
+    "percent_invalid": 3.0708302416434976,
     "ballot_surplus": 1
   },
   {
@@ -764,7 +764,7 @@ const CONST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 101511,
     "total_used": 101511,
     "valid": 93883,
@@ -775,7 +775,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19861,
     "margin": 22262,
-    "percent_invalid": 1.71,
+    "percent_invalid": 1.7052339155362473,
     "ballot_surplus": -1
   },
   {
@@ -783,7 +783,7 @@ const CONST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 88604,
     "total_used": 88604,
     "valid": 81123,
@@ -794,7 +794,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20126,
     "margin": 17887,
-    "percent_invalid": 2.04,
+    "percent_invalid": 2.039411313258995,
     "ballot_surplus": 0
   },
   {
@@ -802,18 +802,18 @@ const CONST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 106780,
-    "total_used": 106880,
+    "total_used": 106780,
     "valid": 96621,
     "invalid": 2416,
     "blank": 7843,
     "winner_party": "ประชาชน",
-    "winner_votes": 47505,
+    "winner_votes": 47405,
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17748,
-    "margin": 29757,
-    "percent_invalid": 2.26,
+    "margin": 29657,
+    "percent_invalid": 2.262595991758756,
     "ballot_surplus": -490
   },
   {
@@ -821,7 +821,7 @@ const CONST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 92680,
     "total_used": 92680,
     "valid": 85203,
@@ -832,7 +832,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 27997,
     "margin": 5464,
-    "percent_invalid": 2.37,
+    "percent_invalid": 2.3716012084592144,
     "ballot_surplus": 0
   },
   {
@@ -840,7 +840,7 @@ const CONST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 104631,
     "total_used": 104631,
     "valid": 96107,
@@ -851,7 +851,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 31985,
     "margin": 9903,
-    "percent_invalid": 2.13,
+    "percent_invalid": 2.134166738347144,
     "ballot_surplus": 0
   },
   {
@@ -859,7 +859,7 @@ const CONST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 110023,
     "total_used": 110023,
     "valid": 99026,
@@ -870,7 +870,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25218,
     "margin": 19187,
-    "percent_invalid": 3.28,
+    "percent_invalid": 3.2784054243203693,
     "ballot_surplus": -103
   },
   {
@@ -878,7 +878,7 @@ const CONST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 7,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 103313,
     "total_used": 103313,
     "valid": 93993,
@@ -889,7 +889,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 18873,
     "margin": 22394,
-    "percent_invalid": 2.6,
+    "percent_invalid": 2.6008343577284565,
     "ballot_surplus": 0
   },
   {
@@ -897,7 +897,7 @@ const CONST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 8,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 96509,
     "total_used": 96509,
     "valid": 88860,
@@ -908,7 +908,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 26846,
     "margin": 9785,
-    "percent_invalid": 2.14,
+    "percent_invalid": 2.13762447025666,
     "ballot_surplus": 0
   },
   {
@@ -916,7 +916,7 @@ const CONST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 102636,
     "total_used": 102636,
     "valid": 95201,
@@ -927,7 +927,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 24558,
     "margin": 8277,
-    "percent_invalid": 2.81,
+    "percent_invalid": 2.8079816048949686,
     "ballot_surplus": 0
   },
   {
@@ -935,7 +935,7 @@ const CONST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 102812,
     "total_used": 102812,
     "valid": 97032,
@@ -946,7 +946,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 31579,
     "margin": 4761,
-    "percent_invalid": 1.97,
+    "percent_invalid": 1.9715597401081586,
     "ballot_surplus": -100
   },
   {
@@ -954,7 +954,7 @@ const CONST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 93799,
     "total_used": 93799,
     "valid": 84153,
@@ -965,7 +965,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22852,
     "margin": 19152,
-    "percent_invalid": 3.14,
+    "percent_invalid": 3.1364939924732673,
     "ballot_surplus": 0
   },
   {
@@ -973,7 +973,7 @@ const CONST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 98894,
     "total_used": 98894,
     "valid": 90836,
@@ -984,7 +984,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17512,
     "margin": 23527,
-    "percent_invalid": 2.57,
+    "percent_invalid": 2.567395393047101,
     "ballot_surplus": -2
   },
   {
@@ -992,7 +992,7 @@ const CONST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 89639,
     "total_used": 89639,
     "valid": 82519,
@@ -1003,7 +1003,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 12941,
     "margin": 22442,
-    "percent_invalid": 1.91,
+    "percent_invalid": 1.913229732594072,
     "ballot_surplus": 0
   },
   {
@@ -1011,7 +1011,7 @@ const CONST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 91434,
     "total_used": 91434,
     "valid": 84382,
@@ -1022,7 +1022,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 10079,
     "margin": 32605,
-    "percent_invalid": 1.95,
+    "percent_invalid": 1.9478530962224117,
     "ballot_surplus": 1
   },
   {
@@ -1030,7 +1030,7 @@ const CONST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 7,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 92139,
     "total_used": 92139,
     "valid": 86075,
@@ -1041,7 +1041,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 27814,
     "margin": 18388,
-    "percent_invalid": 2.38,
+    "percent_invalid": 2.3811849488273156,
     "ballot_surplus": 0
   },
   {
@@ -1049,7 +1049,7 @@ const CONST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 8,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 92701,
     "total_used": 92701,
     "valid": 85346,
@@ -1060,7 +1060,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 26551,
     "margin": 16179,
-    "percent_invalid": 3.8,
+    "percent_invalid": 3.8025479768287287,
     "ballot_surplus": 0
   },
   {
@@ -1068,7 +1068,7 @@ const CONST_RAW = [
     "province_eng": "PHRA NAKHON SI AYUTTHAYA",
     "prov_id": "AYA",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 106326,
     "total_used": 106326,
     "valid": 97550,
@@ -1079,7 +1079,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 37335,
     "margin": 9361,
-    "percent_invalid": 3.37,
+    "percent_invalid": 3.3670033670033668,
     "ballot_surplus": 0
   },
   {
@@ -1087,7 +1087,7 @@ const CONST_RAW = [
     "province_eng": "PHRA NAKHON SI AYUTTHAYA",
     "prov_id": "AYA",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 102658,
     "total_used": 102658,
     "valid": 94398,
@@ -1098,7 +1098,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25836,
     "margin": 27638,
-    "percent_invalid": 3.48,
+    "percent_invalid": 3.484385045490853,
     "ballot_surplus": 0
   },
   {
@@ -1106,7 +1106,7 @@ const CONST_RAW = [
     "province_eng": "PHRA NAKHON SI AYUTTHAYA",
     "prov_id": "AYA",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 107866,
     "total_used": 107866,
     "valid": 100331,
@@ -1117,7 +1117,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 31983,
     "margin": 26089,
-    "percent_invalid": 3.41,
+    "percent_invalid": 3.4088591400441284,
     "ballot_surplus": 0
   },
   {
@@ -1125,7 +1125,7 @@ const CONST_RAW = [
     "province_eng": "PHRA NAKHON SI AYUTTHAYA",
     "prov_id": "AYA",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 114346,
     "total_used": 114346,
     "valid": 106913,
@@ -1136,7 +1136,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 31956,
     "margin": 19513,
-    "percent_invalid": 2.72,
+    "percent_invalid": 2.7189407587497594,
     "ballot_surplus": 0
   },
   {
@@ -1144,9 +1144,9 @@ const CONST_RAW = [
     "province_eng": "PHRA NAKHON SI AYUTTHAYA",
     "prov_id": "AYA",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 105917,
-    "total_used": 105916,
+    "total_used": 105917,
     "valid": 98383,
     "invalid": 4482,
     "blank": 3051,
@@ -1155,7 +1155,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27374,
     "margin": 19249,
-    "percent_invalid": 4.23,
+    "percent_invalid": 4.231615321430931,
     "ballot_surplus": -1
   },
   {
@@ -1163,7 +1163,7 @@ const CONST_RAW = [
     "province_eng": "ANG THONG",
     "prov_id": "ATG",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 85616,
     "total_used": 85616,
     "valid": 79775,
@@ -1174,7 +1174,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17910,
     "margin": 38220,
-    "percent_invalid": 3.19,
+    "percent_invalid": 3.1921603438609605,
     "ballot_surplus": 0
   },
   {
@@ -1182,7 +1182,7 @@ const CONST_RAW = [
     "province_eng": "ANG THONG",
     "prov_id": "ATG",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 86378,
     "total_used": 86378,
     "valid": 79838,
@@ -1193,7 +1193,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 13876,
     "margin": 46735,
-    "percent_invalid": 3.82,
+    "percent_invalid": 3.8215749380629327,
     "ballot_surplus": 0
   },
   {
@@ -1201,7 +1201,7 @@ const CONST_RAW = [
     "province_eng": "LOP BURI",
     "prov_id": "LRI",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 110263,
     "total_used": 110263,
     "valid": 100109,
@@ -1212,7 +1212,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25593,
     "margin": 12533,
-    "percent_invalid": 3.47,
+    "percent_invalid": 3.4744202497664674,
     "ballot_surplus": 0
   },
   {
@@ -1220,7 +1220,7 @@ const CONST_RAW = [
     "province_eng": "LOP BURI",
     "prov_id": "LRI",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 118851,
     "total_used": 118851,
     "valid": 110045,
@@ -1231,7 +1231,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24499,
     "margin": 33642,
-    "percent_invalid": 3.47,
+    "percent_invalid": 3.4724150406811893,
     "ballot_surplus": 0
   },
   {
@@ -1239,9 +1239,9 @@ const CONST_RAW = [
     "province_eng": "LOP BURI",
     "prov_id": "LRI",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 105930,
-    "total_used": 105929,
+    "total_used": 105930,
     "valid": 99225,
     "invalid": 3885,
     "blank": 2819,
@@ -1250,34 +1250,15 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27504,
     "margin": 21760,
-    "percent_invalid": 3.67,
+    "percent_invalid": 3.6675162843387143,
     "ballot_surplus": -1
-  },
-  {
-    "province_thai": "ลพบุรี",
-    "province_eng": "LOP BURI",
-    "prov_id": "LRI",
-    "cons_no": 4,
-    "region": "04 ภาคกลาง",
-    "turn_out": 116195,
-    "total_used": 116195,
-    "valid": 108277,
-    "invalid": 4834,
-    "blank": 3084,
-    "winner_party": "เพื่อไทย",
-    "winner_votes": 50031,
-    "runnerup_party": "กล้าธรรม",
-    "runnerup_votes": 33738,
-    "margin": 16293,
-    "percent_invalid": 4.16,
-    "ballot_surplus": 5932
   },
   {
     "province_thai": "สิงห์บุรี",
     "province_eng": "SING BURI",
     "prov_id": "SBR",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 127309,
     "total_used": 127309,
     "valid": 114708,
@@ -1288,7 +1269,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 31864,
     "margin": 33691,
-    "percent_invalid": 4.28,
+    "percent_invalid": 4.280922794146525,
     "ballot_surplus": 0
   },
   {
@@ -1296,7 +1277,7 @@ const CONST_RAW = [
     "province_eng": "CHAI NAT",
     "prov_id": "CNT",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 94469,
     "total_used": 94469,
     "valid": 80770,
@@ -1307,7 +1288,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 28737,
     "margin": 7321,
-    "percent_invalid": 6.05,
+    "percent_invalid": 6.05277921857964,
     "ballot_surplus": 1
   },
   {
@@ -1315,7 +1296,7 @@ const CONST_RAW = [
     "province_eng": "CHAI NAT",
     "prov_id": "CNT",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 95079,
     "total_used": 95079,
     "valid": 84484,
@@ -1326,7 +1307,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 16933,
     "margin": 37652,
-    "percent_invalid": 5.21,
+    "percent_invalid": 5.207248708968332,
     "ballot_surplus": 0
   },
   {
@@ -1334,7 +1315,7 @@ const CONST_RAW = [
     "province_eng": "SARABURI",
     "prov_id": "SRI",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 98444,
     "total_used": 98444,
     "valid": 88053,
@@ -1345,7 +1326,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 31087,
     "margin": 871,
-    "percent_invalid": 3.76,
+    "percent_invalid": 3.760513591483483,
     "ballot_surplus": 1
   },
   {
@@ -1353,7 +1334,7 @@ const CONST_RAW = [
     "province_eng": "SARABURI",
     "prov_id": "SRI",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 107815,
     "total_used": 107815,
     "valid": 99146,
@@ -1364,7 +1345,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27805,
     "margin": 9420,
-    "percent_invalid": 4.28,
+    "percent_invalid": 4.2786254231785925,
     "ballot_surplus": 0
   },
   {
@@ -1372,7 +1353,7 @@ const CONST_RAW = [
     "province_eng": "SARABURI",
     "prov_id": "SRI",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 99297,
     "total_used": 99297,
     "valid": 91451,
@@ -1383,7 +1364,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 28831,
     "margin": 25136,
-    "percent_invalid": 3.62,
+    "percent_invalid": 3.6184376164435985,
     "ballot_surplus": 0
   },
   {
@@ -1391,7 +1372,7 @@ const CONST_RAW = [
     "province_eng": "SARABURI",
     "prov_id": "SRI",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 100197,
     "total_used": 100197,
     "valid": 90067,
@@ -1402,7 +1383,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 28119,
     "margin": 20040,
-    "percent_invalid": 4.33,
+    "percent_invalid": 4.331467009990319,
     "ballot_surplus": 0
   },
   {
@@ -1410,9 +1391,9 @@ const CONST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 104346,
-    "total_used": 104344,
+    "total_used": 104346,
     "valid": 97585,
     "invalid": 2237,
     "blank": 4522,
@@ -1421,7 +1402,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 42057,
     "margin": 4196,
-    "percent_invalid": 2.14,
+    "percent_invalid": 2.143829183677381,
     "ballot_surplus": -2
   },
   {
@@ -1429,7 +1410,7 @@ const CONST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 10,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 89099,
     "total_used": 89099,
     "valid": 82457,
@@ -1440,7 +1421,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 23571,
     "margin": 3558,
-    "percent_invalid": 2.23,
+    "percent_invalid": 2.23347063378938,
     "ballot_surplus": 1
   },
   {
@@ -1448,7 +1429,7 @@ const CONST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 2,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 84051,
     "total_used": 84051,
     "valid": 78825,
@@ -1459,7 +1440,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 28820,
     "margin": 1241,
-    "percent_invalid": 2.25,
+    "percent_invalid": 2.247445003628749,
     "ballot_surplus": 0
   },
   {
@@ -1467,7 +1448,7 @@ const CONST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 98529,
     "total_used": 98529,
     "valid": 90301,
@@ -1478,7 +1459,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 37164,
     "margin": 5337,
-    "percent_invalid": 3.34,
+    "percent_invalid": 3.341148291365994,
     "ballot_surplus": 0
   },
   {
@@ -1486,7 +1467,7 @@ const CONST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 4,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 88809,
     "total_used": 88809,
     "valid": 80770,
@@ -1497,7 +1478,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24213,
     "margin": 21538,
-    "percent_invalid": 4.43,
+    "percent_invalid": 4.427479196928239,
     "ballot_surplus": 0
   },
   {
@@ -1505,7 +1486,7 @@ const CONST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 5,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 103979,
     "total_used": 103979,
     "valid": 95514,
@@ -1516,7 +1497,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24799,
     "margin": 27968,
-    "percent_invalid": 3.5,
+    "percent_invalid": 3.498783408188192,
     "ballot_surplus": 0
   },
   {
@@ -1524,7 +1505,7 @@ const CONST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 6,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 96545,
     "total_used": 96545,
     "valid": 89423,
@@ -1535,7 +1516,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 34860,
     "margin": 6388,
-    "percent_invalid": 2.29,
+    "percent_invalid": 2.2932311357398105,
     "ballot_surplus": 0
   },
   {
@@ -1543,7 +1524,7 @@ const CONST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 7,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 88767,
     "total_used": 88767,
     "valid": 82754,
@@ -1554,7 +1535,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 31986,
     "margin": 8000,
-    "percent_invalid": 2.36,
+    "percent_invalid": 2.362364392172767,
     "ballot_surplus": 1
   },
   {
@@ -1562,7 +1543,7 @@ const CONST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 8,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 94308,
     "total_used": 94308,
     "valid": 86994,
@@ -1573,7 +1554,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 34702,
     "margin": 2921,
-    "percent_invalid": 3.24,
+    "percent_invalid": 3.2362047758408616,
     "ballot_surplus": 1
   },
   {
@@ -1581,7 +1562,7 @@ const CONST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 9,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 69180,
     "total_used": 69180,
     "valid": 62409,
@@ -1592,7 +1573,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 23698,
     "margin": 3904,
-    "percent_invalid": 4.53,
+    "percent_invalid": 4.528765539173171,
     "ballot_surplus": 1
   },
   {
@@ -1600,7 +1581,7 @@ const CONST_RAW = [
     "province_eng": "RAYONG",
     "prov_id": "RYG",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 91421,
     "total_used": 91421,
     "valid": 85091,
@@ -1611,7 +1592,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 27277,
     "margin": 9657,
-    "percent_invalid": 2.61,
+    "percent_invalid": 2.6109974732282515,
     "ballot_surplus": 10
   },
   {
@@ -1619,7 +1600,7 @@ const CONST_RAW = [
     "province_eng": "RAYONG",
     "prov_id": "RYG",
     "cons_no": 2,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 77741,
     "total_used": 77741,
     "valid": 68551,
@@ -1630,7 +1611,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 26878,
     "margin": 6809,
-    "percent_invalid": 4.71,
+    "percent_invalid": 4.710513114058219,
     "ballot_surplus": 0
   },
   {
@@ -1638,7 +1619,7 @@ const CONST_RAW = [
     "province_eng": "RAYONG",
     "prov_id": "RYG",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 85323,
     "total_used": 85323,
     "valid": 76463,
@@ -1649,7 +1630,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24801,
     "margin": 2072,
-    "percent_invalid": 4.17,
+    "percent_invalid": 4.174724283018646,
     "ballot_surplus": 0
   },
   {
@@ -1657,7 +1638,7 @@ const CONST_RAW = [
     "province_eng": "RAYONG",
     "prov_id": "RYG",
     "cons_no": 4,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 94724,
     "total_used": 94724,
     "valid": 87526,
@@ -1668,7 +1649,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 32496,
     "margin": 13638,
-    "percent_invalid": 3.62,
+    "percent_invalid": 3.615767915206283,
     "ballot_surplus": 112
   },
   {
@@ -1676,7 +1657,7 @@ const CONST_RAW = [
     "province_eng": "RAYONG",
     "prov_id": "RYG",
     "cons_no": 5,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 89547,
     "total_used": 89547,
     "valid": 81289,
@@ -1687,7 +1668,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 29469,
     "margin": 8100,
-    "percent_invalid": 3.86,
+    "percent_invalid": 3.8616592403988967,
     "ballot_surplus": -1
   },
   {
@@ -1695,7 +1676,7 @@ const CONST_RAW = [
     "province_eng": "CHANTHABURI",
     "prov_id": "CTI",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 110531,
     "total_used": 110531,
     "valid": 100866,
@@ -1706,7 +1687,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 29390,
     "margin": 3594,
-    "percent_invalid": 2.93,
+    "percent_invalid": 2.9258759985886313,
     "ballot_surplus": 0
   },
   {
@@ -1714,7 +1695,7 @@ const CONST_RAW = [
     "province_eng": "CHANTHABURI",
     "prov_id": "CTI",
     "cons_no": 2,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 102880,
     "total_used": 102880,
     "valid": 91807,
@@ -1725,7 +1706,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 29466,
     "margin": 10513,
-    "percent_invalid": 4.87,
+    "percent_invalid": 4.873639191290825,
     "ballot_surplus": 0
   },
   {
@@ -1733,7 +1714,7 @@ const CONST_RAW = [
     "province_eng": "CHANTHABURI",
     "prov_id": "CTI",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 101001,
     "total_used": 101001,
     "valid": 91176,
@@ -1744,7 +1725,7 @@ const CONST_RAW = [
     "runnerup_party": "พลังประชารัฐ",
     "runnerup_votes": 26664,
     "margin": 5134,
-    "percent_invalid": 4.21,
+    "percent_invalid": 4.206889040702568,
     "ballot_surplus": 0
   },
   {
@@ -1752,7 +1733,7 @@ const CONST_RAW = [
     "province_eng": "TRAT",
     "prov_id": "TRT",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 125215,
     "total_used": 125215,
     "valid": 115576,
@@ -1763,7 +1744,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 27911,
     "margin": 38488,
-    "percent_invalid": 3.64,
+    "percent_invalid": 3.6433334664377273,
     "ballot_surplus": -100
   },
   {
@@ -1771,7 +1752,7 @@ const CONST_RAW = [
     "province_eng": "CHACHOENGSAO",
     "prov_id": "CCO",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 110016,
     "total_used": 110016,
     "valid": 96004,
@@ -1782,7 +1763,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 34889,
     "margin": 3828,
-    "percent_invalid": 4.54,
+    "percent_invalid": 4.543884525887144,
     "ballot_surplus": 0
   },
   {
@@ -1790,7 +1771,7 @@ const CONST_RAW = [
     "province_eng": "CHACHOENGSAO",
     "prov_id": "CCO",
     "cons_no": 2,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 118518,
     "total_used": 118518,
     "valid": 109828,
@@ -1801,7 +1782,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 32111,
     "margin": 18722,
-    "percent_invalid": 3.74,
+    "percent_invalid": 3.7420476214583434,
     "ballot_surplus": -92
   },
   {
@@ -1809,7 +1790,7 @@ const CONST_RAW = [
     "province_eng": "CHACHOENGSAO",
     "prov_id": "CCO",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 104600,
     "total_used": 104600,
     "valid": 93753,
@@ -1820,7 +1801,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21616,
     "margin": 31142,
-    "percent_invalid": 5.22,
+    "percent_invalid": 5.217017208413002,
     "ballot_surplus": 0
   },
   {
@@ -1828,9 +1809,9 @@ const CONST_RAW = [
     "province_eng": "CHACHOENGSAO",
     "prov_id": "CCO",
     "cons_no": 4,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 122283,
-    "total_used": 122282,
+    "total_used": 122283,
     "valid": 112107,
     "invalid": 4490,
     "blank": 5685,
@@ -1839,7 +1820,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 35257,
     "margin": 12712,
-    "percent_invalid": 3.67,
+    "percent_invalid": 3.67181047242871,
     "ballot_surplus": -1
   },
   {
@@ -1847,7 +1828,7 @@ const CONST_RAW = [
     "province_eng": "PRACHIN BURI",
     "prov_id": "PRI",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 94811,
     "total_used": 94811,
     "valid": 82923,
@@ -1858,7 +1839,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 28549,
     "margin": 13760,
-    "percent_invalid": 3.89,
+    "percent_invalid": 3.888789275506007,
     "ballot_surplus": -1
   },
   {
@@ -1866,9 +1847,9 @@ const CONST_RAW = [
     "province_eng": "PRACHIN BURI",
     "prov_id": "PRI",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 93849,
-    "total_used": 93848,
+    "total_used": 93849,
     "valid": 84347,
     "invalid": 4694,
     "blank": 4807,
@@ -1877,7 +1858,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24795,
     "margin": 20398,
-    "percent_invalid": 5.0,
+    "percent_invalid": 5.00165158925508,
     "ballot_surplus": -1
   },
   {
@@ -1885,7 +1866,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON NAYOK",
     "prov_id": "NYK",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 82830,
     "total_used": 82830,
     "valid": 76781,
@@ -1896,7 +1877,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 29822,
     "margin": 3885,
-    "percent_invalid": 3.25,
+    "percent_invalid": 3.2524447663889893,
     "ballot_surplus": 0
   },
   {
@@ -1904,7 +1885,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON NAYOK",
     "prov_id": "NYK",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 87699,
     "total_used": 87699,
     "valid": 80797,
@@ -1915,7 +1896,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 29375,
     "margin": 5522,
-    "percent_invalid": 3.74,
+    "percent_invalid": 3.736644659574225,
     "ballot_surplus": 0
   },
   {
@@ -1923,7 +1904,7 @@ const CONST_RAW = [
     "province_eng": "SA KAEO",
     "prov_id": "SKW",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 97584,
     "total_used": 97584,
     "valid": 89613,
@@ -1934,7 +1915,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19172,
     "margin": 36911,
-    "percent_invalid": 3.86,
+    "percent_invalid": 3.8571897032300377,
     "ballot_surplus": 1
   },
   {
@@ -1942,7 +1923,7 @@ const CONST_RAW = [
     "province_eng": "SA KAEO",
     "prov_id": "SKW",
     "cons_no": 2,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 97464,
     "total_used": 97464,
     "valid": 89351,
@@ -1953,7 +1934,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17343,
     "margin": 43027,
-    "percent_invalid": 3.97,
+    "percent_invalid": 3.974800952146434,
     "ballot_surplus": 0
   },
   {
@@ -1961,7 +1942,7 @@ const CONST_RAW = [
     "province_eng": "SA KAEO",
     "prov_id": "SKW",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 101937,
     "total_used": 101937,
     "valid": 92868,
@@ -1972,7 +1953,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 32848,
     "margin": 5964,
-    "percent_invalid": 5.12,
+    "percent_invalid": 5.124733904274208,
     "ballot_surplus": 85
   },
   {
@@ -1980,7 +1961,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90557,
     "total_used": 90557,
     "valid": 80985,
@@ -1991,7 +1972,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23435,
     "margin": 9099,
-    "percent_invalid": 2.57,
+    "percent_invalid": 2.5674437094868425,
     "ballot_surplus": 0
   },
   {
@@ -1999,7 +1980,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 10,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 112031,
     "total_used": 112031,
     "valid": 104308,
@@ -2010,7 +1991,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 37863,
     "margin": 5322,
-    "percent_invalid": 3.72,
+    "percent_invalid": 3.7150431576974228,
     "ballot_surplus": 697
   },
   {
@@ -2018,7 +1999,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 11,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93602,
     "total_used": 93602,
     "valid": 85016,
@@ -2029,7 +2010,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15952,
     "margin": 37117,
-    "percent_invalid": 4.34,
+    "percent_invalid": 4.337514155680434,
     "ballot_surplus": 0
   },
   {
@@ -2037,7 +2018,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 12,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 94858,
     "total_used": 94858,
     "valid": 86006,
@@ -2048,7 +2029,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16572,
     "margin": 31222,
-    "percent_invalid": 4.87,
+    "percent_invalid": 4.867275295705159,
     "ballot_surplus": 0
   },
   {
@@ -2056,7 +2037,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 13,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 78490,
     "total_used": 78490,
     "valid": 66505,
@@ -2067,7 +2048,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25404,
     "margin": 2753,
-    "percent_invalid": 8.45,
+    "percent_invalid": 8.448209963052618,
     "ballot_surplus": 0
   },
   {
@@ -2075,7 +2056,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 14,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83594,
     "total_used": 83594,
     "valid": 73189,
@@ -2086,7 +2067,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 28220,
     "margin": 783,
-    "percent_invalid": 5.83,
+    "percent_invalid": 5.8341507763715095,
     "ballot_surplus": 0
   },
   {
@@ -2094,7 +2075,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 15,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 99862,
     "total_used": 99862,
     "valid": 95199,
@@ -2105,7 +2086,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 26946,
     "margin": 10296,
-    "percent_invalid": 2.84,
+    "percent_invalid": 2.8389177064348803,
     "ballot_surplus": 37
   },
   {
@@ -2113,7 +2094,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 16,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89343,
     "total_used": 89343,
     "valid": 83999,
@@ -2124,7 +2105,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 31496,
     "margin": 643,
-    "percent_invalid": 3.35,
+    "percent_invalid": 3.350010633177753,
     "ballot_surplus": 0
   },
   {
@@ -2132,7 +2113,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 105850,
     "total_used": 105850,
     "valid": 96710,
@@ -2143,7 +2124,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 39142,
     "margin": 838,
-    "percent_invalid": 3.02,
+    "percent_invalid": 3.0203117619272555,
     "ballot_surplus": 1
   },
   {
@@ -2151,7 +2132,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 102530,
     "total_used": 102530,
     "valid": 92622,
@@ -2162,7 +2143,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 37400,
     "margin": 299,
-    "percent_invalid": 3.54,
+    "percent_invalid": 3.536525894860041,
     "ballot_surplus": 0
   },
   {
@@ -2170,7 +2151,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93980,
     "total_used": 93980,
     "valid": 84302,
@@ -2181,7 +2162,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 26339,
     "margin": 8380,
-    "percent_invalid": 4.29,
+    "percent_invalid": 4.288146414130666,
     "ballot_surplus": 0
   },
   {
@@ -2189,7 +2170,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 95129,
     "total_used": 95129,
     "valid": 87644,
@@ -2200,7 +2181,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 30864,
     "margin": 7981,
-    "percent_invalid": 4.07,
+    "percent_invalid": 4.069211281522985,
     "ballot_surplus": -2
   },
   {
@@ -2208,7 +2189,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85762,
     "total_used": 85762,
     "valid": 81811,
@@ -2219,7 +2200,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19113,
     "margin": 8860,
-    "percent_invalid": 2.46,
+    "percent_invalid": 2.4602971012802874,
     "ballot_surplus": 0
   },
   {
@@ -2227,7 +2208,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 81993,
     "total_used": 81993,
     "valid": 76958,
@@ -2238,7 +2219,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 21229,
     "margin": 18999,
-    "percent_invalid": 3.31,
+    "percent_invalid": 3.313697510763114,
     "ballot_surplus": 0
   },
   {
@@ -2246,7 +2227,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 88226,
     "total_used": 88226,
     "valid": 79521,
@@ -2257,7 +2238,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14747,
     "margin": 37093,
-    "percent_invalid": 5.81,
+    "percent_invalid": 5.810078661619024,
     "ballot_surplus": -1
   },
   {
@@ -2265,7 +2246,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 9,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 92485,
     "total_used": 92485,
     "valid": 87655,
@@ -2276,7 +2257,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 24623,
     "margin": 16612,
-    "percent_invalid": 3.15,
+    "percent_invalid": 3.1453749256636208,
     "ballot_surplus": 1
   },
   {
@@ -2284,7 +2265,7 @@ const CONST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 94060,
     "total_used": 94060,
     "valid": 85981,
@@ -2295,7 +2276,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 23104,
     "margin": 23063,
-    "percent_invalid": 3.73,
+    "percent_invalid": 3.7252817350627256,
     "ballot_surplus": 0
   },
   {
@@ -2303,7 +2284,7 @@ const CONST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 95003,
     "total_used": 95003,
     "valid": 89433,
@@ -2314,7 +2295,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17069,
     "margin": 36159,
-    "percent_invalid": 3.22,
+    "percent_invalid": 3.2220035156784523,
     "ballot_surplus": 2
   },
   {
@@ -2322,7 +2303,7 @@ const CONST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84655,
     "total_used": 84655,
     "valid": 79639,
@@ -2333,7 +2314,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14826,
     "margin": 35507,
-    "percent_invalid": 3.28,
+    "percent_invalid": 3.2768294843777683,
     "ballot_surplus": -99
   },
   {
@@ -2341,7 +2322,7 @@ const CONST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85085,
     "total_used": 85085,
     "valid": 80530,
@@ -2352,7 +2333,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 14672,
     "margin": 30241,
-    "percent_invalid": 2.82,
+    "percent_invalid": 2.8230592936475287,
     "ballot_surplus": 1
   },
   {
@@ -2360,7 +2341,7 @@ const CONST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82574,
     "total_used": 82574,
     "valid": 79444,
@@ -2371,7 +2352,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 17798,
     "margin": 23873,
-    "percent_invalid": 2.49,
+    "percent_invalid": 2.491098893114055,
     "ballot_surplus": 0
   },
   {
@@ -2379,7 +2360,7 @@ const CONST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 81526,
     "total_used": 81526,
     "valid": 76550,
@@ -2390,7 +2371,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 10955,
     "margin": 41050,
-    "percent_invalid": 3.89,
+    "percent_invalid": 3.887103500723695,
     "ballot_surplus": 0
   },
   {
@@ -2398,7 +2379,7 @@ const CONST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91439,
     "total_used": 91439,
     "valid": 84840,
@@ -2409,7 +2390,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 24474,
     "margin": 18765,
-    "percent_invalid": 4.7,
+    "percent_invalid": 4.704775861503297,
     "ballot_surplus": 0
   },
   {
@@ -2417,7 +2398,7 @@ const CONST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85240,
     "total_used": 85240,
     "valid": 78919,
@@ -2428,7 +2409,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15302,
     "margin": 37371,
-    "percent_invalid": 5.07,
+    "percent_invalid": 5.068043172219616,
     "ballot_surplus": 0
   },
   {
@@ -2436,7 +2417,7 @@ const CONST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 98770,
     "total_used": 98770,
     "valid": 94666,
@@ -2447,7 +2428,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 25401,
     "margin": 27819,
-    "percent_invalid": 2.39,
+    "percent_invalid": 2.394451756606257,
     "ballot_surplus": 2
   },
   {
@@ -2455,7 +2436,7 @@ const CONST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85060,
     "total_used": 85060,
     "valid": 80721,
@@ -2466,7 +2447,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 30103,
     "margin": 5609,
-    "percent_invalid": 2.92,
+    "percent_invalid": 2.921467199623795,
     "ballot_surplus": 55
   },
   {
@@ -2474,7 +2455,7 @@ const CONST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82061,
     "total_used": 82061,
     "valid": 76586,
@@ -2485,7 +2466,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 9196,
     "margin": 42746,
-    "percent_invalid": 3.89,
+    "percent_invalid": 3.887352091736635,
     "ballot_surplus": 0
   },
   {
@@ -2493,7 +2474,7 @@ const CONST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82768,
     "total_used": 82768,
     "valid": 77864,
@@ -2504,7 +2485,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 20190,
     "margin": 23344,
-    "percent_invalid": 3.34,
+    "percent_invalid": 3.337038468973516,
     "ballot_surplus": -1
   },
   {
@@ -2512,7 +2493,7 @@ const CONST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85062,
     "total_used": 85062,
     "valid": 79671,
@@ -2523,7 +2504,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 25755,
     "margin": 13353,
-    "percent_invalid": 4.05,
+    "percent_invalid": 4.04763584209165,
     "ballot_surplus": -1
   },
   {
@@ -2531,9 +2512,9 @@ const CONST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83911,
-    "total_used": 83912,
+    "total_used": 83911,
     "valid": 79063,
     "invalid": 3411,
     "blank": 1438,
@@ -2542,7 +2523,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 31072,
     "margin": 273,
-    "percent_invalid": 4.06,
+    "percent_invalid": 4.065021272538762,
     "ballot_surplus": 1
   },
   {
@@ -2550,7 +2531,7 @@ const CONST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84203,
     "total_used": 84203,
     "valid": 78631,
@@ -2561,7 +2542,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 31642,
     "margin": 4548,
-    "percent_invalid": 5.17,
+    "percent_invalid": 5.1672743251428095,
     "ballot_surplus": 338
   },
   {
@@ -2569,7 +2550,7 @@ const CONST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89354,
     "total_used": 89354,
     "valid": 84175,
@@ -2580,7 +2561,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 12268,
     "margin": 47605,
-    "percent_invalid": 3.48,
+    "percent_invalid": 3.47606150815856,
     "ballot_surplus": 0
   },
   {
@@ -2588,7 +2569,7 @@ const CONST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 9,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93002,
     "total_used": 93002,
     "valid": 88566,
@@ -2599,7 +2580,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19391,
     "margin": 20276,
-    "percent_invalid": 2.96,
+    "percent_invalid": 2.9644523773682288,
     "ballot_surplus": 0
   },
   {
@@ -2607,7 +2588,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 99448,
     "total_used": 99448,
     "valid": 87991,
@@ -2618,7 +2599,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 27314,
     "margin": 5014,
-    "percent_invalid": 4.21,
+    "percent_invalid": 4.207223875794385,
     "ballot_surplus": -3
   },
   {
@@ -2626,7 +2607,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 10,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93234,
     "total_used": 93234,
     "valid": 85556,
@@ -2637,7 +2618,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 7494,
     "margin": 59415,
-    "percent_invalid": 5.5,
+    "percent_invalid": 5.50228457429693,
     "ballot_surplus": 0
   },
   {
@@ -2645,7 +2626,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 11,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85958,
     "total_used": 85958,
     "valid": 80032,
@@ -2656,7 +2637,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 11868,
     "margin": 46511,
-    "percent_invalid": 3.79,
+    "percent_invalid": 3.7855696968286843,
     "ballot_surplus": 0
   },
   {
@@ -2664,7 +2645,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 97134,
     "total_used": 97134,
     "valid": 91206,
@@ -2675,7 +2656,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 33798,
     "margin": 2400,
-    "percent_invalid": 2.47,
+    "percent_invalid": 2.4728725266127207,
     "ballot_surplus": 0
   },
   {
@@ -2683,7 +2664,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93751,
     "total_used": 93751,
     "valid": 86097,
@@ -2694,7 +2675,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 22798,
     "margin": 20834,
-    "percent_invalid": 3.73,
+    "percent_invalid": 3.7258269245128055,
     "ballot_surplus": 0
   },
   {
@@ -2702,7 +2683,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 112955,
     "total_used": 112955,
     "valid": 100779,
@@ -2713,7 +2694,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 28643,
     "margin": 9151,
-    "percent_invalid": 4.64,
+    "percent_invalid": 4.643442078703909,
     "ballot_surplus": 0
   },
   {
@@ -2721,7 +2702,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 86404,
     "total_used": 86404,
     "valid": 80991,
@@ -2732,7 +2713,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15051,
     "margin": 37100,
-    "percent_invalid": 3.56,
+    "percent_invalid": 3.556548307948706,
     "ballot_surplus": 0
   },
   {
@@ -2740,7 +2721,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83930,
     "total_used": 83930,
     "valid": 78144,
@@ -2751,7 +2732,7 @@ const CONST_RAW = [
     "runnerup_party": "ไทรวมพลัง",
     "runnerup_votes": 31887,
     "margin": 1458,
-    "percent_invalid": 4.9,
+    "percent_invalid": 4.902895269867747,
     "ballot_surplus": 0
   },
   {
@@ -2759,7 +2740,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90567,
     "total_used": 90567,
     "valid": 87014,
@@ -2770,7 +2751,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 34817,
     "margin": 10186,
-    "percent_invalid": 2.83,
+    "percent_invalid": 2.8266366336524342,
     "ballot_surplus": 360
   },
   {
@@ -2778,7 +2759,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 92164,
     "total_used": 92164,
     "valid": 87156,
@@ -2789,7 +2770,7 @@ const CONST_RAW = [
     "runnerup_party": "ไทรวมพลัง",
     "runnerup_votes": 33084,
     "margin": 3567,
-    "percent_invalid": 3.19,
+    "percent_invalid": 3.1877956685907733,
     "ballot_surplus": 0
   },
   {
@@ -2797,7 +2778,7 @@ const CONST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 9,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83647,
     "total_used": 83647,
     "valid": 78470,
@@ -2808,7 +2789,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 15396,
     "margin": 27436,
-    "percent_invalid": 4.58,
+    "percent_invalid": 4.579961026695518,
     "ballot_surplus": 0
   },
   {
@@ -2816,7 +2797,7 @@ const CONST_RAW = [
     "province_eng": "YASOTHON",
     "prov_id": "YST",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 105736,
     "total_used": 105736,
     "valid": 100743,
@@ -2827,7 +2808,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 36586,
     "margin": 12748,
-    "percent_invalid": 2.74,
+    "percent_invalid": 2.7370053718695617,
     "ballot_surplus": -1
   },
   {
@@ -2835,7 +2816,7 @@ const CONST_RAW = [
     "province_eng": "YASOTHON",
     "prov_id": "YST",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 94115,
     "total_used": 94115,
     "valid": 90902,
@@ -2846,7 +2827,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 28880,
     "margin": 22353,
-    "percent_invalid": 2.08,
+    "percent_invalid": 2.083621101843489,
     "ballot_surplus": 102
   },
   {
@@ -2854,7 +2835,7 @@ const CONST_RAW = [
     "province_eng": "YASOTHON",
     "prov_id": "YST",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 99570,
     "total_used": 99570,
     "valid": 93914,
@@ -2865,7 +2846,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 30173,
     "margin": 14797,
-    "percent_invalid": 3.67,
+    "percent_invalid": 3.6667670985236516,
     "ballot_surplus": 1
   },
   {
@@ -2873,7 +2854,7 @@ const CONST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 88777,
     "total_used": 88777,
     "valid": 81673,
@@ -2884,7 +2865,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24738,
     "margin": 16010,
-    "percent_invalid": 3.26,
+    "percent_invalid": 3.2598533403922185,
     "ballot_surplus": 62
   },
   {
@@ -2892,7 +2873,7 @@ const CONST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 87136,
     "total_used": 87136,
     "valid": 79326,
@@ -2903,7 +2884,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14658,
     "margin": 40338,
-    "percent_invalid": 5.12,
+    "percent_invalid": 5.123026074182886,
     "ballot_surplus": 0
   },
   {
@@ -2911,7 +2892,7 @@ const CONST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 80751,
     "total_used": 80751,
     "valid": 75289,
@@ -2922,7 +2903,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 15311,
     "margin": 32805,
-    "percent_invalid": 4.63,
+    "percent_invalid": 4.633998340577826,
     "ballot_surplus": 0
   },
   {
@@ -2930,7 +2911,7 @@ const CONST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 76539,
     "total_used": 76539,
     "valid": 72809,
@@ -2941,7 +2922,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 17314,
     "margin": 19593,
-    "percent_invalid": 3.57,
+    "percent_invalid": 3.5746482185552466,
     "ballot_surplus": 0
   },
   {
@@ -2949,7 +2930,7 @@ const CONST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89483,
     "total_used": 89483,
     "valid": 85450,
@@ -2960,7 +2941,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 23594,
     "margin": 6257,
-    "percent_invalid": 2.96,
+    "percent_invalid": 2.9625738967178123,
     "ballot_surplus": 2
   },
   {
@@ -2968,7 +2949,7 @@ const CONST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89261,
     "total_used": 89261,
     "valid": 83346,
@@ -2979,7 +2960,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 16918,
     "margin": 33737,
-    "percent_invalid": 4.32,
+    "percent_invalid": 4.315434512272997,
     "ballot_surplus": 2
   },
   {
@@ -2987,7 +2968,7 @@ const CONST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84732,
     "total_used": 84732,
     "valid": 81542,
@@ -2998,7 +2979,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23818,
     "margin": 17015,
-    "percent_invalid": 2.47,
+    "percent_invalid": 2.4748619175754145,
     "ballot_surplus": 0
   },
   {
@@ -3006,7 +2987,7 @@ const CONST_RAW = [
     "province_eng": "AMNAT CHAROEN",
     "prov_id": "ACR",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 97677,
     "total_used": 97677,
     "valid": 91024,
@@ -3017,7 +2998,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 21040,
     "margin": 23159,
-    "percent_invalid": 3.01,
+    "percent_invalid": 3.0099204521023375,
     "ballot_surplus": 2
   },
   {
@@ -3025,7 +3006,7 @@ const CONST_RAW = [
     "province_eng": "AMNAT CHAROEN",
     "prov_id": "ACR",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 103473,
     "total_used": 103473,
     "valid": 93862,
@@ -3036,7 +3017,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19048,
     "margin": 23968,
-    "percent_invalid": 5.52,
+    "percent_invalid": 5.523179959989562,
     "ballot_surplus": 0
   },
   {
@@ -3044,7 +3025,7 @@ const CONST_RAW = [
     "province_eng": "BUENG KAN",
     "prov_id": "BKN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 74245,
     "total_used": 74245,
     "valid": 69624,
@@ -3055,7 +3036,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17532,
     "margin": 19650,
-    "percent_invalid": 3.95,
+    "percent_invalid": 3.9450468044986198,
     "ballot_surplus": 0
   },
   {
@@ -3063,7 +3044,7 @@ const CONST_RAW = [
     "province_eng": "BUENG KAN",
     "prov_id": "BKN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 75005,
     "total_used": 75005,
     "valid": 72072,
@@ -3074,7 +3055,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 19981,
     "margin": 6501,
-    "percent_invalid": 2.49,
+    "percent_invalid": 2.4918338777414837,
     "ballot_surplus": 1
   },
   {
@@ -3082,7 +3063,7 @@ const CONST_RAW = [
     "province_eng": "BUENG KAN",
     "prov_id": "BKN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 76221,
     "total_used": 76221,
     "valid": 70033,
@@ -3093,7 +3074,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15049,
     "margin": 18992,
-    "percent_invalid": 4.91,
+    "percent_invalid": 4.908096193962294,
     "ballot_surplus": 0
   },
   {
@@ -3101,7 +3082,7 @@ const CONST_RAW = [
     "province_eng": "NONG BUA LAM PHU",
     "prov_id": "NBP",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91459,
     "total_used": 91459,
     "valid": 86812,
@@ -3112,7 +3093,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 21721,
     "margin": 9873,
-    "percent_invalid": 2.53,
+    "percent_invalid": 2.5311888387146153,
     "ballot_surplus": -4
   },
   {
@@ -3120,7 +3101,7 @@ const CONST_RAW = [
     "province_eng": "NONG BUA LAM PHU",
     "prov_id": "NBP",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83652,
     "total_used": 83652,
     "valid": 79482,
@@ -3131,7 +3112,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 16062,
     "margin": 20601,
-    "percent_invalid": 2.94,
+    "percent_invalid": 2.9359728398603737,
     "ballot_surplus": 1
   },
   {
@@ -3139,7 +3120,7 @@ const CONST_RAW = [
     "province_eng": "NONG BUA LAM PHU",
     "prov_id": "NBP",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82630,
     "total_used": 82630,
     "valid": 77865,
@@ -3150,7 +3131,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 23670,
     "margin": 2652,
-    "percent_invalid": 3.53,
+    "percent_invalid": 3.5277744160716447,
     "ballot_surplus": 5
   },
   {
@@ -3158,7 +3139,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91147,
     "total_used": 91147,
     "valid": 83007,
@@ -3169,7 +3150,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 23307,
     "margin": 11996,
-    "percent_invalid": 2.88,
+    "percent_invalid": 2.875574621216277,
     "ballot_surplus": 0
   },
   {
@@ -3177,7 +3158,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 10,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89102,
     "total_used": 89102,
     "valid": 83757,
@@ -3188,7 +3169,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 32727,
     "margin": 6669,
-    "percent_invalid": 4.45,
+    "percent_invalid": 4.448833920675181,
     "ballot_surplus": 0
   },
   {
@@ -3196,7 +3177,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 11,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82562,
     "total_used": 82562,
     "valid": 76313,
@@ -3207,7 +3188,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 13775,
     "margin": 35035,
-    "percent_invalid": 5.0,
+    "percent_invalid": 4.999878878903127,
     "ballot_surplus": 0
   },
   {
@@ -3215,7 +3196,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 105501,
     "total_used": 105501,
     "valid": 96299,
@@ -3226,7 +3207,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 26649,
     "margin": 14363,
-    "percent_invalid": 2.64,
+    "percent_invalid": 2.6435768381342357,
     "ballot_surplus": 0
   },
   {
@@ -3234,7 +3215,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90629,
     "total_used": 90629,
     "valid": 84748,
@@ -3245,7 +3226,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 29282,
     "margin": 1363,
-    "percent_invalid": 4.38,
+    "percent_invalid": 4.3827031082766,
     "ballot_surplus": -190
   },
   {
@@ -3253,7 +3234,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 95728,
     "total_used": 95728,
     "valid": 90702,
@@ -3264,7 +3245,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 22219,
     "margin": 18036,
-    "percent_invalid": 2.9,
+    "percent_invalid": 2.903016881163296,
     "ballot_surplus": 0
   },
   {
@@ -3272,7 +3253,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85145,
     "total_used": 85145,
     "valid": 81109,
@@ -3283,7 +3264,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 32006,
     "margin": 4114,
-    "percent_invalid": 3.03,
+    "percent_invalid": 3.028950613659052,
     "ballot_surplus": -1
   },
   {
@@ -3291,7 +3272,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 86154,
     "total_used": 86154,
     "valid": 79916,
@@ -3302,7 +3283,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19300,
     "margin": 23946,
-    "percent_invalid": 4.41,
+    "percent_invalid": 4.413027833878868,
     "ballot_surplus": 0
   },
   {
@@ -3310,7 +3291,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90247,
     "total_used": 90247,
     "valid": 83207,
@@ -3321,7 +3302,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 21458,
     "margin": 11338,
-    "percent_invalid": 4.89,
+    "percent_invalid": 4.889913238113178,
     "ballot_surplus": 0
   },
   {
@@ -3329,7 +3310,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 96586,
     "total_used": 96586,
     "valid": 89683,
@@ -3340,7 +3321,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27594,
     "margin": 6332,
-    "percent_invalid": 3.76,
+    "percent_invalid": 3.7572733108317977,
     "ballot_surplus": 0
   },
   {
@@ -3348,7 +3329,7 @@ const CONST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 9,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85016,
     "total_used": 85016,
     "valid": 81101,
@@ -3359,7 +3340,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20997,
     "margin": 21806,
-    "percent_invalid": 2.98,
+    "percent_invalid": 2.977086666039334,
     "ballot_surplus": 0
   },
   {
@@ -3367,7 +3348,7 @@ const CONST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84507,
     "total_used": 84507,
     "valid": 76456,
@@ -3378,7 +3359,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 29040,
     "margin": 1518,
-    "percent_invalid": 2.86,
+    "percent_invalid": 2.863668098500716,
     "ballot_surplus": 0
   },
   {
@@ -3386,7 +3367,7 @@ const CONST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 10,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 79295,
     "total_used": 79295,
     "valid": 72317,
@@ -3397,7 +3378,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19691,
     "margin": 11898,
-    "percent_invalid": 6.09,
+    "percent_invalid": 6.093700737751435,
     "ballot_surplus": 0
   },
   {
@@ -3405,7 +3386,7 @@ const CONST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89477,
     "total_used": 89477,
     "valid": 82554,
@@ -3416,7 +3397,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 24364,
     "margin": 5013,
-    "percent_invalid": 3.47,
+    "percent_invalid": 3.472400728678878,
     "ballot_surplus": 0
   },
   {
@@ -3424,9 +3405,9 @@ const CONST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 79803,
-    "total_used": 79802,
+    "total_used": 79803,
     "valid": 75808,
     "invalid": 2548,
     "blank": 1446,
@@ -3435,7 +3416,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27342,
     "margin": 5671,
-    "percent_invalid": 3.19,
+    "percent_invalid": 3.192862423718407,
     "ballot_surplus": 2
   },
   {
@@ -3443,7 +3424,7 @@ const CONST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 74870,
     "total_used": 74870,
     "valid": 70876,
@@ -3454,7 +3435,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22361,
     "margin": 7396,
-    "percent_invalid": 3.09,
+    "percent_invalid": 3.0933618271670897,
     "ballot_surplus": -1
   },
   {
@@ -3462,7 +3443,7 @@ const CONST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 73659,
     "total_used": 73659,
     "valid": 69548,
@@ -3473,7 +3454,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20246,
     "margin": 8229,
-    "percent_invalid": 3.24,
+    "percent_invalid": 3.239251143784195,
     "ballot_surplus": 1
   },
   {
@@ -3481,7 +3462,7 @@ const CONST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 77512,
     "total_used": 77512,
     "valid": 71025,
@@ -3492,7 +3473,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27904,
     "margin": 882,
-    "percent_invalid": 4.44,
+    "percent_invalid": 4.438022499741975,
     "ballot_surplus": 0
   },
   {
@@ -3500,7 +3481,7 @@ const CONST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 76246,
     "total_used": 76246,
     "valid": 71066,
@@ -3511,7 +3492,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 13901,
     "margin": 24236,
-    "percent_invalid": 3.78,
+    "percent_invalid": 3.78249350785615,
     "ballot_surplus": 45
   },
   {
@@ -3519,7 +3500,7 @@ const CONST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 9,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 80810,
     "total_used": 80810,
     "valid": 73427,
@@ -3530,7 +3511,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 20842,
     "margin": 8680,
-    "percent_invalid": 5.73,
+    "percent_invalid": 5.733201336468259,
     "ballot_surplus": 0
   },
   {
@@ -3538,7 +3519,7 @@ const CONST_RAW = [
     "province_eng": "LOEI",
     "prov_id": "LEI",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93879,
     "total_used": 93879,
     "valid": 85064,
@@ -3549,15 +3530,15 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18230,
     "margin": 24500,
-    "percent_invalid": 4.87,
-    "ballot_surplus": -1
+    "percent_invalid": 4.871163945078239,
+    "ballot_surplus": 3999
   },
   {
     "province_thai": "เลย",
     "province_eng": "LOEI",
     "prov_id": "LEI",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83494,
     "total_used": 83494,
     "valid": 72730,
@@ -3568,7 +3549,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19571,
     "margin": 8385,
-    "percent_invalid": 7.53,
+    "percent_invalid": 7.526289314202218,
     "ballot_surplus": 0
   },
   {
@@ -3576,7 +3557,7 @@ const CONST_RAW = [
     "province_eng": "LOEI",
     "prov_id": "LEI",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91957,
     "total_used": 91957,
     "valid": 83065,
@@ -3587,15 +3568,15 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17501,
     "margin": 34024,
-    "percent_invalid": 4.88,
-    "ballot_surplus": 50
+    "percent_invalid": 4.876192133279686,
+    "ballot_surplus": 0
   },
   {
     "province_thai": "เลย",
     "province_eng": "LOEI",
     "prov_id": "LEI",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85019,
     "total_used": 85019,
     "valid": 74118,
@@ -3606,7 +3587,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20152,
     "margin": 9993,
-    "percent_invalid": 7.58,
+    "percent_invalid": 7.578306025711899,
     "ballot_surplus": 0
   },
   {
@@ -3614,7 +3595,7 @@ const CONST_RAW = [
     "province_eng": "NONG KHAI",
     "prov_id": "NKI",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 95511,
     "total_used": 95511,
     "valid": 88967,
@@ -3625,7 +3606,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 24598,
     "margin": 6268,
-    "percent_invalid": 4.06,
+    "percent_invalid": 4.061312309576907,
     "ballot_surplus": 1
   },
   {
@@ -3633,7 +3614,7 @@ const CONST_RAW = [
     "province_eng": "NONG KHAI",
     "prov_id": "NKI",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85701,
     "total_used": 85701,
     "valid": 81218,
@@ -3644,7 +3625,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 26423,
     "margin": 3899,
-    "percent_invalid": 3.85,
+    "percent_invalid": 3.8482631474545217,
     "ballot_surplus": -1
   },
   {
@@ -3652,7 +3633,7 @@ const CONST_RAW = [
     "province_eng": "NONG KHAI",
     "prov_id": "NKI",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 87064,
     "total_used": 87064,
     "valid": 78176,
@@ -3663,7 +3644,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19988,
     "margin": 16929,
-    "percent_invalid": 6.27,
+    "percent_invalid": 6.268951575852247,
     "ballot_surplus": 0
   },
   {
@@ -3671,7 +3652,7 @@ const CONST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90569,
     "total_used": 90569,
     "valid": 84916,
@@ -3682,7 +3663,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22794,
     "margin": 9699,
-    "percent_invalid": 2.33,
+    "percent_invalid": 2.3252989433470614,
     "ballot_surplus": 1
   },
   {
@@ -3690,7 +3671,7 @@ const CONST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82745,
     "total_used": 82745,
     "valid": 78715,
@@ -3701,7 +3682,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20789,
     "margin": 11414,
-    "percent_invalid": 2.63,
+    "percent_invalid": 2.6309746812496226,
     "ballot_surplus": 0
   },
   {
@@ -3709,7 +3690,7 @@ const CONST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 87676,
     "total_used": 87676,
     "valid": 84786,
@@ -3720,7 +3701,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 34638,
     "margin": 4974,
-    "percent_invalid": 2.31,
+    "percent_invalid": 2.308499475341028,
     "ballot_surplus": 27
   },
   {
@@ -3728,7 +3709,7 @@ const CONST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84945,
     "total_used": 84945,
     "valid": 80681,
@@ -3739,7 +3720,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 21773,
     "margin": 9070,
-    "percent_invalid": 3.48,
+    "percent_invalid": 3.483430455000294,
     "ballot_surplus": 37
   },
   {
@@ -3747,7 +3728,7 @@ const CONST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84701,
     "total_used": 84701,
     "valid": 77618,
@@ -3758,7 +3739,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19302,
     "margin": 16847,
-    "percent_invalid": 3.61,
+    "percent_invalid": 3.607985738066847,
     "ballot_surplus": 1
   },
   {
@@ -3766,7 +3747,7 @@ const CONST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91663,
     "total_used": 91663,
     "valid": 87058,
@@ -3777,7 +3758,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 30699,
     "margin": 8240,
-    "percent_invalid": 2.69,
+    "percent_invalid": 2.6891984770299904,
     "ballot_surplus": 0
   },
   {
@@ -3785,7 +3766,7 @@ const CONST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 94576,
     "total_used": 94576,
     "valid": 89385,
@@ -3796,7 +3777,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20122,
     "margin": 30116,
-    "percent_invalid": 2.84,
+    "percent_invalid": 2.8411013364912874,
     "ballot_surplus": -1
   },
   {
@@ -3804,7 +3785,7 @@ const CONST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91762,
     "total_used": 91762,
     "valid": 86974,
@@ -3815,7 +3796,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23207,
     "margin": 20557,
-    "percent_invalid": 3.25,
+    "percent_invalid": 3.2486214337089425,
     "ballot_surplus": 0
   },
   {
@@ -3823,7 +3804,7 @@ const CONST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85667,
     "total_used": 85667,
     "valid": 81733,
@@ -3834,7 +3815,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 30119,
     "margin": 5880,
-    "percent_invalid": 2.56,
+    "percent_invalid": 2.5634141501394936,
     "ballot_surplus": -1
   },
   {
@@ -3842,7 +3823,7 @@ const CONST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83975,
     "total_used": 83975,
     "valid": 80404,
@@ -3853,15 +3834,15 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 21829,
     "margin": 473,
-    "percent_invalid": 2.34,
-    "ballot_surplus": 0
+    "percent_invalid": 2.342363798749628,
+    "ballot_surplus": 10
   },
   {
     "province_thai": "ร้อยเอ็ด",
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 79956,
     "total_used": 79956,
     "valid": 72043,
@@ -3872,7 +3853,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14428,
     "margin": 29359,
-    "percent_invalid": 5.85,
+    "percent_invalid": 5.850717894842163,
     "ballot_surplus": 0
   },
   {
@@ -3880,7 +3861,7 @@ const CONST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 81281,
     "total_used": 81281,
     "valid": 76554,
@@ -3891,7 +3872,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20825,
     "margin": 12871,
-    "percent_invalid": 3.8,
+    "percent_invalid": 3.7979355568952156,
     "ballot_surplus": 2
   },
   {
@@ -3899,7 +3880,7 @@ const CONST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84922,
     "total_used": 84922,
     "valid": 81314,
@@ -3910,7 +3891,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 29794,
     "margin": 14620,
-    "percent_invalid": 3.25,
+    "percent_invalid": 3.2500412142907606,
     "ballot_surplus": 1
   },
   {
@@ -3918,7 +3899,7 @@ const CONST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89205,
     "total_used": 89205,
     "valid": 85433,
@@ -3929,7 +3910,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25106,
     "margin": 1754,
-    "percent_invalid": 2.42,
+    "percent_invalid": 2.41578386861723,
     "ballot_surplus": 40
   },
   {
@@ -3937,7 +3918,7 @@ const CONST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90137,
     "total_used": 90137,
     "valid": 83744,
@@ -3948,7 +3929,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21477,
     "margin": 14411,
-    "percent_invalid": 3.12,
+    "percent_invalid": 3.1152578852191666,
     "ballot_surplus": -350
   },
   {
@@ -3956,7 +3937,7 @@ const CONST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82224,
     "total_used": 82224,
     "valid": 76321,
@@ -3967,7 +3948,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17857,
     "margin": 25839,
-    "percent_invalid": 3.44,
+    "percent_invalid": 3.4442498540572095,
     "ballot_surplus": 0
   },
   {
@@ -3975,7 +3956,7 @@ const CONST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82445,
     "total_used": 82445,
     "valid": 78033,
@@ -3986,7 +3967,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 15030,
     "margin": 12355,
-    "percent_invalid": 3.05,
+    "percent_invalid": 3.054157316999212,
     "ballot_surplus": 0
   },
   {
@@ -3994,7 +3975,7 @@ const CONST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90104,
     "total_used": 90104,
     "valid": 85649,
@@ -4005,7 +3986,7 @@ const CONST_RAW = [
     "runnerup_party": "พลังประชารัฐ",
     "runnerup_votes": 25187,
     "margin": 10595,
-    "percent_invalid": 2.79,
+    "percent_invalid": 2.7901092071384177,
     "ballot_surplus": 0
   },
   {
@@ -4013,7 +3994,7 @@ const CONST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93903,
     "total_used": 93903,
     "valid": 89758,
@@ -4024,7 +4005,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 22785,
     "margin": 25486,
-    "percent_invalid": 2.45,
+    "percent_invalid": 2.4546606604687815,
     "ballot_surplus": 1
   },
   {
@@ -4032,7 +4013,7 @@ const CONST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 95812,
     "total_used": 95812,
     "valid": 91466,
@@ -4043,7 +4024,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15141,
     "margin": 44524,
-    "percent_invalid": 2.59,
+    "percent_invalid": 2.59153341961341,
     "ballot_surplus": 1
   },
   {
@@ -4051,7 +4032,7 @@ const CONST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 96161,
     "total_used": 96161,
     "valid": 90090,
@@ -4062,7 +4043,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 23434,
     "margin": 3903,
-    "percent_invalid": 2.43,
+    "percent_invalid": 2.428219340481068,
     "ballot_surplus": 1002
   },
   {
@@ -4070,7 +4051,7 @@ const CONST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 88996,
     "total_used": 88996,
     "valid": 83880,
@@ -4081,7 +4062,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20809,
     "margin": 4928,
-    "percent_invalid": 3.73,
+    "percent_invalid": 3.7271338037664616,
     "ballot_surplus": 0
   },
   {
@@ -4089,7 +4070,7 @@ const CONST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 86140,
     "total_used": 86140,
     "valid": 78470,
@@ -4100,7 +4081,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 13374,
     "margin": 34714,
-    "percent_invalid": 4.77,
+    "percent_invalid": 4.771302530763872,
     "ballot_surplus": 0
   },
   {
@@ -4108,7 +4089,7 @@ const CONST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83327,
     "total_used": 83327,
     "valid": 75903,
@@ -4119,7 +4100,7 @@ const CONST_RAW = [
     "runnerup_party": "รวมไทยสร้างชาติ",
     "runnerup_votes": 16643,
     "margin": 13244,
-    "percent_invalid": 4.12,
+    "percent_invalid": 4.12111320460355,
     "ballot_surplus": -99
   },
   {
@@ -4127,7 +4108,7 @@ const CONST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83538,
     "total_used": 83538,
     "valid": 79654,
@@ -4138,7 +4119,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22054,
     "margin": 5852,
-    "percent_invalid": 2.67,
+    "percent_invalid": 2.6730350259762026,
     "ballot_surplus": 0
   },
   {
@@ -4146,7 +4127,7 @@ const CONST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 80511,
     "total_used": 80511,
     "valid": 75062,
@@ -4157,7 +4138,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23101,
     "margin": 11791,
-    "percent_invalid": 3.96,
+    "percent_invalid": 3.960949435480866,
     "ballot_surplus": -1
   },
   {
@@ -4165,7 +4146,7 @@ const CONST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 76157,
     "total_used": 76157,
     "valid": 71830,
@@ -4176,7 +4157,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17145,
     "margin": 6426,
-    "percent_invalid": 3.68,
+    "percent_invalid": 3.675302335963864,
     "ballot_surplus": -400
   },
   {
@@ -4184,7 +4165,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON PHANOM",
     "prov_id": "NPM",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 98499,
     "total_used": 98499,
     "valid": 94537,
@@ -4195,7 +4176,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 21476,
     "margin": 40327,
-    "percent_invalid": 2.68,
+    "percent_invalid": 2.67616930121118,
     "ballot_surplus": 1
   },
   {
@@ -4203,7 +4184,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON PHANOM",
     "prov_id": "NPM",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 94066,
     "total_used": 94066,
     "valid": 88863,
@@ -4214,7 +4195,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 35076,
     "margin": 2058,
-    "percent_invalid": 3.17,
+    "percent_invalid": 3.17117768375396,
     "ballot_surplus": 0
   },
   {
@@ -4222,7 +4203,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON PHANOM",
     "prov_id": "NPM",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 96215,
     "total_used": 96215,
     "valid": 92181,
@@ -4233,7 +4214,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 35119,
     "margin": 6193,
-    "percent_invalid": 2.44,
+    "percent_invalid": 2.441407264979473,
     "ballot_surplus": 0
   },
   {
@@ -4241,7 +4222,7 @@ const CONST_RAW = [
     "province_eng": "MUKDAHAN",
     "prov_id": "MDH",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 104804,
     "total_used": 104804,
     "valid": 98985,
@@ -4252,7 +4233,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23583,
     "margin": 7759,
-    "percent_invalid": 3.0,
+    "percent_invalid": 2.9960688523338805,
     "ballot_surplus": 0
   },
   {
@@ -4260,7 +4241,7 @@ const CONST_RAW = [
     "province_eng": "MUKDAHAN",
     "prov_id": "MDH",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 100884,
     "total_used": 100884,
     "valid": 94225,
@@ -4271,7 +4252,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23462,
     "margin": 18931,
-    "percent_invalid": 3.92,
+    "percent_invalid": 3.923317870028944,
     "ballot_surplus": 20
   },
   {
@@ -4279,7 +4260,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 103006,
     "total_used": 103006,
     "valid": 93695,
@@ -4290,7 +4271,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20164,
     "margin": 27676,
-    "percent_invalid": 2.41,
+    "percent_invalid": 2.405685105721997,
     "ballot_surplus": -5
   },
   {
@@ -4298,7 +4279,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 10,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 91752,
     "total_used": 91752,
     "valid": 80699,
@@ -4309,7 +4290,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 30928,
     "margin": 3174,
-    "percent_invalid": 10.52,
+    "percent_invalid": 10.524021274740605,
     "ballot_surplus": 0
   },
   {
@@ -4317,7 +4298,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 113528,
     "total_used": 113528,
     "valid": 101324,
@@ -4328,7 +4309,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 26155,
     "margin": 25377,
-    "percent_invalid": 3.07,
+    "percent_invalid": 3.069727291945599,
     "ballot_surplus": 1
   },
   {
@@ -4336,7 +4317,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 111503,
     "total_used": 111503,
     "valid": 99756,
@@ -4347,7 +4328,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 28351,
     "margin": 20884,
-    "percent_invalid": 3.5,
+    "percent_invalid": 3.4985605768454655,
     "ballot_surplus": -2
   },
   {
@@ -4355,7 +4336,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 4,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 115490,
     "total_used": 115490,
     "valid": 105843,
@@ -4366,7 +4347,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 22208,
     "margin": 27433,
-    "percent_invalid": 2.39,
+    "percent_invalid": 2.3872196726989348,
     "ballot_surplus": -1
   },
   {
@@ -4374,7 +4355,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 5,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 102641,
     "total_used": 102641,
     "valid": 91933,
@@ -4385,7 +4366,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 32589,
     "margin": 6531,
-    "percent_invalid": 4.27,
+    "percent_invalid": 4.2663263218402,
     "ballot_surplus": 106
   },
   {
@@ -4393,7 +4374,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 6,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 91404,
     "total_used": 91404,
     "valid": 81574,
@@ -4404,7 +4385,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 26649,
     "margin": 6394,
-    "percent_invalid": 6.94,
+    "percent_invalid": 6.943897422432278,
     "ballot_surplus": -1
   },
   {
@@ -4412,7 +4393,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 7,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 98463,
     "total_used": 98463,
     "valid": 90578,
@@ -4423,7 +4404,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20275,
     "margin": 13217,
-    "percent_invalid": 4.78,
+    "percent_invalid": 4.78149152473518,
     "ballot_surplus": 0
   },
   {
@@ -4431,7 +4412,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 8,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 116389,
     "total_used": 116389,
     "valid": 106179,
@@ -4442,7 +4423,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 28146,
     "margin": 29705,
-    "percent_invalid": 3.24,
+    "percent_invalid": 3.2425744700959713,
     "ballot_surplus": 0
   },
   {
@@ -4450,7 +4431,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 9,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 105624,
     "total_used": 105624,
     "valid": 96198,
@@ -4461,7 +4442,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 23465,
     "margin": 19923,
-    "percent_invalid": 5.64,
+    "percent_invalid": 5.636029690221919,
     "ballot_surplus": 0
   },
   {
@@ -4469,7 +4450,7 @@ const CONST_RAW = [
     "province_eng": "LAMPHUN",
     "prov_id": "LPN",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 140617,
     "total_used": 140617,
     "valid": 125326,
@@ -4480,7 +4461,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 29768,
     "margin": 36325,
-    "percent_invalid": 4.1,
+    "percent_invalid": 4.099788787984384,
     "ballot_surplus": -1
   },
   {
@@ -4488,7 +4469,7 @@ const CONST_RAW = [
     "province_eng": "LAMPHUN",
     "prov_id": "LPN",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 131679,
     "total_used": 131679,
     "valid": 116879,
@@ -4499,7 +4480,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 34789,
     "margin": 14527,
-    "percent_invalid": 5.75,
+    "percent_invalid": 5.7473097456693925,
     "ballot_surplus": 0
   },
   {
@@ -4507,7 +4488,7 @@ const CONST_RAW = [
     "province_eng": "LAMPANG",
     "prov_id": "LPG",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 112100,
     "total_used": 112100,
     "valid": 98457,
@@ -4518,7 +4499,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23642,
     "margin": 23972,
-    "percent_invalid": 4.16,
+    "percent_invalid": 4.161462979482605,
     "ballot_surplus": 1
   },
   {
@@ -4526,7 +4507,7 @@ const CONST_RAW = [
     "province_eng": "LAMPANG",
     "prov_id": "LPG",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 111667,
     "total_used": 111667,
     "valid": 98377,
@@ -4537,7 +4518,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 33581,
     "margin": 2247,
-    "percent_invalid": 7.02,
+    "percent_invalid": 7.022665603983272,
     "ballot_surplus": 0
   },
   {
@@ -4545,7 +4526,7 @@ const CONST_RAW = [
     "province_eng": "LAMPANG",
     "prov_id": "LPG",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 112970,
     "total_used": 112970,
     "valid": 100661,
@@ -4556,7 +4537,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 26924,
     "margin": 14092,
-    "percent_invalid": 4.01,
+    "percent_invalid": 4.008143754979198,
     "ballot_surplus": 0
   },
   {
@@ -4564,7 +4545,7 @@ const CONST_RAW = [
     "province_eng": "LAMPANG",
     "prov_id": "LPG",
     "cons_no": 4,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 115740,
     "total_used": 115740,
     "valid": 104442,
@@ -4575,7 +4556,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 29656,
     "margin": 8515,
-    "percent_invalid": 5.73,
+    "percent_invalid": 5.728356661482634,
     "ballot_surplus": 0
   },
   {
@@ -4583,7 +4564,7 @@ const CONST_RAW = [
     "province_eng": "UTTARADIT",
     "prov_id": "UTT",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 87587,
     "total_used": 87587,
     "valid": 80546,
@@ -4594,7 +4575,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20826,
     "margin": 16592,
-    "percent_invalid": 3.96,
+    "percent_invalid": 3.9617751492801445,
     "ballot_surplus": 1
   },
   {
@@ -4602,9 +4583,9 @@ const CONST_RAW = [
     "province_eng": "UTTARADIT",
     "prov_id": "UTT",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 83114,
-    "total_used": 83064,
+    "total_used": 83114,
     "valid": 74942,
     "invalid": 3780,
     "blank": 4342,
@@ -4613,7 +4594,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 18916,
     "margin": 12644,
-    "percent_invalid": 4.55,
+    "percent_invalid": 4.5479702577183145,
     "ballot_surplus": -50
   },
   {
@@ -4621,7 +4602,7 @@ const CONST_RAW = [
     "province_eng": "UTTARADIT",
     "prov_id": "UTT",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 84565,
     "total_used": 84565,
     "valid": 74882,
@@ -4632,7 +4613,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21012,
     "margin": 19914,
-    "percent_invalid": 5.65,
+    "percent_invalid": 5.653639212440135,
     "ballot_surplus": 0
   },
   {
@@ -4640,7 +4621,7 @@ const CONST_RAW = [
     "province_eng": "PHRAE",
     "prov_id": "PRE",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 98225,
     "total_used": 98225,
     "valid": 92581,
@@ -4651,7 +4632,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24153,
     "margin": 16585,
-    "percent_invalid": 2.79,
+    "percent_invalid": 2.7925680834818016,
     "ballot_surplus": 0
   },
   {
@@ -4659,7 +4640,7 @@ const CONST_RAW = [
     "province_eng": "PHRAE",
     "prov_id": "PRE",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 88953,
     "total_used": 88953,
     "valid": 83283,
@@ -4670,7 +4651,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14577,
     "margin": 40157,
-    "percent_invalid": 3.74,
+    "percent_invalid": 3.7379290186952656,
     "ballot_surplus": 0
   },
   {
@@ -4678,7 +4659,7 @@ const CONST_RAW = [
     "province_eng": "PHRAE",
     "prov_id": "PRE",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 84246,
     "total_used": 84246,
     "valid": 73590,
@@ -4689,7 +4670,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 21539,
     "margin": 2448,
-    "percent_invalid": 7.2,
+    "percent_invalid": 7.199154856016903,
     "ballot_surplus": 1
   },
   {
@@ -4697,7 +4678,7 @@ const CONST_RAW = [
     "province_eng": "NAN",
     "prov_id": "NAN",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 98561,
     "total_used": 98561,
     "valid": 90486,
@@ -4708,7 +4689,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 28888,
     "margin": 9340,
-    "percent_invalid": 3.57,
+    "percent_invalid": 3.5744361359969967,
     "ballot_surplus": 1
   },
   {
@@ -4716,9 +4697,9 @@ const CONST_RAW = [
     "province_eng": "NAN",
     "prov_id": "NAN",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 89542,
-    "total_used": 89541,
+    "total_used": 89542,
     "valid": 79242,
     "invalid": 5479,
     "blank": 4820,
@@ -4727,7 +4708,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 16170,
     "margin": 10019,
-    "percent_invalid": 6.12,
+    "percent_invalid": 6.118916262759376,
     "ballot_surplus": 128
   },
   {
@@ -4735,9 +4716,9 @@ const CONST_RAW = [
     "province_eng": "PHAYAO",
     "prov_id": "PYO",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
-    "turn_out": 94639,
-    "total_used": 98625,
+    "region": "North",
+    "turn_out": 98639,
+    "total_used": 98639,
     "valid": 91616,
     "invalid": 2999,
     "blank": 4010,
@@ -4746,7 +4727,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18907,
     "margin": 47832,
-    "percent_invalid": 3.04,
+    "percent_invalid": 3.0403795658917874,
     "ballot_surplus": 1
   },
   {
@@ -4754,7 +4735,7 @@ const CONST_RAW = [
     "province_eng": "PHAYAO",
     "prov_id": "PYO",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 96038,
     "total_used": 96038,
     "valid": 88518,
@@ -4765,7 +4746,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20496,
     "margin": 34904,
-    "percent_invalid": 4.27,
+    "percent_invalid": 4.266019700535205,
     "ballot_surplus": 0
   },
   {
@@ -4773,7 +4754,7 @@ const CONST_RAW = [
     "province_eng": "PHAYAO",
     "prov_id": "PYO",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 97854,
     "total_used": 97854,
     "valid": 89651,
@@ -4784,7 +4765,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 16950,
     "margin": 42520,
-    "percent_invalid": 4.82,
+    "percent_invalid": 4.818402926809328,
     "ballot_surplus": 0
   },
   {
@@ -4792,7 +4773,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 109317,
     "total_used": 109317,
     "valid": 98917,
@@ -4803,7 +4784,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 38694,
     "margin": 5390,
-    "percent_invalid": 3.29,
+    "percent_invalid": 3.292260124225875,
     "ballot_surplus": 14
   },
   {
@@ -4811,7 +4792,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 100731,
     "total_used": 100731,
     "valid": 88811,
@@ -4822,7 +4803,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25076,
     "margin": 9825,
-    "percent_invalid": 6.35,
+    "percent_invalid": 6.353555509227547,
     "ballot_surplus": -6
   },
   {
@@ -4830,7 +4811,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 104922,
     "total_used": 104922,
     "valid": 91475,
@@ -4841,7 +4822,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25793,
     "margin": 8253,
-    "percent_invalid": 8.04,
+    "percent_invalid": 8.035493032919693,
     "ballot_surplus": -5
   },
   {
@@ -4849,7 +4830,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 4,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 107048,
     "total_used": 107048,
     "valid": 95195,
@@ -4860,7 +4841,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 29837,
     "margin": 4373,
-    "percent_invalid": 5.71,
+    "percent_invalid": 5.714259023989238,
     "ballot_surplus": 0
   },
   {
@@ -4868,18 +4849,18 @@ const CONST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 5,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 99604,
-    "total_used": 99704,
+    "total_used": 99604,
     "valid": 91465,
     "invalid": 4742,
     "blank": 3497,
     "winner_party": "ภูมิใจไทย",
     "winner_votes": 53198,
     "runnerup_party": "ประชาชน",
-    "runnerup_votes": 17505,
-    "margin": 35693,
-    "percent_invalid": 4.76,
+    "runnerup_votes": 17405,
+    "margin": 35793,
+    "percent_invalid": 4.760852977792056,
     "ballot_surplus": 99
   },
   {
@@ -4887,7 +4868,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 6,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 85892,
     "total_used": 85892,
     "valid": 76481,
@@ -4898,7 +4879,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24836,
     "margin": 3690,
-    "percent_invalid": 6.45,
+    "percent_invalid": 6.45461742653565,
     "ballot_surplus": -2
   },
   {
@@ -4906,7 +4887,7 @@ const CONST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 7,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 97669,
     "total_used": 97669,
     "valid": 89036,
@@ -4917,7 +4898,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 24729,
     "margin": 8669,
-    "percent_invalid": 4.59,
+    "percent_invalid": 4.59408819584515,
     "ballot_surplus": 3
   },
   {
@@ -4925,9 +4906,9 @@ const CONST_RAW = [
     "province_eng": "MAE HONG SON",
     "prov_id": "MSN",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 68159,
-    "total_used": 64159,
+    "total_used": 68159,
     "valid": 57134,
     "invalid": 3932,
     "blank": 3093,
@@ -4936,7 +4917,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14680,
     "margin": 21190,
-    "percent_invalid": 6.13,
+    "percent_invalid": 5.76886397981191,
     "ballot_surplus": -4000
   },
   {
@@ -4944,7 +4925,7 @@ const CONST_RAW = [
     "province_eng": "MAE HONG SON",
     "prov_id": "MSN",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 74409,
     "total_used": 74409,
     "valid": 67196,
@@ -4955,7 +4936,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 24368,
     "margin": 529,
-    "percent_invalid": 7.32,
+    "percent_invalid": 7.324382803155532,
     "ballot_surplus": 0
   },
   {
@@ -4963,7 +4944,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 99113,
     "total_used": 99113,
     "valid": 90110,
@@ -4974,7 +4955,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 30685,
     "margin": 18176,
-    "percent_invalid": 3.52,
+    "percent_invalid": 3.519215440961327,
     "ballot_surplus": 0
   },
   {
@@ -4982,18 +4963,18 @@ const CONST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 104185,
-    "total_used": 104181,
+    "total_used": 104185,
     "valid": 96980,
     "invalid": 3889,
     "blank": 3312,
     "winner_party": "ภูมิใจไทย",
     "winner_votes": 47296,
     "runnerup_party": "เพื่อไทย",
-    "runnerup_votes": 28620,
-    "margin": 18676,
-    "percent_invalid": 3.73,
+    "runnerup_votes": 28624,
+    "margin": 18672,
+    "percent_invalid": 3.7327830301866873,
     "ballot_surplus": 46
   },
   {
@@ -5001,7 +4982,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 100028,
     "total_used": 100028,
     "valid": 90997,
@@ -5012,7 +4993,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21890,
     "margin": 31564,
-    "percent_invalid": 4.84,
+    "percent_invalid": 4.83964489942816,
     "ballot_surplus": 0
   },
   {
@@ -5020,7 +5001,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 92413,
     "total_used": 92413,
     "valid": 83748,
@@ -5031,7 +5012,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14884,
     "margin": 40941,
-    "percent_invalid": 5.76,
+    "percent_invalid": 5.762176317184812,
     "ballot_surplus": 1
   },
   {
@@ -5039,7 +5020,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 94811,
     "total_used": 94811,
     "valid": 87228,
@@ -5050,7 +5031,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15839,
     "margin": 45591,
-    "percent_invalid": 4.51,
+    "percent_invalid": 4.514244127791079,
     "ballot_surplus": 0
   },
   {
@@ -5058,7 +5039,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 90286,
     "total_used": 90286,
     "valid": 85258,
@@ -5069,7 +5050,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 32307,
     "margin": 4236,
-    "percent_invalid": 3.81,
+    "percent_invalid": 3.809006933522362,
     "ballot_surplus": 0
   },
   {
@@ -5077,7 +5058,7 @@ const CONST_RAW = [
     "province_eng": "UTHAI THANI",
     "prov_id": "UTI",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 84560,
     "total_used": 84560,
     "valid": 76524,
@@ -5088,7 +5069,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 13059,
     "margin": 43424,
-    "percent_invalid": 4.0,
+    "percent_invalid": 3.9983443708609268,
     "ballot_surplus": 171
   },
   {
@@ -5096,7 +5077,7 @@ const CONST_RAW = [
     "province_eng": "UTHAI THANI",
     "prov_id": "UTI",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 83898,
     "total_used": 83898,
     "valid": 77470,
@@ -5107,7 +5088,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 9062,
     "margin": 45222,
-    "percent_invalid": 4.13,
+    "percent_invalid": 4.125247324131684,
     "ballot_surplus": 232
   },
   {
@@ -5115,9 +5096,9 @@ const CONST_RAW = [
     "province_eng": "KAMPHAENG PHET",
     "prov_id": "KPT",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 101442,
-    "total_used": 101439,
+    "total_used": 101442,
     "valid": 90911,
     "invalid": 5247,
     "blank": 5281,
@@ -5126,7 +5107,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 33203,
     "margin": 12144,
-    "percent_invalid": 5.17,
+    "percent_invalid": 5.172413793103448,
     "ballot_surplus": -99
   },
   {
@@ -5134,7 +5115,7 @@ const CONST_RAW = [
     "province_eng": "KAMPHAENG PHET",
     "prov_id": "KPT",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 105321,
     "total_used": 105321,
     "valid": 97504,
@@ -5145,7 +5126,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 32930,
     "margin": 9372,
-    "percent_invalid": 4.51,
+    "percent_invalid": 4.511920699575583,
     "ballot_surplus": -100
   },
   {
@@ -5153,7 +5134,7 @@ const CONST_RAW = [
     "province_eng": "KAMPHAENG PHET",
     "prov_id": "KPT",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 91355,
     "total_used": 91355,
     "valid": 83994,
@@ -5164,7 +5145,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 30151,
     "margin": 3502,
-    "percent_invalid": 4.62,
+    "percent_invalid": 4.616058234360462,
     "ballot_surplus": 75
   },
   {
@@ -5172,7 +5153,7 @@ const CONST_RAW = [
     "province_eng": "KAMPHAENG PHET",
     "prov_id": "KPT",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 93620,
     "total_used": 93620,
     "valid": 86283,
@@ -5183,7 +5164,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 27423,
     "margin": 11027,
-    "percent_invalid": 4.75,
+    "percent_invalid": 4.746848963896603,
     "ballot_surplus": 0
   },
   {
@@ -5191,9 +5172,9 @@ const CONST_RAW = [
     "province_eng": "TAK",
     "prov_id": "TAK",
     "cons_no": 1,
-    "region": "06 ภาคตะวันตก",
+    "region": "North",
     "turn_out": 105329,
-    "total_used": 105328,
+    "total_used": 105329,
     "valid": 96390,
     "invalid": 3819,
     "blank": 5119,
@@ -5202,7 +5183,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 28996,
     "margin": 8823,
-    "percent_invalid": 3.63,
+    "percent_invalid": 3.6257820733131427,
     "ballot_surplus": -1
   },
   {
@@ -5210,7 +5191,7 @@ const CONST_RAW = [
     "province_eng": "TAK",
     "prov_id": "TAK",
     "cons_no": 2,
-    "region": "06 ภาคตะวันตก",
+    "region": "North",
     "turn_out": 89186,
     "total_used": 89186,
     "valid": 61640,
@@ -5221,7 +5202,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19144,
     "margin": 6115,
-    "percent_invalid": 10.97,
+    "percent_invalid": 10.968089161976096,
     "ballot_surplus": -23
   },
   {
@@ -5229,7 +5210,7 @@ const CONST_RAW = [
     "province_eng": "TAK",
     "prov_id": "TAK",
     "cons_no": 3,
-    "region": "06 ภาคตะวันตก",
+    "region": "North",
     "turn_out": 96512,
     "total_used": 96512,
     "valid": 85954,
@@ -5240,7 +5221,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18757,
     "margin": 11887,
-    "percent_invalid": 7.84,
+    "percent_invalid": 7.840475795755967,
     "ballot_surplus": 0
   },
   {
@@ -5248,7 +5229,7 @@ const CONST_RAW = [
     "province_eng": "SUKHOTHAI",
     "prov_id": "STI",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 84340,
     "total_used": 84340,
     "valid": 74658,
@@ -5259,7 +5240,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24095,
     "margin": 6830,
-    "percent_invalid": 4.79,
+    "percent_invalid": 4.794877875266777,
     "ballot_surplus": 0
   },
   {
@@ -5267,7 +5248,7 @@ const CONST_RAW = [
     "province_eng": "SUKHOTHAI",
     "prov_id": "STI",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 78246,
     "total_used": 78246,
     "valid": 71207,
@@ -5278,7 +5259,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19265,
     "margin": 13385,
-    "percent_invalid": 4.66,
+    "percent_invalid": 4.659663113769394,
     "ballot_surplus": 0
   },
   {
@@ -5286,18 +5267,18 @@ const CONST_RAW = [
     "province_eng": "SUKHOTHAI",
     "prov_id": "STI",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 83731,
-    "total_used": 83831,
+    "total_used": 83731,
     "valid": 73410,
     "invalid": 4615,
     "blank": 5806,
     "winner_party": "เพื่อไทย",
-    "winner_votes": 47516,
+    "winner_votes": 47416,
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15027,
-    "margin": 32489,
-    "percent_invalid": 5.51,
+    "margin": 32389,
+    "percent_invalid": 5.5116981763026835,
     "ballot_surplus": 100
   },
   {
@@ -5305,7 +5286,7 @@ const CONST_RAW = [
     "province_eng": "SUKHOTHAI",
     "prov_id": "STI",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 87668,
     "total_used": 87668,
     "valid": 82780,
@@ -5316,7 +5297,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20045,
     "margin": 28248,
-    "percent_invalid": 3.33,
+    "percent_invalid": 3.325044486015422,
     "ballot_surplus": -1
   },
   {
@@ -5324,7 +5305,7 @@ const CONST_RAW = [
     "province_eng": "PHITSANULOK",
     "prov_id": "PLK",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 99468,
     "total_used": 99468,
     "valid": 89782,
@@ -5335,7 +5316,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 33470,
     "margin": 1222,
-    "percent_invalid": 3.16,
+    "percent_invalid": 3.1638315840270237,
     "ballot_surplus": 0
   },
   {
@@ -5343,7 +5324,7 @@ const CONST_RAW = [
     "province_eng": "PHITSANULOK",
     "prov_id": "PLK",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 101319,
     "total_used": 101319,
     "valid": 88246,
@@ -5354,7 +5335,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 32070,
     "margin": 8359,
-    "percent_invalid": 4.99,
+    "percent_invalid": 4.991166513684502,
     "ballot_surplus": 0
   },
   {
@@ -5362,7 +5343,7 @@ const CONST_RAW = [
     "province_eng": "PHITSANULOK",
     "prov_id": "PLK",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 94938,
     "total_used": 94938,
     "valid": 87798,
@@ -5373,7 +5354,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 21990,
     "margin": 20363,
-    "percent_invalid": 4.46,
+    "percent_invalid": 4.458699361688681,
     "ballot_surplus": 0
   },
   {
@@ -5381,7 +5362,7 @@ const CONST_RAW = [
     "province_eng": "PHITSANULOK",
     "prov_id": "PLK",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 94492,
     "total_used": 94492,
     "valid": 88736,
@@ -5392,7 +5373,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 29467,
     "margin": 13338,
-    "percent_invalid": 3.54,
+    "percent_invalid": 3.539982220717098,
     "ballot_surplus": 0
   },
   {
@@ -5400,7 +5381,7 @@ const CONST_RAW = [
     "province_eng": "PHITSANULOK",
     "prov_id": "PLK",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 94537,
     "total_used": 94537,
     "valid": 87172,
@@ -5411,7 +5392,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 30110,
     "margin": 4039,
-    "percent_invalid": 4.62,
+    "percent_invalid": 4.619355384664205,
     "ballot_surplus": 0
   },
   {
@@ -5419,7 +5400,7 @@ const CONST_RAW = [
     "province_eng": "PHICHIT",
     "prov_id": "PCT",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 100830,
     "total_used": 100830,
     "valid": 91069,
@@ -5430,7 +5411,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 23172,
     "margin": 30121,
-    "percent_invalid": 5.04,
+    "percent_invalid": 5.04016661707825,
     "ballot_surplus": 50
   },
   {
@@ -5438,9 +5419,9 @@ const CONST_RAW = [
     "province_eng": "PHICHIT",
     "prov_id": "PCT",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 91079,
-    "total_used": 91078,
+    "total_used": 91079,
     "valid": 83178,
     "invalid": 4341,
     "blank": 3559,
@@ -5449,7 +5430,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20167,
     "margin": 26472,
-    "percent_invalid": 4.77,
+    "percent_invalid": 4.766191987175969,
     "ballot_surplus": -1
   },
   {
@@ -5457,9 +5438,9 @@ const CONST_RAW = [
     "province_eng": "PHICHIT",
     "prov_id": "PCT",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 100598,
-    "total_used": 100597,
+    "total_used": 100598,
     "valid": 94660,
     "invalid": 3740,
     "blank": 2197,
@@ -5468,7 +5449,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 32805,
     "margin": 6216,
-    "percent_invalid": 3.72,
+    "percent_invalid": 3.717767748861806,
     "ballot_surplus": -1
   },
   {
@@ -5476,26 +5457,26 @@ const CONST_RAW = [
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 88736,
-    "total_used": 88734,
-    "valid": 80633,
-    "invalid": 3607,
-    "blank": 4494,
+    "total_used": 88736,
+    "valid": 80630,
+    "invalid": 3107,
+    "blank": 4999,
     "winner_party": "ภูมิใจไทย",
     "winner_votes": 50631,
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22369,
     "margin": 28262,
-    "percent_invalid": 4.06,
-    "ballot_surplus": -5
+    "percent_invalid": 3.501397403534079,
+    "ballot_surplus": -3
   },
   {
     "province_thai": "เพชรบูรณ์",
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 100198,
     "total_used": 100198,
     "valid": 95529,
@@ -5506,7 +5487,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 40158,
     "margin": 1357,
-    "percent_invalid": 2.59,
+    "percent_invalid": 2.5938641489850096,
     "ballot_surplus": 0
   },
   {
@@ -5514,7 +5495,7 @@ const CONST_RAW = [
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 92278,
     "total_used": 92278,
     "valid": 85510,
@@ -5525,7 +5506,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 19012,
     "margin": 20640,
-    "percent_invalid": 3.98,
+    "percent_invalid": 3.9760289559808406,
     "ballot_surplus": -100
   },
   {
@@ -5533,7 +5514,7 @@ const CONST_RAW = [
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 78124,
     "total_used": 78124,
     "valid": 72394,
@@ -5544,7 +5525,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 13294,
     "margin": 35296,
-    "percent_invalid": 3.89,
+    "percent_invalid": 3.8886897752291225,
     "ballot_surplus": 0
   },
   {
@@ -5552,7 +5533,7 @@ const CONST_RAW = [
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 81841,
     "total_used": 81841,
     "valid": 73475,
@@ -5563,7 +5544,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 16678,
     "margin": 29069,
-    "percent_invalid": 6.37,
+    "percent_invalid": 6.372111777715326,
     "ballot_surplus": 0
   },
   {
@@ -5571,8 +5552,8 @@ const CONST_RAW = [
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
-    "turn_out": 87505,
+    "region": "North",
+    "turn_out": 87405,
     "total_used": 87405,
     "valid": 81129,
     "invalid": 3705,
@@ -5582,7 +5563,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14303,
     "margin": 44705,
-    "percent_invalid": 4.24,
+    "percent_invalid": 4.238887935472799,
     "ballot_surplus": 0
   },
   {
@@ -5590,7 +5571,7 @@ const CONST_RAW = [
     "province_eng": "RATCHABURI",
     "prov_id": "RBR",
     "cons_no": 1,
-    "region": "06 ภาคตะวันตก",
+    "region": "",
     "turn_out": 106701,
     "total_used": 106701,
     "valid": 97874,
@@ -5601,7 +5582,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 28931,
     "margin": 27476,
-    "percent_invalid": 3.22,
+    "percent_invalid": 3.222087890460258,
     "ballot_surplus": 0
   },
   {
@@ -5609,7 +5590,7 @@ const CONST_RAW = [
     "province_eng": "RATCHABURI",
     "prov_id": "RBR",
     "cons_no": 2,
-    "region": "06 ภาคตะวันตก",
+    "region": "",
     "turn_out": 101443,
     "total_used": 101443,
     "valid": 89818,
@@ -5620,7 +5601,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 26956,
     "margin": 16554,
-    "percent_invalid": 5.02,
+    "percent_invalid": 5.015624537917845,
     "ballot_surplus": 99
   },
   {
@@ -5628,8 +5609,8 @@ const CONST_RAW = [
     "province_eng": "RATCHABURI",
     "prov_id": "RBR",
     "cons_no": 3,
-    "region": "06 ภาคตะวันตก",
-    "turn_out": 115223,
+    "region": "",
+    "turn_out": 110523,
     "total_used": 110523,
     "valid": 96267,
     "invalid": 5970,
@@ -5639,7 +5620,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 26257,
     "margin": 25445,
-    "percent_invalid": 5.4,
+    "percent_invalid": 5.401590619147146,
     "ballot_surplus": 5
   },
   {
@@ -5647,7 +5628,7 @@ const CONST_RAW = [
     "province_eng": "RATCHABURI",
     "prov_id": "RBR",
     "cons_no": 4,
-    "region": "06 ภาคตะวันตก",
+    "region": "",
     "turn_out": 112928,
     "total_used": 112928,
     "valid": 107579,
@@ -5658,7 +5639,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25938,
     "margin": 29840,
-    "percent_invalid": 2.48,
+    "percent_invalid": 2.4838835364125815,
     "ballot_surplus": 0
   },
   {
@@ -5666,7 +5647,7 @@ const CONST_RAW = [
     "province_eng": "RATCHABURI",
     "prov_id": "RBR",
     "cons_no": 5,
-    "region": "06 ภาคตะวันตก",
+    "region": "",
     "turn_out": 114688,
     "total_used": 114688,
     "valid": 108560,
@@ -5677,7 +5658,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 39913,
     "margin": 5237,
-    "percent_invalid": 2.74,
+    "percent_invalid": 2.7369907924107144,
     "ballot_surplus": 0
   },
   {
@@ -5685,7 +5666,7 @@ const CONST_RAW = [
     "province_eng": "KANCHANABURI",
     "prov_id": "KRI",
     "cons_no": 1,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 96564,
     "total_used": 96564,
     "valid": 85850,
@@ -5696,7 +5677,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 26849,
     "margin": 11723,
-    "percent_invalid": 3.95,
+    "percent_invalid": 3.95074769065076,
     "ballot_surplus": 1
   },
   {
@@ -5704,7 +5685,7 @@ const CONST_RAW = [
     "province_eng": "KANCHANABURI",
     "prov_id": "KRI",
     "cons_no": 2,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 103736,
     "total_used": 103736,
     "valid": 97680,
@@ -5715,7 +5696,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27028,
     "margin": 12299,
-    "percent_invalid": 2.79,
+    "percent_invalid": 2.7945939693067015,
     "ballot_surplus": 0
   },
   {
@@ -5723,7 +5704,7 @@ const CONST_RAW = [
     "province_eng": "KANCHANABURI",
     "prov_id": "KRI",
     "cons_no": 3,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 113958,
     "total_used": 113958,
     "valid": 107950,
@@ -5734,7 +5715,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 40278,
     "margin": 10481,
-    "percent_invalid": 3.16,
+    "percent_invalid": 3.1625686656487475,
     "ballot_surplus": 0
   },
   {
@@ -5742,7 +5723,7 @@ const CONST_RAW = [
     "province_eng": "KANCHANABURI",
     "prov_id": "KRI",
     "cons_no": 4,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 93526,
     "total_used": 93526,
     "valid": 82897,
@@ -5753,7 +5734,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 16545,
     "margin": 35960,
-    "percent_invalid": 6.05,
+    "percent_invalid": 6.04537775591814,
     "ballot_surplus": 0
   },
   {
@@ -5761,7 +5742,7 @@ const CONST_RAW = [
     "province_eng": "KANCHANABURI",
     "prov_id": "KRI",
     "cons_no": 5,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 89052,
     "total_used": 89052,
     "valid": 82962,
@@ -5772,7 +5753,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 27305,
     "margin": 11718,
-    "percent_invalid": 4.69,
+    "percent_invalid": 4.689394960247945,
     "ballot_surplus": 0
   },
   {
@@ -5780,7 +5761,7 @@ const CONST_RAW = [
     "province_eng": "SUPHAN BURI",
     "prov_id": "SPB",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 102476,
     "total_used": 102476,
     "valid": 94634,
@@ -5791,7 +5772,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 23503,
     "margin": 39702,
-    "percent_invalid": 3.0,
+    "percent_invalid": 3.004605956516648,
     "ballot_surplus": 0
   },
   {
@@ -5799,7 +5780,7 @@ const CONST_RAW = [
     "province_eng": "SUPHAN BURI",
     "prov_id": "SPB",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 91578,
     "total_used": 91578,
     "valid": 84520,
@@ -5810,7 +5791,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 23117,
     "margin": 22429,
-    "percent_invalid": 3.87,
+    "percent_invalid": 3.8655572299023784,
     "ballot_surplus": 0
   },
   {
@@ -5818,7 +5799,7 @@ const CONST_RAW = [
     "province_eng": "SUPHAN BURI",
     "prov_id": "SPB",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 106772,
     "total_used": 106772,
     "valid": 101452,
@@ -5829,7 +5810,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 39798,
     "margin": 7381,
-    "percent_invalid": 3.2,
+    "percent_invalid": 3.199340651107032,
     "ballot_surplus": 0
   },
   {
@@ -5837,7 +5818,7 @@ const CONST_RAW = [
     "province_eng": "SUPHAN BURI",
     "prov_id": "SPB",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 99626,
     "total_used": 99626,
     "valid": 90996,
@@ -5848,7 +5829,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18972,
     "margin": 39077,
-    "percent_invalid": 4.75,
+    "percent_invalid": 4.750767871840684,
     "ballot_surplus": 0
   },
   {
@@ -5856,7 +5837,7 @@ const CONST_RAW = [
     "province_eng": "SUPHAN BURI",
     "prov_id": "SPB",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 108630,
     "total_used": 108630,
     "valid": 98539,
@@ -5867,7 +5848,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24816,
     "margin": 35220,
-    "percent_invalid": 4.23,
+    "percent_invalid": 4.2290343367393906,
     "ballot_surplus": 0
   },
   {
@@ -5875,7 +5856,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 104422,
     "total_used": 104422,
     "valid": 95931,
@@ -5886,7 +5867,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 27833,
     "margin": 29514,
-    "percent_invalid": 3.51,
+    "percent_invalid": 3.5059661757100993,
     "ballot_surplus": 0
   },
   {
@@ -5894,7 +5875,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 96412,
     "total_used": 96412,
     "valid": 88517,
@@ -5905,7 +5886,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 31511,
     "margin": 12976,
-    "percent_invalid": 2.64,
+    "percent_invalid": 2.637638468240468,
     "ballot_surplus": 0
   },
   {
@@ -5913,7 +5894,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 91278,
     "total_used": 91278,
     "valid": 83624,
@@ -5924,7 +5905,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21739,
     "margin": 26360,
-    "percent_invalid": 3.44,
+    "percent_invalid": 3.436753653673393,
     "ballot_surplus": 0
   },
   {
@@ -5932,7 +5913,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 105127,
     "total_used": 105127,
     "valid": 97930,
@@ -5943,7 +5924,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25879,
     "margin": 24457,
-    "percent_invalid": 3.5,
+    "percent_invalid": 3.496723011215007,
     "ballot_surplus": 0
   },
   {
@@ -5951,7 +5932,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 107208,
     "total_used": 107208,
     "valid": 99742,
@@ -5962,7 +5943,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25056,
     "margin": 15840,
-    "percent_invalid": 2.73,
+    "percent_invalid": 2.7302067009924635,
     "ballot_surplus": 0
   },
   {
@@ -5970,7 +5951,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 97368,
     "total_used": 97368,
     "valid": 89774,
@@ -5981,7 +5962,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 36970,
     "margin": 1565,
-    "percent_invalid": 2.46,
+    "percent_invalid": 2.4556322405718514,
     "ballot_surplus": 179
   },
   {
@@ -5989,7 +5970,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT SAKHON",
     "prov_id": "SKN",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 88046,
     "total_used": 88046,
     "valid": 80970,
@@ -6000,7 +5981,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 23066,
     "margin": 9487,
-    "percent_invalid": 2.75,
+    "percent_invalid": 2.7519705608431955,
     "ballot_surplus": 0
   },
   {
@@ -6008,7 +5989,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT SAKHON",
     "prov_id": "SKN",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 85606,
     "total_used": 85606,
     "valid": 78050,
@@ -6019,7 +6000,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 29373,
     "margin": 5376,
-    "percent_invalid": 3.71,
+    "percent_invalid": 3.713524752937878,
     "ballot_surplus": 0
   },
   {
@@ -6027,7 +6008,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT SAKHON",
     "prov_id": "SKN",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 81870,
     "total_used": 81870,
     "valid": 74704,
@@ -6038,7 +6019,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 26064,
     "margin": 4723,
-    "percent_invalid": 3.93,
+    "percent_invalid": 3.930621717356785,
     "ballot_surplus": -2
   },
   {
@@ -6046,7 +6027,7 @@ const CONST_RAW = [
     "province_eng": "SAMUT SAKHON",
     "prov_id": "SKN",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 84850,
     "total_used": 84850,
     "valid": 78327,
@@ -6057,7 +6038,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22826,
     "margin": 19932,
-    "percent_invalid": 3.09,
+    "percent_invalid": 3.0936947554507954,
     "ballot_surplus": 0
   },
   {
@@ -6065,18 +6046,18 @@ const CONST_RAW = [
     "province_eng": "SAMUT SONGKHRAM",
     "prov_id": "SKM",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 113409,
-    "total_used": 113509,
+    "total_used": 113409,
     "valid": 102038,
     "invalid": 4534,
     "blank": 6937,
     "winner_party": "ประชาชน",
-    "winner_votes": 39592,
+    "winner_votes": 39492,
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 28382,
-    "margin": 11210,
-    "percent_invalid": 3.99,
+    "margin": 11110,
+    "percent_invalid": 3.997919036408045,
     "ballot_surplus": 100
   },
   {
@@ -6084,7 +6065,7 @@ const CONST_RAW = [
     "province_eng": "PHETCHABURI",
     "prov_id": "PBI",
     "cons_no": 1,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 99383,
     "total_used": 99383,
     "valid": 89618,
@@ -6095,7 +6076,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20431,
     "margin": 41303,
-    "percent_invalid": 3.98,
+    "percent_invalid": 3.9815662638479417,
     "ballot_surplus": 0
   },
   {
@@ -6103,7 +6084,7 @@ const CONST_RAW = [
     "province_eng": "PHETCHABURI",
     "prov_id": "PBI",
     "cons_no": 2,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 105819,
     "total_used": 105819,
     "valid": 95907,
@@ -6114,7 +6095,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19089,
     "margin": 48162,
-    "percent_invalid": 4.44,
+    "percent_invalid": 4.435876354907909,
     "ballot_surplus": 0
   },
   {
@@ -6122,7 +6103,7 @@ const CONST_RAW = [
     "province_eng": "PHETCHABURI",
     "prov_id": "PBI",
     "cons_no": 3,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 103294,
     "total_used": 103294,
     "valid": 95005,
@@ -6133,7 +6114,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14187,
     "margin": 56966,
-    "percent_invalid": 3.67,
+    "percent_invalid": 3.6681704648866345,
     "ballot_surplus": 0
   },
   {
@@ -6141,9 +6122,9 @@ const CONST_RAW = [
     "province_eng": "PRACHUAP KHIRI KHAN",
     "prov_id": "PKN",
     "cons_no": 1,
-    "region": "06 ภาคตะวันตก",
+    "region": "South",
     "turn_out": 118298,
-    "total_used": 118297,
+    "total_used": 118298,
     "valid": 112249,
     "invalid": 3405,
     "blank": 2643,
@@ -6152,15 +6133,15 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 43544,
     "margin": 8038,
-    "percent_invalid": 2.88,
-    "ballot_surplus": 1
+    "percent_invalid": 2.87832423202421,
+    "ballot_surplus": -1
   },
   {
     "province_thai": "ประจวบคีรีขันธ์",
     "province_eng": "PRACHUAP KHIRI KHAN",
     "prov_id": "PKN",
     "cons_no": 2,
-    "region": "06 ภาคตะวันตก",
+    "region": "South",
     "turn_out": 103565,
     "total_used": 103565,
     "valid": 96454,
@@ -6171,7 +6152,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22778,
     "margin": 20642,
-    "percent_invalid": 2.62,
+    "percent_invalid": 2.615748563703954,
     "ballot_surplus": 1
   },
   {
@@ -6179,7 +6160,7 @@ const CONST_RAW = [
     "province_eng": "PRACHUAP KHIRI KHAN",
     "prov_id": "PKN",
     "cons_no": 3,
-    "region": "06 ภาคตะวันตก",
+    "region": "South",
     "turn_out": 103420,
     "total_used": 103420,
     "valid": 98409,
@@ -6190,7 +6171,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 25444,
     "margin": 8534,
-    "percent_invalid": 2.55,
+    "percent_invalid": 2.5536646683426802,
     "ballot_surplus": 0
   },
   {
@@ -6198,9 +6179,9 @@ const CONST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99799,
-    "total_used": 99798,
+    "total_used": 99799,
     "valid": 91623,
     "invalid": 3036,
     "blank": 5139,
@@ -6209,7 +6190,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 29583,
     "margin": 9642,
-    "percent_invalid": 3.04,
+    "percent_invalid": 3.0421146504473993,
     "ballot_surplus": 0
   },
   {
@@ -6217,7 +6198,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 100576,
     "total_used": 100576,
     "valid": 91714,
@@ -6228,7 +6209,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 21111,
     "margin": 24223,
-    "percent_invalid": 2.91,
+    "percent_invalid": 2.9102370346802418,
     "ballot_surplus": 0
   },
   {
@@ -6236,7 +6217,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 98207,
     "total_used": 98207,
     "valid": 93045,
@@ -6247,7 +6228,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 35542,
     "margin": 12012,
-    "percent_invalid": 2.74,
+    "percent_invalid": 2.7431853126559207,
     "ballot_surplus": 0
   },
   {
@@ -6255,7 +6236,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 103162,
     "total_used": 103162,
     "valid": 97047,
@@ -6266,7 +6247,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 36790,
     "margin": 8100,
-    "percent_invalid": 2.31,
+    "percent_invalid": 2.3099590934646477,
     "ballot_surplus": 1
   },
   {
@@ -6274,9 +6255,9 @@ const CONST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 5,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 106726,
-    "total_used": 106715,
+    "total_used": 106726,
     "valid": 100294,
     "invalid": 2074,
     "blank": 4347,
@@ -6285,7 +6266,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 31394,
     "margin": 5407,
-    "percent_invalid": 1.94,
+    "percent_invalid": 1.9432940426887546,
     "ballot_surplus": 22
   },
   {
@@ -6293,7 +6274,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 6,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 105027,
     "total_used": 105027,
     "valid": 100028,
@@ -6304,7 +6285,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 22254,
     "margin": 21039,
-    "percent_invalid": 1.91,
+    "percent_invalid": 1.9109371875803365,
     "ballot_surplus": 0
   },
   {
@@ -6312,7 +6293,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 7,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99078,
     "total_used": 99078,
     "valid": 82744,
@@ -6323,7 +6304,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 28913,
     "margin": 9771,
-    "percent_invalid": 5.14,
+    "percent_invalid": 5.143422354104846,
     "ballot_surplus": 1
   },
   {
@@ -6331,7 +6312,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 8,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99928,
     "total_used": 99928,
     "valid": 92847,
@@ -6342,7 +6323,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 22534,
     "margin": 31506,
-    "percent_invalid": 2.72,
+    "percent_invalid": 2.7219598110639662,
     "ballot_surplus": 0
   },
   {
@@ -6350,7 +6331,7 @@ const CONST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 9,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 102098,
     "total_used": 102098,
     "valid": 96071,
@@ -6361,7 +6342,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 36536,
     "margin": 9937,
-    "percent_invalid": 2.64,
+    "percent_invalid": 2.6376618542968524,
     "ballot_surplus": 0
   },
   {
@@ -6369,7 +6350,7 @@ const CONST_RAW = [
     "province_eng": "KRABI",
     "prov_id": "KBI",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 97431,
     "total_used": 97431,
     "valid": 90061,
@@ -6380,7 +6361,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20554,
     "margin": 29939,
-    "percent_invalid": 2.79,
+    "percent_invalid": 2.794798370128604,
     "ballot_surplus": 1
   },
   {
@@ -6388,7 +6369,7 @@ const CONST_RAW = [
     "province_eng": "KRABI",
     "prov_id": "KBI",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 86116,
     "total_used": 86116,
     "valid": 78999,
@@ -6399,7 +6380,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 21242,
     "margin": 21472,
-    "percent_invalid": 3.02,
+    "percent_invalid": 3.018022202610432,
     "ballot_surplus": 0
   },
   {
@@ -6407,7 +6388,7 @@ const CONST_RAW = [
     "province_eng": "KRABI",
     "prov_id": "KBI",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 94677,
     "total_used": 94677,
     "valid": 87853,
@@ -6418,7 +6399,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 15794,
     "margin": 31622,
-    "percent_invalid": 3.1,
+    "percent_invalid": 3.1021261763680723,
     "ballot_surplus": 0
   },
   {
@@ -6426,7 +6407,7 @@ const CONST_RAW = [
     "province_eng": "PHANGNGA",
     "prov_id": "PNA",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 74406,
     "total_used": 74406,
     "valid": 66345,
@@ -6437,7 +6418,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 15654,
     "margin": 20620,
-    "percent_invalid": 3.92,
+    "percent_invalid": 3.9230707201032176,
     "ballot_surplus": 1
   },
   {
@@ -6445,7 +6426,7 @@ const CONST_RAW = [
     "province_eng": "PHANGNGA",
     "prov_id": "PNA",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 83093,
     "total_used": 83093,
     "valid": 75502,
@@ -6456,7 +6437,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 23308,
     "margin": 3205,
-    "percent_invalid": 3.42,
+    "percent_invalid": 3.4238744539251202,
     "ballot_surplus": 1
   },
   {
@@ -6464,18 +6445,18 @@ const CONST_RAW = [
     "province_eng": "PHUKET",
     "prov_id": "PKT",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 72889,
-    "total_used": 72989,
+    "total_used": 72889,
     "valid": 66460,
     "invalid": 1916,
     "blank": 4613,
     "winner_party": "ประชาชน",
-    "winner_votes": 19558,
+    "winner_votes": 19458,
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16875,
-    "margin": 2683,
-    "percent_invalid": 2.63,
+    "margin": 2583,
+    "percent_invalid": 2.6286545294900465,
     "ballot_surplus": 98
   },
   {
@@ -6483,7 +6464,7 @@ const CONST_RAW = [
     "province_eng": "PHUKET",
     "prov_id": "PKT",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 71865,
     "total_used": 71865,
     "valid": 63459,
@@ -6494,7 +6475,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20405,
     "margin": 4472,
-    "percent_invalid": 4.19,
+    "percent_invalid": 4.191191817992069,
     "ballot_surplus": 0
   },
   {
@@ -6502,7 +6483,7 @@ const CONST_RAW = [
     "province_eng": "PHUKET",
     "prov_id": "PKT",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 82182,
     "total_used": 82182,
     "valid": 75128,
@@ -6513,7 +6494,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20277,
     "margin": 10083,
-    "percent_invalid": 2.58,
+    "percent_invalid": 2.5808571219975174,
     "ballot_surplus": 0
   },
   {
@@ -6521,7 +6502,7 @@ const CONST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 83141,
     "total_used": 83141,
     "valid": 76258,
@@ -6532,7 +6513,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 23183,
     "margin": 4464,
-    "percent_invalid": 2.02,
+    "percent_invalid": 2.0194609157936516,
     "ballot_surplus": 0
   },
   {
@@ -6540,7 +6521,7 @@ const CONST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 86508,
     "total_used": 86508,
     "valid": 81419,
@@ -6551,7 +6532,7 @@ const CONST_RAW = [
     "runnerup_party": "ไทรวมพลัง",
     "runnerup_votes": 20059,
     "margin": 7012,
-    "percent_invalid": 2.44,
+    "percent_invalid": 2.4379248162019698,
     "ballot_surplus": 0
   },
   {
@@ -6559,7 +6540,7 @@ const CONST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 94207,
     "total_used": 94207,
     "valid": 88689,
@@ -6570,7 +6551,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 24524,
     "margin": 15434,
-    "percent_invalid": 2.35,
+    "percent_invalid": 2.3543898011825024,
     "ballot_surplus": -1
   },
   {
@@ -6578,7 +6559,7 @@ const CONST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 98789,
     "total_used": 98789,
     "valid": 94443,
@@ -6589,7 +6570,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 28117,
     "margin": 15267,
-    "percent_invalid": 1.91,
+    "percent_invalid": 1.909119436374495,
     "ballot_surplus": -260
   },
   {
@@ -6597,8 +6578,8 @@ const CONST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 5,
-    "region": "07 ภาคใต้",
-    "turn_out": 93476,
+    "region": "South",
+    "turn_out": 93876,
     "total_used": 93876,
     "valid": 88782,
     "invalid": 2140,
@@ -6608,7 +6589,7 @@ const CONST_RAW = [
     "runnerup_party": "ไทรวมพลัง",
     "runnerup_votes": 27863,
     "margin": 3104,
-    "percent_invalid": 2.28,
+    "percent_invalid": 2.2796028803954154,
     "ballot_surplus": 0
   },
   {
@@ -6616,7 +6597,7 @@ const CONST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 6,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 102222,
     "total_used": 102222,
     "valid": 98147,
@@ -6627,7 +6608,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 30432,
     "margin": 1275,
-    "percent_invalid": 2.21,
+    "percent_invalid": 2.2069613194811293,
     "ballot_surplus": 0
   },
   {
@@ -6635,7 +6616,7 @@ const CONST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 7,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 96637,
     "total_used": 96637,
     "valid": 92005,
@@ -6646,7 +6627,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 30081,
     "margin": 10277,
-    "percent_invalid": 2.05,
+    "percent_invalid": 2.048904663845111,
     "ballot_surplus": 0
   },
   {
@@ -6654,7 +6635,7 @@ const CONST_RAW = [
     "province_eng": "RANONG",
     "prov_id": "RNG",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 96299,
     "total_used": 96299,
     "valid": 83719,
@@ -6665,7 +6646,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14434,
     "margin": 44929,
-    "percent_invalid": 4.97,
+    "percent_invalid": 4.965783652997436,
     "ballot_surplus": 0
   },
   {
@@ -6673,7 +6654,7 @@ const CONST_RAW = [
     "province_eng": "CHUMPHON",
     "prov_id": "CPN",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 104168,
     "total_used": 104168,
     "valid": 96247,
@@ -6684,7 +6665,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 34079,
     "margin": 11887,
-    "percent_invalid": 2.38,
+    "percent_invalid": 2.380769526150065,
     "ballot_surplus": -1
   },
   {
@@ -6692,7 +6673,7 @@ const CONST_RAW = [
     "province_eng": "CHUMPHON",
     "prov_id": "CPN",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 107786,
     "total_used": 107786,
     "valid": 101248,
@@ -6703,7 +6684,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 23041,
     "margin": 12426,
-    "percent_invalid": 2.56,
+    "percent_invalid": 2.5634126881042065,
     "ballot_surplus": -1
   },
   {
@@ -6711,7 +6692,7 @@ const CONST_RAW = [
     "province_eng": "CHUMPHON",
     "prov_id": "CPN",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 101287,
     "total_used": 101287,
     "valid": 94965,
@@ -6722,7 +6703,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 29590,
     "margin": 13323,
-    "percent_invalid": 2.6,
+    "percent_invalid": 2.599543870388105,
     "ballot_surplus": 1
   },
   {
@@ -6730,7 +6711,7 @@ const CONST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 97311,
     "total_used": 97311,
     "valid": 86955,
@@ -6741,7 +6722,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 21201,
     "margin": 23051,
-    "percent_invalid": 3.01,
+    "percent_invalid": 3.006854312462106,
     "ballot_surplus": 1
   },
   {
@@ -6749,7 +6730,7 @@ const CONST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 82759,
     "total_used": 82759,
     "valid": 78663,
@@ -6760,7 +6741,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22288,
     "margin": 9917,
-    "percent_invalid": 1.7,
+    "percent_invalid": 1.7049505189767882,
     "ballot_surplus": -2
   },
   {
@@ -6768,26 +6749,26 @@ const CONST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 105979,
-    "total_used": 105978,
+    "total_used": 105979,
     "valid": 93176,
-    "invalid": 3394,
+    "invalid": 3395,
     "blank": 9408,
     "winner_party": "ภูมิใจไทย",
     "winner_votes": 36656,
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 27002,
     "margin": 9654,
-    "percent_invalid": 3.2,
-    "ballot_surplus": -3432
+    "percent_invalid": 3.2034648373734416,
+    "ballot_surplus": 0
   },
   {
     "province_thai": "สงขลา",
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 101440,
     "total_used": 101440,
     "valid": 95854,
@@ -6798,7 +6779,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 24612,
     "margin": 21251,
-    "percent_invalid": 2.6,
+    "percent_invalid": 2.602523659305994,
     "ballot_surplus": 0
   },
   {
@@ -6806,7 +6787,7 @@ const CONST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 5,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 104525,
     "total_used": 104525,
     "valid": 93808,
@@ -6817,7 +6798,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 25390,
     "margin": 25740,
-    "percent_invalid": 3.74,
+    "percent_invalid": 3.7436020090887348,
     "ballot_surplus": -86
   },
   {
@@ -6825,7 +6806,7 @@ const CONST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 6,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 93834,
     "total_used": 93834,
     "valid": 88960,
@@ -6836,7 +6817,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 25751,
     "margin": 22640,
-    "percent_invalid": 2.51,
+    "percent_invalid": 2.5065541275017584,
     "ballot_surplus": 0
   },
   {
@@ -6844,7 +6825,7 @@ const CONST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 7,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 98801,
     "total_used": 98801,
     "valid": 93120,
@@ -6855,7 +6836,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 26269,
     "margin": 9859,
-    "percent_invalid": 2.83,
+    "percent_invalid": 2.8309430066497305,
     "ballot_surplus": 0
   },
   {
@@ -6863,7 +6844,7 @@ const CONST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 8,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99959,
     "total_used": 99959,
     "valid": 94569,
@@ -6874,7 +6855,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 36216,
     "margin": 7324,
-    "percent_invalid": 2.56,
+    "percent_invalid": 2.564051261017017,
     "ballot_surplus": 0
   },
   {
@@ -6882,7 +6863,7 @@ const CONST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 9,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 110450,
     "total_used": 110450,
     "valid": 100486,
@@ -6893,7 +6874,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 29715,
     "margin": 19760,
-    "percent_invalid": 2.87,
+    "percent_invalid": 2.870076957899502,
     "ballot_surplus": 0
   },
   {
@@ -6901,7 +6882,7 @@ const CONST_RAW = [
     "province_eng": "SATUN",
     "prov_id": "STN",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 88455,
     "total_used": 88455,
     "valid": 81311,
@@ -6912,7 +6893,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 17251,
     "margin": 20849,
-    "percent_invalid": 2.84,
+    "percent_invalid": 2.843253631790176,
     "ballot_surplus": -1
   },
   {
@@ -6920,7 +6901,7 @@ const CONST_RAW = [
     "province_eng": "SATUN",
     "prov_id": "STN",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99320,
     "total_used": 99320,
     "valid": 90555,
@@ -6931,7 +6912,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15947,
     "margin": 40648,
-    "percent_invalid": 3.18,
+    "percent_invalid": 3.1796214256947244,
     "ballot_surplus": 0
   },
   {
@@ -6939,7 +6920,7 @@ const CONST_RAW = [
     "province_eng": "TRANG",
     "prov_id": "TRG",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99277,
     "total_used": 99277,
     "valid": 90521,
@@ -6950,7 +6931,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 34372,
     "margin": 1212,
-    "percent_invalid": 2.18,
+    "percent_invalid": 2.1817742276660255,
     "ballot_surplus": 0
   },
   {
@@ -6958,7 +6939,7 @@ const CONST_RAW = [
     "province_eng": "TRANG",
     "prov_id": "TRG",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 101194,
     "total_used": 101194,
     "valid": 95121,
@@ -6969,7 +6950,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 38154,
     "margin": 4514,
-    "percent_invalid": 2.23,
+    "percent_invalid": 2.232345791252446,
     "ballot_surplus": 0
   },
   {
@@ -6977,7 +6958,7 @@ const CONST_RAW = [
     "province_eng": "TRANG",
     "prov_id": "TRG",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 95235,
     "total_used": 95235,
     "valid": 88101,
@@ -6988,7 +6969,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 28897,
     "margin": 18019,
-    "percent_invalid": 2.63,
+    "percent_invalid": 2.6271853835249646,
     "ballot_surplus": 0
   },
   {
@@ -6996,7 +6977,7 @@ const CONST_RAW = [
     "province_eng": "TRANG",
     "prov_id": "TRG",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99517,
     "total_used": 99517,
     "valid": 93671,
@@ -7007,7 +6988,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 29793,
     "margin": 21016,
-    "percent_invalid": 2.13,
+    "percent_invalid": 2.130289297305988,
     "ballot_surplus": 0
   },
   {
@@ -7015,7 +6996,7 @@ const CONST_RAW = [
     "province_eng": "PHATTHALUNG",
     "prov_id": "PLG",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 113867,
     "total_used": 113867,
     "valid": 108788,
@@ -7026,7 +7007,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 39873,
     "margin": 2336,
-    "percent_invalid": 1.76,
+    "percent_invalid": 1.7573133568110164,
     "ballot_surplus": 0
   },
   {
@@ -7034,7 +7015,7 @@ const CONST_RAW = [
     "province_eng": "PHATTHALUNG",
     "prov_id": "PLG",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 122372,
     "total_used": 122372,
     "valid": 117079,
@@ -7045,7 +7026,7 @@ const CONST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 35813,
     "margin": 23113,
-    "percent_invalid": 1.99,
+    "percent_invalid": 1.9857483738110027,
     "ballot_surplus": -1
   },
   {
@@ -7053,7 +7034,7 @@ const CONST_RAW = [
     "province_eng": "PHATTHALUNG",
     "prov_id": "PLG",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 116554,
     "total_used": 116554,
     "valid": 108849,
@@ -7064,7 +7045,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 31894,
     "margin": 15759,
-    "percent_invalid": 2.81,
+    "percent_invalid": 2.806424489935995,
     "ballot_surplus": 3
   },
   {
@@ -7072,7 +7053,7 @@ const CONST_RAW = [
     "province_eng": "PATTANI",
     "prov_id": "PTN",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 74215,
     "total_used": 74215,
     "valid": 69214,
@@ -7083,7 +7064,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 16415,
     "margin": 7962,
-    "percent_invalid": 2.88,
+    "percent_invalid": 2.87542949538503,
     "ballot_surplus": -1
   },
   {
@@ -7091,7 +7072,7 @@ const CONST_RAW = [
     "province_eng": "PATTANI",
     "prov_id": "PTN",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 81515,
     "total_used": 81515,
     "valid": 75926,
@@ -7102,7 +7083,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 14082,
     "margin": 24459,
-    "percent_invalid": 3.51,
+    "percent_invalid": 3.5097834754339687,
     "ballot_surplus": 0
   },
   {
@@ -7110,7 +7091,7 @@ const CONST_RAW = [
     "province_eng": "PATTANI",
     "prov_id": "PTN",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 70192,
     "total_used": 70192,
     "valid": 65804,
@@ -7121,7 +7102,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชาติ",
     "runnerup_votes": 24253,
     "margin": 6084,
-    "percent_invalid": 3.75,
+    "percent_invalid": 3.7497150672441304,
     "ballot_surplus": 519
   },
   {
@@ -7129,7 +7110,7 @@ const CONST_RAW = [
     "province_eng": "PATTANI",
     "prov_id": "PTN",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 83822,
     "total_used": 83822,
     "valid": 80409,
@@ -7140,7 +7121,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25931,
     "margin": 4239,
-    "percent_invalid": 2.65,
+    "percent_invalid": 2.6508553840280595,
     "ballot_surplus": -2
   },
   {
@@ -7148,7 +7129,7 @@ const CONST_RAW = [
     "province_eng": "PATTANI",
     "prov_id": "PTN",
     "cons_no": 5,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 78514,
     "total_used": 78514,
     "valid": 73268,
@@ -7159,7 +7140,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชาติ",
     "runnerup_votes": 24059,
     "margin": 10254,
-    "percent_invalid": 4.18,
+    "percent_invalid": 4.17632524135823,
     "ballot_surplus": 0
   },
   {
@@ -7167,7 +7148,7 @@ const CONST_RAW = [
     "province_eng": "YALA",
     "prov_id": "YLA",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 98981,
     "total_used": 98981,
     "valid": 90522,
@@ -7178,7 +7159,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 20639,
     "margin": 10807,
-    "percent_invalid": 3.11,
+    "percent_invalid": 3.1086774229397562,
     "ballot_surplus": 0
   },
   {
@@ -7186,7 +7167,7 @@ const CONST_RAW = [
     "province_eng": "YALA",
     "prov_id": "YLA",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 96577,
     "total_used": 96577,
     "valid": 87642,
@@ -7197,7 +7178,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 24226,
     "margin": 22746,
-    "percent_invalid": 5.4,
+    "percent_invalid": 5.40190728641395,
     "ballot_surplus": 0
   },
   {
@@ -7205,7 +7186,7 @@ const CONST_RAW = [
     "province_eng": "YALA",
     "prov_id": "YLA",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 95519,
     "total_used": 95519,
     "valid": 86878,
@@ -7216,7 +7197,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 26180,
     "margin": 8730,
-    "percent_invalid": 4.38,
+    "percent_invalid": 4.376092714538469,
     "ballot_surplus": 0
   },
   {
@@ -7224,7 +7205,7 @@ const CONST_RAW = [
     "province_eng": "NARATHIWAT",
     "prov_id": "NWT",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99498,
     "total_used": 99498,
     "valid": 93825,
@@ -7235,7 +7216,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 35026,
     "margin": 5611,
-    "percent_invalid": 2.84,
+    "percent_invalid": 2.8362379143299363,
     "ballot_surplus": 0
   },
   {
@@ -7243,18 +7224,18 @@ const CONST_RAW = [
     "province_eng": "NARATHIWAT",
     "prov_id": "NWT",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 77970,
-    "total_used": 77920,
+    "total_used": 77970,
     "valid": 70585,
     "invalid": 3460,
     "blank": 3875,
     "winner_party": "กล้าธรรม",
-    "winner_votes": 43544,
+    "winner_votes": 43594,
     "runnerup_party": "ประชาชาติ",
     "runnerup_votes": 11389,
-    "margin": 32155,
-    "percent_invalid": 4.44,
+    "margin": 32205,
+    "percent_invalid": 4.437604206746185,
     "ballot_surplus": -50
   },
   {
@@ -7262,7 +7243,7 @@ const CONST_RAW = [
     "province_eng": "NARATHIWAT",
     "prov_id": "NWT",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 82910,
     "total_used": 82910,
     "valid": 79299,
@@ -7273,7 +7254,7 @@ const CONST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 36214,
     "margin": 266,
-    "percent_invalid": 2.91,
+    "percent_invalid": 2.914003135930527,
     "ballot_surplus": -1
   },
   {
@@ -7281,7 +7262,7 @@ const CONST_RAW = [
     "province_eng": "NARATHIWAT",
     "prov_id": "NWT",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 86855,
     "total_used": 86855,
     "valid": 83440,
@@ -7292,7 +7273,7 @@ const CONST_RAW = [
     "runnerup_party": "ประชาชาติ",
     "runnerup_votes": 35031,
     "margin": 7231,
-    "percent_invalid": 2.71,
+    "percent_invalid": 2.705658856715215,
     "ballot_surplus": 0
   },
   {
@@ -7300,7 +7281,7 @@ const CONST_RAW = [
     "province_eng": "NARATHIWAT",
     "prov_id": "NWT",
     "cons_no": 5,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 93603,
     "total_used": 93603,
     "valid": 88775,
@@ -7311,7 +7292,7 @@ const CONST_RAW = [
     "runnerup_party": "กล้าธรรม",
     "runnerup_votes": 33134,
     "margin": 13878,
-    "percent_invalid": 3.33,
+    "percent_invalid": 3.334294840977319,
     "ballot_surplus": 0
   }
 ];
@@ -7322,7 +7303,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 1,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 82421,
     "total_used": 82421,
     "valid": 78517,
@@ -7333,7 +7314,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16471,
     "margin": 17744,
-    "percent_invalid": 2.09,
+    "percent_invalid": 2.094126496887929,
     "ballot_surplus": 0
   },
   {
@@ -7341,9 +7322,9 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 10,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 99657,
-    "total_used": 99656,
+    "total_used": 99657,
     "valid": 94890,
     "invalid": 1779,
     "blank": 2987,
@@ -7352,7 +7333,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16002,
     "margin": 28755,
-    "percent_invalid": 1.79,
+    "percent_invalid": 1.7851229717932509,
     "ballot_surplus": 1
   },
   {
@@ -7360,9 +7341,9 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 11,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 100367,
-    "total_used": 100412,
+    "total_used": 100367,
     "valid": 96157,
     "invalid": 1769,
     "blank": 2486,
@@ -7371,7 +7352,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18501,
     "margin": 26479,
-    "percent_invalid": 1.76,
+    "percent_invalid": 1.7625315093606466,
     "ballot_surplus": -44
   },
   {
@@ -7379,7 +7360,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 12,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 111029,
     "total_used": 111029,
     "valid": 106754,
@@ -7390,7 +7371,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19124,
     "margin": 33170,
-    "percent_invalid": 1.35,
+    "percent_invalid": 1.350097722216718,
     "ballot_surplus": 0
   },
   {
@@ -7398,7 +7379,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 13,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 97065,
     "total_used": 97065,
     "valid": 93463,
@@ -7409,7 +7390,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17977,
     "margin": 27012,
-    "percent_invalid": 1.42,
+    "percent_invalid": 1.4217277082367485,
     "ballot_surplus": 0
   },
   {
@@ -7417,7 +7398,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 14,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 99223,
     "total_used": 99223,
     "valid": 95365,
@@ -7428,7 +7409,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19346,
     "margin": 25345,
-    "percent_invalid": 1.55,
+    "percent_invalid": 1.5490360097961158,
     "ballot_surplus": 0
   },
   {
@@ -7436,7 +7417,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 16,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 100556,
     "total_used": 100556,
     "valid": 96550,
@@ -7447,7 +7428,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16586,
     "margin": 32545,
-    "percent_invalid": 1.43,
+    "percent_invalid": 1.4290544572178687,
     "ballot_surplus": 1
   },
   {
@@ -7455,7 +7436,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 17,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 79075,
     "total_used": 79075,
     "valid": 73773,
@@ -7466,7 +7447,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 13309,
     "margin": 17846,
-    "percent_invalid": 2.76,
+    "percent_invalid": 2.7568763831805247,
     "ballot_surplus": 0
   },
   {
@@ -7474,7 +7455,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 18,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 87057,
     "total_used": 87057,
     "valid": 82064,
@@ -7485,7 +7466,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 12973,
     "margin": 23969,
-    "percent_invalid": 2.56,
+    "percent_invalid": 2.561540140367805,
     "ballot_surplus": -2
   },
   {
@@ -7493,7 +7474,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 19,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 98920,
     "total_used": 98920,
     "valid": 95000,
@@ -7504,7 +7485,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18319,
     "margin": 26511,
-    "percent_invalid": 1.59,
+    "percent_invalid": 1.5871411241407198,
     "ballot_surplus": 0
   },
   {
@@ -7512,7 +7493,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 2,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 90181,
     "total_used": 90181,
     "valid": 86220,
@@ -7523,7 +7504,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18021,
     "margin": 22362,
-    "percent_invalid": 1.68,
+    "percent_invalid": 1.6810636386822058,
     "ballot_surplus": 0
   },
   {
@@ -7531,7 +7512,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 20,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 87486,
     "total_used": 87486,
     "valid": 83120,
@@ -7542,7 +7523,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 12703,
     "margin": 27024,
-    "percent_invalid": 2.18,
+    "percent_invalid": 2.1763482157145146,
     "ballot_surplus": 0
   },
   {
@@ -7550,9 +7531,9 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 21,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 96860,
-    "total_used": 96859,
+    "total_used": 96860,
     "valid": 92788,
     "invalid": 1517,
     "blank": 2554,
@@ -7561,7 +7542,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15843,
     "margin": 30628,
-    "percent_invalid": 1.57,
+    "percent_invalid": 1.5661779888498866,
     "ballot_surplus": 0
   },
   {
@@ -7569,7 +7550,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 22,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 92301,
     "total_used": 92301,
     "valid": 88283,
@@ -7580,7 +7561,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17736,
     "margin": 25096,
-    "percent_invalid": 1.63,
+    "percent_invalid": 1.6283680566841097,
     "ballot_surplus": 0
   },
   {
@@ -7588,7 +7569,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 23,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 100477,
     "total_used": 100477,
     "valid": 96512,
@@ -7599,7 +7580,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19116,
     "margin": 28816,
-    "percent_invalid": 1.31,
+    "percent_invalid": 1.3147287438916369,
     "ballot_surplus": 0
   },
   {
@@ -7607,7 +7588,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 24,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 96919,
     "total_used": 96919,
     "valid": 92221,
@@ -7618,7 +7599,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17174,
     "margin": 28403,
-    "percent_invalid": 1.87,
+    "percent_invalid": 1.8716660303965165,
     "ballot_surplus": 0
   },
   {
@@ -7626,7 +7607,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 25,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 89687,
     "total_used": 89687,
     "valid": 85329,
@@ -7637,7 +7618,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15076,
     "margin": 26409,
-    "percent_invalid": 2.13,
+    "percent_invalid": 2.129628597232598,
     "ballot_surplus": 0
   },
   {
@@ -7645,7 +7626,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 26,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 97121,
     "total_used": 97121,
     "valid": 92428,
@@ -7656,7 +7637,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15036,
     "margin": 31167,
-    "percent_invalid": 2.14,
+    "percent_invalid": 2.1406287002810926,
     "ballot_surplus": 0
   },
   {
@@ -7664,7 +7645,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 27,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 96276,
     "total_used": 96276,
     "valid": 91873,
@@ -7675,7 +7656,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 13474,
     "margin": 32662,
-    "percent_invalid": 1.85,
+    "percent_invalid": 1.8488512194108604,
     "ballot_surplus": 0
   },
   {
@@ -7683,10 +7664,10 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 28,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 99509,
     "total_used": 99509,
-    "valid": 94612,
+    "valid": 94506,
     "invalid": 1949,
     "blank": 2948,
     "winner_party": "ประชาชน",
@@ -7694,15 +7675,15 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15648,
     "margin": 32893,
-    "percent_invalid": 1.96,
-    "ballot_surplus": 0
+    "percent_invalid": 1.9586168085298818,
+    "ballot_surplus": 106
   },
   {
     "province_thai": "กรุงเทพมหานคร",
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 29,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 103966,
     "total_used": 103966,
     "valid": 98610,
@@ -7713,7 +7694,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16702,
     "margin": 30903,
-    "percent_invalid": 2.28,
+    "percent_invalid": 2.282476963622723,
     "ballot_surplus": 0
   },
   {
@@ -7721,9 +7702,9 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 3,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 82361,
-    "total_used": 82297,
+    "total_used": 82361,
     "valid": 78811,
     "invalid": 1453,
     "blank": 2033,
@@ -7732,7 +7713,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15604,
     "margin": 20215,
-    "percent_invalid": 1.77,
+    "percent_invalid": 1.76418450480203,
     "ballot_surplus": 64
   },
   {
@@ -7740,7 +7721,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 30,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 99352,
     "total_used": 99352,
     "valid": 94745,
@@ -7751,7 +7732,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15715,
     "margin": 31271,
-    "percent_invalid": 1.91,
+    "percent_invalid": 1.9123923021177227,
     "ballot_surplus": 0
   },
   {
@@ -7759,7 +7740,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 31,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 107447,
     "total_used": 107447,
     "valid": 101855,
@@ -7770,7 +7751,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19622,
     "margin": 26582,
-    "percent_invalid": 1.93,
+    "percent_invalid": 1.9283926028646683,
     "ballot_surplus": 0
   },
   {
@@ -7778,7 +7759,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 32,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 93917,
     "total_used": 93917,
     "valid": 88915,
@@ -7789,7 +7770,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16304,
     "margin": 25128,
-    "percent_invalid": 2.24,
+    "percent_invalid": 2.243470298242065,
     "ballot_surplus": -400
   },
   {
@@ -7797,7 +7778,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 33,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 102628,
     "total_used": 102628,
     "valid": 97764,
@@ -7808,7 +7789,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18532,
     "margin": 25815,
-    "percent_invalid": 1.84,
+    "percent_invalid": 1.8435514674357876,
     "ballot_surplus": 100
   },
   {
@@ -7816,7 +7797,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 4,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 82948,
     "total_used": 82948,
     "valid": 79302,
@@ -7827,7 +7808,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16202,
     "margin": 19948,
-    "percent_invalid": 2.05,
+    "percent_invalid": 2.05309350436418,
     "ballot_surplus": -1
   },
   {
@@ -7835,9 +7816,9 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 5,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 96559,
-    "total_used": 96546,
+    "total_used": 96559,
     "valid": 92873,
     "invalid": 1462,
     "blank": 2211,
@@ -7846,7 +7827,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19329,
     "margin": 26751,
-    "percent_invalid": 1.51,
+    "percent_invalid": 1.51410018745016,
     "ballot_surplus": 15
   },
   {
@@ -7854,7 +7835,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 6,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 100872,
     "total_used": 100872,
     "valid": 96499,
@@ -7865,7 +7846,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17561,
     "margin": 27423,
-    "percent_invalid": 1.82,
+    "percent_invalid": 1.8191371242763106,
     "ballot_surplus": -1
   },
   {
@@ -7873,7 +7854,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 7,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 92497,
     "total_used": 92497,
     "valid": 88053,
@@ -7884,7 +7865,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16552,
     "margin": 24256,
-    "percent_invalid": 1.81,
+    "percent_invalid": 1.8076261932819442,
     "ballot_surplus": 0
   },
   {
@@ -7892,7 +7873,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 8,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 104633,
     "total_used": 104633,
     "valid": 100236,
@@ -7903,7 +7884,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20176,
     "margin": 26596,
-    "percent_invalid": 1.57,
+    "percent_invalid": 1.5664274177362782,
     "ballot_surplus": 0
   },
   {
@@ -7911,7 +7892,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BANGKOK",
     "prov_id": "BKK",
     "cons_no": 9,
-    "region": "05 กรุงเทพมหานคร",
+    "region": "Central",
     "turn_out": 102720,
     "total_used": 102720,
     "valid": 98361,
@@ -7922,7 +7903,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19538,
     "margin": 27692,
-    "percent_invalid": 1.52,
+    "percent_invalid": 1.515771028037383,
     "ballot_surplus": 0
   },
   {
@@ -7930,7 +7911,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 97100,
     "total_used": 97100,
     "valid": 90939,
@@ -7941,7 +7922,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 15344,
     "margin": 27863,
-    "percent_invalid": 3.14,
+    "percent_invalid": 3.1380020597322344,
     "ballot_surplus": -1
   },
   {
@@ -7949,7 +7930,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 96319,
     "total_used": 96319,
     "valid": 89972,
@@ -7960,7 +7941,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 16377,
     "margin": 26691,
-    "percent_invalid": 3.19,
+    "percent_invalid": 3.1925165336018857,
     "ballot_surplus": 0
   },
   {
@@ -7968,7 +7949,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 96436,
     "total_used": 96436,
     "valid": 90899,
@@ -7979,7 +7960,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 14946,
     "margin": 30239,
-    "percent_invalid": 2.34,
+    "percent_invalid": 2.335227508399353,
     "ballot_surplus": 0
   },
   {
@@ -7987,7 +7968,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 100463,
     "total_used": 100463,
     "valid": 95537,
@@ -7998,7 +7979,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16280,
     "margin": 34207,
-    "percent_invalid": 1.7,
+    "percent_invalid": 1.697142231468302,
     "ballot_surplus": 0
   },
   {
@@ -8006,7 +7987,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 111240,
     "total_used": 111240,
     "valid": 104952,
@@ -8017,7 +7998,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16262,
     "margin": 40285,
-    "percent_invalid": 1.99,
+    "percent_invalid": 1.9866954332973752,
     "ballot_surplus": 0
   },
   {
@@ -8025,7 +8006,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 91647,
     "total_used": 91647,
     "valid": 85109,
@@ -8036,7 +8017,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22294,
     "margin": 13321,
-    "percent_invalid": 3.73,
+    "percent_invalid": 3.7328008554562615,
     "ballot_surplus": 0
   },
   {
@@ -8044,7 +8025,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 7,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 105577,
     "total_used": 105577,
     "valid": 98264,
@@ -8055,7 +8036,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16854,
     "margin": 31962,
-    "percent_invalid": 3.12,
+    "percent_invalid": 3.117156198793298,
     "ballot_surplus": 0
   },
   {
@@ -8063,7 +8044,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT PRAKAN",
     "prov_id": "SPK",
     "cons_no": 8,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 111858,
     "total_used": 111858,
     "valid": 104242,
@@ -8074,7 +8055,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 15086,
     "margin": 32181,
-    "percent_invalid": 3.62,
+    "percent_invalid": 3.615297967065387,
     "ballot_surplus": 1
   },
   {
@@ -8082,7 +8063,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 101512,
     "total_used": 101512,
     "valid": 96610,
@@ -8093,7 +8074,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19003,
     "margin": 24905,
-    "percent_invalid": 1.87,
+    "percent_invalid": 1.8746552131767673,
     "ballot_surplus": -1
   },
   {
@@ -8101,7 +8082,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 88604,
     "total_used": 88604,
     "valid": 83688,
@@ -8112,7 +8093,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16577,
     "margin": 21628,
-    "percent_invalid": 2.04,
+    "percent_invalid": 2.0416685476953638,
     "ballot_surplus": 0
   },
   {
@@ -8120,18 +8101,18 @@ const PARTYLIST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 106780,
-    "total_used": 107370,
+    "total_used": 106780,
     "valid": 101296,
     "invalid": 2231,
     "blank": 3843,
-    "winner_party": "พลังประชารัฐ",
+    "winner_party": "ประชาชน",
     "winner_votes": 47712,
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18327,
     "margin": 29385,
-    "percent_invalid": 2.08,
+    "percent_invalid": 2.0893425735156397,
     "ballot_surplus": -490
   },
   {
@@ -8139,7 +8120,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 92680,
     "total_used": 92680,
     "valid": 88001,
@@ -8150,7 +8131,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20330,
     "margin": 17874,
-    "percent_invalid": 1.84,
+    "percent_invalid": 1.8407423392317652,
     "ballot_surplus": 0
   },
   {
@@ -8158,7 +8139,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 104631,
     "total_used": 104631,
     "valid": 98812,
@@ -8169,7 +8150,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22453,
     "margin": 21289,
-    "percent_invalid": 2.32,
+    "percent_invalid": 2.3243589375997553,
     "ballot_surplus": 0
   },
   {
@@ -8177,9 +8158,9 @@ const PARTYLIST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 110021,
-    "total_used": 110126,
+    "total_used": 110021,
     "valid": 103466,
     "invalid": 2576,
     "blank": 4084,
@@ -8188,7 +8169,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18715,
     "margin": 27918,
-    "percent_invalid": 2.34,
+    "percent_invalid": 2.341371192772289,
     "ballot_surplus": -103
   },
   {
@@ -8196,7 +8177,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 7,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 103313,
     "total_used": 103313,
     "valid": 96807,
@@ -8207,7 +8188,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16712,
     "margin": 27667,
-    "percent_invalid": 2.46,
+    "percent_invalid": 2.462420024585483,
     "ballot_surplus": 0
   },
   {
@@ -8215,7 +8196,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NONTHABURI",
     "prov_id": "NBI",
     "cons_no": 8,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 96509,
     "total_used": 96509,
     "valid": 90783,
@@ -8226,7 +8207,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20403,
     "margin": 19109,
-    "percent_invalid": 2.65,
+    "percent_invalid": 2.647421484006673,
     "ballot_surplus": 0
   },
   {
@@ -8234,7 +8215,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 102636,
     "total_used": 102636,
     "valid": 95730,
@@ -8245,7 +8226,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 14877,
     "margin": 25466,
-    "percent_invalid": 3.27,
+    "percent_invalid": 3.271756498694415,
     "ballot_surplus": 0
   },
   {
@@ -8253,9 +8234,9 @@ const PARTYLIST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 102812,
-    "total_used": 102912,
+    "total_used": 102812,
     "valid": 96662,
     "invalid": 3225,
     "blank": 3025,
@@ -8264,7 +8245,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18839,
     "margin": 20964,
-    "percent_invalid": 3.13,
+    "percent_invalid": 3.136793370423686,
     "ballot_surplus": -100
   },
   {
@@ -8272,7 +8253,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 93799,
     "total_used": 93799,
     "valid": 88780,
@@ -8283,7 +8264,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16287,
     "margin": 28933,
-    "percent_invalid": 1.96,
+    "percent_invalid": 1.9616413821042868,
     "ballot_surplus": 0
   },
   {
@@ -8291,7 +8272,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 98896,
     "total_used": 98896,
     "valid": 93513,
@@ -8302,7 +8283,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 14450,
     "margin": 30440,
-    "percent_invalid": 2.5,
+    "percent_invalid": 2.500606697945316,
     "ballot_surplus": -2
   },
   {
@@ -8310,7 +8291,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 89639,
     "total_used": 89639,
     "valid": 85017,
@@ -8321,7 +8302,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 14717,
     "margin": 24249,
-    "percent_invalid": 2.05,
+    "percent_invalid": 2.0504467921328886,
     "ballot_surplus": 0
   },
   {
@@ -8329,7 +8310,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 91433,
     "total_used": 91433,
     "valid": 87165,
@@ -8340,7 +8321,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 13846,
     "margin": 30793,
-    "percent_invalid": 1.63,
+    "percent_invalid": 1.6285148688110418,
     "ballot_surplus": 1
   },
   {
@@ -8348,7 +8329,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 7,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 92139,
     "total_used": 92139,
     "valid": 86555,
@@ -8359,7 +8340,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 23403,
     "margin": 12423,
-    "percent_invalid": 3.13,
+    "percent_invalid": 3.1311388228654535,
     "ballot_surplus": 0
   },
   {
@@ -8367,7 +8348,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATHUM THANI",
     "prov_id": "PTE",
     "cons_no": 8,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 92701,
     "total_used": 92701,
     "valid": 86370,
@@ -8378,7 +8359,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 21685,
     "margin": 10788,
-    "percent_invalid": 3.86,
+    "percent_invalid": 3.8564848275638877,
     "ballot_surplus": 0
   },
   {
@@ -8386,7 +8367,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHRA NAKHON SI AYUTTHAYA",
     "prov_id": "AYA",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 106326,
     "total_used": 106326,
     "valid": 97460,
@@ -8397,7 +8378,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25327,
     "margin": 13827,
-    "percent_invalid": 4.14,
+    "percent_invalid": 4.136335421251623,
     "ballot_surplus": 0
   },
   {
@@ -8405,7 +8386,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHRA NAKHON SI AYUTTHAYA",
     "prov_id": "AYA",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 102658,
     "total_used": 102658,
     "valid": 92649,
@@ -8416,7 +8397,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25406,
     "margin": 6316,
-    "percent_invalid": 5.59,
+    "percent_invalid": 5.590406982407606,
     "ballot_surplus": 0
   },
   {
@@ -8424,7 +8405,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHRA NAKHON SI AYUTTHAYA",
     "prov_id": "AYA",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 107866,
     "total_used": 107866,
     "valid": 99534,
@@ -8435,7 +8416,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 24058,
     "margin": 16450,
-    "percent_invalid": 4.39,
+    "percent_invalid": 4.3878515936439655,
     "ballot_surplus": 0
   },
   {
@@ -8443,7 +8424,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHRA NAKHON SI AYUTTHAYA",
     "prov_id": "AYA",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 114346,
     "total_used": 114346,
     "valid": 106381,
@@ -8454,7 +8435,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 29154,
     "margin": 12889,
-    "percent_invalid": 3.81,
+    "percent_invalid": 3.80511780036031,
     "ballot_surplus": 0
   },
   {
@@ -8462,7 +8443,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHRA NAKHON SI AYUTTHAYA",
     "prov_id": "AYA",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 105917,
     "total_used": 105917,
     "valid": 97187,
@@ -8473,7 +8454,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 27098,
     "margin": 3573,
-    "percent_invalid": 5.27,
+    "percent_invalid": 5.273940916000265,
     "ballot_surplus": -1
   },
   {
@@ -8481,7 +8462,7 @@ const PARTYLIST_RAW = [
     "province_eng": "ANG THONG",
     "prov_id": "ATG",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 85616,
     "total_used": 85616,
     "valid": 78304,
@@ -8492,7 +8473,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25348,
     "margin": 3892,
-    "percent_invalid": 5.09,
+    "percent_invalid": 5.089002055690525,
     "ballot_surplus": 0
   },
   {
@@ -8500,7 +8481,7 @@ const PARTYLIST_RAW = [
     "province_eng": "ANG THONG",
     "prov_id": "ATG",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 86378,
     "total_used": 86378,
     "valid": 78266,
@@ -8511,7 +8492,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21563,
     "margin": 8124,
-    "percent_invalid": 6.2,
+    "percent_invalid": 6.201810646229363,
     "ballot_surplus": 0
   },
   {
@@ -8519,7 +8500,7 @@ const PARTYLIST_RAW = [
     "province_eng": "LOP BURI",
     "prov_id": "LRI",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 110263,
     "total_used": 110263,
     "valid": 98815,
@@ -8530,7 +8511,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22112,
     "margin": 9952,
-    "percent_invalid": 5.83,
+    "percent_invalid": 5.830605008026264,
     "ballot_surplus": 0
   },
   {
@@ -8538,7 +8519,7 @@ const PARTYLIST_RAW = [
     "province_eng": "LOP BURI",
     "prov_id": "LRI",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 118851,
     "total_used": 118851,
     "valid": 107859,
@@ -8549,7 +8530,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 30490,
     "margin": 2658,
-    "percent_invalid": 5.54,
+    "percent_invalid": 5.543916332214286,
     "ballot_surplus": 0
   },
   {
@@ -8557,7 +8538,7 @@ const PARTYLIST_RAW = [
     "province_eng": "LOP BURI",
     "prov_id": "LRI",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 105930,
     "total_used": 105930,
     "valid": 96662,
@@ -8568,34 +8549,15 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 23514,
     "margin": 2455,
-    "percent_invalid": 6.01,
+    "percent_invalid": 6.014349098461248,
     "ballot_surplus": -1
-  },
-  {
-    "province_thai": "ลพบุรี",
-    "province_eng": "LOP BURI",
-    "prov_id": "LRI",
-    "cons_no": 4,
-    "region": "04 ภาคกลาง",
-    "turn_out": 110263,
-    "total_used": 110263,
-    "valid": 98815,
-    "invalid": 6429,
-    "blank": 5019,
-    "winner_party": "ประชาชน",
-    "winner_votes": 32064,
-    "runnerup_party": "ภูมิใจไทย",
-    "runnerup_votes": 22112,
-    "margin": 9952,
-    "percent_invalid": 5.83,
-    "ballot_surplus": 5932
   },
   {
     "province_thai": "สิงห์บุรี",
     "province_eng": "SING BURI",
     "prov_id": "SBR",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 127309,
     "total_used": 127309,
     "valid": 114741,
@@ -8606,7 +8568,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25435,
     "margin": 11133,
-    "percent_invalid": 5.53,
+    "percent_invalid": 5.526710601764211,
     "ballot_surplus": 0
   },
   {
@@ -8614,7 +8576,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHAI NAT",
     "prov_id": "CNT",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 94468,
     "total_used": 94468,
     "valid": 84121,
@@ -8625,7 +8587,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 14665,
     "margin": 12472,
-    "percent_invalid": 5.94,
+    "percent_invalid": 5.936401744506076,
     "ballot_surplus": 1
   },
   {
@@ -8633,7 +8595,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHAI NAT",
     "prov_id": "CNT",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 95079,
     "total_used": 95079,
     "valid": 84197,
@@ -8644,7 +8606,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22973,
     "margin": 3342,
-    "percent_invalid": 7.38,
+    "percent_invalid": 7.379126831371807,
     "ballot_surplus": 0
   },
   {
@@ -8652,9 +8614,9 @@ const PARTYLIST_RAW = [
     "province_eng": "SARABURI",
     "prov_id": "SRI",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 98444,
-    "total_used": 98443,
+    "total_used": 98444,
     "valid": 89500,
     "invalid": 4541,
     "blank": 4402,
@@ -8663,7 +8625,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18236,
     "margin": 16382,
-    "percent_invalid": 4.61,
+    "percent_invalid": 4.612774775506887,
     "ballot_surplus": 1
   },
   {
@@ -8671,7 +8633,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SARABURI",
     "prov_id": "SRI",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 107815,
     "total_used": 107815,
     "valid": 97624,
@@ -8682,7 +8644,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17661,
     "margin": 17251,
-    "percent_invalid": 5.79,
+    "percent_invalid": 5.789546909057181,
     "ballot_surplus": 0
   },
   {
@@ -8690,7 +8652,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SARABURI",
     "prov_id": "SRI",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 99297,
     "total_used": 99297,
     "valid": 89827,
@@ -8701,7 +8663,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20026,
     "margin": 14676,
-    "percent_invalid": 5.16,
+    "percent_invalid": 5.159269665750224,
     "ballot_surplus": 0
   },
   {
@@ -8709,7 +8671,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SARABURI",
     "prov_id": "SRI",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 100197,
     "total_used": 100197,
     "valid": 89044,
@@ -8720,7 +8682,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 12817,
     "margin": 21217,
-    "percent_invalid": 5.63,
+    "percent_invalid": 5.633901214607224,
     "ballot_surplus": 0
   },
   {
@@ -8728,7 +8690,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 104346,
     "total_used": 104346,
     "valid": 98214,
@@ -8739,7 +8701,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 28747,
     "margin": 15267,
-    "percent_invalid": 2.98,
+    "percent_invalid": 2.9785521246621816,
     "ballot_surplus": -2
   },
   {
@@ -8747,7 +8709,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 10,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 89098,
     "total_used": 89098,
     "valid": 82021,
@@ -8758,7 +8720,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19065,
     "margin": 14002,
-    "percent_invalid": 3.06,
+    "percent_invalid": 3.056185324025231,
     "ballot_surplus": 1
   },
   {
@@ -8766,7 +8728,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 2,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 84051,
     "total_used": 84051,
     "valid": 79159,
@@ -8777,7 +8739,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 21207,
     "margin": 12840,
-    "percent_invalid": 2.72,
+    "percent_invalid": 2.724536293440887,
     "ballot_surplus": 0
   },
   {
@@ -8785,7 +8747,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 98529,
     "total_used": 98529,
     "valid": 91927,
@@ -8796,7 +8758,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 21635,
     "margin": 19007,
-    "percent_invalid": 3.43,
+    "percent_invalid": 3.432491956682804,
     "ballot_surplus": 0
   },
   {
@@ -8804,7 +8766,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 4,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 88809,
     "total_used": 88809,
     "valid": 80879,
@@ -8815,7 +8777,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20031,
     "margin": 7183,
-    "percent_invalid": 5.61,
+    "percent_invalid": 5.606413764370728,
     "ballot_surplus": 0
   },
   {
@@ -8823,7 +8785,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 5,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 103979,
     "total_used": 103979,
     "valid": 95056,
@@ -8834,7 +8796,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 24984,
     "margin": 6896,
-    "percent_invalid": 4.93,
+    "percent_invalid": 4.925032939343521,
     "ballot_surplus": 0
   },
   {
@@ -8842,7 +8804,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 6,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 96545,
     "total_used": 96545,
     "valid": 90677,
@@ -8853,7 +8815,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22453,
     "margin": 19680,
-    "percent_invalid": 3.13,
+    "percent_invalid": 3.1260034180951886,
     "ballot_surplus": 0
   },
   {
@@ -8861,7 +8823,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 7,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 88766,
     "total_used": 88766,
     "valid": 83989,
@@ -8872,7 +8834,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17853,
     "margin": 25519,
-    "percent_invalid": 2.59,
+    "percent_invalid": 2.5854493837730663,
     "ballot_surplus": 1
   },
   {
@@ -8880,7 +8842,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 8,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 94307,
     "total_used": 94307,
     "valid": 88210,
@@ -8891,7 +8853,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 21336,
     "margin": 17471,
-    "percent_invalid": 3.47,
+    "percent_invalid": 3.468459393258189,
     "ballot_surplus": 1
   },
   {
@@ -8899,7 +8861,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHON BURI",
     "prov_id": "CBI",
     "cons_no": 9,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 69179,
     "total_used": 69179,
     "valid": 65089,
@@ -8910,7 +8872,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 14834,
     "margin": 15454,
-    "percent_invalid": 2.91,
+    "percent_invalid": 2.905506006157938,
     "ballot_surplus": 1
   },
   {
@@ -8918,9 +8880,9 @@ const PARTYLIST_RAW = [
     "province_eng": "RAYONG",
     "prov_id": "RYG",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 91421,
-    "total_used": 91411,
+    "total_used": 91421,
     "valid": 86327,
     "invalid": 2322,
     "blank": 2762,
@@ -8929,7 +8891,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17260,
     "margin": 22857,
-    "percent_invalid": 2.54,
+    "percent_invalid": 2.539897835289485,
     "ballot_surplus": 10
   },
   {
@@ -8937,7 +8899,7 @@ const PARTYLIST_RAW = [
     "province_eng": "RAYONG",
     "prov_id": "RYG",
     "cons_no": 2,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 77741,
     "total_used": 77741,
     "valid": 72857,
@@ -8948,7 +8910,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 17477,
     "margin": 14131,
-    "percent_invalid": 2.81,
+    "percent_invalid": 2.8080420884732638,
     "ballot_surplus": 0
   },
   {
@@ -8956,7 +8918,7 @@ const PARTYLIST_RAW = [
     "province_eng": "RAYONG",
     "prov_id": "RYG",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 85323,
     "total_used": 85323,
     "valid": 77652,
@@ -8967,7 +8929,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 17400,
     "margin": 10401,
-    "percent_invalid": 4.29,
+    "percent_invalid": 4.286065890791463,
     "ballot_surplus": 0
   },
   {
@@ -8975,9 +8937,9 @@ const PARTYLIST_RAW = [
     "province_eng": "RAYONG",
     "prov_id": "RYG",
     "cons_no": 4,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 84724,
-    "total_used": 94612,
+    "total_used": 84724,
     "valid": 88350,
     "invalid": 3406,
     "blank": 2856,
@@ -8986,7 +8948,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19236,
     "margin": 16857,
-    "percent_invalid": 3.6,
+    "percent_invalid": 4.0201123648552946,
     "ballot_surplus": 112
   },
   {
@@ -8994,7 +8956,7 @@ const PARTYLIST_RAW = [
     "province_eng": "RAYONG",
     "prov_id": "RYG",
     "cons_no": 5,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 89548,
     "total_used": 89548,
     "valid": 83541,
@@ -9005,7 +8967,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16119,
     "margin": 23597,
-    "percent_invalid": 3.47,
+    "percent_invalid": 3.4729977218921695,
     "ballot_surplus": -1
   },
   {
@@ -9013,7 +8975,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHANTHABURI",
     "prov_id": "CTI",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 110531,
     "total_used": 110531,
     "valid": 100429,
@@ -9024,7 +8986,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25749,
     "margin": 10632,
-    "percent_invalid": 4.05,
+    "percent_invalid": 4.046828491554406,
     "ballot_surplus": 0
   },
   {
@@ -9032,7 +8994,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHANTHABURI",
     "prov_id": "CTI",
     "cons_no": 2,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 102880,
     "total_used": 102880,
     "valid": 91950,
@@ -9043,7 +9005,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20491,
     "margin": 8610,
-    "percent_invalid": 5.38,
+    "percent_invalid": 5.375194401244168,
     "ballot_surplus": 0
   },
   {
@@ -9051,7 +9013,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHANTHABURI",
     "prov_id": "CTI",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 101001,
     "total_used": 101001,
     "valid": 90597,
@@ -9062,7 +9024,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 21523,
     "margin": 4818,
-    "percent_invalid": 5.68,
+    "percent_invalid": 5.676181423946298,
     "ballot_surplus": 0
   },
   {
@@ -9070,9 +9032,9 @@ const PARTYLIST_RAW = [
     "province_eng": "TRAT",
     "prov_id": "TRT",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 125215,
-    "total_used": 125315,
+    "total_used": 125215,
     "valid": 115046,
     "invalid": 6120,
     "blank": 4149,
@@ -9081,7 +9043,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 32353,
     "margin": 1805,
-    "percent_invalid": 4.88,
+    "percent_invalid": 4.887593339456135,
     "ballot_surplus": -100
   },
   {
@@ -9089,7 +9051,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHACHOENGSAO",
     "prov_id": "CCO",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 110016,
     "total_used": 110016,
     "valid": 100617,
@@ -9100,7 +9062,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16774,
     "margin": 23626,
-    "percent_invalid": 3.68,
+    "percent_invalid": 3.680373763816172,
     "ballot_surplus": 0
   },
   {
@@ -9108,9 +9070,9 @@ const PARTYLIST_RAW = [
     "province_eng": "CHACHOENGSAO",
     "prov_id": "CCO",
     "cons_no": 2,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 118519,
-    "total_used": 118610,
+    "total_used": 118519,
     "valid": 107899,
     "invalid": 6636,
     "blank": 4075,
@@ -9119,7 +9081,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17513,
     "margin": 15436,
-    "percent_invalid": 5.59,
+    "percent_invalid": 5.599102253647095,
     "ballot_surplus": -92
   },
   {
@@ -9127,7 +9089,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHACHOENGSAO",
     "prov_id": "CCO",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 104600,
     "total_used": 104600,
     "valid": 94168,
@@ -9138,7 +9100,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 14171,
     "margin": 16935,
-    "percent_invalid": 6.59,
+    "percent_invalid": 6.592734225621415,
     "ballot_surplus": 0
   },
   {
@@ -9146,7 +9108,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHACHOENGSAO",
     "prov_id": "CCO",
     "cons_no": 4,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 122283,
     "total_used": 122283,
     "valid": 111464,
@@ -9157,7 +9119,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15240,
     "margin": 29394,
-    "percent_invalid": 5.32,
+    "percent_invalid": 5.322898522280284,
     "ballot_surplus": -1
   },
   {
@@ -9165,9 +9127,9 @@ const PARTYLIST_RAW = [
     "province_eng": "PRACHIN BURI",
     "prov_id": "PRI",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 94811,
-    "total_used": 94812,
+    "total_used": 94811,
     "valid": 84900,
     "invalid": 4566,
     "blank": 5346,
@@ -9176,7 +9138,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19725,
     "margin": 11091,
-    "percent_invalid": 4.82,
+    "percent_invalid": 4.815896889601418,
     "ballot_surplus": -1
   },
   {
@@ -9184,7 +9146,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PRACHIN BURI",
     "prov_id": "PRI",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 93849,
     "total_used": 93849,
     "valid": 84893,
@@ -9195,7 +9157,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18183,
     "margin": 11150,
-    "percent_invalid": 5.48,
+    "percent_invalid": 5.476883078136155,
     "ballot_surplus": -1
   },
   {
@@ -9203,7 +9165,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON NAYOK",
     "prov_id": "NYK",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 82830,
     "total_used": 82830,
     "valid": 74982,
@@ -9214,7 +9176,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15677,
     "margin": 6752,
-    "percent_invalid": 5.53,
+    "percent_invalid": 5.528190269226125,
     "ballot_surplus": 0
   },
   {
@@ -9222,7 +9184,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON NAYOK",
     "prov_id": "NYK",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 87699,
     "total_used": 87699,
     "valid": 79406,
@@ -9233,7 +9195,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16575,
     "margin": 7024,
-    "percent_invalid": 5.77,
+    "percent_invalid": 5.774296172134232,
     "ballot_surplus": 0
   },
   {
@@ -9241,7 +9203,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SA KAEO",
     "prov_id": "SKW",
     "cons_no": 1,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 97583,
     "total_used": 97583,
     "valid": 88432,
@@ -9252,7 +9214,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "พลังประชารัฐ",
     "runnerup_votes": 17510,
     "margin": 6841,
-    "percent_invalid": 6.14,
+    "percent_invalid": 6.136314726950391,
     "ballot_surplus": 1
   },
   {
@@ -9260,7 +9222,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SA KAEO",
     "prov_id": "SKW",
     "cons_no": 2,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 97464,
     "total_used": 97464,
     "valid": 89341,
@@ -9271,7 +9233,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22827,
     "margin": 97,
-    "percent_invalid": 5.06,
+    "percent_invalid": 5.064434047443159,
     "ballot_surplus": 0
   },
   {
@@ -9279,9 +9241,9 @@ const PARTYLIST_RAW = [
     "province_eng": "SA KAEO",
     "prov_id": "SKW",
     "cons_no": 3,
-    "region": "03 ภาคตะวันออก",
+    "region": "Central",
     "turn_out": 101937,
-    "total_used": 101852,
+    "total_used": 101937,
     "valid": 92248,
     "invalid": 6205,
     "blank": 3399,
@@ -9290,7 +9252,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17896,
     "margin": 2191,
-    "percent_invalid": 6.09,
+    "percent_invalid": 6.087093008426773,
     "ballot_surplus": 85
   },
   {
@@ -9298,7 +9260,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90557,
     "total_used": 90557,
     "valid": 83542,
@@ -9309,7 +9271,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 16325,
     "margin": 16724,
-    "percent_invalid": 2.97,
+    "percent_invalid": 2.9749218724118514,
     "ballot_surplus": 0
   },
   {
@@ -9317,9 +9279,9 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 10,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 112031,
-    "total_used": 111334,
+    "total_used": 112031,
     "valid": 100890,
     "invalid": 6762,
     "blank": 3682,
@@ -9328,7 +9290,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 26222,
     "margin": 2199,
-    "percent_invalid": 6.07,
+    "percent_invalid": 6.03582936865689,
     "ballot_surplus": 697
   },
   {
@@ -9336,7 +9298,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 11,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93602,
     "total_used": 93602,
     "valid": 84866,
@@ -9347,7 +9309,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20978,
     "margin": 6560,
-    "percent_invalid": 5.69,
+    "percent_invalid": 5.693254417640649,
     "ballot_surplus": 0
   },
   {
@@ -9355,7 +9317,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 12,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 94858,
     "total_used": 94858,
     "valid": 85430,
@@ -9366,7 +9328,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17486,
     "margin": 6917,
-    "percent_invalid": 6.19,
+    "percent_invalid": 6.190305509287566,
     "ballot_surplus": 0
   },
   {
@@ -9374,7 +9336,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 13,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 78490,
     "total_used": 78490,
     "valid": 69798,
@@ -9385,7 +9347,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เศรษฐกิจ",
     "runnerup_votes": 16963,
     "margin": 6499,
-    "percent_invalid": 6.59,
+    "percent_invalid": 6.588100394954771,
     "ballot_surplus": 0
   },
   {
@@ -9393,7 +9355,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 14,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83594,
     "total_used": 83594,
     "valid": 75906,
@@ -9404,7 +9366,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 13130,
     "margin": 16322,
-    "percent_invalid": 4.52,
+    "percent_invalid": 4.52305189367658,
     "ballot_surplus": 0
   },
   {
@@ -9412,9 +9374,9 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 15,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 99861,
-    "total_used": 99825,
+    "total_used": 99861,
     "valid": 92036,
     "invalid": 5696,
     "blank": 2093,
@@ -9423,7 +9385,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23134,
     "margin": 944,
-    "percent_invalid": 5.71,
+    "percent_invalid": 5.703928460560179,
     "ballot_surplus": 37
   },
   {
@@ -9431,7 +9393,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 16,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89343,
     "total_used": 89343,
     "valid": 81924,
@@ -9442,7 +9404,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 18961,
     "margin": 1370,
-    "percent_invalid": 6.01,
+    "percent_invalid": 6.010543635203653,
     "ballot_surplus": 0
   },
   {
@@ -9450,7 +9412,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 105849,
     "total_used": 105849,
     "valid": 96874,
@@ -9461,7 +9423,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 16583,
     "margin": 24470,
-    "percent_invalid": 3.98,
+    "percent_invalid": 3.981142948917798,
     "ballot_surplus": 1
   },
   {
@@ -9469,7 +9431,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 102530,
     "total_used": 102530,
     "valid": 93802,
@@ -9480,7 +9442,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17187,
     "margin": 21082,
-    "percent_invalid": 4.19,
+    "percent_invalid": 4.188042524139276,
     "ballot_surplus": 0
   },
   {
@@ -9488,7 +9450,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93980,
     "total_used": 93980,
     "valid": 85195,
@@ -9499,7 +9461,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17928,
     "margin": 9735,
-    "percent_invalid": 4.98,
+    "percent_invalid": 4.982975101085337,
     "ballot_surplus": 0
   },
   {
@@ -9507,7 +9469,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 95131,
     "total_used": 95131,
     "valid": 86005,
@@ -9518,7 +9480,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22017,
     "margin": 268,
-    "percent_invalid": 6.15,
+    "percent_invalid": 6.148363835132606,
     "ballot_surplus": -2
   },
   {
@@ -9526,7 +9488,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85762,
     "total_used": 85762,
     "valid": 79241,
@@ -9537,7 +9499,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19790,
     "margin": 1699,
-    "percent_invalid": 5.64,
+    "percent_invalid": 5.641193069191484,
     "ballot_surplus": 0
   },
   {
@@ -9545,7 +9507,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 81993,
     "total_used": 81993,
     "valid": 75590,
@@ -9556,7 +9518,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19324,
     "margin": 4672,
-    "percent_invalid": 5.44,
+    "percent_invalid": 5.443147585769517,
     "ballot_surplus": 0
   },
   {
@@ -9564,7 +9526,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 88227,
     "total_used": 88227,
     "valid": 80704,
@@ -9575,7 +9537,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20201,
     "margin": 5124,
-    "percent_invalid": 5.12,
+    "percent_invalid": 5.123148242601471,
     "ballot_surplus": -1
   },
   {
@@ -9583,7 +9545,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON RATCHASIMA",
     "prov_id": "NMA",
     "cons_no": 9,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 92484,
     "total_used": 92484,
     "valid": 85355,
@@ -9594,7 +9556,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20305,
     "margin": 5897,
-    "percent_invalid": 5.56,
+    "percent_invalid": 5.557718091778037,
     "ballot_surplus": 1
   },
   {
@@ -9602,7 +9564,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 94060,
     "total_used": 94060,
     "valid": 87126,
@@ -9613,7 +9575,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25820,
     "margin": 4331,
-    "percent_invalid": 4.29,
+    "percent_invalid": 4.294067616415054,
     "ballot_surplus": 0
   },
   {
@@ -9621,7 +9583,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 95001,
     "total_used": 95001,
     "valid": 88367,
@@ -9632,7 +9594,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20648,
     "margin": 12430,
-    "percent_invalid": 5.01,
+    "percent_invalid": 5.006263091967453,
     "ballot_surplus": 2
   },
   {
@@ -9640,9 +9602,9 @@ const PARTYLIST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84654,
-    "total_used": 84754,
+    "total_used": 84654,
     "valid": 78937,
     "invalid": 4074,
     "blank": 1743,
@@ -9651,7 +9613,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19444,
     "margin": 5698,
-    "percent_invalid": 4.81,
+    "percent_invalid": 4.812531008576086,
     "ballot_surplus": -99
   },
   {
@@ -9659,7 +9621,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85084,
     "total_used": 85084,
     "valid": 79794,
@@ -9670,7 +9632,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 21779,
     "margin": 1275,
-    "percent_invalid": 4.27,
+    "percent_invalid": 4.271073292275869,
     "ballot_surplus": 1
   },
   {
@@ -9678,7 +9640,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82574,
     "total_used": 82574,
     "valid": 77102,
@@ -9689,7 +9651,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17796,
     "margin": 3863,
-    "percent_invalid": 5.35,
+    "percent_invalid": 5.345508271368712,
     "ballot_surplus": 0
   },
   {
@@ -9697,7 +9659,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 81526,
     "total_used": 81526,
     "valid": 75723,
@@ -9708,7 +9670,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 16083,
     "margin": 10362,
-    "percent_invalid": 5.39,
+    "percent_invalid": 5.387238427004882,
     "ballot_surplus": 0
   },
   {
@@ -9716,7 +9678,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91439,
     "total_used": 91439,
     "valid": 85211,
@@ -9727,7 +9689,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20389,
     "margin": 7502,
-    "percent_invalid": 4.84,
+    "percent_invalid": 4.837104517765942,
     "ballot_surplus": 0
   },
   {
@@ -9735,7 +9697,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURIN",
     "prov_id": "SRN",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85240,
     "total_used": 85240,
     "valid": 78886,
@@ -9746,7 +9708,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17064,
     "margin": 9341,
-    "percent_invalid": 5.4,
+    "percent_invalid": 5.4023932426091035,
     "ballot_surplus": 0
   },
   {
@@ -9754,7 +9716,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 98768,
     "total_used": 98768,
     "valid": 92842,
@@ -9765,7 +9727,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 25832,
     "margin": 3510,
-    "percent_invalid": 4.15,
+    "percent_invalid": 4.150129596630488,
     "ballot_surplus": 2
   },
   {
@@ -9773,9 +9735,9 @@ const PARTYLIST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85060,
-    "total_used": 85005,
+    "total_used": 85060,
     "valid": 79297,
     "invalid": 4128,
     "blank": 1580,
@@ -9784,7 +9746,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17903,
     "margin": 7309,
-    "percent_invalid": 4.86,
+    "percent_invalid": 4.853044909475664,
     "ballot_surplus": 55
   },
   {
@@ -9792,7 +9754,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82061,
     "total_used": 82061,
     "valid": 75333,
@@ -9803,7 +9765,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17697,
     "margin": 2744,
-    "percent_invalid": 5.87,
+    "percent_invalid": 5.868804913418067,
     "ballot_surplus": 0
   },
   {
@@ -9811,7 +9773,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82769,
     "total_used": 82769,
     "valid": 76539,
@@ -9822,7 +9784,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 13876,
     "margin": 13089,
-    "percent_invalid": 5.59,
+    "percent_invalid": 5.5866326764851575,
     "ballot_surplus": -1
   },
   {
@@ -9830,7 +9792,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85063,
     "total_used": 85063,
     "valid": 78316,
@@ -9841,7 +9803,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19832,
     "margin": 3586,
-    "percent_invalid": 6.02,
+    "percent_invalid": 6.019068220025158,
     "ballot_surplus": -1
   },
   {
@@ -9849,7 +9811,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83911,
     "total_used": 83911,
     "valid": 77850,
@@ -9860,7 +9822,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 21166,
     "margin": 2191,
-    "percent_invalid": 5.85,
+    "percent_invalid": 5.8454791386111475,
     "ballot_surplus": 1
   },
   {
@@ -9868,9 +9830,9 @@ const PARTYLIST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84203,
-    "total_used": 83865,
+    "total_used": 84203,
     "valid": 78587,
     "invalid": 4270,
     "blank": 1008,
@@ -9879,7 +9841,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17847,
     "margin": 13651,
-    "percent_invalid": 5.09,
+    "percent_invalid": 5.071078227616593,
     "ballot_surplus": 338
   },
   {
@@ -9887,7 +9849,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89354,
     "total_used": 89354,
     "valid": 83511,
@@ -9898,7 +9860,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19414,
     "margin": 11453,
-    "percent_invalid": 4.66,
+    "percent_invalid": 4.657877655169326,
     "ballot_surplus": 0
   },
   {
@@ -9906,7 +9868,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SI SA KET",
     "prov_id": "SSK",
     "cons_no": 9,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93002,
     "total_used": 93002,
     "valid": 87485,
@@ -9917,7 +9879,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17999,
     "margin": 15300,
-    "percent_invalid": 4.18,
+    "percent_invalid": 4.177329519795273,
     "ballot_surplus": 0
   },
   {
@@ -9925,8 +9887,8 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
-    "turn_out": 99551,
+    "region": "Northeast",
+    "turn_out": 99451,
     "total_used": 99451,
     "valid": 92206,
     "invalid": 3139,
@@ -9936,7 +9898,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20879,
     "margin": 12941,
-    "percent_invalid": 3.16,
+    "percent_invalid": 3.1563282420488483,
     "ballot_surplus": -3
   },
   {
@@ -9944,7 +9906,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 10,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93234,
     "total_used": 93234,
     "valid": 87008,
@@ -9955,7 +9917,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 11557,
     "margin": 31604,
-    "percent_invalid": 5.07,
+    "percent_invalid": 5.072183967222258,
     "ballot_surplus": 0
   },
   {
@@ -9963,7 +9925,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 11,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85958,
     "total_used": 85958,
     "valid": 78793,
@@ -9974,7 +9936,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16830,
     "margin": 1036,
-    "percent_invalid": 5.52,
+    "percent_invalid": 5.516647665138788,
     "ballot_surplus": 0
   },
   {
@@ -9982,7 +9944,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 97134,
     "total_used": 97134,
     "valid": 90040,
@@ -9993,7 +9955,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ไทรวมพลัง",
     "runnerup_votes": 16800,
     "margin": 4260,
-    "percent_invalid": 4.29,
+    "percent_invalid": 4.2878909547635224,
     "ballot_surplus": 0
   },
   {
@@ -10001,7 +9963,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93751,
     "total_used": 93751,
     "valid": 86350,
@@ -10012,7 +9974,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18496,
     "margin": 131,
-    "percent_invalid": 4.78,
+    "percent_invalid": 4.7839489712109735,
     "ballot_surplus": 0
   },
   {
@@ -10020,7 +9982,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 112955,
     "total_used": 112955,
     "valid": 103550,
@@ -10031,7 +9993,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27545,
     "margin": 6273,
-    "percent_invalid": 4.5,
+    "percent_invalid": 4.497366207781861,
     "ballot_surplus": 0
   },
   {
@@ -10039,7 +10001,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 86404,
     "total_used": 86404,
     "valid": 80187,
@@ -10050,7 +10012,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19738,
     "margin": 680,
-    "percent_invalid": 4.82,
+    "percent_invalid": 4.823850747650572,
     "ballot_surplus": 0
   },
   {
@@ -10058,7 +10020,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83930,
     "total_used": 83930,
     "valid": 77173,
@@ -10069,7 +10031,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15567,
     "margin": 3826,
-    "percent_invalid": 6.15,
+    "percent_invalid": 6.15036339806982,
     "ballot_surplus": 0
   },
   {
@@ -10077,9 +10039,9 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90567,
-    "total_used": 90207,
+    "total_used": 90567,
     "valid": 84603,
     "invalid": 4240,
     "blank": 1364,
@@ -10088,7 +10050,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20649,
     "margin": 7273,
-    "percent_invalid": 4.7,
+    "percent_invalid": 4.681616924486844,
     "ballot_surplus": 360
   },
   {
@@ -10096,7 +10058,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 92164,
     "total_used": 92164,
     "valid": 85355,
@@ -10107,7 +10069,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17380,
     "margin": 1359,
-    "percent_invalid": 5.1,
+    "percent_invalid": 5.097435007161147,
     "ballot_surplus": 0
   },
   {
@@ -10115,7 +10077,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UBON RATCHATHANI",
     "prov_id": "UBN",
     "cons_no": 9,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83647,
     "total_used": 83647,
     "valid": 77473,
@@ -10126,7 +10088,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 13847,
     "margin": 6565,
-    "percent_invalid": 5.72,
+    "percent_invalid": 5.7216636579913205,
     "ballot_surplus": 0
   },
   {
@@ -10134,7 +10096,7 @@ const PARTYLIST_RAW = [
     "province_eng": "YASOTHON",
     "prov_id": "YST",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 105737,
     "total_used": 105737,
     "valid": 99617,
@@ -10145,7 +10107,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24263,
     "margin": 11568,
-    "percent_invalid": 3.85,
+    "percent_invalid": 3.8453899770184514,
     "ballot_surplus": -1
   },
   {
@@ -10153,9 +10115,9 @@ const PARTYLIST_RAW = [
     "province_eng": "YASOTHON",
     "prov_id": "YST",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 94115,
-    "total_used": 94013,
+    "total_used": 94115,
     "valid": 89109,
     "invalid": 3614,
     "blank": 1290,
@@ -10164,7 +10126,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 21845,
     "margin": 11430,
-    "percent_invalid": 3.84,
+    "percent_invalid": 3.8399829995218613,
     "ballot_surplus": 102
   },
   {
@@ -10172,7 +10134,7 @@ const PARTYLIST_RAW = [
     "province_eng": "YASOTHON",
     "prov_id": "YST",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 99569,
     "total_used": 99569,
     "valid": 93788,
@@ -10183,7 +10145,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21424,
     "margin": 11867,
-    "percent_invalid": 4.09,
+    "percent_invalid": 4.086613303337384,
     "ballot_surplus": 1
   },
   {
@@ -10191,9 +10153,9 @@ const PARTYLIST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 88777,
-    "total_used": 88715,
+    "total_used": 88777,
     "valid": 81275,
     "invalid": 4386,
     "blank": 3054,
@@ -10202,7 +10164,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 21476,
     "margin": 4810,
-    "percent_invalid": 4.94,
+    "percent_invalid": 4.940468815121034,
     "ballot_surplus": 62
   },
   {
@@ -10210,7 +10172,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 87136,
     "total_used": 87136,
     "valid": 79374,
@@ -10221,7 +10183,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20039,
     "margin": 5060,
-    "percent_invalid": 5.74,
+    "percent_invalid": 5.737008813808299,
     "ballot_surplus": 0
   },
   {
@@ -10229,7 +10191,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 80751,
     "total_used": 80751,
     "valid": 73106,
@@ -10240,7 +10202,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 15890,
     "margin": 1383,
-    "percent_invalid": 7.02,
+    "percent_invalid": 7.019108122500032,
     "ballot_surplus": 0
   },
   {
@@ -10248,7 +10210,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 76539,
     "total_used": 76539,
     "valid": 70825,
@@ -10259,7 +10221,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 16714,
     "margin": 380,
-    "percent_invalid": 5.77,
+    "percent_invalid": 5.765688080586368,
     "ballot_surplus": 0
   },
   {
@@ -10267,9 +10229,9 @@ const PARTYLIST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89483,
-    "total_used": 89481,
+    "total_used": 89483,
     "valid": 82473,
     "invalid": 5362,
     "blank": 1646,
@@ -10278,7 +10240,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18890,
     "margin": 3184,
-    "percent_invalid": 5.99,
+    "percent_invalid": 5.99219963568499,
     "ballot_surplus": 2
   },
   {
@@ -10286,7 +10248,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89259,
     "total_used": 89259,
     "valid": 81810,
@@ -10297,7 +10259,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19853,
     "margin": 1176,
-    "percent_invalid": 6.38,
+    "percent_invalid": 6.375827647632172,
     "ballot_surplus": 2
   },
   {
@@ -10305,7 +10267,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHAIYAPHUM",
     "prov_id": "CPM",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84732,
     "total_used": 84732,
     "valid": 78848,
@@ -10316,7 +10278,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19770,
     "margin": 8040,
-    "percent_invalid": 5.19,
+    "percent_invalid": 5.191663126091677,
     "ballot_surplus": 0
   },
   {
@@ -10324,7 +10286,7 @@ const PARTYLIST_RAW = [
     "province_eng": "AMNAT CHAROEN",
     "prov_id": "ACR",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 97675,
     "total_used": 97675,
     "valid": 91168,
@@ -10335,7 +10297,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22197,
     "margin": 3427,
-    "percent_invalid": 4.16,
+    "percent_invalid": 4.1627847453288975,
     "ballot_surplus": 2
   },
   {
@@ -10343,7 +10305,7 @@ const PARTYLIST_RAW = [
     "province_eng": "AMNAT CHAROEN",
     "prov_id": "ACR",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 103473,
     "total_used": 103473,
     "valid": 95867,
@@ -10354,7 +10316,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22514,
     "margin": 881,
-    "percent_invalid": 4.91,
+    "percent_invalid": 4.913359040522648,
     "ballot_surplus": 0
   },
   {
@@ -10362,7 +10324,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BUENG KAN",
     "prov_id": "BKN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 74245,
     "total_used": 74245,
     "valid": 69694,
@@ -10373,7 +10335,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17216,
     "margin": 5967,
-    "percent_invalid": 4.25,
+    "percent_invalid": 4.250791299077379,
     "ballot_surplus": 0
   },
   {
@@ -10381,9 +10343,9 @@ const PARTYLIST_RAW = [
     "province_eng": "BUENG KAN",
     "prov_id": "BKN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 75005,
-    "total_used": 75004,
+    "total_used": 75005,
     "valid": 70564,
     "invalid": 3295,
     "blank": 1145,
@@ -10392,7 +10354,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15895,
     "margin": 7997,
-    "percent_invalid": 4.39,
+    "percent_invalid": 4.3930404639690686,
     "ballot_surplus": 1
   },
   {
@@ -10400,7 +10362,7 @@ const PARTYLIST_RAW = [
     "province_eng": "BUENG KAN",
     "prov_id": "BKN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 76221,
     "total_used": 76221,
     "valid": 71066,
@@ -10411,7 +10373,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17980,
     "margin": 2157,
-    "percent_invalid": 4.47,
+    "percent_invalid": 4.473832670786266,
     "ballot_surplus": 0
   },
   {
@@ -10419,7 +10381,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NONG BUA LAM PHU",
     "prov_id": "NBP",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91463,
     "total_used": 91463,
     "valid": 85052,
@@ -10430,7 +10392,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 22798,
     "margin": 2015,
-    "percent_invalid": 4.84,
+    "percent_invalid": 4.838021932366093,
     "ballot_surplus": -4
   },
   {
@@ -10438,9 +10400,9 @@ const PARTYLIST_RAW = [
     "province_eng": "NONG BUA LAM PHU",
     "prov_id": "NBP",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83652,
-    "total_used": 83651,
+    "total_used": 83652,
     "valid": 78144,
     "invalid": 4125,
     "blank": 1382,
@@ -10449,7 +10411,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20678,
     "margin": 6677,
-    "percent_invalid": 4.93,
+    "percent_invalid": 4.931143307990245,
     "ballot_surplus": 1
   },
   {
@@ -10457,9 +10419,9 @@ const PARTYLIST_RAW = [
     "province_eng": "NONG BUA LAM PHU",
     "prov_id": "NBP",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82630,
-    "total_used": 82625,
+    "total_used": 82630,
     "valid": 76802,
     "invalid": 4279,
     "blank": 1544,
@@ -10468,7 +10430,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19930,
     "margin": 174,
-    "percent_invalid": 5.18,
+    "percent_invalid": 5.178506595667433,
     "ballot_surplus": 5
   },
   {
@@ -10476,7 +10438,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91147,
     "total_used": 91147,
     "valid": 85337,
@@ -10487,7 +10449,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16428,
     "margin": 20779,
-    "percent_invalid": 3.19,
+    "percent_invalid": 3.191547719617761,
     "ballot_surplus": 0
   },
   {
@@ -10495,7 +10457,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 10,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89102,
     "total_used": 89102,
     "valid": 83642,
@@ -10506,7 +10468,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17797,
     "margin": 14884,
-    "percent_invalid": 5.03,
+    "percent_invalid": 5.034679356243407,
     "ballot_surplus": 0
   },
   {
@@ -10514,7 +10476,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 11,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82562,
     "total_used": 82562,
     "valid": 76425,
@@ -10525,7 +10487,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19952,
     "margin": 72,
-    "percent_invalid": 5.43,
+    "percent_invalid": 5.42864756183232,
     "ballot_surplus": 0
   },
   {
@@ -10533,7 +10495,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 105501,
     "total_used": 105501,
     "valid": 98548,
@@ -10544,7 +10506,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 18429,
     "margin": 23636,
-    "percent_invalid": 3.34,
+    "percent_invalid": 3.3402526990265495,
     "ballot_surplus": 0
   },
   {
@@ -10552,9 +10514,9 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90629,
-    "total_used": 90819,
+    "total_used": 90629,
     "valid": 84711,
     "invalid": 4458,
     "blank": 1650,
@@ -10563,7 +10525,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 24763,
     "margin": 1766,
-    "percent_invalid": 4.91,
+    "percent_invalid": 4.918955301283254,
     "ballot_surplus": -190
   },
   {
@@ -10571,7 +10533,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 95728,
     "total_used": 95728,
     "valid": 88920,
@@ -10582,7 +10544,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25475,
     "margin": 2680,
-    "percent_invalid": 4.94,
+    "percent_invalid": 4.944216948019388,
     "ballot_surplus": 0
   },
   {
@@ -10590,7 +10552,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85146,
     "total_used": 85146,
     "valid": 79025,
@@ -10601,7 +10563,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17976,
     "margin": 11877,
-    "percent_invalid": 5.74,
+    "percent_invalid": 5.737204331383741,
     "ballot_surplus": -1
   },
   {
@@ -10609,7 +10571,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 86154,
     "total_used": 86154,
     "valid": 79070,
@@ -10620,7 +10582,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20325,
     "margin": 3765,
-    "percent_invalid": 5.88,
+    "percent_invalid": 5.880168071128445,
     "ballot_surplus": 0
   },
   {
@@ -10628,7 +10590,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90247,
     "total_used": 90247,
     "valid": 83257,
@@ -10639,7 +10601,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22019,
     "margin": 5794,
-    "percent_invalid": 5.67,
+    "percent_invalid": 5.673318780679691,
     "ballot_surplus": 0
   },
   {
@@ -10647,7 +10609,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 96586,
     "total_used": 96586,
     "valid": 89655,
@@ -10658,7 +10620,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25145,
     "margin": 458,
-    "percent_invalid": 4.81,
+    "percent_invalid": 4.805044209305696,
     "ballot_surplus": 0
   },
   {
@@ -10666,7 +10628,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KHON KAEN",
     "prov_id": "KKN",
     "cons_no": 9,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85016,
     "total_used": 85016,
     "valid": 80096,
@@ -10677,7 +10639,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18297,
     "margin": 17609,
-    "percent_invalid": 4.59,
+    "percent_invalid": 4.585019290486496,
     "ballot_surplus": 0
   },
   {
@@ -10685,7 +10647,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84507,
     "total_used": 84507,
     "valid": 79136,
@@ -10696,7 +10658,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17892,
     "margin": 15155,
-    "percent_invalid": 2.66,
+    "percent_invalid": 2.6601346634006653,
     "ballot_surplus": 0
   },
   {
@@ -10704,7 +10666,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 10,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 79295,
     "total_used": 79295,
     "valid": 73021,
@@ -10715,7 +10677,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19053,
     "margin": 5606,
-    "percent_invalid": 5.49,
+    "percent_invalid": 5.493410681631881,
     "ballot_surplus": 0
   },
   {
@@ -10723,7 +10685,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89477,
     "total_used": 89477,
     "valid": 82886,
@@ -10734,7 +10696,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 26520,
     "margin": 1261,
-    "percent_invalid": 4.51,
+    "percent_invalid": 4.5095387641516815,
     "ballot_surplus": 0
   },
   {
@@ -10742,9 +10704,9 @@ const PARTYLIST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 79801,
-    "total_used": 79800,
+    "total_used": 79801,
     "valid": 74655,
     "invalid": 4002,
     "blank": 1143,
@@ -10753,7 +10715,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18145,
     "margin": 10560,
-    "percent_invalid": 5.02,
+    "percent_invalid": 5.014974749689854,
     "ballot_surplus": 2
   },
   {
@@ -10761,7 +10723,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 74871,
     "total_used": 74871,
     "valid": 69833,
@@ -10772,7 +10734,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18677,
     "margin": 7560,
-    "percent_invalid": 5.22,
+    "percent_invalid": 5.222315716365482,
     "ballot_surplus": -1
   },
   {
@@ -10780,9 +10742,9 @@ const PARTYLIST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 73659,
-    "total_used": 73658,
+    "total_used": 73659,
     "valid": 68942,
     "invalid": 3466,
     "blank": 1250,
@@ -10791,7 +10753,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18583,
     "margin": 5861,
-    "percent_invalid": 4.71,
+    "percent_invalid": 4.705467084809731,
     "ballot_surplus": 1
   },
   {
@@ -10799,7 +10761,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 77512,
     "total_used": 77512,
     "valid": 72005,
@@ -10810,7 +10772,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 23171,
     "margin": 298,
-    "percent_invalid": 4.63,
+    "percent_invalid": 4.625090308597379,
     "ballot_surplus": 0
   },
   {
@@ -10818,9 +10780,9 @@ const PARTYLIST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 76245,
-    "total_used": 76201,
+    "total_used": 76245,
     "valid": 70089,
     "invalid": 4385,
     "blank": 1727,
@@ -10829,7 +10791,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19200,
     "margin": 967,
-    "percent_invalid": 5.75,
+    "percent_invalid": 5.75119679979015,
     "ballot_surplus": 45
   },
   {
@@ -10837,7 +10799,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UDON THANI",
     "prov_id": "UDN",
     "cons_no": 9,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 80810,
     "total_used": 80810,
     "valid": 74887,
@@ -10848,7 +10810,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21162,
     "margin": 3801,
-    "percent_invalid": 5.02,
+    "percent_invalid": 5.020418265066205,
     "ballot_surplus": 0
   },
   {
@@ -10856,10 +10818,10 @@ const PARTYLIST_RAW = [
     "province_eng": "LOEI",
     "prov_id": "LEI",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93879,
-    "total_used": 93880,
-    "valid": 86344,
+    "total_used": 93879,
+    "valid": 82344,
     "invalid": 4372,
     "blank": 3164,
     "winner_party": "เพื่อไทย",
@@ -10867,15 +10829,15 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24473,
     "margin": 168,
-    "percent_invalid": 4.66,
-    "ballot_surplus": -1
+    "percent_invalid": 4.65705855409623,
+    "ballot_surplus": 3999
   },
   {
     "province_thai": "เลย",
     "province_eng": "LOEI",
     "prov_id": "LEI",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83494,
     "total_used": 83494,
     "valid": 75485,
@@ -10886,7 +10848,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20153,
     "margin": 1144,
-    "percent_invalid": 6.19,
+    "percent_invalid": 6.189666323328622,
     "ballot_surplus": 0
   },
   {
@@ -10894,26 +10856,26 @@ const PARTYLIST_RAW = [
     "province_eng": "LOEI",
     "prov_id": "LEI",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91957,
-    "total_used": 91907,
+    "total_used": 91957,
     "valid": 83264,
-    "invalid": 5544,
+    "invalid": 5594,
     "blank": 3099,
     "winner_party": "ภูมิใจไทย",
     "winner_votes": 24802,
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22107,
     "margin": 2695,
-    "percent_invalid": 6.03,
-    "ballot_surplus": 50
+    "percent_invalid": 6.083278053873006,
+    "ballot_surplus": 0
   },
   {
     "province_thai": "เลย",
     "province_eng": "LOEI",
     "prov_id": "LEI",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85019,
     "total_used": 85019,
     "valid": 76593,
@@ -10924,7 +10886,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19786,
     "margin": 3765,
-    "percent_invalid": 6.31,
+    "percent_invalid": 6.306825533116127,
     "ballot_surplus": 0
   },
   {
@@ -10932,7 +10894,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NONG KHAI",
     "prov_id": "NKI",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 95510,
     "total_used": 95510,
     "valid": 88417,
@@ -10943,7 +10905,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23205,
     "margin": 4113,
-    "percent_invalid": 4.98,
+    "percent_invalid": 4.9764422573552505,
     "ballot_surplus": 1
   },
   {
@@ -10951,7 +10913,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NONG KHAI",
     "prov_id": "NKI",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85702,
     "total_used": 85702,
     "valid": 79751,
@@ -10962,7 +10924,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20703,
     "margin": 4678,
-    "percent_invalid": 5.5,
+    "percent_invalid": 5.501621899138877,
     "ballot_surplus": -1
   },
   {
@@ -10970,7 +10932,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NONG KHAI",
     "prov_id": "NKI",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 87064,
     "total_used": 87064,
     "valid": 80364,
@@ -10981,7 +10943,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22319,
     "margin": 2352,
-    "percent_invalid": 5.17,
+    "percent_invalid": 5.174354497840669,
     "ballot_surplus": 0
   },
   {
@@ -10989,7 +10951,7 @@ const PARTYLIST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90568,
     "total_used": 90568,
     "valid": 84685,
@@ -11000,7 +10962,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 22459,
     "margin": 5444,
-    "percent_invalid": 3.72,
+    "percent_invalid": 3.7220651885875804,
     "ballot_surplus": 1
   },
   {
@@ -11008,7 +10970,7 @@ const PARTYLIST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82745,
     "total_used": 82745,
     "valid": 77478,
@@ -11019,7 +10981,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19526,
     "margin": 3940,
-    "percent_invalid": 4.61,
+    "percent_invalid": 4.609341954196628,
     "ballot_surplus": 0
   },
   {
@@ -11027,9 +10989,9 @@ const PARTYLIST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 87676,
-    "total_used": 87649,
+    "total_used": 87676,
     "valid": 83169,
     "invalid": 3505,
     "blank": 975,
@@ -11038,7 +11000,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17959,
     "margin": 13291,
-    "percent_invalid": 4.0,
+    "percent_invalid": 3.9976732515169484,
     "ballot_surplus": 27
   },
   {
@@ -11046,9 +11008,9 @@ const PARTYLIST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84946,
-    "total_used": 84908,
+    "total_used": 84946,
     "valid": 79657,
     "invalid": 4101,
     "blank": 1150,
@@ -11057,7 +11019,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19132,
     "margin": 5719,
-    "percent_invalid": 4.83,
+    "percent_invalid": 4.827772938101853,
     "ballot_surplus": 37
   },
   {
@@ -11065,7 +11027,7 @@ const PARTYLIST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84700,
     "total_used": 84700,
     "valid": 78705,
@@ -11076,7 +11038,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21958,
     "margin": 6050,
-    "percent_invalid": 4.34,
+    "percent_invalid": 4.340023612750885,
     "ballot_surplus": 1
   },
   {
@@ -11084,7 +11046,7 @@ const PARTYLIST_RAW = [
     "province_eng": "MAHA SARAKHAM",
     "prov_id": "MKM",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91663,
     "total_used": 91663,
     "valid": 85988,
@@ -11095,7 +11057,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20904,
     "margin": 11251,
-    "percent_invalid": 4.44,
+    "percent_invalid": 4.437995701646248,
     "ballot_surplus": 0
   },
   {
@@ -11103,7 +11065,7 @@ const PARTYLIST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 94577,
     "total_used": 94577,
     "valid": 89040,
@@ -11114,7 +11076,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 21901,
     "margin": 5740,
-    "percent_invalid": 3.5,
+    "percent_invalid": 3.5019084978377406,
     "ballot_surplus": -1
   },
   {
@@ -11122,7 +11084,7 @@ const PARTYLIST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 91762,
     "total_used": 91762,
     "valid": 86127,
@@ -11133,7 +11095,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21897,
     "margin": 6402,
-    "percent_invalid": 4.38,
+    "percent_invalid": 4.37653930821037,
     "ballot_surplus": 0
   },
   {
@@ -11141,7 +11103,7 @@ const PARTYLIST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 85668,
     "total_used": 85668,
     "valid": 80053,
@@ -11152,7 +11114,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20224,
     "margin": 9289,
-    "percent_invalid": 4.67,
+    "percent_invalid": 4.668020731194845,
     "ballot_surplus": -1
   },
   {
@@ -11160,10 +11122,10 @@ const PARTYLIST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83975,
     "total_used": 83975,
-    "valid": 79301,
+    "valid": 79291,
     "invalid": 3340,
     "blank": 1334,
     "winner_party": "เพื่อไทย",
@@ -11171,15 +11133,15 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19797,
     "margin": 9224,
-    "percent_invalid": 3.98,
-    "ballot_surplus": 0
+    "percent_invalid": 3.9773742185174163,
+    "ballot_surplus": 10
   },
   {
     "province_thai": "ร้อยเอ็ด",
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 79956,
     "total_used": 79956,
     "valid": 74715,
@@ -11190,7 +11152,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18936,
     "margin": 14378,
-    "percent_invalid": 4.01,
+    "percent_invalid": 4.012206713692531,
     "ballot_surplus": 0
   },
   {
@@ -11198,7 +11160,7 @@ const PARTYLIST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 81279,
     "total_used": 81279,
     "valid": 76819,
@@ -11209,7 +11171,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18116,
     "margin": 14718,
-    "percent_invalid": 3.93,
+    "percent_invalid": 3.9296743316231746,
     "ballot_surplus": 2
   },
   {
@@ -11217,7 +11179,7 @@ const PARTYLIST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 84921,
     "total_used": 84921,
     "valid": 80966,
@@ -11228,7 +11190,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17446,
     "margin": 16033,
-    "percent_invalid": 3.66,
+    "percent_invalid": 3.6610496814686586,
     "ballot_surplus": 1
   },
   {
@@ -11236,9 +11198,9 @@ const PARTYLIST_RAW = [
     "province_eng": "ROI ET",
     "prov_id": "RET",
     "cons_no": 8,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 89205,
-    "total_used": 89165,
+    "total_used": 89205,
     "valid": 84863,
     "invalid": 3126,
     "blank": 1176,
@@ -11247,7 +11209,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19392,
     "margin": 11719,
-    "percent_invalid": 3.51,
+    "percent_invalid": 3.504287876240121,
     "ballot_surplus": 40
   },
   {
@@ -11255,9 +11217,9 @@ const PARTYLIST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90138,
-    "total_used": 90487,
+    "total_used": 90138,
     "valid": 83229,
     "invalid": 4696,
     "blank": 2562,
@@ -11266,7 +11228,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 24352,
     "margin": 411,
-    "percent_invalid": 5.19,
+    "percent_invalid": 5.20978943397901,
     "ballot_surplus": -350
   },
   {
@@ -11274,7 +11236,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82224,
     "total_used": 82224,
     "valid": 76444,
@@ -11285,7 +11247,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19762,
     "margin": 9857,
-    "percent_invalid": 4.86,
+    "percent_invalid": 4.861111111111112,
     "ballot_surplus": 0
   },
   {
@@ -11293,7 +11255,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 82445,
     "total_used": 82445,
     "valid": 75717,
@@ -11304,7 +11266,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 16312,
     "margin": 1691,
-    "percent_invalid": 5.85,
+    "percent_invalid": 5.846321790284432,
     "ballot_surplus": 0
   },
   {
@@ -11312,7 +11274,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 90104,
     "total_used": 90104,
     "valid": 83586,
@@ -11323,7 +11285,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20091,
     "margin": 6780,
-    "percent_invalid": 5.26,
+    "percent_invalid": 5.2639172511764185,
     "ballot_surplus": 0
   },
   {
@@ -11331,7 +11293,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 93902,
     "total_used": 93902,
     "valid": 87638,
@@ -11342,7 +11304,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20479,
     "margin": 8783,
-    "percent_invalid": 4.81,
+    "percent_invalid": 4.808204298098017,
     "ballot_surplus": 1
   },
   {
@@ -11350,7 +11312,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KALASIN",
     "prov_id": "KSN",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 95811,
     "total_used": 95811,
     "valid": 89550,
@@ -11361,7 +11323,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20741,
     "margin": 19449,
-    "percent_invalid": 4.81,
+    "percent_invalid": 4.805293755414305,
     "ballot_surplus": 1
   },
   {
@@ -11369,9 +11331,9 @@ const PARTYLIST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 96161,
-    "total_used": 95159,
+    "total_used": 96161,
     "valid": 88019,
     "invalid": 3791,
     "blank": 3349,
@@ -11380,7 +11342,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20228,
     "margin": 8124,
-    "percent_invalid": 3.98,
+    "percent_invalid": 3.9423466894063086,
     "ballot_surplus": 1002
   },
   {
@@ -11388,7 +11350,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 88996,
     "total_used": 88996,
     "valid": 83303,
@@ -11399,7 +11361,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21906,
     "margin": 3416,
-    "percent_invalid": 4.38,
+    "percent_invalid": 4.384466717605286,
     "ballot_surplus": 0
   },
   {
@@ -11407,7 +11369,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 86140,
     "total_used": 86140,
     "valid": 79788,
@@ -11418,7 +11380,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19590,
     "margin": 14259,
-    "percent_invalid": 4.17,
+    "percent_invalid": 4.168794984908289,
     "ballot_surplus": 0
   },
   {
@@ -11426,9 +11388,9 @@ const PARTYLIST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83326,
-    "total_used": 83426,
+    "total_used": 83326,
     "valid": 76244,
     "invalid": 4045,
     "blank": 3137,
@@ -11437,7 +11399,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19286,
     "margin": 5969,
-    "percent_invalid": 4.85,
+    "percent_invalid": 4.854427189592684,
     "ballot_surplus": -99
   },
   {
@@ -11445,7 +11407,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 5,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 83538,
     "total_used": 83538,
     "valid": 78298,
@@ -11456,7 +11418,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20123,
     "margin": 4118,
-    "percent_invalid": 4.36,
+    "percent_invalid": 4.360889655007302,
     "ballot_surplus": 0
   },
   {
@@ -11464,7 +11426,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 6,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 80512,
     "total_used": 80512,
     "valid": 75630,
@@ -11475,7 +11437,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19628,
     "margin": 4268,
-    "percent_invalid": 3.91,
+    "percent_invalid": 3.912460254372019,
     "ballot_surplus": -1
   },
   {
@@ -11483,9 +11445,9 @@ const PARTYLIST_RAW = [
     "province_eng": "SAKON NAKHON",
     "prov_id": "SNK",
     "cons_no": 7,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 76157,
-    "total_used": 76557,
+    "total_used": 76157,
     "valid": 72383,
     "invalid": 3623,
     "blank": 551,
@@ -11494,7 +11456,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19197,
     "margin": 4621,
-    "percent_invalid": 4.73,
+    "percent_invalid": 4.757277728902136,
     "ballot_surplus": -400
   },
   {
@@ -11502,7 +11464,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON PHANOM",
     "prov_id": "NPM",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 98498,
     "total_used": 98498,
     "valid": 92903,
@@ -11513,7 +11475,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 27029,
     "margin": 8493,
-    "percent_invalid": 4.56,
+    "percent_invalid": 4.558468192247559,
     "ballot_surplus": 1
   },
   {
@@ -11521,7 +11483,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON PHANOM",
     "prov_id": "NPM",
     "cons_no": 3,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 94066,
     "total_used": 94066,
     "valid": 88074,
@@ -11532,7 +11494,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21388,
     "margin": 13603,
-    "percent_invalid": 4.37,
+    "percent_invalid": 4.365020304892309,
     "ballot_surplus": 0
   },
   {
@@ -11540,7 +11502,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON PHANOM",
     "prov_id": "NPM",
     "cons_no": 4,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 96215,
     "total_used": 96215,
     "valid": 90744,
@@ -11551,7 +11513,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20198,
     "margin": 13480,
-    "percent_invalid": 4.16,
+    "percent_invalid": 4.158395260614249,
     "ballot_surplus": 0
   },
   {
@@ -11559,7 +11521,7 @@ const PARTYLIST_RAW = [
     "province_eng": "MUKDAHAN",
     "prov_id": "MDH",
     "cons_no": 1,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 104804,
     "total_used": 104804,
     "valid": 97368,
@@ -11570,7 +11532,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 28089,
     "margin": 2810,
-    "percent_invalid": 4.79,
+    "percent_invalid": 4.793710163734208,
     "ballot_surplus": 0
   },
   {
@@ -11578,9 +11540,9 @@ const PARTYLIST_RAW = [
     "province_eng": "MUKDAHAN",
     "prov_id": "MDH",
     "cons_no": 2,
-    "region": "02 ภาคอีสาน",
+    "region": "Northeast",
     "turn_out": 100884,
-    "total_used": 100864,
+    "total_used": 100884,
     "valid": 93374,
     "invalid": 5240,
     "blank": 2250,
@@ -11589,7 +11551,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22928,
     "margin": 6654,
-    "percent_invalid": 5.2,
+    "percent_invalid": 5.1940842948336705,
     "ballot_surplus": 20
   },
   {
@@ -11597,7 +11559,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 103011,
     "total_used": 103011,
     "valid": 96338,
@@ -11608,7 +11570,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19782,
     "margin": 29752,
-    "percent_invalid": 2.56,
+    "percent_invalid": 2.5647746357185155,
     "ballot_surplus": -5
   },
   {
@@ -11616,7 +11578,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 10,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 91752,
     "total_used": 91752,
     "valid": 83963,
@@ -11627,7 +11589,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20817,
     "margin": 6672,
-    "percent_invalid": 7.07,
+    "percent_invalid": 7.072325398901386,
     "ballot_surplus": 0
   },
   {
@@ -11635,7 +11597,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 113527,
     "total_used": 113527,
     "valid": 104169,
@@ -11646,7 +11608,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 25772,
     "margin": 25003,
-    "percent_invalid": 3.43,
+    "percent_invalid": 3.430901899988549,
     "ballot_surplus": 1
   },
   {
@@ -11654,7 +11616,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 111505,
     "total_used": 111505,
     "valid": 102183,
@@ -11665,7 +11627,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 28772,
     "margin": 18976,
-    "percent_invalid": 3.91,
+    "percent_invalid": 3.909241738038653,
     "ballot_surplus": -2
   },
   {
@@ -11673,7 +11635,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 4,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 115491,
     "total_used": 115491,
     "valid": 107169,
@@ -11684,7 +11646,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23737,
     "margin": 28503,
-    "percent_invalid": 3.21,
+    "percent_invalid": 3.2123715267856374,
     "ballot_surplus": -1
   },
   {
@@ -11692,9 +11654,9 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 5,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 102642,
-    "total_used": 102535,
+    "total_used": 102642,
     "valid": 93274,
     "invalid": 4942,
     "blank": 4319,
@@ -11703,7 +11665,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 25761,
     "margin": 12195,
-    "percent_invalid": 4.82,
+    "percent_invalid": 4.814793164591493,
     "ballot_surplus": 106
   },
   {
@@ -11711,7 +11673,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 6,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 91405,
     "total_used": 91405,
     "valid": 82957,
@@ -11722,7 +11684,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20086,
     "margin": 9966,
-    "percent_invalid": 6.2,
+    "percent_invalid": 6.203161752639352,
     "ballot_surplus": -1
   },
   {
@@ -11730,7 +11692,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 7,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 98463,
     "total_used": 98463,
     "valid": 89283,
@@ -11741,7 +11703,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 21961,
     "margin": 9611,
-    "percent_invalid": 6.31,
+    "percent_invalid": 6.313031290941776,
     "ballot_surplus": 0
   },
   {
@@ -11749,7 +11711,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 8,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 116389,
     "total_used": 116389,
     "valid": 106796,
@@ -11760,7 +11722,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 30638,
     "margin": 20992,
-    "percent_invalid": 4.19,
+    "percent_invalid": 4.19025852958613,
     "ballot_surplus": 0
   },
   {
@@ -11768,7 +11730,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG MAI",
     "prov_id": "CMI",
     "cons_no": 9,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 105624,
     "total_used": 105624,
     "valid": 96856,
@@ -11779,7 +11741,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 22241,
     "margin": 15258,
-    "percent_invalid": 5.36,
+    "percent_invalid": 5.35768385972885,
     "ballot_surplus": 0
   },
   {
@@ -11787,7 +11749,7 @@ const PARTYLIST_RAW = [
     "province_eng": "LAMPHUN",
     "prov_id": "LPN",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 140618,
     "total_used": 140618,
     "valid": 127949,
@@ -11798,7 +11760,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 30632,
     "margin": 30381,
-    "percent_invalid": 4.26,
+    "percent_invalid": 4.257634157789187,
     "ballot_surplus": -1
   },
   {
@@ -11806,7 +11768,7 @@ const PARTYLIST_RAW = [
     "province_eng": "LAMPHUN",
     "prov_id": "LPN",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 131679,
     "total_used": 131679,
     "valid": 118060,
@@ -11817,7 +11779,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 28211,
     "margin": 18505,
-    "percent_invalid": 6.21,
+    "percent_invalid": 6.206760379407498,
     "ballot_surplus": 0
   },
   {
@@ -11825,7 +11787,7 @@ const PARTYLIST_RAW = [
     "province_eng": "LAMPANG",
     "prov_id": "LPG",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 112099,
     "total_used": 112099,
     "valid": 102321,
@@ -11836,7 +11798,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 22242,
     "margin": 22699,
-    "percent_invalid": 3.81,
+    "percent_invalid": 3.8144854102177534,
     "ballot_surplus": 1
   },
   {
@@ -11844,7 +11806,7 @@ const PARTYLIST_RAW = [
     "province_eng": "LAMPANG",
     "prov_id": "LPG",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 111667,
     "total_used": 111667,
     "valid": 100997,
@@ -11855,7 +11817,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 23818,
     "margin": 11185,
-    "percent_invalid": 6.21,
+    "percent_invalid": 6.2113247423142015,
     "ballot_surplus": 0
   },
   {
@@ -11863,7 +11825,7 @@ const PARTYLIST_RAW = [
     "province_eng": "LAMPANG",
     "prov_id": "LPG",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 112970,
     "total_used": 112970,
     "valid": 101555,
@@ -11874,7 +11836,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 20420,
     "margin": 22436,
-    "percent_invalid": 5.3,
+    "percent_invalid": 5.304948216340621,
     "ballot_surplus": 0
   },
   {
@@ -11882,7 +11844,7 @@ const PARTYLIST_RAW = [
     "province_eng": "LAMPANG",
     "prov_id": "LPG",
     "cons_no": 4,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 115740,
     "total_used": 115740,
     "valid": 105524,
@@ -11893,7 +11855,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 22534,
     "margin": 14001,
-    "percent_invalid": 5.78,
+    "percent_invalid": 5.778468982201486,
     "ballot_surplus": 0
   },
   {
@@ -11901,8 +11863,8 @@ const PARTYLIST_RAW = [
     "province_eng": "UTTARADIT",
     "prov_id": "UTT",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
-    "turn_out": 87587,
+    "region": "North",
+    "turn_out": 87586,
     "total_used": 87586,
     "valid": 80582,
     "invalid": 4107,
@@ -11912,7 +11874,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 18574,
     "margin": 7722,
-    "percent_invalid": 4.69,
+    "percent_invalid": 4.689105564816295,
     "ballot_surplus": 1
   },
   {
@@ -11920,7 +11882,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UTTARADIT",
     "prov_id": "UTT",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 83114,
     "total_used": 83114,
     "valid": 74563,
@@ -11931,7 +11893,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 15685,
     "margin": 5547,
-    "percent_invalid": 6.31,
+    "percent_invalid": 6.3082031907981815,
     "ballot_surplus": -50
   },
   {
@@ -11939,7 +11901,7 @@ const PARTYLIST_RAW = [
     "province_eng": "UTTARADIT",
     "prov_id": "UTT",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 84565,
     "total_used": 84565,
     "valid": 76848,
@@ -11950,7 +11912,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 22120,
     "margin": 3785,
-    "percent_invalid": 5.0,
+    "percent_invalid": 4.997339324779755,
     "ballot_surplus": 0
   },
   {
@@ -11958,7 +11920,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHRAE",
     "prov_id": "PRE",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 98225,
     "total_used": 98225,
     "valid": 92182,
@@ -11969,7 +11931,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 24136,
     "margin": 8495,
-    "percent_invalid": 3.57,
+    "percent_invalid": 3.5683379994909648,
     "ballot_surplus": 0
   },
   {
@@ -11977,7 +11939,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHRAE",
     "prov_id": "PRE",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 88953,
     "total_used": 88953,
     "valid": 83006,
@@ -11988,7 +11950,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22709,
     "margin": 6485,
-    "percent_invalid": 4.66,
+    "percent_invalid": 4.663136712646004,
     "ballot_surplus": 0
   },
   {
@@ -11996,7 +11958,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHRAE",
     "prov_id": "PRE",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 84245,
     "total_used": 84245,
     "valid": 76597,
@@ -12007,7 +11969,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 22383,
     "margin": 2768,
-    "percent_invalid": 5.44,
+    "percent_invalid": 5.438898450946644,
     "ballot_surplus": 1
   },
   {
@@ -12015,7 +11977,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAN",
     "prov_id": "NAN",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 98560,
     "total_used": 98560,
     "valid": 90844,
@@ -12026,7 +11988,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19622,
     "margin": 10527,
-    "percent_invalid": 4.16,
+    "percent_invalid": 4.16497564935065,
     "ballot_surplus": 1
   },
   {
@@ -12034,9 +11996,9 @@ const PARTYLIST_RAW = [
     "province_eng": "NAN",
     "prov_id": "NAN",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 0,
-    "total_used": 89413,
+    "total_used": 0,
     "valid": 81152,
     "invalid": 4915,
     "blank": 3346,
@@ -12045,7 +12007,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 18897,
     "margin": 10061,
-    "percent_invalid": 5.5,
+    "percent_invalid": 0,
     "ballot_surplus": 128
   },
   {
@@ -12053,9 +12015,9 @@ const PARTYLIST_RAW = [
     "province_eng": "PHAYAO",
     "prov_id": "PYO",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
-    "turn_out": 94639,
-    "total_used": 98624,
+    "region": "North",
+    "turn_out": 98639,
+    "total_used": 98639,
     "valid": 92929,
     "invalid": 3590,
     "blank": 2105,
@@ -12064,7 +12026,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 23565,
     "margin": 28379,
-    "percent_invalid": 3.64,
+    "percent_invalid": 3.639534058536684,
     "ballot_surplus": 1
   },
   {
@@ -12072,7 +12034,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHAYAO",
     "prov_id": "PYO",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 96038,
     "total_used": 96038,
     "valid": 89511,
@@ -12083,7 +12045,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24359,
     "margin": 7560,
-    "percent_invalid": 4.59,
+    "percent_invalid": 4.592973614610883,
     "ballot_surplus": 0
   },
   {
@@ -12091,7 +12053,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHAYAO",
     "prov_id": "PYO",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 97854,
     "total_used": 97854,
     "valid": 90428,
@@ -12102,7 +12064,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 23184,
     "margin": 14429,
-    "percent_invalid": 5.32,
+    "percent_invalid": 5.318127005538864,
     "ballot_surplus": 0
   },
   {
@@ -12110,7 +12072,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 109303,
     "total_used": 109303,
     "valid": 100279,
@@ -12121,7 +12083,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 25309,
     "margin": 19246,
-    "percent_invalid": 3.96,
+    "percent_invalid": 3.9623798065926827,
     "ballot_surplus": 14
   },
   {
@@ -12129,7 +12091,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 100737,
     "total_used": 100737,
     "valid": 91960,
@@ -12140,7 +12102,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 29326,
     "margin": 2328,
-    "percent_invalid": 5.11,
+    "percent_invalid": 5.105373398056325,
     "ballot_surplus": -6
   },
   {
@@ -12148,7 +12110,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 3,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 104927,
     "total_used": 104927,
     "valid": 95336,
@@ -12159,7 +12121,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 24648,
     "margin": 9320,
-    "percent_invalid": 5.97,
+    "percent_invalid": 5.973676937299265,
     "ballot_surplus": -5
   },
   {
@@ -12167,7 +12129,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 4,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 107048,
     "total_used": 107048,
     "valid": 98804,
@@ -12178,7 +12140,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 28518,
     "margin": 4617,
-    "percent_invalid": 4.55,
+    "percent_invalid": 4.5540318361856365,
     "ballot_surplus": 0
   },
   {
@@ -12186,7 +12148,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 5,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 99605,
     "total_used": 99605,
     "valid": 92525,
@@ -12197,7 +12159,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 29300,
     "margin": 1229,
-    "percent_invalid": 4.33,
+    "percent_invalid": 4.3290999447818885,
     "ballot_surplus": 99
   },
   {
@@ -12205,7 +12167,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 6,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 85894,
     "total_used": 85894,
     "valid": 78227,
@@ -12216,7 +12178,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 18847,
     "margin": 12775,
-    "percent_invalid": 5.62,
+    "percent_invalid": 5.617388874659464,
     "ballot_surplus": -2
   },
   {
@@ -12224,7 +12186,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHIANG RAI",
     "prov_id": "CRI",
     "cons_no": 7,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 97666,
     "total_used": 97666,
     "valid": 88463,
@@ -12235,7 +12197,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 28773,
     "margin": 1486,
-    "percent_invalid": 5.76,
+    "percent_invalid": 5.75840108123605,
     "ballot_surplus": 3
   },
   {
@@ -12243,7 +12205,7 @@ const PARTYLIST_RAW = [
     "province_eng": "MAE HONG SON",
     "prov_id": "MSN",
     "cons_no": 1,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 68159,
     "total_used": 68159,
     "valid": 62848,
@@ -12254,7 +12216,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 5824,
     "margin": 20873,
-    "percent_invalid": 4.45,
+    "percent_invalid": 4.454290702621811,
     "ballot_surplus": -4000
   },
   {
@@ -12262,7 +12224,7 @@ const PARTYLIST_RAW = [
     "province_eng": "MAE HONG SON",
     "prov_id": "MSN",
     "cons_no": 2,
-    "region": "01 ภาคเหนือ",
+    "region": "North",
     "turn_out": 74409,
     "total_used": 74409,
     "valid": 68280,
@@ -12273,7 +12235,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 7668,
     "margin": 16826,
-    "percent_invalid": 6.36,
+    "percent_invalid": 6.35944576596917,
     "ballot_surplus": 0
   },
   {
@@ -12281,7 +12243,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 99113,
     "total_used": 99113,
     "valid": 91547,
@@ -12292,7 +12254,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 27799,
     "margin": 6167,
-    "percent_invalid": 3.87,
+    "percent_invalid": 3.87436562307669,
     "ballot_surplus": 0
   },
   {
@@ -12300,18 +12262,18 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 104185,
-    "total_used": 104135,
+    "total_used": 104185,
     "valid": 94928,
     "invalid": 6300,
     "blank": 2907,
     "winner_party": "ภูมิใจไทย",
-    "winner_votes": 28543,
+    "winner_votes": 28593,
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 26024,
-    "margin": 2519,
-    "percent_invalid": 6.05,
+    "margin": 2569,
+    "percent_invalid": 6.046935739309881,
     "ballot_surplus": 46
   },
   {
@@ -12319,7 +12281,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 100028,
     "total_used": 100028,
     "valid": 90037,
@@ -12330,7 +12292,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 12777,
     "margin": 14665,
-    "percent_invalid": 6.51,
+    "percent_invalid": 6.5101771503978885,
     "ballot_surplus": 0
   },
   {
@@ -12338,7 +12300,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 92412,
     "total_used": 92412,
     "valid": 83094,
@@ -12349,7 +12311,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20176,
     "margin": 1100,
-    "percent_invalid": 7.52,
+    "percent_invalid": 7.523914643119942,
     "ballot_surplus": 1
   },
   {
@@ -12357,7 +12319,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 94811,
     "total_used": 94811,
     "valid": 85271,
@@ -12368,7 +12330,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "พลังประชารัฐ",
     "runnerup_votes": 23122,
     "margin": 2200,
-    "percent_invalid": 6.81,
+    "percent_invalid": 6.809336469397011,
     "ballot_surplus": 0
   },
   {
@@ -12376,7 +12338,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SAWAN",
     "prov_id": "NSN",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 90286,
     "total_used": 90286,
     "valid": 81637,
@@ -12387,7 +12349,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17400,
     "margin": 4182,
-    "percent_invalid": 7.57,
+    "percent_invalid": 7.56706466118778,
     "ballot_surplus": 0
   },
   {
@@ -12395,9 +12357,9 @@ const PARTYLIST_RAW = [
     "province_eng": "UTHAI THANI",
     "prov_id": "UTI",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 84560,
-    "total_used": 84389,
+    "total_used": 84560,
     "valid": 77398,
     "invalid": 4102,
     "blank": 2889,
@@ -12406,7 +12368,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19806,
     "margin": 12377,
-    "percent_invalid": 4.86,
+    "percent_invalid": 4.8509933774834435,
     "ballot_surplus": 171
   },
   {
@@ -12414,9 +12376,9 @@ const PARTYLIST_RAW = [
     "province_eng": "UTHAI THANI",
     "prov_id": "UTI",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 83898,
-    "total_used": 83666,
+    "total_used": 83898,
     "valid": 77047,
     "invalid": 4250,
     "blank": 2369,
@@ -12425,7 +12387,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18309,
     "margin": 13338,
-    "percent_invalid": 5.08,
+    "percent_invalid": 5.065674986292879,
     "ballot_surplus": 232
   },
   {
@@ -12433,9 +12395,9 @@ const PARTYLIST_RAW = [
     "province_eng": "KAMPHAENG PHET",
     "prov_id": "KPT",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 101442,
-    "total_used": 101538,
+    "total_used": 101442,
     "valid": 91264,
     "invalid": 6367,
     "blank": 3907,
@@ -12444,7 +12406,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 13169,
     "margin": 19722,
-    "percent_invalid": 6.27,
+    "percent_invalid": 6.276492971353089,
     "ballot_surplus": -99
   },
   {
@@ -12452,18 +12414,18 @@ const PARTYLIST_RAW = [
     "province_eng": "KAMPHAENG PHET",
     "prov_id": "KPT",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 105321,
-    "total_used": 105421,
+    "total_used": 105321,
     "valid": 94753,
     "invalid": 7616,
     "blank": 3052,
     "winner_party": "ประชาชน",
-    "winner_votes": 27524,
+    "winner_votes": 27424,
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 14578,
-    "margin": 12946,
-    "percent_invalid": 7.22,
+    "margin": 12846,
+    "percent_invalid": 7.231226441070632,
     "ballot_surplus": -100
   },
   {
@@ -12471,9 +12433,9 @@ const PARTYLIST_RAW = [
     "province_eng": "KAMPHAENG PHET",
     "prov_id": "KPT",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 91355,
-    "total_used": 91280,
+    "total_used": 91355,
     "valid": 81857,
     "invalid": 6661,
     "blank": 2762,
@@ -12482,7 +12444,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 14924,
     "margin": 9213,
-    "percent_invalid": 7.3,
+    "percent_invalid": 7.291335996935033,
     "ballot_surplus": 75
   },
   {
@@ -12490,7 +12452,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KAMPHAENG PHET",
     "prov_id": "KPT",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 93620,
     "total_used": 93620,
     "valid": 84498,
@@ -12501,7 +12463,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 18637,
     "margin": 4956,
-    "percent_invalid": 6.99,
+    "percent_invalid": 6.992095706045717,
     "ballot_surplus": 0
   },
   {
@@ -12509,7 +12471,7 @@ const PARTYLIST_RAW = [
     "province_eng": "TAK",
     "prov_id": "TAK",
     "cons_no": 1,
-    "region": "06 ภาคตะวันตก",
+    "region": "North",
     "turn_out": 105329,
     "total_used": 105329,
     "valid": 94793,
@@ -12520,7 +12482,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17181,
     "margin": 12602,
-    "percent_invalid": 5.89,
+    "percent_invalid": 5.887267514169887,
     "ballot_surplus": -1
   },
   {
@@ -12528,7 +12490,7 @@ const PARTYLIST_RAW = [
     "province_eng": "TAK",
     "prov_id": "TAK",
     "cons_no": 2,
-    "region": "06 ภาคตะวันตก",
+    "region": "North",
     "turn_out": 89209,
     "total_used": 89209,
     "valid": 78750,
@@ -12539,7 +12501,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 14103,
     "margin": 14883,
-    "percent_invalid": 6.78,
+    "percent_invalid": 6.782947908843279,
     "ballot_surplus": -23
   },
   {
@@ -12547,7 +12509,7 @@ const PARTYLIST_RAW = [
     "province_eng": "TAK",
     "prov_id": "TAK",
     "cons_no": 3,
-    "region": "06 ภาคตะวันตก",
+    "region": "North",
     "turn_out": 96512,
     "total_used": 96512,
     "valid": 87421,
@@ -12558,7 +12520,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 10263,
     "margin": 14712,
-    "percent_invalid": 7.03,
+    "percent_invalid": 7.03125,
     "ballot_surplus": 0
   },
   {
@@ -12566,7 +12528,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SUKHOTHAI",
     "prov_id": "STI",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 84340,
     "total_used": 84340,
     "valid": 75861,
@@ -12577,7 +12539,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 16005,
     "margin": 8776,
-    "percent_invalid": 5.87,
+    "percent_invalid": 5.869101256817643,
     "ballot_surplus": 0
   },
   {
@@ -12585,7 +12547,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SUKHOTHAI",
     "prov_id": "STI",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 78246,
     "total_used": 78246,
     "valid": 70647,
@@ -12596,7 +12558,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 15628,
     "margin": 4561,
-    "percent_invalid": 6.68,
+    "percent_invalid": 6.681491705646295,
     "ballot_surplus": 0
   },
   {
@@ -12604,7 +12566,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SUKHOTHAI",
     "prov_id": "STI",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 83731,
     "total_used": 83731,
     "valid": 74676,
@@ -12615,7 +12577,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 19087,
     "margin": 2777,
-    "percent_invalid": 6.46,
+    "percent_invalid": 6.456390106412201,
     "ballot_surplus": 100
   },
   {
@@ -12623,7 +12585,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SUKHOTHAI",
     "prov_id": "STI",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 87669,
     "total_used": 87669,
     "valid": 80489,
@@ -12634,7 +12596,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21639,
     "margin": 1263,
-    "percent_invalid": 5.89,
+    "percent_invalid": 5.8903375195337,
     "ballot_surplus": -1
   },
   {
@@ -12642,7 +12604,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHITSANULOK",
     "prov_id": "PLK",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 99468,
     "total_used": 99468,
     "valid": 90992,
@@ -12653,7 +12615,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15962,
     "margin": 22258,
-    "percent_invalid": 3.48,
+    "percent_invalid": 3.4785056500583105,
     "ballot_surplus": 0
   },
   {
@@ -12661,7 +12623,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHITSANULOK",
     "prov_id": "PLK",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 101319,
     "total_used": 101319,
     "valid": 90654,
@@ -12672,7 +12634,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "เพื่อไทย",
     "runnerup_votes": 17098,
     "margin": 16407,
-    "percent_invalid": 5.11,
+    "percent_invalid": 5.108617337320739,
     "ballot_surplus": 0
   },
   {
@@ -12680,7 +12642,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHITSANULOK",
     "prov_id": "PLK",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 94938,
     "total_used": 94938,
     "valid": 85820,
@@ -12691,7 +12653,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19308,
     "margin": 4729,
-    "percent_invalid": 6.81,
+    "percent_invalid": 6.813920664012303,
     "ballot_surplus": 0
   },
   {
@@ -12699,7 +12661,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHITSANULOK",
     "prov_id": "PLK",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 94492,
     "total_used": 94492,
     "valid": 86559,
@@ -12710,7 +12672,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 23285,
     "margin": 1682,
-    "percent_invalid": 5.94,
+    "percent_invalid": 5.941243703170638,
     "ballot_surplus": 0
   },
   {
@@ -12718,7 +12680,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHITSANULOK",
     "prov_id": "PLK",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 94537,
     "total_used": 94537,
     "valid": 85739,
@@ -12729,7 +12691,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18403,
     "margin": 4858,
-    "percent_invalid": 6.04,
+    "percent_invalid": 6.043136549710695,
     "ballot_surplus": 0
   },
   {
@@ -12737,9 +12699,9 @@ const PARTYLIST_RAW = [
     "province_eng": "PHICHIT",
     "prov_id": "PCT",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 100830,
-    "total_used": 100780,
+    "total_used": 100830,
     "valid": 91021,
     "invalid": 6323,
     "blank": 3436,
@@ -12748,7 +12710,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 26589,
     "margin": 930,
-    "percent_invalid": 6.27,
+    "percent_invalid": 6.2709511058216805,
     "ballot_surplus": 50
   },
   {
@@ -12756,7 +12718,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHICHIT",
     "prov_id": "PCT",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 91079,
     "total_used": 91079,
     "valid": 82191,
@@ -12767,7 +12729,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 21421,
     "margin": 4231,
-    "percent_invalid": 6.85,
+    "percent_invalid": 6.847901272521657,
     "ballot_surplus": -1
   },
   {
@@ -12775,7 +12737,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHICHIT",
     "prov_id": "PCT",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 100598,
     "total_used": 100598,
     "valid": 91584,
@@ -12786,7 +12748,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 24258,
     "margin": 464,
-    "percent_invalid": 6.73,
+    "percent_invalid": 6.732738225412035,
     "ballot_surplus": -1
   },
   {
@@ -12794,7 +12756,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 88739,
     "total_used": 88739,
     "valid": 80482,
@@ -12805,15 +12767,15 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22417,
     "margin": 2549,
-    "percent_invalid": 5.24,
-    "ballot_surplus": -5
+    "percent_invalid": 5.241212995413516,
+    "ballot_surplus": -3
   },
   {
     "province_thai": "เพชรบูรณ์",
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 100198,
     "total_used": 100198,
     "valid": 91409,
@@ -12824,7 +12786,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24056,
     "margin": 3017,
-    "percent_invalid": 5.97,
+    "percent_invalid": 5.974171141140542,
     "ballot_surplus": 0
   },
   {
@@ -12832,9 +12794,9 @@ const PARTYLIST_RAW = [
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 92278,
-    "total_used": 92378,
+    "total_used": 92278,
     "valid": 83420,
     "invalid": 5865,
     "blank": 3093,
@@ -12843,7 +12805,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18717,
     "margin": 4731,
-    "percent_invalid": 6.35,
+    "percent_invalid": 6.355794447213854,
     "ballot_surplus": -100
   },
   {
@@ -12851,7 +12813,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 78124,
     "total_used": 78124,
     "valid": 70550,
@@ -12862,7 +12824,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17637,
     "margin": 8514,
-    "percent_invalid": 6.84,
+    "percent_invalid": 6.844247606369362,
     "ballot_surplus": 0
   },
   {
@@ -12870,7 +12832,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "North",
     "turn_out": 81841,
     "total_used": 81841,
     "valid": 74502,
@@ -12881,7 +12843,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19876,
     "margin": 2331,
-    "percent_invalid": 5.99,
+    "percent_invalid": 5.990884764360162,
     "ballot_surplus": 0
   },
   {
@@ -12889,8 +12851,8 @@ const PARTYLIST_RAW = [
     "province_eng": "PHETCHABUN",
     "prov_id": "PNB",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
-    "turn_out": 87505,
+    "region": "North",
+    "turn_out": 87405,
     "total_used": 87405,
     "valid": 79123,
     "invalid": 5895,
@@ -12900,7 +12862,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20704,
     "margin": 6220,
-    "percent_invalid": 6.74,
+    "percent_invalid": 6.744465419598421,
     "ballot_surplus": 0
   },
   {
@@ -12908,7 +12870,7 @@ const PARTYLIST_RAW = [
     "province_eng": "RATCHABURI",
     "prov_id": "RBR",
     "cons_no": 1,
-    "region": "06 ภาคตะวันตก",
+    "region": "",
     "turn_out": 106701,
     "total_used": 106701,
     "valid": 96579,
@@ -12919,7 +12881,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22882,
     "margin": 12679,
-    "percent_invalid": 4.53,
+    "percent_invalid": 4.532291168780049,
     "ballot_surplus": 0
   },
   {
@@ -12927,9 +12889,9 @@ const PARTYLIST_RAW = [
     "province_eng": "RATCHABURI",
     "prov_id": "RBR",
     "cons_no": 2,
-    "region": "06 ภาคตะวันตก",
+    "region": "",
     "turn_out": 101443,
-    "total_used": 101344,
+    "total_used": 101443,
     "valid": 89645,
     "invalid": 6388,
     "blank": 5311,
@@ -12938,7 +12900,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 12695,
     "margin": 16728,
-    "percent_invalid": 6.3,
+    "percent_invalid": 6.297132379760062,
     "ballot_surplus": 99
   },
   {
@@ -12946,9 +12908,9 @@ const PARTYLIST_RAW = [
     "province_eng": "RATCHABURI",
     "prov_id": "RBR",
     "cons_no": 3,
-    "region": "06 ภาคตะวันตก",
+    "region": "",
     "turn_out": 110523,
-    "total_used": 110518,
+    "total_used": 110523,
     "valid": 98075,
     "invalid": 6503,
     "blank": 5940,
@@ -12957,7 +12919,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 13782,
     "margin": 18620,
-    "percent_invalid": 5.88,
+    "percent_invalid": 5.883843181962126,
     "ballot_surplus": 5
   },
   {
@@ -12965,7 +12927,7 @@ const PARTYLIST_RAW = [
     "province_eng": "RATCHABURI",
     "prov_id": "RBR",
     "cons_no": 4,
-    "region": "06 ภาคตะวันตก",
+    "region": "",
     "turn_out": 112928,
     "total_used": 112928,
     "valid": 102853,
@@ -12976,7 +12938,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 24114,
     "margin": 12601,
-    "percent_invalid": 5.15,
+    "percent_invalid": 5.151955228109946,
     "ballot_surplus": 0
   },
   {
@@ -12984,7 +12946,7 @@ const PARTYLIST_RAW = [
     "province_eng": "RATCHABURI",
     "prov_id": "RBR",
     "cons_no": 5,
-    "region": "06 ภาคตะวันตก",
+    "region": "",
     "turn_out": 114688,
     "total_used": 114688,
     "valid": 104714,
@@ -12995,7 +12957,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25109,
     "margin": 8024,
-    "percent_invalid": 5.43,
+    "percent_invalid": 5.433000837053571,
     "ballot_surplus": 0
   },
   {
@@ -13003,7 +12965,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KANCHANABURI",
     "prov_id": "KRI",
     "cons_no": 1,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 96563,
     "total_used": 96563,
     "valid": 86461,
@@ -13014,7 +12976,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 14347,
     "margin": 16698,
-    "percent_invalid": 5.11,
+    "percent_invalid": 5.113759928751178,
     "ballot_surplus": 1
   },
   {
@@ -13022,7 +12984,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KANCHANABURI",
     "prov_id": "KRI",
     "cons_no": 2,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 103736,
     "total_used": 103736,
     "valid": 94230,
@@ -13033,7 +12995,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19447,
     "margin": 10872,
-    "percent_invalid": 5.57,
+    "percent_invalid": 5.567016272075268,
     "ballot_surplus": 0
   },
   {
@@ -13041,7 +13003,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KANCHANABURI",
     "prov_id": "KRI",
     "cons_no": 3,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 113958,
     "total_used": 113958,
     "valid": 104226,
@@ -13052,7 +13014,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 26169,
     "margin": 6587,
-    "percent_invalid": 5.65,
+    "percent_invalid": 5.645062215904105,
     "ballot_surplus": 0
   },
   {
@@ -13060,7 +13022,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KANCHANABURI",
     "prov_id": "KRI",
     "cons_no": 4,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 93526,
     "total_used": 93526,
     "valid": 82014,
@@ -13071,7 +13033,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17963,
     "margin": 5910,
-    "percent_invalid": 8.19,
+    "percent_invalid": 8.187028206060347,
     "ballot_surplus": 0
   },
   {
@@ -13079,7 +13041,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KANCHANABURI",
     "prov_id": "KRI",
     "cons_no": 5,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 89052,
     "total_used": 89052,
     "valid": 81443,
@@ -13090,7 +13052,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16461,
     "margin": 6911,
-    "percent_invalid": 6.15,
+    "percent_invalid": 6.153707945919238,
     "ballot_surplus": 0
   },
   {
@@ -13098,7 +13060,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SUPHAN BURI",
     "prov_id": "SPB",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 102476,
     "total_used": 102476,
     "valid": 93897,
@@ -13109,7 +13071,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 31712,
     "margin": 8280,
-    "percent_invalid": 4.68,
+    "percent_invalid": 4.683047738006948,
     "ballot_surplus": 0
   },
   {
@@ -13117,7 +13079,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SUPHAN BURI",
     "prov_id": "SPB",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 91578,
     "total_used": 91578,
     "valid": 84219,
@@ -13128,7 +13090,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 27020,
     "margin": 6259,
-    "percent_invalid": 4.7,
+    "percent_invalid": 4.699818733757016,
     "ballot_surplus": 0
   },
   {
@@ -13136,7 +13098,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SUPHAN BURI",
     "prov_id": "SPB",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 106772,
     "total_used": 106772,
     "valid": 97354,
@@ -13147,7 +13109,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 29244,
     "margin": 4793,
-    "percent_invalid": 6.19,
+    "percent_invalid": 6.190761622897389,
     "ballot_surplus": 0
   },
   {
@@ -13155,7 +13117,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SUPHAN BURI",
     "prov_id": "SPB",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 99626,
     "total_used": 99626,
     "valid": 90149,
@@ -13166,7 +13128,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 27319,
     "margin": 5197,
-    "percent_invalid": 6.52,
+    "percent_invalid": 6.517374982434304,
     "ballot_surplus": 0
   },
   {
@@ -13174,8 +13136,8 @@ const PARTYLIST_RAW = [
     "province_eng": "SUPHAN BURI",
     "prov_id": "SPB",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
-    "turn_out": 104630,
+    "region": "Central",
+    "turn_out": 108630,
     "total_used": 108630,
     "valid": 98533,
     "invalid": 5943,
@@ -13185,7 +13147,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 31538,
     "margin": 2288,
-    "percent_invalid": 5.47,
+    "percent_invalid": 5.470864402098868,
     "ballot_surplus": 0
   },
   {
@@ -13193,7 +13155,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 104422,
     "total_used": 104422,
     "valid": 95758,
@@ -13204,7 +13166,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 23371,
     "margin": 13821,
-    "percent_invalid": 4.2,
+    "percent_invalid": 4.198349006914252,
     "ballot_surplus": 0
   },
   {
@@ -13212,7 +13174,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 96412,
     "total_used": 96412,
     "valid": 87501,
@@ -13223,7 +13185,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 14901,
     "margin": 21544,
-    "percent_invalid": 4.33,
+    "percent_invalid": 4.333485458241713,
     "ballot_surplus": 0
   },
   {
@@ -13231,7 +13193,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 91278,
     "total_used": 91278,
     "valid": 82640,
@@ -13242,7 +13204,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18903,
     "margin": 10024,
-    "percent_invalid": 5.11,
+    "percent_invalid": 5.114047196476697,
     "ballot_surplus": 0
   },
   {
@@ -13250,7 +13212,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 105127,
     "total_used": 105127,
     "valid": 96709,
@@ -13261,7 +13223,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 22248,
     "margin": 11562,
-    "percent_invalid": 4.82,
+    "percent_invalid": 4.819884520627431,
     "ballot_surplus": 0
   },
   {
@@ -13269,7 +13231,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 5,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 107208,
     "total_used": 107208,
     "valid": 98825,
@@ -13280,7 +13242,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 24399,
     "margin": 12777,
-    "percent_invalid": 4.17,
+    "percent_invalid": 4.173196030147004,
     "ballot_surplus": 0
   },
   {
@@ -13288,9 +13250,9 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON PATHOM",
     "prov_id": "NPT",
     "cons_no": 6,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 97368,
-    "total_used": 97189,
+    "total_used": 97368,
     "valid": 90857,
     "invalid": 2904,
     "blank": 3428,
@@ -13299,7 +13261,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19442,
     "margin": 22300,
-    "percent_invalid": 2.99,
+    "percent_invalid": 2.982499383781119,
     "ballot_surplus": 179
   },
   {
@@ -13307,7 +13269,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT SAKHON",
     "prov_id": "SKN",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 88046,
     "total_used": 88046,
     "valid": 82271,
@@ -13318,7 +13280,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 12938,
     "margin": 23839,
-    "percent_invalid": 2.91,
+    "percent_invalid": 2.913249892101856,
     "ballot_surplus": 0
   },
   {
@@ -13326,7 +13288,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT SAKHON",
     "prov_id": "SKN",
     "cons_no": 2,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 85606,
     "total_used": 85606,
     "valid": 79368,
@@ -13337,7 +13299,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16015,
     "margin": 18427,
-    "percent_invalid": 3.66,
+    "percent_invalid": 3.6562857743616104,
     "ballot_surplus": 0
   },
   {
@@ -13345,18 +13307,18 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT SAKHON",
     "prov_id": "SKN",
     "cons_no": 3,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 81871,
-    "total_used": 81872,
+    "total_used": 81871,
     "valid": 76687,
     "invalid": 2506,
     "blank": 2679,
     "winner_party": "ประชาชน",
-    "winner_votes": 36221,
+    "winner_votes": 36220,
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 11340,
-    "margin": 24881,
-    "percent_invalid": 3.06,
+    "margin": 24880,
+    "percent_invalid": 3.0609128995615054,
     "ballot_surplus": -2
   },
   {
@@ -13364,7 +13326,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT SAKHON",
     "prov_id": "SKN",
     "cons_no": 4,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 84850,
     "total_used": 84850,
     "valid": 77338,
@@ -13375,7 +13337,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 16769,
     "margin": 12398,
-    "percent_invalid": 4.94,
+    "percent_invalid": 4.936947554507955,
     "ballot_surplus": 0
   },
   {
@@ -13383,7 +13345,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SAMUT SONGKHRAM",
     "prov_id": "SKM",
     "cons_no": 1,
-    "region": "04 ภาคกลาง",
+    "region": "Central",
     "turn_out": 113409,
     "total_used": 113409,
     "valid": 103219,
@@ -13394,7 +13356,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 19804,
     "margin": 17925,
-    "percent_invalid": 4.46,
+    "percent_invalid": 4.458199966492959,
     "ballot_surplus": 100
   },
   {
@@ -13402,7 +13364,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHETCHABURI",
     "prov_id": "PBI",
     "cons_no": 1,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 99383,
     "total_used": 99383,
     "valid": 90344,
@@ -13413,7 +13375,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 26947,
     "margin": 2101,
-    "percent_invalid": 4.78,
+    "percent_invalid": 4.7794894499059195,
     "ballot_surplus": 0
   },
   {
@@ -13421,7 +13383,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHETCHABURI",
     "prov_id": "PBI",
     "cons_no": 2,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 105819,
     "total_used": 105819,
     "valid": 96107,
@@ -13432,7 +13394,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25466,
     "margin": 8065,
-    "percent_invalid": 5.35,
+    "percent_invalid": 5.353480943875864,
     "ballot_surplus": 0
   },
   {
@@ -13440,7 +13402,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHETCHABURI",
     "prov_id": "PBI",
     "cons_no": 3,
-    "region": "06 ภาคตะวันตก",
+    "region": "Central",
     "turn_out": 103294,
     "total_used": 103294,
     "valid": 93375,
@@ -13451,7 +13413,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24228,
     "margin": 2163,
-    "percent_invalid": 5.42,
+    "percent_invalid": 5.420450364977636,
     "ballot_surplus": 0
   },
   {
@@ -13459,26 +13421,26 @@ const PARTYLIST_RAW = [
     "province_eng": "PRACHUAP KHIRI KHAN",
     "prov_id": "PKN",
     "cons_no": 1,
-    "region": "06 ภาคตะวันตก",
+    "region": "South",
     "turn_out": 118298,
-    "total_used": 118296,
+    "total_used": 118298,
     "valid": 107999,
     "invalid": 6984,
-    "blank": 3313,
+    "blank": 3315,
     "winner_party": "ประชาชน",
     "winner_votes": 28458,
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25022,
     "margin": 3436,
-    "percent_invalid": 5.9,
-    "ballot_surplus": 1
+    "percent_invalid": 5.903734636257587,
+    "ballot_surplus": -1
   },
   {
     "province_thai": "ประจวบคีรีขันธ์",
     "province_eng": "PRACHUAP KHIRI KHAN",
     "prov_id": "PKN",
     "cons_no": 2,
-    "region": "06 ภาคตะวันตก",
+    "region": "South",
     "turn_out": 103564,
     "total_used": 103564,
     "valid": 95554,
@@ -13489,7 +13451,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 15685,
     "margin": 15975,
-    "percent_invalid": 4.39,
+    "percent_invalid": 4.388590629948631,
     "ballot_surplus": 1
   },
   {
@@ -13497,7 +13459,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PRACHUAP KHIRI KHAN",
     "prov_id": "PKN",
     "cons_no": 3,
-    "region": "06 ภาคตะวันตก",
+    "region": "South",
     "turn_out": 103420,
     "total_used": 103420,
     "valid": 96330,
@@ -13508,7 +13470,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21015,
     "margin": 9606,
-    "percent_invalid": 4.77,
+    "percent_invalid": 4.76793656932895,
     "ballot_surplus": 0
   },
   {
@@ -13516,9 +13478,9 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99799,
-    "total_used": 99798,
+    "total_used": 99799,
     "valid": 94145,
     "invalid": 3158,
     "blank": 2495,
@@ -13527,7 +13489,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21574,
     "margin": 19490,
-    "percent_invalid": 3.16,
+    "percent_invalid": 3.164360364332308,
     "ballot_surplus": 0
   },
   {
@@ -13535,7 +13497,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 100576,
     "total_used": 100576,
     "valid": 94553,
@@ -13546,7 +13508,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15699,
     "margin": 39240,
-    "percent_invalid": 3.63,
+    "percent_invalid": 3.6290964047088767,
     "ballot_surplus": 0
   },
   {
@@ -13554,7 +13516,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 98207,
     "total_used": 98207,
     "valid": 93454,
@@ -13565,7 +13527,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 11737,
     "margin": 49199,
-    "percent_invalid": 3.59,
+    "percent_invalid": 3.590375431486554,
     "ballot_surplus": 0
   },
   {
@@ -13573,7 +13535,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 103161,
     "total_used": 103161,
     "valid": 98120,
@@ -13584,7 +13546,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14232,
     "margin": 48540,
-    "percent_invalid": 3.27,
+    "percent_invalid": 3.2686771163521096,
     "ballot_surplus": 1
   },
   {
@@ -13592,9 +13554,9 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 5,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 106726,
-    "total_used": 106693,
+    "total_used": 106726,
     "valid": 100918,
     "invalid": 3098,
     "blank": 2677,
@@ -13603,7 +13565,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18520,
     "margin": 36166,
-    "percent_invalid": 2.9,
+    "percent_invalid": 2.902760339561119,
     "ballot_surplus": 22
   },
   {
@@ -13611,7 +13573,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 6,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 105027,
     "total_used": 105027,
     "valid": 100145,
@@ -13622,7 +13584,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 13378,
     "margin": 51052,
-    "percent_invalid": 3.09,
+    "percent_invalid": 3.0934902453654773,
     "ballot_surplus": 0
   },
   {
@@ -13630,9 +13592,9 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 7,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99078,
-    "total_used": 99077,
+    "total_used": 99078,
     "valid": 91334,
     "invalid": 3743,
     "blank": 4000,
@@ -13641,7 +13603,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14059,
     "margin": 36256,
-    "percent_invalid": 3.78,
+    "percent_invalid": 3.777831607420416,
     "ballot_surplus": 1
   },
   {
@@ -13649,7 +13611,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 8,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99928,
     "total_used": 99928,
     "valid": 94013,
@@ -13660,7 +13622,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 16857,
     "margin": 32900,
-    "percent_invalid": 3.78,
+    "percent_invalid": 3.784725002001441,
     "ballot_surplus": 0
   },
   {
@@ -13668,7 +13630,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NAKHON SI THAMMARAT",
     "prov_id": "NST",
     "cons_no": 9,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 102098,
     "total_used": 102098,
     "valid": 97194,
@@ -13679,7 +13641,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15191,
     "margin": 41319,
-    "percent_invalid": 3.19,
+    "percent_invalid": 3.1881133812611413,
     "ballot_surplus": 0
   },
   {
@@ -13687,7 +13649,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KRABI",
     "prov_id": "KBI",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 97430,
     "total_used": 97430,
     "valid": 91354,
@@ -13698,7 +13660,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22325,
     "margin": 12002,
-    "percent_invalid": 3.51,
+    "percent_invalid": 3.5143179718772455,
     "ballot_surplus": 1
   },
   {
@@ -13706,7 +13668,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KRABI",
     "prov_id": "KBI",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 86116,
     "total_used": 86116,
     "valid": 81262,
@@ -13717,7 +13679,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 13386,
     "margin": 34233,
-    "percent_invalid": 3.42,
+    "percent_invalid": 3.423289516466162,
     "ballot_surplus": 0
   },
   {
@@ -13725,7 +13687,7 @@ const PARTYLIST_RAW = [
     "province_eng": "KRABI",
     "prov_id": "KBI",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 94677,
     "total_used": 94677,
     "valid": 89432,
@@ -13736,7 +13698,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15095,
     "margin": 31291,
-    "percent_invalid": 3.44,
+    "percent_invalid": 3.4432861201770226,
     "ballot_surplus": 0
   },
   {
@@ -13744,7 +13706,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHANGNGA",
     "prov_id": "PNA",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 74405,
     "total_used": 74405,
     "valid": 69369,
@@ -13755,7 +13717,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 13045,
     "margin": 19179,
-    "percent_invalid": 3.51,
+    "percent_invalid": 3.513204757744775,
     "ballot_surplus": 1
   },
   {
@@ -13763,7 +13725,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHANGNGA",
     "prov_id": "PNA",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 83092,
     "total_used": 83092,
     "valid": 76833,
@@ -13774,7 +13736,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15893,
     "margin": 17646,
-    "percent_invalid": 4.04,
+    "percent_invalid": 4.044914071150051,
     "ballot_surplus": 1
   },
   {
@@ -13782,7 +13744,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHUKET",
     "prov_id": "PKT",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 72891,
     "total_used": 72891,
     "valid": 68696,
@@ -13793,7 +13755,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 19346,
     "margin": 4383,
-    "percent_invalid": 2.68,
+    "percent_invalid": 2.675227394328518,
     "ballot_surplus": 98
   },
   {
@@ -13801,7 +13763,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHUKET",
     "prov_id": "PKT",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 71865,
     "total_used": 71865,
     "valid": 67306,
@@ -13812,7 +13774,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 18246,
     "margin": 5606,
-    "percent_invalid": 2.62,
+    "percent_invalid": 2.620190635218813,
     "ballot_surplus": 0
   },
   {
@@ -13820,7 +13782,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHUKET",
     "prov_id": "PKT",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 82182,
     "total_used": 82182,
     "valid": 76649,
@@ -13831,7 +13793,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 23777,
     "margin": 1706,
-    "percent_invalid": 2.82,
+    "percent_invalid": 2.8217857925093086,
     "ballot_surplus": 0
   },
   {
@@ -13839,7 +13801,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 83141,
     "total_used": 83141,
     "valid": 78960,
@@ -13850,7 +13812,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 24521,
     "margin": 6663,
-    "percent_invalid": 1.99,
+    "percent_invalid": 1.9917970676320946,
     "ballot_surplus": 0
   },
   {
@@ -13858,7 +13820,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 86508,
     "total_used": 86508,
     "valid": 82013,
@@ -13869,7 +13831,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 16645,
     "margin": 23731,
-    "percent_invalid": 3.15,
+    "percent_invalid": 3.146529800712073,
     "ballot_surplus": 0
   },
   {
@@ -13877,18 +13839,18 @@ const PARTYLIST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 94208,
     "total_used": 94208,
     "valid": 89194,
     "invalid": 3047,
     "blank": 1967,
-    "winner_party": "ประชาธิปัตย",
+    "winner_party": "ประชาธิปัตย์",
     "winner_votes": 53083,
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14843,
     "margin": 38240,
-    "percent_invalid": 3.23,
+    "percent_invalid": 3.2343325407608696,
     "ballot_surplus": -1
   },
   {
@@ -13896,18 +13858,18 @@ const PARTYLIST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 98789,
-    "total_used": 99049,
+    "total_used": 98789,
     "valid": 94658,
     "invalid": 2813,
     "blank": 1578,
     "winner_party": "ประชาธิปัตย์",
-    "winner_votes": 57643,
+    "winner_votes": 57683,
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15127,
-    "margin": 42516,
-    "percent_invalid": 2.84,
+    "margin": 42556,
+    "percent_invalid": 2.847483019364504,
     "ballot_surplus": -260
   },
   {
@@ -13915,7 +13877,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 5,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 93876,
     "total_used": 93876,
     "valid": 89097,
@@ -13926,7 +13888,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 12823,
     "margin": 45376,
-    "percent_invalid": 3.28,
+    "percent_invalid": 3.2766628318206994,
     "ballot_surplus": 0
   },
   {
@@ -13934,7 +13896,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 6,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 102222,
     "total_used": 102222,
     "valid": 97297,
@@ -13945,7 +13907,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 12918,
     "margin": 47231,
-    "percent_invalid": 3.44,
+    "percent_invalid": 3.4385944317270254,
     "ballot_surplus": 0
   },
   {
@@ -13953,7 +13915,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SURAT THANI",
     "prov_id": "SNI",
     "cons_no": 7,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 96637,
     "total_used": 96637,
     "valid": 91966,
@@ -13964,7 +13926,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 16649,
     "margin": 33861,
-    "percent_invalid": 2.95,
+    "percent_invalid": 2.9450417541935283,
     "ballot_surplus": 0
   },
   {
@@ -13972,7 +13934,7 @@ const PARTYLIST_RAW = [
     "province_eng": "RANONG",
     "prov_id": "RNG",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 96299,
     "total_used": 96299,
     "valid": 89474,
@@ -13983,7 +13945,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาธิปัตย์",
     "runnerup_votes": 28233,
     "margin": 628,
-    "percent_invalid": 3.85,
+    "percent_invalid": 3.8453151123064617,
     "ballot_surplus": 0
   },
   {
@@ -13991,7 +13953,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHUMPHON",
     "prov_id": "CPN",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 104169,
     "total_used": 104169,
     "valid": 98390,
@@ -14002,7 +13964,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 25496,
     "margin": 18050,
-    "percent_invalid": 2.93,
+    "percent_invalid": 2.929854371262084,
     "ballot_surplus": -1
   },
   {
@@ -14010,9 +13972,9 @@ const PARTYLIST_RAW = [
     "province_eng": "CHUMPHON",
     "prov_id": "CPN",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 107786,
-    "total_used": 107787,
+    "total_used": 107786,
     "valid": 101680,
     "invalid": 3781,
     "blank": 2326,
@@ -14021,7 +13983,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 20314,
     "margin": 29161,
-    "percent_invalid": 3.51,
+    "percent_invalid": 3.507876718683317,
     "ballot_surplus": -1
   },
   {
@@ -14029,7 +13991,7 @@ const PARTYLIST_RAW = [
     "province_eng": "CHUMPHON",
     "prov_id": "CPN",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 101286,
     "total_used": 101286,
     "valid": 95882,
@@ -14040,7 +14002,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19521,
     "margin": 30046,
-    "percent_invalid": 3.26,
+    "percent_invalid": 3.2610627332504,
     "ballot_surplus": 1
   },
   {
@@ -14048,7 +14010,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 97310,
     "total_used": 97310,
     "valid": 90673,
@@ -14059,7 +14021,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22764,
     "margin": 17219,
-    "percent_invalid": 3.12,
+    "percent_invalid": 3.123008940499435,
     "ballot_surplus": 1
   },
   {
@@ -14067,7 +14029,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 82761,
     "total_used": 82761,
     "valid": 78784,
@@ -14078,7 +14040,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25933,
     "margin": 3344,
-    "percent_invalid": 2.21,
+    "percent_invalid": 2.211186428390184,
     "ballot_surplus": -2
   },
   {
@@ -14086,26 +14048,26 @@ const PARTYLIST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 105979,
-    "total_used": 109410,
+    "total_used": 105979,
     "valid": 99690,
     "invalid": 2783,
-    "blank": 6937,
+    "blank": 3506,
     "winner_party": "ประชาธิปัตย์",
     "winner_votes": 48006,
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25204,
     "margin": 22802,
-    "percent_invalid": 2.54,
-    "ballot_surplus": -3432
+    "percent_invalid": 2.6259919417997906,
+    "ballot_surplus": 0
   },
   {
     "province_thai": "สงขลา",
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 101440,
     "total_used": 101440,
     "valid": 95827,
@@ -14116,7 +14078,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 13006,
     "margin": 45109,
-    "percent_invalid": 3.88,
+    "percent_invalid": 3.8791403785488963,
     "ballot_surplus": 0
   },
   {
@@ -14124,9 +14086,9 @@ const PARTYLIST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 5,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 104525,
-    "total_used": 104611,
+    "total_used": 104525,
     "valid": 98003,
     "invalid": 3923,
     "blank": 2685,
@@ -14135,7 +14097,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 16383,
     "margin": 45272,
-    "percent_invalid": 3.75,
+    "percent_invalid": 3.7531690983018415,
     "ballot_surplus": -86
   },
   {
@@ -14143,7 +14105,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 6,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 93834,
     "total_used": 93834,
     "valid": 88842,
@@ -14154,7 +14116,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18864,
     "margin": 23527,
-    "percent_invalid": 3.37,
+    "percent_invalid": 3.3719121000916514,
     "ballot_surplus": 0
   },
   {
@@ -14162,7 +14124,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 7,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 98801,
     "total_used": 98801,
     "valid": 93037,
@@ -14170,10 +14132,10 @@ const PARTYLIST_RAW = [
     "blank": 1711,
     "winner_party": "ประชาธิปัตย์",
     "winner_votes": 42395,
-    "runnerup_party": "พรรคประชาชน",
+    "runnerup_party": "ประชาชน",
     "runnerup_votes": 16329,
     "margin": 26066,
-    "percent_invalid": 4.1,
+    "percent_invalid": 4.102185200554651,
     "ballot_surplus": 0
   },
   {
@@ -14181,7 +14143,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 8,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99959,
     "total_used": 99959,
     "valid": 94208,
@@ -14192,7 +14154,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17134,
     "margin": 25892,
-    "percent_invalid": 4.02,
+    "percent_invalid": 4.0156464150301625,
     "ballot_surplus": 0
   },
   {
@@ -14200,7 +14162,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SONGKHLA",
     "prov_id": "SKA",
     "cons_no": 9,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 110450,
     "total_used": 110450,
     "valid": 104388,
@@ -14211,7 +14173,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 25550,
     "margin": 25363,
-    "percent_invalid": 2.82,
+    "percent_invalid": 2.82390221819828,
     "ballot_surplus": 0
   },
   {
@@ -14219,18 +14181,18 @@ const PARTYLIST_RAW = [
     "province_eng": "SATUN",
     "prov_id": "STN",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 88455,
-    "total_used": 88456,
+    "total_used": 88455,
     "valid": 81812,
     "invalid": 3570,
     "blank": 3074,
     "winner_party": "ประชาธิปัตย์",
-    "winner_votes": 25287,
+    "winner_votes": 25286,
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19984,
-    "margin": 5303,
-    "percent_invalid": 4.04,
+    "margin": 5302,
+    "percent_invalid": 4.035950483296592,
     "ballot_surplus": -1
   },
   {
@@ -14238,7 +14200,7 @@ const PARTYLIST_RAW = [
     "province_eng": "SATUN",
     "prov_id": "STN",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99320,
     "total_used": 99320,
     "valid": 92747,
@@ -14249,7 +14211,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21584,
     "margin": 19673,
-    "percent_invalid": 3.49,
+    "percent_invalid": 3.487716472009666,
     "ballot_surplus": 0
   },
   {
@@ -14257,7 +14219,7 @@ const PARTYLIST_RAW = [
     "province_eng": "TRANG",
     "prov_id": "TRG",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99277,
     "total_used": 99277,
     "valid": 93222,
@@ -14268,7 +14230,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19659,
     "margin": 33168,
-    "percent_invalid": 2.63,
+    "percent_invalid": 2.6310222911651238,
     "ballot_surplus": 0
   },
   {
@@ -14276,7 +14238,7 @@ const PARTYLIST_RAW = [
     "province_eng": "TRANG",
     "prov_id": "TRG",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 101194,
     "total_used": 101194,
     "valid": 95905,
@@ -14287,7 +14249,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 14315,
     "margin": 47752,
-    "percent_invalid": 2.91,
+    "percent_invalid": 2.9092633950629483,
     "ballot_surplus": 0
   },
   {
@@ -14295,7 +14257,7 @@ const PARTYLIST_RAW = [
     "province_eng": "TRANG",
     "prov_id": "TRG",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 95235,
     "total_used": 95235,
     "valid": 89986,
@@ -14306,7 +14268,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 12971,
     "margin": 49464,
-    "percent_invalid": 2.95,
+    "percent_invalid": 2.9537459967448942,
     "ballot_surplus": 0
   },
   {
@@ -14314,7 +14276,7 @@ const PARTYLIST_RAW = [
     "province_eng": "TRANG",
     "prov_id": "TRG",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99517,
     "total_used": 99517,
     "valid": 94473,
@@ -14325,7 +14287,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 15660,
     "margin": 45547,
-    "percent_invalid": 2.91,
+    "percent_invalid": 2.905031301184722,
     "ballot_surplus": 0
   },
   {
@@ -14333,8 +14295,8 @@ const PARTYLIST_RAW = [
     "province_eng": "PHATTHALUNG",
     "prov_id": "PLG",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
-    "turn_out": 113467,
+    "region": "South",
+    "turn_out": 113867,
     "total_used": 113867,
     "valid": 108460,
     "invalid": 3275,
@@ -14344,7 +14306,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 19237,
     "margin": 35369,
-    "percent_invalid": 2.88,
+    "percent_invalid": 2.8761625405077855,
     "ballot_surplus": 0
   },
   {
@@ -14352,7 +14314,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PHATTHALUNG",
     "prov_id": "PLG",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 122373,
     "total_used": 122373,
     "valid": 116799,
@@ -14363,7 +14325,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 17720,
     "margin": 46226,
-    "percent_invalid": 3.02,
+    "percent_invalid": 3.0235427749585284,
     "ballot_surplus": -1
   },
   {
@@ -14371,18 +14333,18 @@ const PARTYLIST_RAW = [
     "province_eng": "PHATTHALUNG",
     "prov_id": "PLG",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 116554,
-    "total_used": 116551,
+    "total_used": 116554,
     "valid": 110884,
     "invalid": 3653,
     "blank": 2014,
     "winner_party": "ประชาธิปัตย์",
     "winner_votes": 61392,
-    "runnerup_party": "ไทยพร้อม",
+    "runnerup_party": "ภูมิใจไทย",
     "runnerup_votes": 18046,
     "margin": 43346,
-    "percent_invalid": 3.13,
+    "percent_invalid": 3.1341695694699454,
     "ballot_surplus": 3
   },
   {
@@ -14390,7 +14352,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATTANI",
     "prov_id": "PTN",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 74216,
     "total_used": 74216,
     "valid": 68916,
@@ -14401,7 +14363,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชาติ",
     "runnerup_votes": 16814,
     "margin": 6088,
-    "percent_invalid": 4.41,
+    "percent_invalid": 4.406057992885631,
     "ballot_surplus": -1
   },
   {
@@ -14409,7 +14371,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATTANI",
     "prov_id": "PTN",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 81515,
     "total_used": 81515,
     "valid": 75538,
@@ -14420,7 +14382,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชาติ",
     "runnerup_votes": 17901,
     "margin": 1249,
-    "percent_invalid": 5.3,
+    "percent_invalid": 5.300864871496044,
     "ballot_surplus": 0
   },
   {
@@ -14428,9 +14390,9 @@ const PARTYLIST_RAW = [
     "province_eng": "PATTANI",
     "prov_id": "PTN",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 70192,
-    "total_used": 69673,
+    "total_used": 70192,
     "valid": 64794,
     "invalid": 3721,
     "blank": 1158,
@@ -14439,7 +14401,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17990,
     "margin": 7904,
-    "percent_invalid": 5.34,
+    "percent_invalid": 5.301173922954183,
     "ballot_surplus": 519
   },
   {
@@ -14447,7 +14409,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATTANI",
     "prov_id": "PTN",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 83824,
     "total_used": 83824,
     "valid": 78483,
@@ -14458,7 +14420,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 21364,
     "margin": 5309,
-    "percent_invalid": 4.94,
+    "percent_invalid": 4.943691544187822,
     "ballot_surplus": -2
   },
   {
@@ -14466,7 +14428,7 @@ const PARTYLIST_RAW = [
     "province_eng": "PATTANI",
     "prov_id": "PTN",
     "cons_no": 5,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 78514,
     "total_used": 78514,
     "valid": 72841,
@@ -14477,7 +14439,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20567,
     "margin": 9962,
-    "percent_invalid": 5.66,
+    "percent_invalid": 5.658863387421351,
     "ballot_surplus": 0
   },
   {
@@ -14485,7 +14447,7 @@ const PARTYLIST_RAW = [
     "province_eng": "YALA",
     "prov_id": "YLA",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 98981,
     "total_used": 98981,
     "valid": 91456,
@@ -14496,7 +14458,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชาติ",
     "runnerup_votes": 24130,
     "margin": 1999,
-    "percent_invalid": 4.16,
+    "percent_invalid": 4.163425303846193,
     "ballot_surplus": 0
   },
   {
@@ -14504,7 +14466,7 @@ const PARTYLIST_RAW = [
     "province_eng": "YALA",
     "prov_id": "YLA",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 96577,
     "total_used": 96577,
     "valid": 88810,
@@ -14515,7 +14477,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 19577,
     "margin": 25675,
-    "percent_invalid": 5.88,
+    "percent_invalid": 5.88235294117647,
     "ballot_surplus": 0
   },
   {
@@ -14523,7 +14485,7 @@ const PARTYLIST_RAW = [
     "province_eng": "YALA",
     "prov_id": "YLA",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 95519,
     "total_used": 95519,
     "valid": 87935,
@@ -14534,7 +14496,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 22087,
     "margin": 9751,
-    "percent_invalid": 5.03,
+    "percent_invalid": 5.02831897318858,
     "ballot_surplus": 0
   },
   {
@@ -14542,7 +14504,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NARATHIWAT",
     "prov_id": "NWT",
     "cons_no": 1,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 99498,
     "total_used": 99498,
     "valid": 91272,
@@ -14553,7 +14515,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 23124,
     "margin": 5065,
-    "percent_invalid": 5.96,
+    "percent_invalid": 5.958913747009991,
     "ballot_surplus": 0
   },
   {
@@ -14561,7 +14523,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NARATHIWAT",
     "prov_id": "NWT",
     "cons_no": 2,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 77970,
     "total_used": 77970,
     "valid": 70908,
@@ -14572,7 +14534,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชาติ",
     "runnerup_votes": 14820,
     "margin": 3055,
-    "percent_invalid": 6.33,
+    "percent_invalid": 6.326792356034372,
     "ballot_surplus": -50
   },
   {
@@ -14580,7 +14542,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NARATHIWAT",
     "prov_id": "NWT",
     "cons_no": 3,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 82911,
     "total_used": 82911,
     "valid": 77064,
@@ -14591,7 +14553,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 18575,
     "margin": 3829,
-    "percent_invalid": 5.93,
+    "percent_invalid": 5.926837210985273,
     "ballot_surplus": -1
   },
   {
@@ -14599,7 +14561,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NARATHIWAT",
     "prov_id": "NWT",
     "cons_no": 4,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 86855,
     "total_used": 86855,
     "valid": 81154,
@@ -14610,7 +14572,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 17263,
     "margin": 12320,
-    "percent_invalid": 5.38,
+    "percent_invalid": 5.381382764377411,
     "ballot_surplus": 0
   },
   {
@@ -14618,7 +14580,7 @@ const PARTYLIST_RAW = [
     "province_eng": "NARATHIWAT",
     "prov_id": "NWT",
     "cons_no": 5,
-    "region": "07 ภาคใต้",
+    "region": "South",
     "turn_out": 93603,
     "total_used": 93603,
     "valid": 86796,
@@ -14629,7 +14591,7 @@ const PARTYLIST_RAW = [
     "runnerup_party": "ประชาชน",
     "runnerup_votes": 20739,
     "margin": 14140,
-    "percent_invalid": 5.87,
+    "percent_invalid": 5.868401653793147,
     "ballot_surplus": 0
   }
 ];

@@ -1,5 +1,11 @@
 import json
 import re
+from pathlib import Path
+
+# Base directory paths
+SCRIPT_DIR = Path(__file__).parent
+DATA_DIR = SCRIPT_DIR.parent / "data"
+ELECTION66_DIR = DATA_DIR / "election66"
 
 def extract_js_vars(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -37,11 +43,13 @@ def extract_js_vars(filepath):
 
 def process_66_enhanced(gen_const, gen_pl):
     try:
-        with open('../data/election66/th_election66_info_party_overview.json', 'r', encoding='utf-8-sig') as f:
+        party_file = ELECTION66_DIR / "th_election66_info_party_overview.json"
+        with open(party_file, 'r', encoding='utf-8-sig') as f:
             parties = json.load(f)
         party_map = {int(p['id']): p['name'] for p in parties}
         
-        with open('../data/election66/th_election66_stats_cons.json', 'r', encoding='utf-8-sig') as f:
+        stats_file = ELECTION66_DIR / "th_election66_stats_cons.json"
+        with open(stats_file, 'r', encoding='utf-8-sig') as f:
             stats = json.load(f)
             
         enrich_map = {}
@@ -244,8 +252,8 @@ def write_js(filename, const_data, pl_data):
         f.write(f"const PARTYLIST_RAW = {json.dumps(pl_data, ensure_ascii=False, indent=2)};\n")
 
 # Main execution
-gen_const, gen_pl = extract_js_vars("../data/election_data_generated.js")
-pct94_const, pct94_pl = extract_js_vars("../data/election69_94pct.js")
+gen_const, gen_pl = extract_js_vars(str(DATA_DIR / "election_data.js"))
+pct94_const, pct94_pl = extract_js_vars(str(DATA_DIR / "election69_94pct.js"))
 
 # Map missing metadata in 94pct by using gen_const (which is complete)
 meta_map = { f"{d.get('province_thai')}_{d.get('cons_no')}": d for d in gen_const }
@@ -267,19 +275,19 @@ for r in pct94_pl:
 # Extract 66 data
 const_66, pl_66 = process_66_enhanced(gen_const, gen_pl)
 compute_surpluses(const_66, pl_66)
-write_js("../data/election66_data.js", const_66, pl_66)
+write_js(str(DATA_DIR / "election66_data.js"), const_66, pl_66)
 print("Created election66_data.js")
 
 # Extract 69 OCR data
 const_69ocr = process_69(gen_const)
 pl_69ocr = process_69(gen_pl)
 compute_surpluses(const_69ocr, pl_69ocr)
-write_js("../data/election69_ocr.js", const_69ocr, pl_69ocr)
+write_js(str(DATA_DIR / "election69_ocr.js"), const_69ocr, pl_69ocr)
 print("Created election69_ocr.js")
 
 # Extract 69 94pct data
 const_6994 = process_69(pct94_const)
 pl_6994 = process_69(pct94_pl)
 compute_surpluses(const_6994, pl_6994)
-write_js("../data/election69_94pct.js", const_6994, pl_6994)
+write_js(str(DATA_DIR / "election69_94pct.js"), const_6994, pl_6994)
 print("Created election69_94pct.js")
