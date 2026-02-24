@@ -221,6 +221,19 @@
       border-color: var(--teal);
     }
 
+    /* Card variant: votes */
+    .card-votes {
+      border-color: rgba(245, 158, 11, 0.25);
+    }
+
+    .card-votes::before {
+      background: rgba(245, 158, 11, 0.08);
+    }
+
+    .card-votes:hover {
+      border-color: var(--amber);
+    }
+
     .card-icon {
       font-size: 2.4rem;
       line-height: 1;
@@ -254,6 +267,12 @@
       color: var(--teal);
       background: var(--teal-glow);
       border: 1px solid rgba(20, 184, 166, 0.25);
+    }
+
+    .card-votes .card-tag {
+      color: var(--amber);
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px solid rgba(245, 158, 11, 0.25);
     }
 
     .card h2 {
@@ -290,6 +309,10 @@
 
     .card-blank .card-cta {
       color: var(--teal);
+    }
+
+    .card-votes .card-cta {
+      color: var(--amber);
     }
 
     .card:hover .card-cta {
@@ -420,7 +443,7 @@
         <div class="stat-l">การเลือกตั้ง</div>
       </div>
       <div class="stat">
-        <div class="stat-v">3</div>
+        <div class="stat-v">4</div>
         <div class="stat-l">การวิเคราะห์</div>
       </div>
       <div class="stat">
@@ -465,6 +488,19 @@
         <p>
           เปรียบเทียบอัตราบัตรไม่เลือกผู้ใดระหว่างการเลือกตั้ง 2566 และ 2569 ทีละเขต<br>
           ระบุเขตที่บัตรไม่เลือก&gt;ช่องว่างคะแนนระหว่างอันดับ 1 และ 2
+        </p>
+        <div class="card-divider"></div>
+        <div class="card-cta">เข้าสู่การวิเคราะห์ →</div>
+      </a>
+
+      <!-- Card 4: Total Votes Analysis -->
+      <a href="total_votes_analysis.html" class="card card-votes">
+        <div class="card-icon">👥</div>
+        <div class="card-tag">Total Votes · จำนวนผู้มาใช้สิทธิ์</div>
+        <h2>วิเคราะห์จำนวนผู้มาใช้สิทธิ์</h2>
+        <p>
+          เปรียบเทียบจำนวนผู้มาใช้สิทธิ์ระหว่างสองชุดข้อมูล<br>
+          หรือเปรียบเทียบบัตรเขต vs บัตรบัญชีรายชื่อในชุดเดียวกัน
         </p>
         <div class="card-divider"></div>
         <div class="card-cta">เข้าสู่การวิเคราะห์ →</div>
